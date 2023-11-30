@@ -1240,7 +1240,7 @@ var $plugins = [
       "Add Common 0": "memo,\\I[355]Memo,32",
       "Add Common 1": "ecchi1,\\I[356]Sex Record,33",
       "Add Common 2": "ecchi2,\\I[401]Other Record,34",
-      "Add Common 3": "itemzukan,\\I[357]Adventures,35",
+      "Add Common 3": "itemzukan,\\I[357]Adventurer,35",
       "Add Common 4": "jisseki,\\I[400]Achievements,36",
       "Add Common 5": "buki,\\I[402]Enhancement,31",
       "Add Common 6": "",
@@ -1612,7 +1612,7 @@ var $plugins = [
     description: "ゲーム内用語辞典プラグイン",
     parameters: {
       GlossaryInfo:
-        '["{\\"GlossaryType\\":\\"1\\",\\"CommandName\\":\\"Adventurers\\",\\"UseCategory\\":\\"true\\",\\"CommandSwitchId\\":\\"0\\",\\"BackPicture\\":\\"\\",\\"SelectAction\\":\\"0\\",\\"SelectSwitchId\\":\\"0\\",\\"SelectVariableId\\":\\"0\\",\\"ConfirmMessage\\":\\"false\\",\\"ConfirmUse\\":\\"Use\\",\\"ConfirmNoUse\\":\\"Cancel\\",\\"GlossaryHelp\\":\\"Please select an item.\\",\\"CategoryHelp\\":\\"Please select a category.\\",\\"ConfirmHelp\\":\\"\\",\\"UsingHelp\\":\\"\\",\\"CompleteView\\":\\"true\\",\\"CompleteMessage\\":\\"Collection: \\\\\\\\c[2]%1\\\\\\\\c[0]%\\",\\"ShowingItemNumber\\":\\"false\\",\\"UsableDefault\\":\\"true\\",\\"UseItemHistory\\":\\"true\\",\\"GlossaryListWidth\\":\\"320\\",\\"VisibleItemNotYet\\":\\"\\"}"]',
+        '["{\\"GlossaryType\\":\\"1\\",\\"CommandName\\":\\"Adventurer\\",\\"UseCategory\\":\\"true\\",\\"CommandSwitchId\\":\\"0\\",\\"BackPicture\\":\\"\\",\\"SelectAction\\":\\"0\\",\\"SelectSwitchId\\":\\"0\\",\\"SelectVariableId\\":\\"0\\",\\"ConfirmMessage\\":\\"false\\",\\"ConfirmUse\\":\\"Use\\",\\"ConfirmNoUse\\":\\"Cancel\\",\\"GlossaryHelp\\":\\"Please select an item.\\",\\"CategoryHelp\\":\\"Please select a category.\\",\\"ConfirmHelp\\":\\"\\",\\"UsingHelp\\":\\"\\",\\"CompleteView\\":\\"true\\",\\"CompleteMessage\\":\\"Collection: \\\\\\\\c[2]%1\\\\\\\\c[0]%\\",\\"ShowingItemNumber\\":\\"false\\",\\"UsableDefault\\":\\"true\\",\\"UseItemHistory\\":\\"true\\",\\"GlossaryListWidth\\":\\"320\\",\\"VisibleItemNotYet\\":\\"\\"}"]',
       Layout: "",
       FontSize: "22",
       AutoResizePicture: "false",
