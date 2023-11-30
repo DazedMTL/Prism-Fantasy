@@ -986,27 +986,27 @@ var $plugins = [
       "Reward Popup Delay": "0",
       "Battle Show List": "item,gold,exp,skill,params,level,abp,classLevel",
       "Get Gold Text":
-        "「\\I[_icon]_num\\C[14]\\G\\C[0]」 を\\C[24]手に入れた！",
+        "「\\I[_icon]_num\\C[14]\\G\\C[0]」 \\C[24] Obtained!",
       "Lost Gold Text":
-        "「\\I[_icon]_num\\C[14]\\G\\C[0]」 を\\C[2]失った・・・",
+        "「\\I[_icon]_num\\C[14]\\G\\C[0]」 \\C[2] Lost...",
       "Get Item Text":
-        "「\\I[_icon]_name」 を\\C[24]手に入れた！\\n\\C[6]_desc1",
+        "「\\I[_icon]_name」 \\C[24] Obtained!\\n\\C[6]_desc1",
       "Lost Item Text":
-        "「\\I[_icon]_name」 を\\C[2]失った・・・\\n\\C[6]_desc1",
+        "「\\I[_icon]_name」 \\C[2] Lost...\\n\\C[6]_desc1",
       "Get Item Text Num":
-        "「\\I[_icon]_name」 を\\C[14]_num個\\C[24]手に入れた！\\n\\C[6]_desc1",
+        "「\\I[_icon]_name」 Obtained \\C[14]_num\C[24]x! \\n\\C[6]_desc1",
       "Lost Item Text Num":
-        "「\\I[_icon]_name」を\\C[14]_num個\\C[2]失った・・・\\n\\C[6]_desc1",
+        "「\\I[_icon]_name」 Lost \\C[14]_num\C[24]x...Z \\n\\C[6]_desc1",
       "Get Skill Text":
-        "_actorは「\\I[_icon]_name」 を\\C[24]覚えた！\\n\\C[6]_desc1",
+        "_actorは「\\I[_icon]_name」 \\C[24] Learned!\\n\\C[6]_desc1",
       "Lost Skill Text":
-        "_actorは「\\I[_icon]_name」を \\C[2]忘れてしまった・・・\\n\\C[6]_desc1",
-      "Exp Up Text": "_actorは_numポイントの_nameを得た！",
+        "_actorは「\\I[_icon]_name」\\C[2] Forgotten...\\n\\C[6]_desc1",
+      "Exp Up Text": "_actor _num _name Gained!",
       "Exp Down Text":
-        "_actorは\\C[14]_numポイント\\C[0]の\\C[4]_name\\C[0]を\\C[2]失った・・・",
-      "Lv Up Text": "_actorは\\C[4]_name\\C[0]が\\C[14]_num \\C[24]上がった！",
+        "_actor _num _name Lost...",
+      "Lv Up Text": "_actor \\C[4]_name\\C[0] \\C[14]_num \\C[24] Gained!",
       "Lv Down Text":
-        "_actorは\\C[4]_name\\C[0]が\\C[14]_numポイント\\C[2]下がった・・・",
+        "_actor \\C[4]_name\\C[0] \\C[14]_num\\C[2] Lost...",
       "Param Up Text":
         "_actorは\\C[4]_name\\C[0]が\\C[14]_numポイント\\C[24]上がった！",
       "Param Down Text":
@@ -1014,7 +1014,7 @@ var $plugins = [
       "Abp Up Text":
         "_actorは\\C[14]_numポイント\\C[0]の\\C[4]_name\\C[0]を\\C[24]得た！",
       "Abp Down Text":
-        "_actorは\\C[14]_numポイント\\C[0]の\\C[4]_name\\C[0]を\\C[2]失った・・・",
+        "_actorは\\C[14]_numポイント\\C[0]の\\C[4]_name\\C[0]\\C[2] Lost...",
       "Class Lv Up Text":
         "_actorは\\C[4]_classの_name\\C[0]が\\C[14]_numポイント\\C[24]上がった！",
       "Class Lv Down Text":
@@ -1175,13 +1175,13 @@ var $plugins = [
       MaxItem: "0",
       Item0: "1",
       Item0Length: "300",
-      Item1title: "プレイ時間",
+      Item1title: "Playtime",
       Item1: "2",
-      Item2title: "現在地",
+      Item2title: "Location",
       Item2: "3",
-      Item3title: "所持金",
+      Item3title: "Money",
       Item3: "4",
-      Item4title: "クリア回数",
+      Item4title: "Clears",
       Item4: "6",
       Item5: "",
       ItemValue1: "601",
@@ -1240,7 +1240,7 @@ var $plugins = [
       "Add Common 0": "memo,\\I[355]Memo,32",
       "Add Common 1": "ecchi1,\\I[356]Sex Record,33",
       "Add Common 2": "ecchi2,\\I[401]Other Record,34",
-      "Add Common 3": "itemzukan,\\I[357]Book of Adventures,35",
+      "Add Common 3": "itemzukan,\\I[357]Adventures,35",
       "Add Common 4": "jisseki,\\I[400]Achievements,36",
       "Add Common 5": "buki,\\I[402]Enhancement,31",
       "Add Common 6": "",
@@ -1612,7 +1612,7 @@ var $plugins = [
     description: "ゲーム内用語辞典プラグイン",
     parameters: {
       GlossaryInfo:
-        '["{\\"GlossaryType\\":\\"1\\",\\"CommandName\\":\\"冒険の書\\",\\"UseCategory\\":\\"true\\",\\"CommandSwitchId\\":\\"0\\",\\"BackPicture\\":\\"\\",\\"SelectAction\\":\\"0\\",\\"SelectSwitchId\\":\\"0\\",\\"SelectVariableId\\":\\"0\\",\\"ConfirmMessage\\":\\"false\\",\\"ConfirmUse\\":\\"使う\\",\\"ConfirmNoUse\\":\\"やめる\\",\\"GlossaryHelp\\":\\"項目を選択してください。\\",\\"CategoryHelp\\":\\"カテゴリを選択してください。\\",\\"ConfirmHelp\\":\\"\\",\\"UsingHelp\\":\\"\\",\\"CompleteView\\":\\"true\\",\\"CompleteMessage\\":\\"収集率 \\\\\\\\c[2]%1\\\\\\\\c[0] ％\\",\\"ShowingItemNumber\\":\\"false\\",\\"UsableDefault\\":\\"true\\",\\"UseItemHistory\\":\\"true\\",\\"GlossaryListWidth\\":\\"320\\",\\"VisibleItemNotYet\\":\\"\\"}"]',
+        '["{\\"GlossaryType\\":\\"1\\",\\"CommandName\\":\\"Adventurers\\",\\"UseCategory\\":\\"true\\",\\"CommandSwitchId\\":\\"0\\",\\"BackPicture\\":\\"\\",\\"SelectAction\\":\\"0\\",\\"SelectSwitchId\\":\\"0\\",\\"SelectVariableId\\":\\"0\\",\\"ConfirmMessage\\":\\"false\\",\\"ConfirmUse\\":\\"Use\\",\\"ConfirmNoUse\\":\\"Cancel\\",\\"GlossaryHelp\\":\\"Please select an item.\\",\\"CategoryHelp\\":\\"Please select a category.\\",\\"ConfirmHelp\\":\\"\\",\\"UsingHelp\\":\\"\\",\\"CompleteView\\":\\"true\\",\\"CompleteMessage\\":\\"Collection: \\\\\\\\c[2]%1\\\\\\\\c[0]%\\",\\"ShowingItemNumber\\":\\"false\\",\\"UsableDefault\\":\\"true\\",\\"UseItemHistory\\":\\"true\\",\\"GlossaryListWidth\\":\\"320\\",\\"VisibleItemNotYet\\":\\"\\"}"]',
       Layout: "",
       FontSize: "22",
       AutoResizePicture: "false",
