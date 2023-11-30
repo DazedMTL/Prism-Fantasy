@@ -1242,7 +1242,7 @@ var $plugins = [
       "Add Common 2": "ecchi2,\\I[401]Other Record,34",
       "Add Common 3": "itemzukan,\\I[357]Book of Adventures,35",
       "Add Common 4": "jisseki,\\I[400]Achievements,36",
-      "Add Common 5": "buki,\\I[402]Enchancement,31",
+      "Add Common 5": "buki,\\I[402]Enhancement,31",
       "Add Common 6": "",
       "Add Common 7": "",
       "Add Common 8": "",
