@@ -52,26 +52,26 @@ var Makonet = Makonet || {};
 Makonet.AWP = {};
 
 (function () {
-    'use strict';
+  "use strict";
 
-    var AWP = Makonet.AWP;
-    AWP.product = 'MPI_AutoWaitForPicture';
-    AWP.parameters = PluginManager.parameters(AWP.product);
-    AWP.switchId = +AWP.parameters['ピクチャの表示自動ウェイト切替スイッチ'];
+  var AWP = Makonet.AWP;
+  AWP.product = "MPI_AutoWaitForPicture";
+  AWP.parameters = PluginManager.parameters(AWP.product);
+  AWP.switchId = +AWP.parameters["ピクチャの表示自動ウェイト切替スイッチ"];
 
-    //==============================================================================
-    // Game_Interpreter
-    //==============================================================================
+  //==============================================================================
+  // Game_Interpreter
+  //==============================================================================
 
-    (function (o, p) {
-        var f = o[p]; o[p] = function () {
-            var wait = !(AWP.switchId && $gameSwitches.value(AWP.switchId));
-            if (wait) {
-                this.wait(1);
-                this.setWaitMode('image');
-            }
-            return f.apply(this, arguments);
-        };
-    }(Game_Interpreter.prototype, 'command231'));
-
-}());
+  (function (o, p) {
+    var f = o[p];
+    o[p] = function () {
+      var wait = !(AWP.switchId && $gameSwitches.value(AWP.switchId));
+      if (wait) {
+        this.wait(1);
+        this.setWaitMode("image");
+      }
+      return f.apply(this, arguments);
+    };
+  })(Game_Interpreter.prototype, "command231");
+})();

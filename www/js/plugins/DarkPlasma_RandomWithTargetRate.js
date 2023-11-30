@@ -27,22 +27,31 @@
  *
  * <SEランダムwith狙われ率:N> <SERandomWithTargetRate:N>
  * 対象N体を重複なくランダムに選択します。
- * 
+ *
  */
 
 (function () {
-  'use strict';
+  "use strict";
 
-  const _Game_Action_targetsForOpponents = Game_Action.prototype.targetsForOpponents;
+  const _Game_Action_targetsForOpponents =
+    Game_Action.prototype.targetsForOpponents;
   Game_Action.prototype.targetsForOpponents = function () {
-    if (this.isScopeExtendInfo(['ランダムwith狙われ率', 'RandomWithTargetRate'])) {
-      const number = this.getScopeExtendInfo(['ランダムwith狙われ率', 'RandomWithTargetRate']);
+    if (
+      this.isScopeExtendInfo(["ランダムwith狙われ率", "RandomWithTargetRate"])
+    ) {
+      const number = this.getScopeExtendInfo([
+        "ランダムwith狙われ率",
+        "RandomWithTargetRate",
+      ]);
       return this.randomTargetsWithoutDuplication(this.opponentsUnit(), number);
     }
     return _Game_Action_targetsForOpponents.call(this);
   };
 
-  Game_Action.prototype.randomTargetsWithoutDuplication = function (unit, number) {
+  Game_Action.prototype.randomTargetsWithoutDuplication = function (
+    unit,
+    number
+  ) {
     return unit.randomTargetsWithoutDuplication(number);
   };
 
@@ -52,14 +61,16 @@
     [...Array(Math.min(number, candidates.length))].forEach(() => {
       const target = this.randomTargetFromCandidates(candidates);
       result.push(target);
-      candidates = candidates.filter(candidate => candidate.index() !== target.index());
+      candidates = candidates.filter(
+        (candidate) => candidate.index() !== target.index()
+      );
     });
     return result;
   };
 
   Game_Unit.prototype.randomTargetFromCandidates = function (candidates) {
     let tgrRand = Math.random() * this.tgrSumInCandidates(candidates);
-    return candidates.find(candidate => {
+    return candidates.find((candidate) => {
       tgrRand -= candidate.tgr;
       return tgrRand <= 0;
     });

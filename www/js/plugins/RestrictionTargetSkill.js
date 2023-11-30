@@ -128,345 +128,387 @@
  */
 
 (function () {
-    'use strict';
-    var metaTagPrefix = 'RTS_';
+  "use strict";
+  var metaTagPrefix = "RTS_";
 
-    var getArgString = function (arg, upperFlg) {
-        arg = convertEscapeCharacters(arg);
-        return upperFlg ? arg.toUpperCase() : arg;
-    };
+  var getArgString = function (arg, upperFlg) {
+    arg = convertEscapeCharacters(arg);
+    return upperFlg ? arg.toUpperCase() : arg;
+  };
 
-    var getArgArrayString = function (args, upperFlg) {
-        var values = getArgString(args, upperFlg).split(',');
-        for (var i = 0; i < values.length; i++) values[i] = values[i].trim();
-        return values;
-    };
+  var getArgArrayString = function (args, upperFlg) {
+    var values = getArgString(args, upperFlg).split(",");
+    for (var i = 0; i < values.length; i++) values[i] = values[i].trim();
+    return values;
+  };
 
-    var getArgArrayNumber = function (args, min, max) {
-        var values = getArgArrayString(args, false);
-        if (arguments.length < 2) min = -Infinity;
-        if (arguments.length < 3) max = Infinity;
-        for (var i = 0; i < values.length; i++) values[i] = (parseInt(values[i], 10) || 0).clamp(min, max);
-        return values;
-    };
+  var getArgArrayNumber = function (args, min, max) {
+    var values = getArgArrayString(args, false);
+    if (arguments.length < 2) min = -Infinity;
+    if (arguments.length < 3) max = Infinity;
+    for (var i = 0; i < values.length; i++)
+      values[i] = (parseInt(values[i], 10) || 0).clamp(min, max);
+    return values;
+  };
 
-    var getMetaValue = function (object, name) {
-        var metaTagName = metaTagPrefix + (name ? name : '');
-        return object.meta.hasOwnProperty(metaTagName) ? object.meta[metaTagName] : undefined;
-    };
+  var getMetaValue = function (object, name) {
+    var metaTagName = metaTagPrefix + (name ? name : "");
+    return object.meta.hasOwnProperty(metaTagName)
+      ? object.meta[metaTagName]
+      : undefined;
+  };
 
-    var getMetaValues = function (object, names) {
-        if (!Array.isArray(names)) return getMetaValue(object, names);
-        for (var i = 0, n = names.length; i < n; i++) {
-            var value = getMetaValue(object, names[i]);
-            if (value !== undefined) return value;
-        }
-        return undefined;
-    };
+  var getMetaValues = function (object, names) {
+    if (!Array.isArray(names)) return getMetaValue(object, names);
+    for (var i = 0, n = names.length; i < n; i++) {
+      var value = getMetaValue(object, names[i]);
+      if (value !== undefined) return value;
+    }
+    return undefined;
+  };
 
-    var convertEscapeCharacters = function (text) {
-        if (text == null || text === true) text = '';
-        text = text.replace(/&gt;?/gi, '>');
-        text = text.replace(/&lt;?/gi, '<');
-        var windowLayer = SceneManager._scene._windowLayer;
-        return windowLayer ? windowLayer.children[0].convertEscapeCharacters(text) : text;
-    };
+  var convertEscapeCharacters = function (text) {
+    if (text == null || text === true) text = "";
+    text = text.replace(/&gt;?/gi, ">");
+    text = text.replace(/&lt;?/gi, "<");
+    var windowLayer = SceneManager._scene._windowLayer;
+    return windowLayer
+      ? windowLayer.children[0].convertEscapeCharacters(text)
+      : text;
+  };
 
-    //=============================================================================
-    // Game_BattlerBase
-    //  スキルやアイテムの対象として選択可能かどうかを返します。
-    //=============================================================================
-    Game_Battler.prototype.isExistValidTarget = function (item) {
-        var trialAction = new Game_Action(this, false);
-        trialAction.setItemObject(item);
-        return trialAction.isExistTarget();
-    };
+  //=============================================================================
+  // Game_BattlerBase
+  //  スキルやアイテムの対象として選択可能かどうかを返します。
+  //=============================================================================
+  Game_Battler.prototype.isExistValidTarget = function (item) {
+    var trialAction = new Game_Action(this, false);
+    trialAction.setItemObject(item);
+    return trialAction.isExistTarget();
+  };
 
-    Game_BattlerBase.prototype.canSelectTarget = function (item, user) {
-        if (getMetaValues(item, ['使用者無効', 'UserInvalid']) && user === this) {
-            return false;
-        }
-        var scriptValue = getMetaValues(item, ['スクリプト', 'Script']);
-        if (scriptValue && eval(getArgString(scriptValue))) {
-            return false;
-        }
-        this.friendsUnit().setNeedOriginalMember(true);
-        var result = !this.traitObjects().some(function (data) {
-            return !!getMetaValues(data, ['無敵', 'Invincible']);
-        });
-        this.friendsUnit().setNeedOriginalMember(false);
-        return result;
-    };
+  Game_BattlerBase.prototype.canSelectTarget = function (item, user) {
+    if (getMetaValues(item, ["使用者無効", "UserInvalid"]) && user === this) {
+      return false;
+    }
+    var scriptValue = getMetaValues(item, ["スクリプト", "Script"]);
+    if (scriptValue && eval(getArgString(scriptValue))) {
+      return false;
+    }
+    this.friendsUnit().setNeedOriginalMember(true);
+    var result = !this.traitObjects().some(function (data) {
+      return !!getMetaValues(data, ["無敵", "Invincible"]);
+    });
+    this.friendsUnit().setNeedOriginalMember(false);
+    return result;
+  };
 
-    Game_Actor.prototype.canSelectTarget = function (item, user) {
-        var result = Game_BattlerBase.prototype.canSelectTarget.apply(this, arguments);
-        if (result) {
-            var actorId = this.actorId();
-            var validId = getMetaValues(item, ['有効アクターID', 'ValidActorID']);
-            if (validId && !getArgArrayNumber(validId).contains(actorId)) {
-                return false;
-            }
-            var invalidId = getMetaValues(item, ['無効アクターID', 'InvalidActorID']);
-            if (invalidId && getArgArrayNumber(invalidId).contains(actorId)) {
-                return false;
-            }
-        }
-        return result;
-    };
+  Game_Actor.prototype.canSelectTarget = function (item, user) {
+    var result = Game_BattlerBase.prototype.canSelectTarget.apply(
+      this,
+      arguments
+    );
+    if (result) {
+      var actorId = this.actorId();
+      var validId = getMetaValues(item, ["有効アクターID", "ValidActorID"]);
+      if (validId && !getArgArrayNumber(validId).contains(actorId)) {
+        return false;
+      }
+      var invalidId = getMetaValues(item, ["無効アクターID", "InvalidActorID"]);
+      if (invalidId && getArgArrayNumber(invalidId).contains(actorId)) {
+        return false;
+      }
+    }
+    return result;
+  };
 
-    Game_Enemy.prototype.canSelectTarget = function (item, user) {
-        var result = Game_BattlerBase.prototype.canSelectTarget.apply(this, arguments);
-        if (result) {
-            var enemyId = this.enemyId();
-            var validId = getMetaValues(item, ['有効敵キャラID', 'ValidEnemyID']);
-            if (validId && !getArgArrayNumber(validId).contains(enemyId)) {
-                return false;
-            }
-            var invalidId = getMetaValues(item, ['無効敵キャラID', 'InvalidEnemyID']);
-            if (invalidId && getArgArrayNumber(invalidId).contains(enemyId)) {
-                return false;
-            }
-        }
-        return result;
-    };
+  Game_Enemy.prototype.canSelectTarget = function (item, user) {
+    var result = Game_BattlerBase.prototype.canSelectTarget.apply(
+      this,
+      arguments
+    );
+    if (result) {
+      var enemyId = this.enemyId();
+      var validId = getMetaValues(item, ["有効敵キャラID", "ValidEnemyID"]);
+      if (validId && !getArgArrayNumber(validId).contains(enemyId)) {
+        return false;
+      }
+      var invalidId = getMetaValues(item, ["無効敵キャラID", "InvalidEnemyID"]);
+      if (invalidId && getArgArrayNumber(invalidId).contains(enemyId)) {
+        return false;
+      }
+    }
+    return result;
+  };
 
-    var _Game_Enemy_isActionValid = Game_Enemy.prototype.isActionValid;
-    Game_Enemy.prototype.isActionValid = function (action) {
-        return _Game_Enemy_isActionValid.apply(this, arguments) && this.isExistValidTarget($dataSkills[action.skillId]);
-    };
+  var _Game_Enemy_isActionValid = Game_Enemy.prototype.isActionValid;
+  Game_Enemy.prototype.isActionValid = function (action) {
+    return (
+      _Game_Enemy_isActionValid.apply(this, arguments) &&
+      this.isExistValidTarget($dataSkills[action.skillId])
+    );
+  };
 
-    //=============================================================================
-    // Game_Action
-    //  スキルやアイテムの対象として選択不可能な対象に選択しないようにします。
-    //=============================================================================
-    Game_Action.prototype.isExistTarget = function () {
-        BattleManager.setTargetAction(this);
-        var targets = [];
-        if (this.isForOpponent()) {
-            targets = this.targetsForOpponents();
-        } else if (this.isForFriend()) {
-            targets = this.targetsForFriends();
-        }
-        BattleManager.setTargetAction(null);
-        return targets.length > 0 && targets[0] !== null;
-    };
+  //=============================================================================
+  // Game_Action
+  //  スキルやアイテムの対象として選択不可能な対象に選択しないようにします。
+  //=============================================================================
+  Game_Action.prototype.isExistTarget = function () {
+    BattleManager.setTargetAction(this);
+    var targets = [];
+    if (this.isForOpponent()) {
+      targets = this.targetsForOpponents();
+    } else if (this.isForFriend()) {
+      targets = this.targetsForFriends();
+    }
+    BattleManager.setTargetAction(null);
+    return targets.length > 0 && targets[0] !== null;
+  };
 
-    var _Game_Action_subject = Game_Action.prototype.subject;
-    Game_Action.prototype.subject = function () {
-        $gameTroop.setNeedOriginalMember(true);
-        var subject = _Game_Action_subject.apply(this, arguments);
-        $gameTroop.setNeedOriginalMember(false);
-        return subject;
-    };
+  var _Game_Action_subject = Game_Action.prototype.subject;
+  Game_Action.prototype.subject = function () {
+    $gameTroop.setNeedOriginalMember(true);
+    var subject = _Game_Action_subject.apply(this, arguments);
+    $gameTroop.setNeedOriginalMember(false);
+    return subject;
+  };
 
-    var _Game_Action_makeTargets = Game_Action.prototype.makeTargets;
-    Game_Action.prototype.makeTargets = function () {
-        BattleManager.setTargetAction(this);
-        var targets = _Game_Action_makeTargets.apply(this, arguments);
-        BattleManager.setTargetAction(null);
-        return targets;
-    };
+  var _Game_Action_makeTargets = Game_Action.prototype.makeTargets;
+  Game_Action.prototype.makeTargets = function () {
+    BattleManager.setTargetAction(this);
+    var targets = _Game_Action_makeTargets.apply(this, arguments);
+    BattleManager.setTargetAction(null);
+    return targets;
+  };
 
-    var _Game_Action_decideRandomTarget = Game_Action.prototype.decideRandomTarget;
-    Game_Action.prototype.decideRandomTarget = function () {
-        BattleManager.setTargetAction(this);
-        _Game_Action_decideRandomTarget.apply(this, arguments);
-        BattleManager.setTargetAction(null);
-    };
+  var _Game_Action_decideRandomTarget =
+    Game_Action.prototype.decideRandomTarget;
+  Game_Action.prototype.decideRandomTarget = function () {
+    BattleManager.setTargetAction(this);
+    _Game_Action_decideRandomTarget.apply(this, arguments);
+    BattleManager.setTargetAction(null);
+  };
 
-    //=============================================================================
-    // Game_Unit
-    //  スキルやアイテムの対象として選択不可能な対象に選択しないようにします。
-    //=============================================================================
-    var _Game_Unit_smoothTarget = Game_Unit.prototype.smoothTarget;
-    Game_Unit.prototype.smoothTarget = function (index) {
-        arguments[0] = this.shiftIndexForRestrictionTarget(index);
-        return _Game_Unit_smoothTarget.apply(this, arguments);
-    };
+  //=============================================================================
+  // Game_Unit
+  //  スキルやアイテムの対象として選択不可能な対象に選択しないようにします。
+  //=============================================================================
+  var _Game_Unit_smoothTarget = Game_Unit.prototype.smoothTarget;
+  Game_Unit.prototype.smoothTarget = function (index) {
+    arguments[0] = this.shiftIndexForRestrictionTarget(index);
+    return _Game_Unit_smoothTarget.apply(this, arguments);
+  };
 
-    var _Game_Unit_smoothDeadTarget = Game_Unit.prototype.smoothDeadTarget;
-    Game_Unit.prototype.smoothDeadTarget = function (index) {
-        arguments[0] = this.shiftIndexForRestrictionTarget(index);
-        return _Game_Unit_smoothDeadTarget.apply(this, arguments);
-    };
+  var _Game_Unit_smoothDeadTarget = Game_Unit.prototype.smoothDeadTarget;
+  Game_Unit.prototype.smoothDeadTarget = function (index) {
+    arguments[0] = this.shiftIndexForRestrictionTarget(index);
+    return _Game_Unit_smoothDeadTarget.apply(this, arguments);
+  };
 
-    Game_Unit.prototype.filterSelectableMembers = function (members) {
-        var action = BattleManager.getTargetAction();
-        if (action) {
-            this._needOriginalMember = true;
-            members = members.filter(function (member) {
-                return member.canSelectTarget(action.item(), action.subject());
-            });
-            this._needOriginalMember = false;
-        }
-        return members;
-    };
+  Game_Unit.prototype.filterSelectableMembers = function (members) {
+    var action = BattleManager.getTargetAction();
+    if (action) {
+      this._needOriginalMember = true;
+      members = members.filter(function (member) {
+        return member.canSelectTarget(action.item(), action.subject());
+      });
+      this._needOriginalMember = false;
+    }
+    return members;
+  };
 
-    Game_Unit.prototype.shiftIndexForRestrictionTarget = function (index) {
-        this._needOriginalMember = true;
-        var allMember = this.members();
-        this._needOriginalMember = false;
-        return this.members().indexOf(allMember[index]);
-    };
+  Game_Unit.prototype.shiftIndexForRestrictionTarget = function (index) {
+    this._needOriginalMember = true;
+    var allMember = this.members();
+    this._needOriginalMember = false;
+    return this.members().indexOf(allMember[index]);
+  };
 
-    Game_Unit.prototype.setNeedOriginalMember = function (value) {
-        this._needOriginalMember = value;
-    };
+  Game_Unit.prototype.setNeedOriginalMember = function (value) {
+    this._needOriginalMember = value;
+  };
 
-    // for DeadOrAliveItem.js
-    var _Game_Unit_smoothTargetDeadOrAlive = Game_Unit.prototype.smoothTargetDeadOrAlive;
-    Game_Unit.prototype.smoothTargetDeadOrAlive = function (index) {
-        this._needOriginalMember = true;
-        var member = _Game_Unit_smoothTargetDeadOrAlive.apply(this, arguments);
-        this._needOriginalMember = false;
-        return member;
-    };
+  // for DeadOrAliveItem.js
+  var _Game_Unit_smoothTargetDeadOrAlive =
+    Game_Unit.prototype.smoothTargetDeadOrAlive;
+  Game_Unit.prototype.smoothTargetDeadOrAlive = function (index) {
+    this._needOriginalMember = true;
+    var member = _Game_Unit_smoothTargetDeadOrAlive.apply(this, arguments);
+    this._needOriginalMember = false;
+    return member;
+  };
 
-    //=============================================================================
-    // Game_Party
-    //  スキルやアイテムの対象として選択不可能な対象に選択しないようにします。
-    //=============================================================================
-    var _Game_Party_members = Game_Party.prototype.members;
-    Game_Party.prototype.members = function () {
-        var members = _Game_Party_members.apply(this, arguments);
-        return this._needOriginalMember ? members : this.filterSelectableMembers(members);
-    };
+  //=============================================================================
+  // Game_Party
+  //  スキルやアイテムの対象として選択不可能な対象に選択しないようにします。
+  //=============================================================================
+  var _Game_Party_members = Game_Party.prototype.members;
+  Game_Party.prototype.members = function () {
+    var members = _Game_Party_members.apply(this, arguments);
+    return this._needOriginalMember
+      ? members
+      : this.filterSelectableMembers(members);
+  };
 
-    Game_Party.prototype.getSkillUser = function () {
-        return SceneManager.isCurrentSceneItem() ? null : this.menuActor();
-    };
+  Game_Party.prototype.getSkillUser = function () {
+    return SceneManager.isCurrentSceneItem() ? null : this.menuActor();
+  };
 
-    //=============================================================================
-    // Game_Troop
-    //  スキルやアイテムの対象として選択不可能な対象に選択しないようにします。
-    //=============================================================================
-    var _Game_Troop_members = Game_Troop.prototype.members;
-    Game_Troop.prototype.members = function () {
-        var members = _Game_Troop_members.apply(this, arguments);
-        return this._needOriginalMember ? members : this.filterSelectableMembers(members);
-    };
+  //=============================================================================
+  // Game_Troop
+  //  スキルやアイテムの対象として選択不可能な対象に選択しないようにします。
+  //=============================================================================
+  var _Game_Troop_members = Game_Troop.prototype.members;
+  Game_Troop.prototype.members = function () {
+    var members = _Game_Troop_members.apply(this, arguments);
+    return this._needOriginalMember
+      ? members
+      : this.filterSelectableMembers(members);
+  };
 
-    //=============================================================================
-    // BattleManager
-    //  対象決定中のアクションを設定します。
-    //=============================================================================
-    BattleManager.setTargetAction = function (action) {
-        this._targetAction = action;
-    };
+  //=============================================================================
+  // BattleManager
+  //  対象決定中のアクションを設定します。
+  //=============================================================================
+  BattleManager.setTargetAction = function (action) {
+    this._targetAction = action;
+  };
 
-    BattleManager.getTargetAction = function () {
-        return this._targetAction;
-    };
+  BattleManager.getTargetAction = function () {
+    return this._targetAction;
+  };
 
-    //=============================================================================
-    // SceneManager
-    //  アイテム画面かどうかを判定します。
-    //=============================================================================
-    SceneManager.isCurrentSceneItem = function () {
-        return this._scene instanceof Scene_Item;
-    };
+  //=============================================================================
+  // SceneManager
+  //  アイテム画面かどうかを判定します。
+  //=============================================================================
+  SceneManager.isCurrentSceneItem = function () {
+    return this._scene instanceof Scene_Item;
+  };
 
-    //=============================================================================
-    // Scene_ItemBase
-    //  アイテム効果の対象から無効なアクターを除外します。
-    //=============================================================================
-    var _Scene_ItemBase_itemTargetActors = Scene_ItemBase.prototype.itemTargetActors;
-    Scene_ItemBase.prototype.itemTargetActors = function () {
-        var members = _Scene_ItemBase_itemTargetActors.apply(this, arguments);
-        return members.filter(function (member) {
-            return member.canSelectTarget(this.item(), $gameParty.getSkillUser());
-        }, this);
-    };
+  //=============================================================================
+  // Scene_ItemBase
+  //  アイテム効果の対象から無効なアクターを除外します。
+  //=============================================================================
+  var _Scene_ItemBase_itemTargetActors =
+    Scene_ItemBase.prototype.itemTargetActors;
+  Scene_ItemBase.prototype.itemTargetActors = function () {
+    var members = _Scene_ItemBase_itemTargetActors.apply(this, arguments);
+    return members.filter(function (member) {
+      return member.canSelectTarget(this.item(), $gameParty.getSkillUser());
+    }, this);
+  };
 
-    //=============================================================================
-    // Window_Selectable
-    //  対象アクターに対してスキルを使用可能か判定します。
-    //=============================================================================
-    Window_Selectable.prototype.canSelectSkillTarget = function (item, index, user) {
-        return this.getMember(index).canSelectTarget(item, user);
-    };
+  //=============================================================================
+  // Window_Selectable
+  //  対象アクターに対してスキルを使用可能か判定します。
+  //=============================================================================
+  Window_Selectable.prototype.canSelectSkillTarget = function (
+    item,
+    index,
+    user
+  ) {
+    return this.getMember(index).canSelectTarget(item, user);
+  };
 
-    //=============================================================================
-    // Window_BattleActor
-    //  無効な対象は選択不可能にします。
-    //=============================================================================
-    Window_BattleActor.prototype.drawItem = function (index) {
-        if (!this.canSelectSkillTarget(index)) {
-            this.changePaintOpacity(false);
-        }
-        Window_BattleStatus.prototype.drawItem.apply(this, arguments);
-        this.changePaintOpacity(true);
-    };
+  //=============================================================================
+  // Window_BattleActor
+  //  無効な対象は選択不可能にします。
+  //=============================================================================
+  Window_BattleActor.prototype.drawItem = function (index) {
+    if (!this.canSelectSkillTarget(index)) {
+      this.changePaintOpacity(false);
+    }
+    Window_BattleStatus.prototype.drawItem.apply(this, arguments);
+    this.changePaintOpacity(true);
+  };
 
-    Window_BattleActor.prototype.isCurrentItemEnabled = function () {
-        return this.canSelectSkillTarget(this.index());
-    };
+  Window_BattleActor.prototype.isCurrentItemEnabled = function () {
+    return this.canSelectSkillTarget(this.index());
+  };
 
-    Window_BattleActor.prototype.canSelectSkillTarget = function (index) {
-        var action = BattleManager.inputtingAction();
-        return !action || Window_Selectable.prototype.canSelectSkillTarget.call(this,
-            action.item(), index, action.subject());
-    };
+  Window_BattleActor.prototype.canSelectSkillTarget = function (index) {
+    var action = BattleManager.inputtingAction();
+    return (
+      !action ||
+      Window_Selectable.prototype.canSelectSkillTarget.call(
+        this,
+        action.item(),
+        index,
+        action.subject()
+      )
+    );
+  };
 
-    Window_BattleActor.prototype.getMember = function (index) {
-        return $gameParty.members()[index];
-    };
+  Window_BattleActor.prototype.getMember = function (index) {
+    return $gameParty.members()[index];
+  };
 
-    //=============================================================================
-    // Window_BattleEnemy
-    //  無効な対象は選択不可能にします。
-    //=============================================================================
-    var _Window_BattleEnemy_drawItem = Window_BattleEnemy.prototype.drawItem;
-    Window_BattleEnemy.prototype.drawItem = function (index) {
-        if (!this.canSelectSkillTarget(index)) {
-            this.changePaintOpacity(false);
-        }
-        _Window_BattleEnemy_drawItem.apply(this, arguments);
-        this.changePaintOpacity(true);
-    };
+  //=============================================================================
+  // Window_BattleEnemy
+  //  無効な対象は選択不可能にします。
+  //=============================================================================
+  var _Window_BattleEnemy_drawItem = Window_BattleEnemy.prototype.drawItem;
+  Window_BattleEnemy.prototype.drawItem = function (index) {
+    if (!this.canSelectSkillTarget(index)) {
+      this.changePaintOpacity(false);
+    }
+    _Window_BattleEnemy_drawItem.apply(this, arguments);
+    this.changePaintOpacity(true);
+  };
 
-    Window_BattleEnemy.prototype.isCurrentItemEnabled = Window_BattleActor.prototype.isCurrentItemEnabled;
-    Window_BattleEnemy.prototype.canSelectSkillTarget = Window_BattleActor.prototype.canSelectSkillTarget;
+  Window_BattleEnemy.prototype.isCurrentItemEnabled =
+    Window_BattleActor.prototype.isCurrentItemEnabled;
+  Window_BattleEnemy.prototype.canSelectSkillTarget =
+    Window_BattleActor.prototype.canSelectSkillTarget;
 
-    Window_BattleEnemy.prototype.getMember = function (index) {
-        return this._enemies[index];
-    };
+  Window_BattleEnemy.prototype.getMember = function (index) {
+    return this._enemies[index];
+  };
 
-    //=============================================================================
-    // Window_MenuActor
-    //  無効な対象は選択不可能にします。
-    //=============================================================================
-    Window_MenuActor.prototype.drawItemStatus = function (index) {
-        if (!this.canSelectSkillTarget(index)) {
-            this.changePaintOpacity(false);
-        }
-        Window_MenuStatus.prototype.drawItemStatus.apply(this, arguments);
-        this.changePaintOpacity(true);
-    };
+  //=============================================================================
+  // Window_MenuActor
+  //  無効な対象は選択不可能にします。
+  //=============================================================================
+  Window_MenuActor.prototype.drawItemStatus = function (index) {
+    if (!this.canSelectSkillTarget(index)) {
+      this.changePaintOpacity(false);
+    }
+    Window_MenuStatus.prototype.drawItemStatus.apply(this, arguments);
+    this.changePaintOpacity(true);
+  };
 
-    var _Window_MenuActor_processOk = Window_MenuActor.prototype.processOk;
-    Window_MenuActor.prototype.processOk = function () {
-        if (this.isCurrentItemEnabled() || this.cursorAll()) {
-            _Window_MenuActor_processOk.apply(this, arguments);
-        } else {
-            SoundManager.playBuzzer();
-        }
-    };
+  var _Window_MenuActor_processOk = Window_MenuActor.prototype.processOk;
+  Window_MenuActor.prototype.processOk = function () {
+    if (this.isCurrentItemEnabled() || this.cursorAll()) {
+      _Window_MenuActor_processOk.apply(this, arguments);
+    } else {
+      SoundManager.playBuzzer();
+    }
+  };
 
-    var _Window_MenuActor_selectForItem = Window_MenuActor.prototype.selectForItem;
-    Window_MenuActor.prototype.selectForItem = function (item) {
-        this._targetItem = item;
-        _Window_MenuActor_selectForItem.apply(this, arguments);
-        this.refresh();
-    };
+  var _Window_MenuActor_selectForItem =
+    Window_MenuActor.prototype.selectForItem;
+  Window_MenuActor.prototype.selectForItem = function (item) {
+    this._targetItem = item;
+    _Window_MenuActor_selectForItem.apply(this, arguments);
+    this.refresh();
+  };
 
-    Window_MenuActor.prototype.canSelectSkillTarget = function (index) {
-        var item = this._targetItem;
-        return !item || Window_Selectable.prototype.canSelectSkillTarget.call(this,
-            item, index, $gameParty.getSkillUser());
-    };
+  Window_MenuActor.prototype.canSelectSkillTarget = function (index) {
+    var item = this._targetItem;
+    return (
+      !item ||
+      Window_Selectable.prototype.canSelectSkillTarget.call(
+        this,
+        item,
+        index,
+        $gameParty.getSkillUser()
+      )
+    );
+  };
 
-    Window_MenuActor.prototype.isCurrentItemEnabled = Window_BattleActor.prototype.isCurrentItemEnabled;
-    Window_MenuActor.prototype.getMember = Window_BattleActor.prototype.getMember;
+  Window_MenuActor.prototype.isCurrentItemEnabled =
+    Window_BattleActor.prototype.isCurrentItemEnabled;
+  Window_MenuActor.prototype.getMember = Window_BattleActor.prototype.getMember;
 })();
-

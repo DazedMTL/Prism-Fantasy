@@ -39,23 +39,24 @@
  */
 
 (function () {
-    'use strict';
+  "use strict";
 
-    //=============================================================================
-    // SceneManager
-    //  シーンクラスのビジー状態を返します。
-    //=============================================================================
-    SceneManager.isBusy = function () {
-        return this._scene.isBusy();
-    };
+  //=============================================================================
+  // SceneManager
+  //  シーンクラスのビジー状態を返します。
+  //=============================================================================
+  SceneManager.isBusy = function () {
+    return this._scene.isBusy();
+  };
 
-    //=============================================================================
-    // Game_Player
-    //  シーンクラスのビジー状態のときに移動を禁止します。
-    //=============================================================================
-    var _Game_Player_canMove = Game_Player.prototype.canMove;
-    Game_Player.prototype.canMove = function () {
-        return _Game_Player_canMove.apply(this, arguments) && !SceneManager.isBusy();
-    };
+  //=============================================================================
+  // Game_Player
+  //  シーンクラスのビジー状態のときに移動を禁止します。
+  //=============================================================================
+  var _Game_Player_canMove = Game_Player.prototype.canMove;
+  Game_Player.prototype.canMove = function () {
+    return (
+      _Game_Player_canMove.apply(this, arguments) && !SceneManager.isBusy()
+    );
+  };
 })();
-

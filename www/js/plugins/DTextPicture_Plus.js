@@ -1,26 +1,26 @@
 //
-//  “®“IƒsƒNƒ`ƒƒ—p’Ç‰Áƒvƒ‰ƒOƒCƒ“
+//  ï¿½ï¿½ï¿½Iï¿½sï¿½Nï¿½`ï¿½ï¿½ï¿½pï¿½Ç‰ï¿½ï¿½vï¿½ï¿½ï¿½Oï¿½Cï¿½ï¿½
 //
 // ------------------------------------------------------
-// ƒcƒNƒ}ƒe@ ‘t‚Ë‚±‚Ü—l
-// ƒsƒNƒ`ƒƒ•\¦ˆÊ’u‚ğ‰E‘µ‚¦‚É‚·‚é
+// ï¿½cï¿½Nï¿½}ï¿½eï¿½@ ï¿½tï¿½Ë‚ï¿½ï¿½Ü—l
+// ï¿½sï¿½Nï¿½`ï¿½ï¿½ï¿½\ï¿½ï¿½ï¿½Ê’uï¿½ï¿½ï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½
 // ------------------------------------------------------
 //
 
 Sprite_Picture.prototype.updateOrigin = function () {
-    var picture = this.picture();
-    switch (picture.origin()) {
-        case 0:
-            this.anchor.x = 0;
-            this.anchor.y = 0;
-            break;
-        case 1:
-            this.anchor.x = 0.5;
-            this.anchor.y = 0.5;
-            break;
-        case 2:
-            this.anchor.x = 1;
-            this.anchor.y = 0;
-            break;
-    }
+  var picture = this.picture();
+  switch (picture.origin()) {
+    case 0:
+      this.anchor.x = 0;
+      this.anchor.y = 0;
+      break;
+    case 1:
+      this.anchor.x = 0.5;
+      this.anchor.y = 0.5;
+      break;
+    case 2:
+      this.anchor.x = 1;
+      this.anchor.y = 0;
+      break;
+  }
 };

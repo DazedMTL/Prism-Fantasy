@@ -352,468 +352,548 @@
 var Imported = Imported || {};
 
 (function () {
-    'use strict';
-    var metaTagPrefix = 'CE_';
+  "use strict";
+  var metaTagPrefix = "CE_";
 
-    var getArgEval = function (arg, min, max) {
-        if (arguments.length < 2) min = -Infinity;
-        if (arguments.length < 3) max = Infinity;
-        return (eval(convertEscapeCharacters(arg)) || 0).clamp(min, max);
+  var getArgEval = function (arg, min, max) {
+    if (arguments.length < 2) min = -Infinity;
+    if (arguments.length < 3) max = Infinity;
+    return (eval(convertEscapeCharacters(arg)) || 0).clamp(min, max);
+  };
+
+  var getArgString = function (arg, upperFlg) {
+    arg = convertEscapeCharacters(arg);
+    return upperFlg ? arg.toUpperCase() : arg;
+  };
+
+  var getMetaValue = function (object, name) {
+    var metaTagName = metaTagPrefix + (name ? name : "");
+    return object.meta.hasOwnProperty(metaTagName)
+      ? object.meta[metaTagName]
+      : undefined;
+  };
+
+  var getMetaValues = function (object, names) {
+    if (!Array.isArray(names)) return getMetaValue(object, names);
+    for (var i = 0, n = names.length; i < n; i++) {
+      var value = getMetaValue(object, names[i]);
+      if (value !== undefined) return value;
+    }
+    return undefined;
+  };
+
+  var convertEscapeCharacters = function (text) {
+    if (isNotAString(text)) text = "";
+    text = text.replace(/&gt;?/gi, ">");
+    text = text.replace(/&lt;?/gi, "<");
+    var windowLayer = SceneManager._scene._windowLayer;
+    return windowLayer
+      ? windowLayer.children[0].convertEscapeCharacters(text)
+      : text;
+  };
+
+  var isNotAString = function (args) {
+    return String(args) !== args;
+  };
+
+  //=============================================================================
+  // パラメータの取得と整形
+  //=============================================================================
+  /**
+   * Create plugin parameter. param[paramName] ex. param.commandPrefix
+   * @param pluginName plugin name(EncounterSwitchConditions)
+   * @returns {Object} Created parameter
+   */
+  var createPluginParameter = function (pluginName) {
+    var paramReplacer = function (key, value) {
+      if (value === "null") {
+        return value;
+      }
+      if (value[0] === '"' && value[value.length - 1] === '"') {
+        return value;
+      }
+      try {
+        return JSON.parse(value);
+      } catch (e) {
+        return value;
+      }
     };
+    var parameter = JSON.parse(
+      JSON.stringify(PluginManager.parameters(pluginName), paramReplacer)
+    );
+    PluginManager.setParameters(pluginName, parameter);
+    return parameter;
+  };
+  var param = createPluginParameter("CounterExtend");
 
-    var getArgString = function (arg, upperFlg) {
-        arg = convertEscapeCharacters(arg);
-        return upperFlg ? arg.toUpperCase() : arg;
-    };
+  //=============================================================================
+  // Game_BattlerBase
+  //  行動制約が有効なステートデータを取得します。
+  //=============================================================================
+  Game_BattlerBase.prototype.isValidMagicCounter = function () {
+    return this.traitObjects().some(function (traitObject) {
+      return getMetaValues(traitObject, ["魔法反撃", "MagicCounter"]);
+    });
+  };
 
-    var getMetaValue = function (object, name) {
-        var metaTagName = metaTagPrefix + (name ? name : '');
-        return object.meta.hasOwnProperty(metaTagName) ? object.meta[metaTagName] : undefined;
-    };
+  Game_BattlerBase.prototype.isCounterCancel = function () {
+    return this.traitObjects().some(function (traitObject) {
+      return getMetaValues(traitObject, ["キャンセル", "Cancel"]);
+    });
+  };
 
-    var getMetaValues = function (object, names) {
-        if (!Array.isArray(names)) return getMetaValue(object, names);
-        for (var i = 0, n = names.length; i < n; i++) {
-            var value = getMetaValue(object, names[i]);
-            if (value !== undefined) return value;
+  Game_BattlerBase.prototype.isCrossCounter = function () {
+    return this.traitObjects().some(function (traitObject) {
+      return getMetaValues(traitObject, ["クロスカウンター", "CrossCounter"]);
+    });
+  };
+
+  Game_BattlerBase.prototype.getMagicCounterRate = function () {
+    return this.traitObjects().reduce(function (prevValue, traitObject) {
+      var metaValue = getMetaValues(traitObject, ["魔法反撃", "MagicCounter"]);
+      return metaValue
+        ? Math.max(getArgEval(metaValue) / 100, prevValue)
+        : prevValue;
+    }, 0);
+  };
+
+  Game_BattlerBase.prototype.getCounterAnimationId = function () {
+    var counterAnimationId = 0;
+    this.traitObjects().some(
+      function (traitObject) {
+        var metaValue = getMetaValues(traitObject, [
+          "反撃アニメID",
+          "CounterAnimationId",
+        ]);
+        if (metaValue) {
+          counterAnimationId = getArgEval(metaValue, 1);
+          return true;
         }
-        return undefined;
-    };
+        return false;
+      }.bind(this)
+    );
+    return counterAnimationId;
+  };
 
-    var convertEscapeCharacters = function (text) {
-        if (isNotAString(text)) text = '';
-        text = text.replace(/&gt;?/gi, '>');
-        text = text.replace(/&lt;?/gi, '<');
-        var windowLayer = SceneManager._scene._windowLayer;
-        return windowLayer ? windowLayer.children[0].convertEscapeCharacters(text) : text;
-    };
-
-    var isNotAString = function (args) {
-        return String(args) !== args;
-    };
-
-    //=============================================================================
-    // パラメータの取得と整形
-    //=============================================================================
-    /**
-     * Create plugin parameter. param[paramName] ex. param.commandPrefix
-     * @param pluginName plugin name(EncounterSwitchConditions)
-     * @returns {Object} Created parameter
-     */
-    var createPluginParameter = function (pluginName) {
-        var paramReplacer = function (key, value) {
-            if (value === 'null') {
-                return value;
-            }
-            if (value[0] === '"' && value[value.length - 1] === '"') {
-                return value;
-            }
-            try {
-                return JSON.parse(value);
-            } catch (e) {
-                return value;
-            }
-        };
-        var parameter = JSON.parse(JSON.stringify(PluginManager.parameters(pluginName), paramReplacer));
-        PluginManager.setParameters(pluginName, parameter);
-        return parameter;
-    };
-    var param = createPluginParameter('CounterExtend');
-
-    //=============================================================================
-    // Game_BattlerBase
-    //  行動制約が有効なステートデータを取得します。
-    //=============================================================================
-    Game_BattlerBase.prototype.isValidMagicCounter = function () {
-        return this.traitObjects().some(function (traitObject) {
-            return getMetaValues(traitObject, ['魔法反撃', 'MagicCounter']);
-        });
-    };
-
-    Game_BattlerBase.prototype.isCounterCancel = function () {
-        return this.traitObjects().some(function (traitObject) {
-            return getMetaValues(traitObject, ['キャンセル', 'Cancel']);
-        });
-    };
-
-    Game_BattlerBase.prototype.isCrossCounter = function () {
-        return this.traitObjects().some(function (traitObject) {
-            return getMetaValues(traitObject, ['クロスカウンター', 'CrossCounter']);
-        });
-    };
-
-    Game_BattlerBase.prototype.getMagicCounterRate = function () {
-        return this.traitObjects().reduce(function (prevValue, traitObject) {
-            var metaValue = getMetaValues(traitObject, ['魔法反撃', 'MagicCounter']);
-            return metaValue ? Math.max(getArgEval(metaValue) / 100, prevValue) : prevValue;
-        }, 0);
-    };
-
-    Game_BattlerBase.prototype.getCounterAnimationId = function () {
-        var counterAnimationId = 0;
-        this.traitObjects().some(function (traitObject) {
-            var metaValue = getMetaValues(traitObject, ['反撃アニメID', 'CounterAnimationId']);
-            if (metaValue) {
-                counterAnimationId = getArgEval(metaValue, 1);
-                return true;
-            }
-            return false;
-        }.bind(this));
-        return counterAnimationId;
-    };
-
-    Game_BattlerBase.prototype.getCrossCounterCondition = function () {
-        var crossCounterCondition = 0;
-        this.traitObjects().some(function (traitObject) {
-            var metaValue = getMetaValues(traitObject, ['クロスカウンター条件', 'CrossCounterCond']);
-            if (metaValue) {
-                crossCounterCondition = parseInt(getArgString(metaValue)) || 0;
-                return true;
-            }
-            return false;
-        }.bind(this));
-        return crossCounterCondition;
-    };
-
-    Game_BattlerBase.prototype.reserveCounterSkillId = function (names, originalSkillId) {
-        this._reserveCounterSkillId = 0;
-        this.traitObjects().some(function (traitObject) {
-            var metaValue = getMetaValues(traitObject, names);
-            if (metaValue) {
-                this._reserveCounterSkillId = getArgEval(metaValue, 0) || originalSkillId;
-                return true;
-            }
-            return false;
-        }.bind(this));
-        return this._reserveCounterSkillId;
-    };
-
-    Game_BattlerBase.prototype.getCounterCustomRate = function (names, action, target) {
-        if (!this.canPaySkillCostForCounter()) {
-            if (param.EraseStateTiming !== 1) {
-                this.eraseStateCounterFailure();
-            }
-            return 0;
+  Game_BattlerBase.prototype.getCrossCounterCondition = function () {
+    var crossCounterCondition = 0;
+    this.traitObjects().some(
+      function (traitObject) {
+        var metaValue = getMetaValues(traitObject, [
+          "クロスカウンター条件",
+          "CrossCounterCond",
+        ]);
+        if (metaValue) {
+          crossCounterCondition = parseInt(getArgString(metaValue)) || 0;
+          return true;
         }
-        var counterCondition;
-        this.traitObjects().some(function (traitObject) {
-            var metaValue = getMetaValues(traitObject, names);
-            if (metaValue) {
-                counterCondition = getArgString(metaValue);
-                return true;
-            }
-            return false;
-        }.bind(this));
-        return counterCondition ? this.executeCounterScript(counterCondition, action, target) : 1;
-    };
+        return false;
+      }.bind(this)
+    );
+    return crossCounterCondition;
+  };
 
-    Game_BattlerBase.prototype.eraseStateCounterFailure = function () {
-        var stateId = 0;
-        this.traitObjects().some(function (traitObject) {
-            var metaValue = getMetaValues(traitObject, ['ステート解除', 'StateClear']);
-            if (metaValue) {
-                stateId = getArgEval(metaValue, 1);
-                return true;
-            }
-            return false;
-        }.bind(this));
-        if (stateId > 0) {
-            this.eraseState(stateId);
+  Game_BattlerBase.prototype.reserveCounterSkillId = function (
+    names,
+    originalSkillId
+  ) {
+    this._reserveCounterSkillId = 0;
+    this.traitObjects().some(
+      function (traitObject) {
+        var metaValue = getMetaValues(traitObject, names);
+        if (metaValue) {
+          this._reserveCounterSkillId =
+            getArgEval(metaValue, 0) || originalSkillId;
+          return true;
         }
-    };
+        return false;
+      }.bind(this)
+    );
+    return this._reserveCounterSkillId;
+  };
 
-    Game_BattlerBase.prototype.executeCounterScript = function (counterCondition, action, target) {
-        var skill = action.item();
-        // use in eval
-        var v = $gameVariables.value.bind($gameVariables);
-        var s = $gameSwitches.value.bind($gameSwitches);
-        var elementId = skill.damage.elementId;
-        var result;
-        try {
-            result = !!eval(counterCondition);
-            if ($gameTemp.isPlaytest()) {
-                console.log('Execute Script:' + counterCondition);
-                console.log('Execute Result:' + result);
-            }
-        } catch (e) {
-            console.error(e.toString());
-            throw new Error('Failed To Execute Counter Condition Script :' + counterCondition);
+  Game_BattlerBase.prototype.getCounterCustomRate = function (
+    names,
+    action,
+    target
+  ) {
+    if (!this.canPaySkillCostForCounter()) {
+      if (param.EraseStateTiming !== 1) {
+        this.eraseStateCounterFailure();
+      }
+      return 0;
+    }
+    var counterCondition;
+    this.traitObjects().some(
+      function (traitObject) {
+        var metaValue = getMetaValues(traitObject, names);
+        if (metaValue) {
+          counterCondition = getArgString(metaValue);
+          return true;
         }
-        return result ? 1 : 0;
-    };
+        return false;
+      }.bind(this)
+    );
+    return counterCondition
+      ? this.executeCounterScript(counterCondition, action, target)
+      : 1;
+  };
 
-    Game_BattlerBase.prototype.getCounterSkillId = function () {
-        return this.isReserveCounterSkill() ? this._reserveCounterSkillId : this.attackSkillId();
-    };
-
-    Game_BattlerBase.prototype.isReserveCounterSkill = function () {
-        return !!this._reserveCounterSkillId;
-    };
-
-    Game_BattlerBase.prototype.canPaySkillCostForCounter = function () {
-        return !param.FailureCostShortage || !this._reserveCounterSkillId ||
-            this.meetsSkillConditions($dataSkills[this._reserveCounterSkillId]);
-    };
-
-    //=============================================================================
-    // Game_Battler
-    //  カウンター時のスキルコスト消費処理を別途定義します。
-    //=============================================================================
-    var _Game_Battler_useItem = Game_Battler.prototype.useItem;
-    Game_Battler.prototype.useItem = function (item) {
-        if (this.isCounterSubject() && !param.PayCounterCost) return;
-        _Game_Battler_useItem.apply(this, arguments);
-        this.refresh();
-    };
-
-    Game_Battler.prototype.setCounterAction = function (target) {
-        var counterSkillId = this.getCounterSkillId();
-        var action = new Game_Action(this);
-        action.setSkill(counterSkillId);
-        var counterTargetIndex;
-        if (action.isForFriend()) {
-            counterTargetIndex = this.friendsUnit().members().indexOf(this);
-        } else {
-            counterTargetIndex = target.friendsUnit().members().indexOf(target);
+  Game_BattlerBase.prototype.eraseStateCounterFailure = function () {
+    var stateId = 0;
+    this.traitObjects().some(
+      function (traitObject) {
+        var metaValue = getMetaValues(traitObject, [
+          "ステート解除",
+          "StateClear",
+        ]);
+        if (metaValue) {
+          stateId = getArgEval(metaValue, 1);
+          return true;
         }
-        this._nativeActions = this._actions;
-        this._counterSubject = true;
-        this.forceAction(counterSkillId, counterTargetIndex);
-    };
+        return false;
+      }.bind(this)
+    );
+    if (stateId > 0) {
+      this.eraseState(stateId);
+    }
+  };
 
-    Game_Battler.prototype.clearCounterAction = function () {
-        if (this._nativeActions && this._nativeActions.length > 0) {
-            this._actions = this._nativeActions;
-        }
-        this._nativeActions = null;
-        this._counterSubject = false;
-        if (param.EraseStateTiming !== 0) {
-            this.eraseStateCounterFailure();
-        }
-    };
+  Game_BattlerBase.prototype.executeCounterScript = function (
+    counterCondition,
+    action,
+    target
+  ) {
+    var skill = action.item();
+    // use in eval
+    var v = $gameVariables.value.bind($gameVariables);
+    var s = $gameSwitches.value.bind($gameSwitches);
+    var elementId = skill.damage.elementId;
+    var result;
+    try {
+      result = !!eval(counterCondition);
+      if ($gameTemp.isPlaytest()) {
+        console.log("Execute Script:" + counterCondition);
+        console.log("Execute Result:" + result);
+      }
+    } catch (e) {
+      console.error(e.toString());
+      throw new Error(
+        "Failed To Execute Counter Condition Script :" + counterCondition
+      );
+    }
+    return result ? 1 : 0;
+  };
 
-    Game_Battler.prototype.isCounterSubject = function () {
-        return this._counterSubject;
-    };
+  Game_BattlerBase.prototype.getCounterSkillId = function () {
+    return this.isReserveCounterSkill()
+      ? this._reserveCounterSkillId
+      : this.attackSkillId();
+  };
 
-    var _Game_Battler_onAllActionsEnd = Game_Battler.prototype.onAllActionsEnd;
-    Game_Battler.prototype.onAllActionsEnd = function () {
-        if (this.isCounterSubject()) {
-            this.clearResult();
-        } else {
-            _Game_Battler_onAllActionsEnd.apply(this, arguments);
-        }
-    };
+  Game_BattlerBase.prototype.isReserveCounterSkill = function () {
+    return !!this._reserveCounterSkillId;
+  };
 
-    var _Game_Battler_onBattleEnd = Game_Battler.prototype.onBattleEnd;
-    Game_Battler.prototype.onBattleEnd = function () {
-        _Game_Battler_onBattleEnd.apply(this, arguments);
-        this.clearCounterAction();
-    };
+  Game_BattlerBase.prototype.canPaySkillCostForCounter = function () {
+    return (
+      !param.FailureCostShortage ||
+      !this._reserveCounterSkillId ||
+      this.meetsSkillConditions($dataSkills[this._reserveCounterSkillId])
+    );
+  };
 
-    //=============================================================================
-    // Game_Action
-    //  魔法反撃を可能にします。
-    //=============================================================================
-    Game_Action.prototype.getCounterAdditionalRate = function () {
-        var rate = getMetaValues(this.item(), ['反撃増減', 'CounterAdditional']);
-        return rate ? parseInt(rate) / 100 : 0;
-    };
+  //=============================================================================
+  // Game_Battler
+  //  カウンター時のスキルコスト消費処理を別途定義します。
+  //=============================================================================
+  var _Game_Battler_useItem = Game_Battler.prototype.useItem;
+  Game_Battler.prototype.useItem = function (item) {
+    if (this.isCounterSubject() && !param.PayCounterCost) return;
+    _Game_Battler_useItem.apply(this, arguments);
+    this.refresh();
+  };
 
-    var _Game_Action_itemCnt = Game_Action.prototype.itemCnt;
-    Game_Action.prototype.itemCnt = function (target) {
-        // invalid by user action
-        if (this.subject().isCounterSubject()) {
-            return 0;
-        }
-        var cnt = _Game_Action_itemCnt.apply(this, arguments);
-        var additionalCnt = this.getCounterAdditionalRate();
-        if (this.isMagical()) {
-            return this.itemMagicCnt(target, additionalCnt);
-        } else {
-            var rate = this.reserveTargetCounterSkillId(target, false, 0);
-            return rate * (cnt + additionalCnt);
-        }
-    };
+  Game_Battler.prototype.setCounterAction = function (target) {
+    var counterSkillId = this.getCounterSkillId();
+    var action = new Game_Action(this);
+    action.setSkill(counterSkillId);
+    var counterTargetIndex;
+    if (action.isForFriend()) {
+      counterTargetIndex = this.friendsUnit().members().indexOf(this);
+    } else {
+      counterTargetIndex = target.friendsUnit().members().indexOf(target);
+    }
+    this._nativeActions = this._actions;
+    this._counterSubject = true;
+    this.forceAction(counterSkillId, counterTargetIndex);
+  };
 
-    Game_Action.prototype.itemMagicCnt = function (target, additionalCnt) {
-        if (target.isValidMagicCounter() && this.isMagical() && target.canMove()) {
-            var rate = this.reserveTargetCounterSkillId(target, true, 0);
-            return rate * ((target.getMagicCounterRate() || target.cnt) + additionalCnt);
-        } else {
-            return 0;
-        }
-    };
+  Game_Battler.prototype.clearCounterAction = function () {
+    if (this._nativeActions && this._nativeActions.length > 0) {
+      this._actions = this._nativeActions;
+    }
+    this._nativeActions = null;
+    this._counterSubject = false;
+    if (param.EraseStateTiming !== 0) {
+      this.eraseStateCounterFailure();
+    }
+  };
 
-    Game_Action.prototype.reserveTargetCounterSkillId = function (target, magicFlg, depth) {
-        var skillMetaNames = this.getMetaNamesForCounterExtend(['反撃スキルID', 'CounterSkillId'], magicFlg, depth);
-        var counterSkill = target.reserveCounterSkillId(skillMetaNames, this.item().id);
-        if (counterSkill === 0 && depth > 0) {
-            return 0;
-        }
-        var rateMetaNames = this.getMetaNamesForCounterExtend(['反撃条件', 'CounterCond'], magicFlg, depth);
-        var counterRate = target.getCounterCustomRate(rateMetaNames, this, this.subject());
-        if (counterRate > 0 || depth > 100) {
-            return counterRate;
-        } else {
-            return this.reserveTargetCounterSkillId(target, magicFlg, depth + 1);
-        }
-    };
+  Game_Battler.prototype.isCounterSubject = function () {
+    return this._counterSubject;
+  };
 
-    Game_Action.prototype.getMetaNamesForCounterExtend = function (names, magicFlg, depth) {
-        if (depth > 0) {
-            names[0] = names[0] + '_' + String(depth);
-            names[1] = names[1] + '_' + String(depth);
-        }
-        if (magicFlg) {
-            names[0] = '魔法' + names[0];
-            names[1] = 'Magic' + names[1];
-        }
-        return names;
-    };
+  var _Game_Battler_onAllActionsEnd = Game_Battler.prototype.onAllActionsEnd;
+  Game_Battler.prototype.onAllActionsEnd = function () {
+    if (this.isCounterSubject()) {
+      this.clearResult();
+    } else {
+      _Game_Battler_onAllActionsEnd.apply(this, arguments);
+    }
+  };
 
-    Game_Action.prototype.hasElement = function (elementId) {
-        if (this.item().damage.type === 0) {
-            return false;
-        }
-        var skillElementId = this.item().damage.elementId;
-        // Normal attack elementID[-1]
-        if (skillElementId === -1) {
-            return this.subject().attackElements().contains(elementId);
-        } else {
-            return elementId === skillElementId;
-        }
-    };
+  var _Game_Battler_onBattleEnd = Game_Battler.prototype.onBattleEnd;
+  Game_Battler.prototype.onBattleEnd = function () {
+    _Game_Battler_onBattleEnd.apply(this, arguments);
+    this.clearCounterAction();
+  };
 
-    var _Game_Action_applyItemUserEffect = Game_Action.prototype.applyItemUserEffect;
-    Game_Action.prototype.applyItemUserEffect = function (target) {
-        _Game_Action_applyItemUserEffect.apply(this, arguments);
-        this._targetForCounterExtend = target;
-    };
+  //=============================================================================
+  // Game_Action
+  //  魔法反撃を可能にします。
+  //=============================================================================
+  Game_Action.prototype.getCounterAdditionalRate = function () {
+    var rate = getMetaValues(this.item(), ["反撃増減", "CounterAdditional"]);
+    return rate ? parseInt(rate) / 100 : 0;
+  };
 
-    Game_Action.prototype.isValidCrossCounter = function (target) {
-        if (target.isDead() || this.itemCnt(target) <= 0) {
-            return false;
-        }
-        var cond = target.getCrossCounterCondition();
-        return (cond === 1 && this._targetForCounterExtend === target) ||
-            (cond === 2 && !this._targetForCounterExtend) ||
-            cond === 0;
-    };
+  var _Game_Action_itemCnt = Game_Action.prototype.itemCnt;
+  Game_Action.prototype.itemCnt = function (target) {
+    // invalid by user action
+    if (this.subject().isCounterSubject()) {
+      return 0;
+    }
+    var cnt = _Game_Action_itemCnt.apply(this, arguments);
+    var additionalCnt = this.getCounterAdditionalRate();
+    if (this.isMagical()) {
+      return this.itemMagicCnt(target, additionalCnt);
+    } else {
+      var rate = this.reserveTargetCounterSkillId(target, false, 0);
+      return rate * (cnt + additionalCnt);
+    }
+  };
 
-    //=============================================================================
-    // BattleManager
-    //  スキルによる反撃を実装します。
-    //=============================================================================
-    var _BattleManager_initMembers = BattleManager.initMembers;
-    BattleManager.initMembers = function () {
-        _BattleManager_initMembers.apply(this, arguments);
-        this._counterBattlers = [];
-    };
+  Game_Action.prototype.itemMagicCnt = function (target, additionalCnt) {
+    if (target.isValidMagicCounter() && this.isMagical() && target.canMove()) {
+      var rate = this.reserveTargetCounterSkillId(target, true, 0);
+      return (
+        rate * ((target.getMagicCounterRate() || target.cnt) + additionalCnt)
+      );
+    } else {
+      return 0;
+    }
+  };
 
-    var _BattleManager_startAction = BattleManager.startAction;
-    BattleManager.startAction = function () {
-        this._actionCancel = false;
-        if (this._subject.isCounterSubject()) {
-            this._logWindow.displaySkillCounter(this._subject);
-        }
-        _BattleManager_startAction.apply(this, arguments);
-    };
+  Game_Action.prototype.reserveTargetCounterSkillId = function (
+    target,
+    magicFlg,
+    depth
+  ) {
+    var skillMetaNames = this.getMetaNamesForCounterExtend(
+      ["反撃スキルID", "CounterSkillId"],
+      magicFlg,
+      depth
+    );
+    var counterSkill = target.reserveCounterSkillId(
+      skillMetaNames,
+      this.item().id
+    );
+    if (counterSkill === 0 && depth > 0) {
+      return 0;
+    }
+    var rateMetaNames = this.getMetaNamesForCounterExtend(
+      ["反撃条件", "CounterCond"],
+      magicFlg,
+      depth
+    );
+    var counterRate = target.getCounterCustomRate(
+      rateMetaNames,
+      this,
+      this.subject()
+    );
+    if (counterRate > 0 || depth > 100) {
+      return counterRate;
+    } else {
+      return this.reserveTargetCounterSkillId(target, magicFlg, depth + 1);
+    }
+  };
 
-    var _BattleManager_invokeCounterAttack = BattleManager.invokeCounterAttack;
-    BattleManager.invokeCounterAttack = function (subject, target) {
-        if (target.isCounterCancel()) {
-            this._actionCancel = true;
-        }
-        if (!target.isReserveCounterSkill()) {
-            _BattleManager_invokeCounterAttack.apply(this, arguments);
-        } else if (param.UsingForceAction) {
-            if (target.isCrossCounter()) {
-                this.invokeNormalAction(subject, target);
-                if (!this._action.isValidCrossCounter(target)) {
-                    return;
-                }
-            }
-            if (!target.isCounterSubject()) {
-                this.prepareCounterSkill(subject, target);
-            }
-        } else if (subject.isAlive()) {
-            var action = new Game_Action(target);
-            action.setSkill(target.getCounterSkillId());
-            action.apply(subject);
-            action.applyGlobal();
-            this._logWindow.displaySkillCounterAction(subject, target, action);
-            if (param.EraseStateTiming !== 0) {
-                target.eraseStateCounterFailure();
-            }
-        }
-    };
+  Game_Action.prototype.getMetaNamesForCounterExtend = function (
+    names,
+    magicFlg,
+    depth
+  ) {
+    if (depth > 0) {
+      names[0] = names[0] + "_" + String(depth);
+      names[1] = names[1] + "_" + String(depth);
+    }
+    if (magicFlg) {
+      names[0] = "魔法" + names[0];
+      names[1] = "Magic" + names[1];
+    }
+    return names;
+  };
 
-    BattleManager.prepareCounterSkill = function (subject, target) {
-        target.setCounterAction(subject);
-        this._counterBattlers.push(target);
-    };
+  Game_Action.prototype.hasElement = function (elementId) {
+    if (this.item().damage.type === 0) {
+      return false;
+    }
+    var skillElementId = this.item().damage.elementId;
+    // Normal attack elementID[-1]
+    if (skillElementId === -1) {
+      return this.subject().attackElements().contains(elementId);
+    } else {
+      return elementId === skillElementId;
+    }
+  };
 
-    var _BattleManager_invokeAction = BattleManager.invokeAction;
-    BattleManager.invokeAction = function (subject, target) {
-        if (this._actionCancel) return;
-        _BattleManager_invokeAction.apply(this, arguments);
-    };
+  var _Game_Action_applyItemUserEffect =
+    Game_Action.prototype.applyItemUserEffect;
+  Game_Action.prototype.applyItemUserEffect = function (target) {
+    _Game_Action_applyItemUserEffect.apply(this, arguments);
+    this._targetForCounterExtend = target;
+  };
 
-    var _BattleManager_getNextSubject = BattleManager.getNextSubject;
-    BattleManager.getNextSubject = function () {
-        if (this._subject && this._subject.isCounterSubject()) {
-            this._subject.clearCounterAction();
-        }
-        if (this._counterBattlers.length > 0) {
-            return this._counterBattlers.shift();
-        }
-        return _BattleManager_getNextSubject.apply(this, arguments);
-    };
+  Game_Action.prototype.isValidCrossCounter = function (target) {
+    if (target.isDead() || this.itemCnt(target) <= 0) {
+      return false;
+    }
+    var cond = target.getCrossCounterCondition();
+    return (
+      (cond === 1 && this._targetForCounterExtend === target) ||
+      (cond === 2 && !this._targetForCounterExtend) ||
+      cond === 0
+    );
+  };
 
-    //=============================================================================
-    // Window_BattleLog
-    //  スキルによる反撃を演出します。
-    //=============================================================================
-    Window_BattleLog.prototype.displaySkillCounter = function (subject) {
-        var counterAnimation = subject.getCounterAnimationId();
-        if (counterAnimation) {
-            this.push('showAnimation', subject, [subject], counterAnimation);
-            this.push('waitForAnimation');
-        }
-        if (!Imported.YEP_BattleEngineCore) {
-            this.push('addText', TextManager.counterAttack.format(subject.name()));
-        }
-        // for BattleEffectPopup.js
-        if (this.popupCounter) {
-            this.popupCounter(subject);
-        }
-    };
+  //=============================================================================
+  // BattleManager
+  //  スキルによる反撃を実装します。
+  //=============================================================================
+  var _BattleManager_initMembers = BattleManager.initMembers;
+  BattleManager.initMembers = function () {
+    _BattleManager_initMembers.apply(this, arguments);
+    this._counterBattlers = [];
+  };
 
-    Window_BattleLog.prototype.displaySkillCounterAction = function (subject, target, action) {
-        this.displaySkillCounter(target);
-        this.startAction(target, action, [subject]);
-        this.push('waitForAnimation');
-        this.displayActionResults(target, subject);
-        this.endAction(target);
-    };
+  var _BattleManager_startAction = BattleManager.startAction;
+  BattleManager.startAction = function () {
+    this._actionCancel = false;
+    if (this._subject.isCounterSubject()) {
+      this._logWindow.displaySkillCounter(this._subject);
+    }
+    _BattleManager_startAction.apply(this, arguments);
+  };
 
-    var _Window_BattleLog_updateWaitMode = Window_BattleLog.prototype.updateWaitMode;
-    Window_BattleLog.prototype.updateWaitMode = function () {
-        var waiting = false;
-        switch (this._waitMode) {
-            case 'animation':
-                waiting = this._spriteset.isAnimationPlaying();
-                break;
+  var _BattleManager_invokeCounterAttack = BattleManager.invokeCounterAttack;
+  BattleManager.invokeCounterAttack = function (subject, target) {
+    if (target.isCounterCancel()) {
+      this._actionCancel = true;
+    }
+    if (!target.isReserveCounterSkill()) {
+      _BattleManager_invokeCounterAttack.apply(this, arguments);
+    } else if (param.UsingForceAction) {
+      if (target.isCrossCounter()) {
+        this.invokeNormalAction(subject, target);
+        if (!this._action.isValidCrossCounter(target)) {
+          return;
         }
-        if (!waiting) {
-            waiting = _Window_BattleLog_updateWaitMode.apply(this, arguments);
-        }
-        return waiting;
-    };
+      }
+      if (!target.isCounterSubject()) {
+        this.prepareCounterSkill(subject, target);
+      }
+    } else if (subject.isAlive()) {
+      var action = new Game_Action(target);
+      action.setSkill(target.getCounterSkillId());
+      action.apply(subject);
+      action.applyGlobal();
+      this._logWindow.displaySkillCounterAction(subject, target, action);
+      if (param.EraseStateTiming !== 0) {
+        target.eraseStateCounterFailure();
+      }
+    }
+  };
 
-    Window_BattleLog.prototype.waitForAnimation = function () {
-        this.setWaitMode('animation');
-    };
+  BattleManager.prepareCounterSkill = function (subject, target) {
+    target.setCounterAction(subject);
+    this._counterBattlers.push(target);
+  };
+
+  var _BattleManager_invokeAction = BattleManager.invokeAction;
+  BattleManager.invokeAction = function (subject, target) {
+    if (this._actionCancel) return;
+    _BattleManager_invokeAction.apply(this, arguments);
+  };
+
+  var _BattleManager_getNextSubject = BattleManager.getNextSubject;
+  BattleManager.getNextSubject = function () {
+    if (this._subject && this._subject.isCounterSubject()) {
+      this._subject.clearCounterAction();
+    }
+    if (this._counterBattlers.length > 0) {
+      return this._counterBattlers.shift();
+    }
+    return _BattleManager_getNextSubject.apply(this, arguments);
+  };
+
+  //=============================================================================
+  // Window_BattleLog
+  //  スキルによる反撃を演出します。
+  //=============================================================================
+  Window_BattleLog.prototype.displaySkillCounter = function (subject) {
+    var counterAnimation = subject.getCounterAnimationId();
+    if (counterAnimation) {
+      this.push("showAnimation", subject, [subject], counterAnimation);
+      this.push("waitForAnimation");
+    }
+    if (!Imported.YEP_BattleEngineCore) {
+      this.push("addText", TextManager.counterAttack.format(subject.name()));
+    }
+    // for BattleEffectPopup.js
+    if (this.popupCounter) {
+      this.popupCounter(subject);
+    }
+  };
+
+  Window_BattleLog.prototype.displaySkillCounterAction = function (
+    subject,
+    target,
+    action
+  ) {
+    this.displaySkillCounter(target);
+    this.startAction(target, action, [subject]);
+    this.push("waitForAnimation");
+    this.displayActionResults(target, subject);
+    this.endAction(target);
+  };
+
+  var _Window_BattleLog_updateWaitMode =
+    Window_BattleLog.prototype.updateWaitMode;
+  Window_BattleLog.prototype.updateWaitMode = function () {
+    var waiting = false;
+    switch (this._waitMode) {
+      case "animation":
+        waiting = this._spriteset.isAnimationPlaying();
+        break;
+    }
+    if (!waiting) {
+      waiting = _Window_BattleLog_updateWaitMode.apply(this, arguments);
+    }
+    return waiting;
+  };
+
+  Window_BattleLog.prototype.waitForAnimation = function () {
+    this.setWaitMode("animation");
+  };
 })();
-

@@ -34,7 +34,7 @@
  *
  * MOG_BattleCursorのパラメータ「Sort X-Axis」が機能しない問題を修正します。
  * プラグイン管理画面でMOG_BattleCursorより下に配置してください。
- *　
+ *
  * このプラグインにはプラグインコマンドはありません。
  *
  * 利用規約：
@@ -44,24 +44,24 @@
  */
 
 (function () {
-    'use strict';
+  "use strict";
 
-    Game_Troop.prototype.sortMembersByScreenX = function () {
-        if (!this._enemies) {
-            return;
-        }
-        this._enemies.sort(function (a, b) {
-            return a.screenX() - b.screenX();
-        });
-    };
+  Game_Troop.prototype.sortMembersByScreenX = function () {
+    if (!this._enemies) {
+      return;
+    }
+    this._enemies.sort(function (a, b) {
+      return a.screenX() - b.screenX();
+    });
+  };
 
-    var _Window_BattleEnemy_refresh = Window_BattleEnemy.prototype.refresh;
-    Window_BattleEnemy.prototype.refresh = function () {
-        if (Moghunter.bcursor_sort_x === "true") {
-            $gameTroop.sortMembersByScreenX();
-        }
-        var aliveMembers = $gameTroop.aliveMembers();
-        _Window_BattleEnemy_refresh.call(this);
-        this._enemies = aliveMembers;
-    };
+  var _Window_BattleEnemy_refresh = Window_BattleEnemy.prototype.refresh;
+  Window_BattleEnemy.prototype.refresh = function () {
+    if (Moghunter.bcursor_sort_x === "true") {
+      $gameTroop.sortMembersByScreenX();
+    }
+    var aliveMembers = $gameTroop.aliveMembers();
+    _Window_BattleEnemy_refresh.call(this);
+    this._enemies = aliveMembers;
+  };
 })();

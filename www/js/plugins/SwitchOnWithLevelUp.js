@@ -44,22 +44,22 @@
  */
 
 (function () {
-    'use strict';
+  "use strict";
 
-    const _PNAME = 'SwitchOnWithLevelUp';
-    const _PARAMETERS = PluginManager.parameters(_PNAME);
+  const _PNAME = "SwitchOnWithLevelUp";
+  const _PARAMETERS = PluginManager.parameters(_PNAME);
 
-    const _SWITCH_ID = +_PARAMETERS['Switch ID'] || 0;
-    const _VARIABLE_ID = +_PARAMETERS['Variable ID for Actor ID'] || 0;
+  const _SWITCH_ID = +_PARAMETERS["Switch ID"] || 0;
+  const _VARIABLE_ID = +_PARAMETERS["Variable ID for Actor ID"] || 0;
 
-    var _Game_Actor_levelUp = Game_Actor.prototype.levelUp;
-    Game_Actor.prototype.levelUp = function () {
-        _Game_Actor_levelUp.call(this);
-        if (!$gameParty.inBattle() && _SWITCH_ID) {
-            $gameSwitches.setValue(_SWITCH_ID, true);
-        }
-        if (_VARIABLE_ID) {
-            $gameVariables.setValue(_VARIABLE_ID, this.actorId());
-        }
-    };
-}());
+  var _Game_Actor_levelUp = Game_Actor.prototype.levelUp;
+  Game_Actor.prototype.levelUp = function () {
+    _Game_Actor_levelUp.call(this);
+    if (!$gameParty.inBattle() && _SWITCH_ID) {
+      $gameSwitches.setValue(_SWITCH_ID, true);
+    }
+    if (_VARIABLE_ID) {
+      $gameVariables.setValue(_VARIABLE_ID, this.actorId());
+    }
+  };
+})();

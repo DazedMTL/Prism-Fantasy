@@ -143,189 +143,215 @@
  */
 
 (function () {
-    'use strict';
-    var metaTagPrefix = 'SE';
+  "use strict";
+  var metaTagPrefix = "SE";
 
-    var getArgNumberWithEval = function (arg, min, max) {
-        if (arguments.length < 2) min = -Infinity;
-        if (arguments.length < 3) max = Infinity;
-        return (parseInt(eval(convertEscapeCharacters(arg)), 10) || 0).clamp(min, max);
-    };
+  var getArgNumberWithEval = function (arg, min, max) {
+    if (arguments.length < 2) min = -Infinity;
+    if (arguments.length < 3) max = Infinity;
+    return (parseInt(eval(convertEscapeCharacters(arg)), 10) || 0).clamp(
+      min,
+      max
+    );
+  };
 
-    var getMetaValue = function (object, name) {
-        var metaTagName = metaTagPrefix + (name ? name : '');
-        return object.meta.hasOwnProperty(metaTagName) ? object.meta[metaTagName] : undefined;
-    };
+  var getMetaValue = function (object, name) {
+    var metaTagName = metaTagPrefix + (name ? name : "");
+    return object.meta.hasOwnProperty(metaTagName)
+      ? object.meta[metaTagName]
+      : undefined;
+  };
 
-    var getMetaValues = function (object, names) {
-        if (!Array.isArray(names)) return getMetaValue(object, names);
-        for (var i = 0, n = names.length; i < n; i++) {
-            var value = getMetaValue(object, names[i]);
-            if (value !== undefined) return value;
+  var getMetaValues = function (object, names) {
+    if (!Array.isArray(names)) return getMetaValue(object, names);
+    for (var i = 0, n = names.length; i < n; i++) {
+      var value = getMetaValue(object, names[i]);
+      if (value !== undefined) return value;
+    }
+    return undefined;
+  };
+
+  var getArgNumber = function (arg, min, max) {
+    if (arguments.length < 2) min = -Infinity;
+    if (arguments.length < 3) max = Infinity;
+    return (parseInt(convertEscapeCharacters(arg), 10) || 0).clamp(min, max);
+  };
+
+  var convertEscapeCharacters = function (text) {
+    if (text == null) text = "";
+    var windowLayer = SceneManager._scene._windowLayer;
+    return windowLayer
+      ? windowLayer.children[0].convertEscapeCharacters(text)
+      : text;
+  };
+
+  //=============================================================================
+  // Game_Unit
+  //  味方キャラをランダム選択します。
+  //=============================================================================
+  Game_Unit.prototype.randomFriendTarget = function () {
+    var members = this.aliveMembers();
+    return members[Math.floor(Math.random() * members.length)];
+  };
+
+  //=============================================================================
+  // Game_Action
+  //  効果範囲をメモ欄の記述に基づいて拡張します。
+  //=============================================================================
+  var _Game_Action_repeatTargets = Game_Action.prototype.repeatTargets;
+  Game_Action.prototype.repeatTargets = function (targets) {
+    if (this.isScopeExtendInfo(["敵味方", "EnemiesAndAllies"])) {
+      if (!this.subject().isConfused() || this._forcing) {
+        targets = this.targetsForAll(targets);
+      }
+    }
+    if (this.isScopeExtendInfo(["使用者追加", "AdditionUser"])) {
+      if (!targets.contains(this.subject())) {
+        targets.push(this.subject());
+      }
+    }
+    if (this.isScopeExtendInfo(["使用者除外", "RemoveUser", "使用者削除"])) {
+      targets = targets.filter(
+        function (target) {
+          return target !== this.subject();
+        }.bind(this)
+      );
+    }
+    if (this.isScopeExtendInfo(["重複除外", "RemoveDuplication", "重複削除"])) {
+      targets = targets.filter(
+        function (target, i) {
+          return targets.indexOf(target) === i;
+        }.bind(this)
+      );
+    }
+    if (this.isScopeExtendInfo(["ランダム", "Random"])) {
+      var number = this.getScopeExtendInfo(["ランダム", "Random"]);
+      var targetsForRandom = [];
+      while (
+        targetsForRandom.length < number &&
+        targets.length > targetsForRandom.length
+      ) {
+        var index = Math.floor(Math.random() * targets.length);
+        if (!targetsForRandom.contains(targets[index])) {
+          targetsForRandom.push(targets[index]);
         }
-        return undefined;
-    };
+      }
+      targets = targetsForRandom;
+    }
+    if (this.isScopeExtendInfo(["グループ", "Group"]) && targets[0]) {
+      var targetsForGroup,
+        prevTarget = targets[0];
+      if (prevTarget.isActor()) {
+        targetsForGroup = prevTarget.friendsUnit().aliveMembers();
+      } else {
+        targetsForGroup = prevTarget
+          .friendsUnit()
+          .aliveMembers()
+          .filter(function (member) {
+            return prevTarget.enemyId() === member.enemyId();
+          });
+      }
+      targets = targetsForGroup;
+    }
+    arguments[0] = targets;
+    return _Game_Action_repeatTargets.apply(this, arguments);
+  };
 
-    var getArgNumber = function (arg, min, max) {
-        if (arguments.length < 2) min = -Infinity;
-        if (arguments.length < 3) max = Infinity;
-        return (parseInt(convertEscapeCharacters(arg), 10) || 0).clamp(min, max);
-    };
+  var _Game_Action_numTargets = Game_Action.prototype.numTargets;
+  Game_Action.prototype.numTargets = function () {
+    var metaValue = getMetaValues(this.item(), ["RandomNum", "ランダム回数"]);
+    return metaValue
+      ? getArgNumberWithEval(metaValue, 1)
+      : _Game_Action_numTargets.apply(this, arguments);
+  };
 
-    var convertEscapeCharacters = function (text) {
-        if (text == null) text = '';
-        var windowLayer = SceneManager._scene._windowLayer;
-        return windowLayer ? windowLayer.children[0].convertEscapeCharacters(text) : text;
-    };
+  var _Game_Action_targetsForOpponents =
+    Game_Action.prototype.targetsForOpponents;
+  Game_Action.prototype.targetsForOpponents = function () {
+    var targets = _Game_Action_targetsForOpponents.apply(this, arguments);
+    if (this.isForDeadOpponent()) {
+      var unit = this.opponentsUnit();
+      if (this.isForOne()) {
+        targets = [unit.smoothDeadTarget(this._targetIndex)];
+      } else {
+        targets = unit.deadMembers();
+      }
+    }
+    return targets;
+  };
 
-    //=============================================================================
-    // Game_Unit
-    //  味方キャラをランダム選択します。
-    //=============================================================================
-    Game_Unit.prototype.randomFriendTarget = function () {
-        var members = this.aliveMembers();
-        return members[Math.floor(Math.random() * members.length)];
-    };
+  var _Game_Action_targetsForFriends = Game_Action.prototype.targetsForFriends;
+  Game_Action.prototype.targetsForFriends = function () {
+    var targets = _Game_Action_targetsForFriends.apply(this, arguments);
+    var numTargets = this.numTargets();
+    if (this.isForAll() && numTargets > 0) {
+      var friendUnit = this.friendsUnit();
+      targets = [];
+      for (var i = 0; i < numTargets; i++) {
+        targets.push(friendUnit.randomFriendTarget());
+      }
+    }
+    return targets;
+  };
 
-    //=============================================================================
-    // Game_Action
-    //  効果範囲をメモ欄の記述に基づいて拡張します。
-    //=============================================================================
-    var _Game_Action_repeatTargets = Game_Action.prototype.repeatTargets;
-    Game_Action.prototype.repeatTargets = function (targets) {
-        if (this.isScopeExtendInfo(['敵味方', 'EnemiesAndAllies'])) {
-            if (!this.subject().isConfused() || this._forcing) {
-                targets = this.targetsForAll(targets);
-            }
-        }
-        if (this.isScopeExtendInfo(['使用者追加', 'AdditionUser'])) {
-            if (!targets.contains(this.subject())) {
-                targets.push(this.subject());
-            }
-        }
-        if (this.isScopeExtendInfo(['使用者除外', 'RemoveUser', '使用者削除'])) {
-            targets = targets.filter(function (target) {
-                return target !== this.subject();
-            }.bind(this));
-        }
-        if (this.isScopeExtendInfo(['重複除外', 'RemoveDuplication', '重複削除'])) {
-            targets = targets.filter(function (target, i) {
-                return targets.indexOf(target) === i;
-            }.bind(this));
-        }
-        if (this.isScopeExtendInfo(['ランダム', 'Random'])) {
-            var number = this.getScopeExtendInfo(['ランダム', 'Random']);
-            var targetsForRandom = [];
-            while (targetsForRandom.length < number && targets.length > targetsForRandom.length) {
-                var index = Math.floor(Math.random() * targets.length);
-                if (!targetsForRandom.contains(targets[index])) {
-                    targetsForRandom.push(targets[index]);
-                }
-            }
-            targets = targetsForRandom;
-        }
-        if (this.isScopeExtendInfo(['グループ', 'Group']) && targets[0]) {
-            var targetsForGroup, prevTarget = targets[0];
-            if (prevTarget.isActor()) {
-                targetsForGroup = prevTarget.friendsUnit().aliveMembers();
-            } else {
-                targetsForGroup = prevTarget.friendsUnit().aliveMembers().filter(function (member) {
-                    return prevTarget.enemyId() === member.enemyId();
-                });
-            }
-            targets = targetsForGroup;
-        }
-        arguments[0] = targets;
-        return _Game_Action_repeatTargets.apply(this, arguments);
-    };
-
-    var _Game_Action_numTargets = Game_Action.prototype.numTargets;
-    Game_Action.prototype.numTargets = function () {
-        var metaValue = getMetaValues(this.item(), ['RandomNum', 'ランダム回数']);
-        return metaValue ? getArgNumberWithEval(metaValue, 1) : _Game_Action_numTargets.apply(this, arguments);
-    };
-
-    var _Game_Action_targetsForOpponents = Game_Action.prototype.targetsForOpponents;
-    Game_Action.prototype.targetsForOpponents = function () {
-        var targets = _Game_Action_targetsForOpponents.apply(this, arguments);
-        if (this.isForDeadOpponent()) {
-            var unit = this.opponentsUnit();
-            if (this.isForOne()) {
-                targets = [unit.smoothDeadTarget(this._targetIndex)];
-            } else {
-                targets = unit.deadMembers();
-            }
-        }
-        return targets;
-    };
-
-    var _Game_Action_targetsForFriends = Game_Action.prototype.targetsForFriends;
-    Game_Action.prototype.targetsForFriends = function () {
-        var targets = _Game_Action_targetsForFriends.apply(this, arguments);
-        var numTargets = this.numTargets();
-        if (this.isForAll() && numTargets > 0) {
-            var friendUnit = this.friendsUnit();
-            targets = [];
-            for (var i = 0; i < numTargets; i++) {
-                targets.push(friendUnit.randomFriendTarget());
-            }
-        }
-        return targets;
-    };
-
-    Game_Action.prototype.targetsForAll = function (targets) {
-        var opponentsUnit = this.opponentsUnit();
-        var friendsUnit = this.friendsUnit();
-        var anotherUnit = this.isForFriend() ? opponentsUnit : friendsUnit;
-        if (this.isForUser()) {
-            targets.push(opponentsUnit.randomTarget());
-        } else if (this.isForRandom()) {
-            targets = [];
-            for (var i = 0; i < this.numTargets(); i++) {
-                var opponentsLength = opponentsUnit.aliveMembers().length;
-                var friendLength = friendsUnit.aliveMembers().length;
-                if (Math.randomInt(opponentsLength + friendLength) >= opponentsLength) {
-                    targets.push(friendsUnit.randomTarget());
-                } else {
-                    targets.push(opponentsUnit.randomTarget());
-                }
-            }
-        } else if (this.isForDeadFriend()) {
-            if (this.isForOne()) {
-                targets.push(opponentsUnit.randomDeadTarget());
-            } else {
-                targets = targets.concat(opponentsUnit.deadMembers());
-            }
-        } else if (this.isForDeadOpponent()) {
-            if (this.isForOne()) {
-                targets.push(friendsUnit.randomDeadTarget());
-            } else {
-                targets = targets.concat(friendsUnit.deadMembers());
-            }
-        } else if (this.isForOne()) {
-            targets.push(anotherUnit.randomTarget());
+  Game_Action.prototype.targetsForAll = function (targets) {
+    var opponentsUnit = this.opponentsUnit();
+    var friendsUnit = this.friendsUnit();
+    var anotherUnit = this.isForFriend() ? opponentsUnit : friendsUnit;
+    if (this.isForUser()) {
+      targets.push(opponentsUnit.randomTarget());
+    } else if (this.isForRandom()) {
+      targets = [];
+      for (var i = 0; i < this.numTargets(); i++) {
+        var opponentsLength = opponentsUnit.aliveMembers().length;
+        var friendLength = friendsUnit.aliveMembers().length;
+        if (Math.randomInt(opponentsLength + friendLength) >= opponentsLength) {
+          targets.push(friendsUnit.randomTarget());
         } else {
-            targets = targets.concat(anotherUnit.aliveMembers());
+          targets.push(opponentsUnit.randomTarget());
         }
-        return targets;
-    };
+      }
+    } else if (this.isForDeadFriend()) {
+      if (this.isForOne()) {
+        targets.push(opponentsUnit.randomDeadTarget());
+      } else {
+        targets = targets.concat(opponentsUnit.deadMembers());
+      }
+    } else if (this.isForDeadOpponent()) {
+      if (this.isForOne()) {
+        targets.push(friendsUnit.randomDeadTarget());
+      } else {
+        targets = targets.concat(friendsUnit.deadMembers());
+      }
+    } else if (this.isForOne()) {
+      targets.push(anotherUnit.randomTarget());
+    } else {
+      targets = targets.concat(anotherUnit.aliveMembers());
+    }
+    return targets;
+  };
 
-    var _Game_Action_testApply = Game_Action.prototype.testApply;
-    Game_Action.prototype.testApply = function (target) {
-        return _Game_Action_testApply.apply(this, arguments) || (this.isForDeadOpponent() && target.isDead());
-    };
+  var _Game_Action_testApply = Game_Action.prototype.testApply;
+  Game_Action.prototype.testApply = function (target) {
+    return (
+      _Game_Action_testApply.apply(this, arguments) ||
+      (this.isForDeadOpponent() && target.isDead())
+    );
+  };
 
-    Game_Action.prototype.isForDeadOpponent = function () {
-        return this.checkItemScope([1, 2]) && getMetaValues(this.item(), ['Dead', '戦闘不能']);
-    };
+  Game_Action.prototype.isForDeadOpponent = function () {
+    return (
+      this.checkItemScope([1, 2]) &&
+      getMetaValues(this.item(), ["Dead", "戦闘不能"])
+    );
+  };
 
-    Game_Action.prototype.isScopeExtendInfo = function (names) {
-        return !!getMetaValues(this.item(), names);
-    };
+  Game_Action.prototype.isScopeExtendInfo = function (names) {
+    return !!getMetaValues(this.item(), names);
+  };
 
-    Game_Action.prototype.getScopeExtendInfo = function (names) {
-        var result = getArgNumber(getMetaValues(this.item(), names));
-        return result === true ? 1 : result;
-    };
+  Game_Action.prototype.getScopeExtendInfo = function (names) {
+    var result = getArgNumber(getMetaValues(this.item(), names));
+    return result === true ? 1 : result;
+  };
 })();
-

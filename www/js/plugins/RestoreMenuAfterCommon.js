@@ -29,25 +29,21 @@ var aliasAcheCommon = false;
 var aliasAcheSelectRestore = false;
 
 (function () {
+  Scene_Item.prototype.popScene = function () {
+    if (aliasAcheCommon) {
+      aliasAcheCommon = false;
+      aliasAcheSelectRestore = false;
+      SceneManager.goto(Scene_Menu);
+    } else {
+      SceneManager.pop();
+    }
+  };
 
-    Scene_Item.prototype.popScene = function () {
-        if (aliasAcheCommon) {
-            aliasAcheCommon = false;
-            aliasAcheSelectRestore = false;
-            SceneManager.goto(Scene_Menu);
-        } else {
-            SceneManager.pop();
-        }
-    };
-
-    Game_Interpreter.prototype.sceneRestore = function () {
-        if (!$gameParty.inBattle()) {
-            aliasAcheCommon = true;
-            aliasAcheSelectRestore = true;
-            SceneManager.push(Scene_Item);
-        }
-    };
-
-
-
+  Game_Interpreter.prototype.sceneRestore = function () {
+    if (!$gameParty.inBattle()) {
+      aliasAcheCommon = true;
+      aliasAcheSelectRestore = true;
+      SceneManager.push(Scene_Item);
+    }
+  };
 })();
