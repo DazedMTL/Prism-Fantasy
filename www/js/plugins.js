@@ -523,7 +523,7 @@ var $plugins = [
     description:
       "メニューシーンに変数の値を表示します。\n歩数や戦闘回数などを表示することもできます。",
     parameters: {
-      labelAName: "現在地",
+      labelAName: "Location",
       labelAId: "189",
       labelAMax: "9999",
       labelAFooter: "",
@@ -531,7 +531,7 @@ var $plugins = [
       labelBId: "188",
       labelBMax: "9999",
       labelBFooter: "",
-      labelCName: "歩数",
+      labelCName: "Steps",
       labelCId: "-1",
       labelCMax: "0",
       labelCFooter: "",
@@ -566,7 +566,7 @@ var $plugins = [
     name: "TMItemCategoryEx",
     status: true,
     description: "アイテムカテゴリの追加、削除をおこないます。",
-    parameters: { categoryList: "item weapon armor \\I[403]魔導書 keyItem" },
+    parameters: { categoryList: "item weapon armor \\I[403]Grimoire keyItem" },
   },
   {
     name: "MenuCommonEvent",
@@ -1071,7 +1071,7 @@ var $plugins = [
     parameters: {
       "Init Difficulty ID": "2",
       "Use Option": "1",
-      "Option Name": "難易度",
+      "Option Name": "Difficulty",
       "--(Difficulty ID:1)--": "",
       "1 : Name": "Easy",
       "1 : Param Rate": "0.7,0.7,0.7,0.7,0.7,0.7,0.7,0.7",
@@ -1112,7 +1112,7 @@ var $plugins = [
     description:
       "オプションにデフォルトに戻すコマンドを追加します。\r\n動作には同作者のオプションベーススクリプトが必須です。",
     parameters: {
-      "Default Term": "全て初期値に戻す",
+      "Default Term": "Restore Defaults",
       "Always Dash Default": "0",
       "Command Remember Default": "0",
       "Bgm Volume Default": "60",
@@ -1127,9 +1127,9 @@ var $plugins = [
     description:
       "オプションにメッセージ表示速度の変更を追加します。\r\n動作には同作者のオプションベーススクリプトが必須です。",
     parameters: {
-      "Message Speed Term": "メッセージ速度",
+      "Message Speed Term": "Message Speed",
       "Message Speed List":
-        '{"最遅": -2, "遅い": -1, "標準": 0, "微妙に速い": 1, "速い": 2, "もっと速い": 4, "かなり速い": 10, "とても速い": 20, "瞬間": 100}',
+        '{"Slowest": -2, "Slow": -1, "Standard": 0, "Fast": 1, "Faster": 2, "Very Fast": 4, "Extremely Fast": 10, "Fastest": 20, "Instant": 100}',
       "Message Speed Default": "2",
     },
   },
@@ -1139,7 +1139,7 @@ var $plugins = [
     description:
       "オプションに自動メッセージ送りの変更を追加します。\r\n動作には同作者のオプションベーススクリプトが必須です。",
     parameters: {
-      "Auto Message Term": "自動文章送り",
+      "Auto Message Term": "Auto Message",
       "Auto Message List":
         '{"OFF": -1, "遅い": 190, "微妙に遅い": 140, "普通": 70, "微妙に速い": 40, "速い": 20, "最速": 10}',
       "Auto Message Default": "0",
@@ -1237,7 +1237,7 @@ var $plugins = [
       "Command Setting": "0",
       "Disable Command Text": "--------",
       "Load Name": "\\I[369]LOAD",
-      "Add Common 0": "memo,\\I[355]Notepad,32",
+      "Add Common 0": "memo,\\I[355]Memo,32",
       "Add Common 1": "ecchi1,\\I[356]Sex Record,33",
       "Add Common 2": "ecchi2,\\I[401]Other Record,34",
       "Add Common 3": "itemzukan,\\I[357]Book of Adventures,35",
