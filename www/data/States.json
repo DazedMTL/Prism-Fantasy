@@ -6,13 +6,13 @@
     "chanceByDamage": 100,
     "iconIndex": 1,
     "maxTurns": 1,
-    "message1": "は倒れた！",
-    "message2": "を倒した！",
+    "message1": " collapsed!",
+    "message2": " was defeated!",
     "message3": "",
-    "message4": "は立ち上がった！",
+    "message4": " stood up!",
     "minTurns": 1,
     "motion": 3,
-    "name": "戦闘不能",
+    "name": "Incapacitated",
     "note": "ステート１番はＨＰが０になったときに\n自動的に付加されます。",
     "overlay": 0,
     "priority": 100,
@@ -23,13 +23,7 @@
     "removeByWalking": false,
     "restriction": 4,
     "stepsToRemove": 100,
-    "traits": [
-      {
-        "code": 23,
-        "dataId": 9,
-        "value": 0
-      }
-    ]
+    "traits": [{ "code": 23, "dataId": 9, "value": 0 }]
   },
   {
     "id": 2,
@@ -44,7 +38,7 @@
     "message4": "",
     "minTurns": 1,
     "motion": 0,
-    "name": "防御",
+    "name": "Defense",
     "note": "",
     "overlay": 0,
     "priority": 0,
@@ -54,13 +48,7 @@
     "removeByWalking": false,
     "restriction": 0,
     "stepsToRemove": 100,
-    "traits": [
-      {
-        "code": 62,
-        "dataId": 1,
-        "value": 0
-      }
-    ]
+    "traits": [{ "code": 62, "dataId": 1, "value": 0 }]
   },
   {
     "id": 3,
@@ -75,7 +63,7 @@
     "message4": "",
     "minTurns": 1,
     "motion": 0,
-    "name": "不死身",
+    "name": "Immortality",
     "note": "",
     "overlay": 0,
     "priority": 0,
@@ -85,13 +73,7 @@
     "removeByWalking": false,
     "restriction": 0,
     "stepsToRemove": 100,
-    "traits": [
-      {
-        "code": 14,
-        "dataId": 1,
-        "value": 0
-      }
-    ]
+    "traits": [{ "code": 14, "dataId": 1, "value": 0 }]
   },
   {
     "id": 4,
@@ -99,14 +81,14 @@
     "chanceByDamage": 100,
     "iconIndex": 2,
     "maxTurns": 1,
-    "message1": "は毒にかかった！",
-    "message2": "に毒をかけた！",
+    "message1": " was poisoned!",
+    "message2": " was poisoned!",
     "message3": "",
-    "message4": "の毒が消えた！",
+    "message4": "'s poison has worn off!",
     "minTurns": 1,
     "motion": 1,
     "overlay": 1,
-    "name": "毒",
+    "name": "Poison",
     "note": "敵キャラ----------\nホーネット、ワスプ、ガラガラヘビ、鬼蜘蛛\nポイズンバット、\n\n魔法＆特殊攻撃----------\n毒の霧、ポイズンクラウド、特殊ガス",
     "priority": 50,
     "releaseByDamage": false,
@@ -116,13 +98,7 @@
     "removeByWalking": false,
     "restriction": 0,
     "stepsToRemove": 100,
-    "traits": [
-      {
-        "code": 22,
-        "dataId": 7,
-        "value": -0.1
-      }
-    ]
+    "traits": [{ "code": 22, "dataId": 7, "value": -0.1 }]
   },
   {
     "id": 5,
@@ -130,13 +106,13 @@
     "chanceByDamage": 100,
     "iconIndex": 3,
     "maxTurns": 5,
-    "message1": "は暗闇に閉ざされた！",
-    "message2": "を暗闇に閉ざした！",
+    "message1": " was trapped in darkness!",
+    "message2": " was sealed in darkness!",
     "message3": "",
-    "message4": "の暗闇が消えた！",
+    "message4": "'s darkness vanished!",
     "minTurns": 3,
     "motion": 1,
-    "name": "暗闇",
+    "name": "Darkness",
     "note": "敵キャラ----------\n\n魔法＆特殊攻撃----------\nプリズム、アークファイア、アシッドクラウド\n花粉攻撃[紫]、賊長斬り",
     "overlay": 2,
     "priority": 60,
@@ -147,13 +123,7 @@
     "removeByWalking": false,
     "restriction": 0,
     "stepsToRemove": 100,
-    "traits": [
-      {
-        "code": 22,
-        "dataId": 0,
-        "value": -0.5
-      }
-    ]
+    "traits": [{ "code": 22, "dataId": 0, "value": -0.5 }]
   },
   {
     "id": 6,
@@ -161,13 +131,13 @@
     "chanceByDamage": 100,
     "iconIndex": 4,
     "maxTurns": 5,
-    "message1": "は沈黙した！",
-    "message2": "を沈黙させた！",
+    "message1": " fell silent!",
+    "message2": " was silenced!",
     "message3": "",
-    "message4": "の沈黙が解けた！",
+    "message4": "'s silence was broken!",
     "minTurns": 3,
     "motion": 1,
-    "name": "沈黙",
+    "name": "Silence",
     "note": "敵キャラ----------\nアクマノエボシ、鬼火、\n\n魔法----------\nプリズム、ウォータスパウト、かまいたち\nホーリースピア、シェイド、バースト、フレア\n特殊ガス、アシッドクラウド、\n花粉攻撃[黄色、ピンク、紫]",
     "overlay": 3,
     "priority": 65,
@@ -178,13 +148,7 @@
     "removeByWalking": false,
     "restriction": 0,
     "stepsToRemove": 100,
-    "traits": [
-      {
-        "code": 42,
-        "dataId": 3,
-        "value": 0
-      }
-    ]
+    "traits": [{ "code": 42, "dataId": 3, "value": 0 }]
   },
   {
     "id": 7,
@@ -192,13 +156,13 @@
     "chanceByDamage": 50,
     "iconIndex": 9,
     "maxTurns": 4,
-    "message1": "は麻痺した！",
-    "message2": "を麻痺させた！",
+    "message1": " was paralyzed!",
+    "message2": " was paralyzed!",
     "message3": "",
-    "message4": "の麻痺が解けた！",
+    "message4": "'s paralysis wore off!",
     "minTurns": 2,
     "motion": 0,
-    "name": "麻痺",
+    "name": "Paralysis",
     "note": "",
     "overlay": 0,
     "priority": 70,
@@ -217,13 +181,13 @@
     "chanceByDamage": 50,
     "iconIndex": 6,
     "maxTurns": 4,
-    "message1": "は混乱した！",
-    "message2": "を混乱させた！",
+    "message1": " became confused!",
+    "message2": " was confused!",
     "message3": "",
-    "message4": "は我に返った！",
+    "message4": " came to their senses!",
     "minTurns": 2,
     "motion": 1,
-    "name": "混乱[未使用]",
+    "name": "Confusion [Unused]",
     "note": "",
     "overlay": 5,
     "priority": 75,
@@ -242,13 +206,13 @@
     "chanceByDamage": 50,
     "iconIndex": 7,
     "maxTurns": 4,
-    "message1": "は魅了された！",
-    "message2": "を魅了した！",
+    "message1": " was charmed!",
+    "message2": " was charmed!",
     "message3": "",
-    "message4": "は我に返った！",
+    "message4": " came to their senses!",
     "minTurns": 2,
     "motion": 1,
-    "name": "魅了[未使用]",
+    "name": "Charm [Unused]",
     "note": "",
     "overlay": 6,
     "priority": 80,
@@ -267,13 +231,13 @@
     "chanceByDamage": 75,
     "iconIndex": 8,
     "maxTurns": 4,
-    "message1": "は眠った！",
-    "message2": "を眠らせた！",
-    "message3": "は眠っている。",
-    "message4": "は目を覚ました！",
+    "message1": " fell asleep!",
+    "message2": " was put to sleep!",
+    "message3": " is sleeping.",
+    "message4": " woke up!",
     "minTurns": 2,
     "motion": 2,
-    "name": "睡眠",
+    "name": "Sleep",
     "note": "敵キャラ----------\nシーホース、フロルニンフ、ベルデニンフ\n\n魔法----------\n花粉攻撃[ピンク]",
     "overlay": 7,
     "priority": 90,
@@ -284,13 +248,7 @@
     "removeByWalking": false,
     "restriction": 4,
     "stepsToRemove": 100,
-    "traits": [
-      {
-        "code": 22,
-        "dataId": 1,
-        "value": -1
-      }
-    ]
+    "traits": [{ "code": 22, "dataId": 1, "value": -1 }]
   },
   {
     "id": 11,
@@ -321,26 +279,18 @@
     "autoRemovalTiming": 2,
     "chanceByDamage": 25,
     "traits": [
-      {
-        "code": 42,
-        "dataId": 1,
-        "value": 1
-      },
-      {
-        "code": 42,
-        "dataId": 2,
-        "value": 1
-      }
+      { "code": 42, "dataId": 1, "value": 1 },
+      { "code": 42, "dataId": 2, "value": 1 }
     ],
     "iconIndex": 611,
     "maxTurns": 4,
-    "message1": "は特技を封じられた！",
+    "message1": "'s special ability was sealed!",
     "message2": "",
-    "message3": "は特技を封じられている……",
-    "message4": "の特技封じが解けた！",
+    "message3": " has been sealed from using special skills...",
+    "message4": "'s special ability seal has been lifted!",
     "minTurns": 3,
     "motion": 0,
-    "name": "技封",
+    "name": "Skill Seal",
     "note": "敵キャラ----------\nダークトレント、ミミック、ゲイザー\n\n\n魔法＆特殊攻撃----------\nダークロア、賊長斬り、ケモガミ必殺",
     "overlay": 0,
     "priority": 70,
@@ -356,31 +306,19 @@
     "autoRemovalTiming": 2,
     "chanceByDamage": 25,
     "traits": [
-      {
-        "code": 42,
-        "dataId": 1,
-        "value": 1
-      },
-      {
-        "code": 42,
-        "dataId": 2,
-        "value": 1
-      },
-      {
-        "code": 42,
-        "dataId": 3,
-        "value": 1
-      }
+      { "code": 42, "dataId": 1, "value": 1 },
+      { "code": 42, "dataId": 2, "value": 1 },
+      { "code": 42, "dataId": 3, "value": 1 }
     ],
     "iconIndex": 609,
     "maxTurns": 4,
-    "message1": "は魔法と特技を忘れてしまった！",
+    "message1": " forgot all magic and special skills!",
     "message2": "",
-    "message3": "は魔法と特技を思い出せない……",
-    "message4": "は魔法と特技を思い出した。",
+    "message3": " can't remember any magic or special skills...",
+    "message4": " remembered magic and special skills.",
     "minTurns": 3,
     "motion": 0,
-    "name": "忘却",
+    "name": "Oblivion",
     "note": "敵キャラ----------\n\n\n魔法＆特殊攻撃----------\nキャノン砲、ダークエクスプロジオン\n痛恨の一撃、ケモガミ必殺",
     "overlay": 0,
     "priority": 80,
@@ -422,13 +360,13 @@
     "traits": [],
     "iconIndex": 600,
     "maxTurns": 2,
-    "message1": "はバランスを崩した！",
-    "message2": "はバランスを崩した！",
+    "message1": " lost their balance!",
+    "message2": " lost their balance!",
     "message3": "",
-    "message4": "は体勢を立て直した！",
+    "message4": " regained their composure!",
     "minTurns": 1,
     "motion": 0,
-    "name": "スタン",
+    "name": "Stun",
     "note": "敵キャラ----------\n\n魔法＆特殊攻撃----------\nダブルアタック、ぶん殴り、グレイシア\nプリズム、サンダーストーム、ロックスピアー\n突進、乱れ撃ち、キャノン砲\n",
     "overlay": 0,
     "priority": 60,
@@ -445,14 +383,14 @@
     "chanceByDamage": 100,
     "iconIndex": 628,
     "maxTurns": 5,
-    "message1": "は苦痛に顔を歪めた！",
-    "message2": "は耐え難い痛みが続いている。",
-    "message3": "は耐え難い痛みが続いている。",
-    "message4": "は苦痛から解放された！",
+    "message1": " contorted their face in pain!",
+    "message2": " is enduring unbearable pain.",
+    "message3": " is enduring unbearable pain.",
+    "message4": " was freed from the pain!",
     "minTurns": 3,
     "motion": 1,
     "overlay": 0,
-    "name": "ペイン",
+    "name": "Pain",
     "note": "敵キャラ----------\n\n魔法＆特殊攻撃----------\nデビルフィールド\n",
     "priority": 70,
     "releaseByDamage": false,
@@ -463,21 +401,9 @@
     "restriction": 0,
     "stepsToRemove": 100,
     "traits": [
-      {
-        "code": 22,
-        "dataId": 7,
-        "value": -0.05
-      },
-      {
-        "code": 22,
-        "dataId": 9,
-        "value": -0.05
-      },
-      {
-        "code": 22,
-        "dataId": 9,
-        "value": -0.05
-      }
+      { "code": 22, "dataId": 7, "value": -0.05 },
+      { "code": 22, "dataId": 9, "value": -0.05 },
+      { "code": 22, "dataId": 9, "value": -0.05 }
     ]
   },
   {
@@ -486,14 +412,14 @@
     "chanceByDamage": 100,
     "iconIndex": 607,
     "maxTurns": 1,
-    "message1": "は毒にかかった！",
-    "message2": "に毒をかけた！",
+    "message1": " was poisoned!",
+    "message2": " was poisoned!",
     "message3": "",
-    "message4": "の毒が消えた！",
+    "message4": "'s poison has worn off!",
     "minTurns": 1,
     "motion": 1,
     "overlay": 1,
-    "name": "猛毒",
+    "name": "Deadly Poison",
     "note": "敵キャラ----------\nポイズンバット、キラービー、毒蜘蛛\n\n魔法＆特殊攻撃----------\n猛毒の霧",
     "priority": 60,
     "releaseByDamage": false,
@@ -503,44 +429,26 @@
     "removeByWalking": false,
     "restriction": 0,
     "stepsToRemove": 100,
-    "traits": [
-      {
-        "code": 22,
-        "dataId": 7,
-        "value": -0.15
-      }
-    ]
+    "traits": [{ "code": 22, "dataId": 7, "value": -0.15 }]
   },
   {
     "id": 18,
     "autoRemovalTiming": 2,
     "chanceByDamage": 100,
     "traits": [
-      {
-        "code": 21,
-        "dataId": 2,
-        "value": 0.8
-      },
-      {
-        "code": 21,
-        "dataId": 3,
-        "value": 0.8
-      },
-      {
-        "code": 21,
-        "dataId": 6,
-        "value": 0.8
-      }
+      { "code": 21, "dataId": 2, "value": 0.8 },
+      { "code": 21, "dataId": 3, "value": 0.8 },
+      { "code": 21, "dataId": 6, "value": 0.8 }
     ],
     "iconIndex": 600,
     "maxTurns": 4,
-    "message1": "は蜘蛛の糸で思うように動けない！",
+    "message1": " can't move as they want because of the spider silk!",
     "message2": "",
-    "message3": "は思うように動けない……",
-    "message4": "は動けるようになった！",
+    "message3": " can't move as desired...",
+    "message4": " became able to move!",
     "minTurns": 2,
     "motion": 0,
-    "name": "蜘蛛の糸",
+    "name": "Spider Thread",
     "note": "敵キャラ----------\n\n\n魔法＆特殊攻撃----------\nスパイダーネット、ダブルスパイダーネット",
     "overlay": 0,
     "priority": 60,
@@ -654,13 +562,13 @@
     "traits": [],
     "iconIndex": 612,
     "maxTurns": 1,
-    "message1": "は石になってしまった！",
-    "message2": "は石になってしまった！",
-    "message3": "は石になっている。",
-    "message4": "の石化が解けた！",
+    "message1": " turned to stone!",
+    "message2": " turned to stone!",
+    "message3": " has turned to stone.",
+    "message4": "'s petrification was lifted!",
     "minTurns": 1,
     "motion": 0,
-    "name": "強制石化",
+    "name": "Forced Petrification",
     "note": "強制石化はその時点でバトル終了、敗北扱いに。\n敵キャラ----------\nコカトリス\n魔法＆特殊攻撃----------\n石化ガス",
     "overlay": 0,
     "priority": 100,
@@ -678,13 +586,13 @@
     "traits": [],
     "iconIndex": 612,
     "maxTurns": 1,
-    "message1": "は石になってしまった！",
-    "message2": "は石になってしまった！",
-    "message3": "は石になっている。",
-    "message4": "の石化が解けた！",
+    "message1": " turned to stone!",
+    "message2": " turned to stone!",
+    "message3": " has turned to stone.",
+    "message4": "'s petrification was lifted!",
     "minTurns": 1,
     "motion": 0,
-    "name": "石化",
+    "name": "Petrification",
     "note": "※石化は１ターン行動不可能になる。\n敵キャラ----------\nダークプリースト\n魔法＆特殊攻撃----------\n石化攻撃\n\n",
     "overlay": 0,
     "priority": 100,
@@ -804,7 +712,7 @@
     "message4": "",
     "minTurns": 1,
     "motion": 0,
-    "name": "使用者",
+    "name": "User",
     "note": "アイテム使用時に誰に対して使ったか\n判別用のステート",
     "overlay": 0,
     "priority": 50,
@@ -828,7 +736,7 @@
     "message4": "",
     "minTurns": 1,
     "motion": 0,
-    "name": "ダミーステート",
+    "name": "Dummy State",
     "note": "アイテムやスキルでミス、効かなかった表示を\n無くすためのダミーステート",
     "overlay": 0,
     "priority": 0,
@@ -868,41 +776,13 @@
     "autoRemovalTiming": 0,
     "chanceByDamage": 100,
     "traits": [
-      {
-        "code": 21,
-        "dataId": 2,
-        "value": 1.1
-      },
-      {
-        "code": 21,
-        "dataId": 3,
-        "value": 1.1
-      },
-      {
-        "code": 21,
-        "dataId": 4,
-        "value": 1.2
-      },
-      {
-        "code": 21,
-        "dataId": 5,
-        "value": 1.1
-      },
-      {
-        "code": 11,
-        "dataId": 7,
-        "value": 0.75
-      },
-      {
-        "code": 22,
-        "dataId": 0,
-        "value": 0.05
-      },
-      {
-        "code": 22,
-        "dataId": 2,
-        "value": 0.05
-      }
+      { "code": 21, "dataId": 2, "value": 1.1 },
+      { "code": 21, "dataId": 3, "value": 1.1 },
+      { "code": 21, "dataId": 4, "value": 1.2 },
+      { "code": 21, "dataId": 5, "value": 1.1 },
+      { "code": 11, "dataId": 7, "value": 0.75 },
+      { "code": 22, "dataId": 0, "value": 0.05 },
+      { "code": 22, "dataId": 2, "value": 0.05 }
     ],
     "iconIndex": 70,
     "maxTurns": 1,
@@ -912,7 +792,7 @@
     "message4": "",
     "minTurns": 1,
     "motion": 0,
-    "name": "光の力",
+    "name": "Power of Light",
     "note": "ログが何度も出ると戦闘が遅くなるので\n継続状態でもメッセージを出さない。",
     "overlay": 0,
     "priority": 50,
@@ -928,46 +808,22 @@
     "autoRemovalTiming": 0,
     "chanceByDamage": 100,
     "traits": [
-      {
-        "code": 21,
-        "dataId": 2,
-        "value": 1.05
-      },
-      {
-        "code": 21,
-        "dataId": 3,
-        "value": 1.05
-      },
-      {
-        "code": 21,
-        "dataId": 4,
-        "value": 1.05
-      },
-      {
-        "code": 21,
-        "dataId": 5,
-        "value": 1.05
-      },
-      {
-        "code": 21,
-        "dataId": 6,
-        "value": 1.05
-      },
-      {
-        "code": 21,
-        "dataId": 7,
-        "value": 1.05
-      }
+      { "code": 21, "dataId": 2, "value": 1.05 },
+      { "code": 21, "dataId": 3, "value": 1.05 },
+      { "code": 21, "dataId": 4, "value": 1.05 },
+      { "code": 21, "dataId": 5, "value": 1.05 },
+      { "code": 21, "dataId": 6, "value": 1.05 },
+      { "code": 21, "dataId": 7, "value": 1.05 }
     ],
     "iconIndex": 624,
     "maxTurns": 1,
     "message1": "",
     "message2": "",
-    "message3": "は乙女シートを装着している。",
+    "message3": " is wearing the maiden seat.",
     "message4": "",
     "minTurns": 1,
     "motion": 0,
-    "name": "乙女シート",
+    "name": "Maiden's Veil",
     "note": "",
     "overlay": 0,
     "priority": 80,
@@ -984,14 +840,14 @@
     "chanceByDamage": 100,
     "iconIndex": 621,
     "maxTurns": 1,
-    "message1": "はアソコに異常をきたした！",
-    "message2": "はアソコに異常をきたした！",
-    "message3": "はアソコが痒くてたまらない。",
-    "message4": "のアソコが回復した！",
+    "message1": " experienced an abnormality down there!",
+    "message2": " experienced an abnormality down there!",
+    "message3": "'s crotch is unbearably itchy.",
+    "message4": "'s crotch has recovered!",
     "minTurns": 1,
     "motion": 1,
     "overlay": 0,
-    "name": "性病",
+    "name": "STD",
     "note": "",
     "priority": 100,
     "releaseByDamage": false,
@@ -1002,46 +858,14 @@
     "restriction": 0,
     "stepsToRemove": 100,
     "traits": [
-      {
-        "code": 42,
-        "dataId": 1,
-        "value": 1
-      },
-      {
-        "code": 42,
-        "dataId": 2,
-        "value": 1
-      },
-      {
-        "code": 21,
-        "dataId": 2,
-        "value": 0.5
-      },
-      {
-        "code": 21,
-        "dataId": 3,
-        "value": 0.5
-      },
-      {
-        "code": 21,
-        "dataId": 4,
-        "value": 0.5
-      },
-      {
-        "code": 21,
-        "dataId": 5,
-        "value": 0.5
-      },
-      {
-        "code": 21,
-        "dataId": 6,
-        "value": 0.5
-      },
-      {
-        "code": 21,
-        "dataId": 7,
-        "value": 0.5
-      }
+      { "code": 42, "dataId": 1, "value": 1 },
+      { "code": 42, "dataId": 2, "value": 1 },
+      { "code": 21, "dataId": 2, "value": 0.5 },
+      { "code": 21, "dataId": 3, "value": 0.5 },
+      { "code": 21, "dataId": 4, "value": 0.5 },
+      { "code": 21, "dataId": 5, "value": 0.5 },
+      { "code": 21, "dataId": 6, "value": 0.5 },
+      { "code": 21, "dataId": 7, "value": 0.5 }
     ]
   },
   {
@@ -1050,14 +874,14 @@
     "chanceByDamage": 100,
     "iconIndex": 620,
     "maxTurns": 1,
-    "message1": "はお尻に異常をきたした！",
-    "message2": "はお尻に異常をきたした！",
-    "message3": "はお尻がむずむずしている。",
-    "message4": "のお尻が回復した！",
+    "message1": " experienced something unusual with their butt!",
+    "message2": " experienced something unusual with their butt!",
+    "message3": "'s butt is tingling.",
+    "message4": "'s butt has recovered!",
     "minTurns": 1,
     "motion": 1,
     "overlay": 0,
-    "name": "お尻むずむず",
+    "name": "Itchy Butt",
     "note": "",
     "priority": 100,
     "releaseByDamage": false,
@@ -1068,46 +892,14 @@
     "restriction": 0,
     "stepsToRemove": 100,
     "traits": [
-      {
-        "code": 42,
-        "dataId": 1,
-        "value": 1
-      },
-      {
-        "code": 42,
-        "dataId": 2,
-        "value": 1
-      },
-      {
-        "code": 21,
-        "dataId": 2,
-        "value": 0.5
-      },
-      {
-        "code": 21,
-        "dataId": 3,
-        "value": 0.5
-      },
-      {
-        "code": 21,
-        "dataId": 4,
-        "value": 0.5
-      },
-      {
-        "code": 21,
-        "dataId": 5,
-        "value": 0.5
-      },
-      {
-        "code": 21,
-        "dataId": 6,
-        "value": 0.5
-      },
-      {
-        "code": 21,
-        "dataId": 7,
-        "value": 0.5
-      }
+      { "code": 42, "dataId": 1, "value": 1 },
+      { "code": 42, "dataId": 2, "value": 1 },
+      { "code": 21, "dataId": 2, "value": 0.5 },
+      { "code": 21, "dataId": 3, "value": 0.5 },
+      { "code": 21, "dataId": 4, "value": 0.5 },
+      { "code": 21, "dataId": 5, "value": 0.5 },
+      { "code": 21, "dataId": 6, "value": 0.5 },
+      { "code": 21, "dataId": 7, "value": 0.5 }
     ]
   },
   {
@@ -1115,46 +907,14 @@
     "autoRemovalTiming": 0,
     "chanceByDamage": 100,
     "traits": [
-      {
-        "code": 21,
-        "dataId": 2,
-        "value": 0.8
-      },
-      {
-        "code": 21,
-        "dataId": 3,
-        "value": 0.8
-      },
-      {
-        "code": 21,
-        "dataId": 4,
-        "value": 0.8
-      },
-      {
-        "code": 21,
-        "dataId": 5,
-        "value": 0.8
-      },
-      {
-        "code": 21,
-        "dataId": 6,
-        "value": 0.8
-      },
-      {
-        "code": 21,
-        "dataId": 7,
-        "value": 0.8
-      },
-      {
-        "code": 44,
-        "dataId": 71,
-        "value": 1
-      },
-      {
-        "code": 44,
-        "dataId": 72,
-        "value": 1
-      }
+      { "code": 21, "dataId": 2, "value": 0.8 },
+      { "code": 21, "dataId": 3, "value": 0.8 },
+      { "code": 21, "dataId": 4, "value": 0.8 },
+      { "code": 21, "dataId": 5, "value": 0.8 },
+      { "code": 21, "dataId": 6, "value": 0.8 },
+      { "code": 21, "dataId": 7, "value": 0.8 },
+      { "code": 44, "dataId": 71, "value": 1 },
+      { "code": 44, "dataId": 72, "value": 1 }
     ],
     "iconIndex": 629,
     "maxTurns": 1,
@@ -1164,7 +924,7 @@
     "message4": "",
     "minTurns": 1,
     "motion": 0,
-    "name": "虚無の呪い",
+    "name": "Curse of the Void",
     "note": "",
     "overlay": 0,
     "priority": 100,
@@ -1180,61 +940,25 @@
     "autoRemovalTiming": 0,
     "chanceByDamage": 100,
     "traits": [
-      {
-        "code": 42,
-        "dataId": 1,
-        "value": 1
-      },
-      {
-        "code": 42,
-        "dataId": 2,
-        "value": 1
-      },
-      {
-        "code": 42,
-        "dataId": 3,
-        "value": 1
-      },
-      {
-        "code": 21,
-        "dataId": 2,
-        "value": 0.75
-      },
-      {
-        "code": 21,
-        "dataId": 3,
-        "value": 0.75
-      },
-      {
-        "code": 21,
-        "dataId": 4,
-        "value": 0.75
-      },
-      {
-        "code": 21,
-        "dataId": 5,
-        "value": 0.75
-      },
-      {
-        "code": 21,
-        "dataId": 6,
-        "value": 0.75
-      },
-      {
-        "code": 21,
-        "dataId": 7,
-        "value": 0.75
-      }
+      { "code": 42, "dataId": 1, "value": 1 },
+      { "code": 42, "dataId": 2, "value": 1 },
+      { "code": 42, "dataId": 3, "value": 1 },
+      { "code": 21, "dataId": 2, "value": 0.75 },
+      { "code": 21, "dataId": 3, "value": 0.75 },
+      { "code": 21, "dataId": 4, "value": 0.75 },
+      { "code": 21, "dataId": 5, "value": 0.75 },
+      { "code": 21, "dataId": 6, "value": 0.75 },
+      { "code": 21, "dataId": 7, "value": 0.75 }
     ],
     "iconIndex": 610,
     "maxTurns": 1,
-    "message1": "は呪われてしまった！",
+    "message1": " was cursed!",
     "message2": "",
-    "message3": "は呪われている。",
+    "message3": " is cursed.",
     "message4": "",
     "minTurns": 1,
     "motion": 0,
-    "name": "呪い",
+    "name": "Curse",
     "note": "敵キャラ----------\nレイス、ボスレイス、スペクター\n\n魔法＆特殊攻撃----------\n呪い",
     "overlay": 0,
     "priority": 100,
@@ -1322,21 +1046,9 @@
     "autoRemovalTiming": 0,
     "chanceByDamage": 100,
     "traits": [
-      {
-        "code": 53,
-        "dataId": 2,
-        "value": 1
-      },
-      {
-        "code": 53,
-        "dataId": 3,
-        "value": 1
-      },
-      {
-        "code": 53,
-        "dataId": 4,
-        "value": 1
-      }
+      { "code": 53, "dataId": 2, "value": 1 },
+      { "code": 53, "dataId": 3, "value": 1 },
+      { "code": 53, "dataId": 4, "value": 1 }
     ],
     "iconIndex": 0,
     "maxTurns": 1,
@@ -1346,7 +1058,7 @@
     "message4": "",
     "minTurns": 1,
     "motion": 0,
-    "name": "装備封印＆固定[周回]",
+    "name": "Equipment Seal & Fixation [Loop]",
     "note": "周回で東の森クリアするまで用",
     "overlay": 0,
     "priority": 50,
@@ -1362,21 +1074,9 @@
     "autoRemovalTiming": 0,
     "chanceByDamage": 100,
     "traits": [
-      {
-        "code": 53,
-        "dataId": 2,
-        "value": 1
-      },
-      {
-        "code": 54,
-        "dataId": 3,
-        "value": 1
-      },
-      {
-        "code": 54,
-        "dataId": 4,
-        "value": 1
-      }
+      { "code": 53, "dataId": 2, "value": 1 },
+      { "code": 54, "dataId": 3, "value": 1 },
+      { "code": 54, "dataId": 4, "value": 1 }
     ],
     "iconIndex": 0,
     "maxTurns": 1,
@@ -1386,7 +1086,7 @@
     "message4": "",
     "minTurns": 1,
     "motion": 0,
-    "name": "装備封印＆固定[ケモノ]",
+    "name": "Equipment Seal & Fixation [Beast]",
     "note": "ケモノランド用",
     "overlay": 0,
     "priority": 50,
@@ -1402,16 +1102,8 @@
     "autoRemovalTiming": 0,
     "chanceByDamage": 100,
     "traits": [
-      {
-        "code": 44,
-        "dataId": 16,
-        "value": 1
-      },
-      {
-        "code": 44,
-        "dataId": 36,
-        "value": 1
-      }
+      { "code": 44, "dataId": 16, "value": 1 },
+      { "code": 44, "dataId": 36, "value": 1 }
     ],
     "iconIndex": 0,
     "maxTurns": 1,
@@ -1421,7 +1113,7 @@
     "message4": "",
     "minTurns": 1,
     "motion": 0,
-    "name": "クロスリペア不可",
+    "name": "Cross Repair Disabled",
     "note": "ケモノランド用",
     "overlay": 0,
     "priority": 50,
@@ -1469,7 +1161,7 @@
     "message4": "",
     "minTurns": 1,
     "motion": 0,
-    "name": "---------初回ＥＶ用",
+    "name": "First Time EV Use",
     "note": "",
     "overlay": 0,
     "priority": 50,
@@ -1493,7 +1185,7 @@
     "message4": "",
     "minTurns": 1,
     "motion": 0,
-    "name": "行動不能[リーゼ]",
+    "name": "Action Incapacitated [Liese]",
     "note": "初回バトルで使用",
     "overlay": 0,
     "priority": 50,
@@ -1517,7 +1209,7 @@
     "message4": "",
     "minTurns": 1,
     "motion": 0,
-    "name": "行動不能[敵]",
+    "name": "Action Disable [Enemy]",
     "note": "初回バトルで使用",
     "overlay": 0,
     "priority": 50,
@@ -1532,13 +1224,7 @@
     "id": 48,
     "autoRemovalTiming": 0,
     "chanceByDamage": 100,
-    "traits": [
-      {
-        "code": 22,
-        "dataId": 2,
-        "value": -10
-      }
-    ],
+    "traits": [{ "code": 22, "dataId": 2, "value": -10 }],
     "iconIndex": 0,
     "maxTurns": 1,
     "message1": "",
@@ -1547,7 +1233,7 @@
     "message4": "",
     "minTurns": 1,
     "motion": 0,
-    "name": "会心防止",
+    "name": "Critical Guard",
     "note": "初回バトルで使用",
     "overlay": 0,
     "priority": 50,
@@ -1619,7 +1305,7 @@
     "message4": "",
     "minTurns": 1,
     "motion": 0,
-    "name": "下着専",
+    "name": "Underwear Expert",
     "note": "",
     "overlay": 0,
     "priority": 50,
@@ -1643,7 +1329,7 @@
     "message4": "",
     "minTurns": 1,
     "motion": 0,
-    "name": "乳専",
+    "name": "Breast Specialization",
     "note": "",
     "overlay": 0,
     "priority": 50,
@@ -1667,7 +1353,7 @@
     "message4": "",
     "minTurns": 1,
     "motion": 0,
-    "name": "舐専",
+    "name": "Licking Expert",
     "note": "",
     "overlay": 0,
     "priority": 50,
@@ -1691,7 +1377,7 @@
     "message4": "",
     "minTurns": 1,
     "motion": 0,
-    "name": "クリ専",
+    "name": "Clit Specialist",
     "note": "",
     "overlay": 0,
     "priority": 50,
@@ -1715,7 +1401,7 @@
     "message4": "",
     "minTurns": 1,
     "motion": 0,
-    "name": "ぶっかけ専",
+    "name": "Bukkake Expert",
     "note": "",
     "overlay": 0,
     "priority": 50,
@@ -1829,13 +1515,13 @@
     "traits": [],
     "iconIndex": 627,
     "maxTurns": 5,
-    "message1": "は敵の動きを警戒している。",
+    "message1": " is on guard against the enemy's movements.",
     "message2": "",
-    "message3": "は敵の動きを警戒している……",
+    "message3": " is on guard against the enemy's movements...",
     "message4": "",
     "minTurns": 3,
     "motion": 0,
-    "name": "拘束耐性",
+    "name": "Restraint Resistance",
     "note": "",
     "overlay": 0,
     "priority": 90,
@@ -1851,41 +1537,21 @@
     "autoRemovalTiming": 0,
     "chanceByDamage": 100,
     "traits": [
-      {
-        "code": 21,
-        "dataId": 2,
-        "value": 0.25
-      },
-      {
-        "code": 21,
-        "dataId": 3,
-        "value": 0.75
-      },
-      {
-        "code": 21,
-        "dataId": 6,
-        "value": 0.25
-      },
-      {
-        "code": 22,
-        "dataId": 0,
-        "value": -0.5
-      },
-      {
-        "code": 42,
-        "dataId": 1,
-        "value": 1
-      }
+      { "code": 21, "dataId": 2, "value": 0.25 },
+      { "code": 21, "dataId": 3, "value": 0.75 },
+      { "code": 21, "dataId": 6, "value": 0.25 },
+      { "code": 22, "dataId": 0, "value": -0.5 },
+      { "code": 42, "dataId": 1, "value": 1 }
     ],
     "iconIndex": 616,
     "maxTurns": 1,
-    "message1": "は敵に拘束されてしまった！",
+    "message1": " was restrained by the enemy!",
     "message2": "",
-    "message3": "は拘束されている……",
-    "message4": "は敵の拘束から逃れた！",
+    "message3": " is restrained...",
+    "message4": " escaped from the enemy's restraint!",
     "minTurns": 1,
     "motion": 0,
-    "name": "[主]ジェル拘束中",
+    "name": "[Master] Gel Restraint Active",
     "note": "<CS_Seal>\n<CS_SealSub>",
     "overlay": 0,
     "priority": 100,
@@ -1901,41 +1567,21 @@
     "autoRemovalTiming": 0,
     "chanceByDamage": 100,
     "traits": [
-      {
-        "code": 21,
-        "dataId": 2,
-        "value": 0.25
-      },
-      {
-        "code": 21,
-        "dataId": 3,
-        "value": 0.75
-      },
-      {
-        "code": 21,
-        "dataId": 6,
-        "value": 0.25
-      },
-      {
-        "code": 22,
-        "dataId": 0,
-        "value": -0.5
-      },
-      {
-        "code": 42,
-        "dataId": 1,
-        "value": 1
-      }
+      { "code": 21, "dataId": 2, "value": 0.25 },
+      { "code": 21, "dataId": 3, "value": 0.75 },
+      { "code": 21, "dataId": 6, "value": 0.25 },
+      { "code": 22, "dataId": 0, "value": -0.5 },
+      { "code": 42, "dataId": 1, "value": 1 }
     ],
     "iconIndex": 617,
     "maxTurns": 1,
-    "message1": "は敵に拘束されてしまった！",
+    "message1": " was restrained by the enemy!",
     "message2": "",
-    "message3": "は拘束されている……",
-    "message4": "は敵の拘束から逃れた！",
+    "message3": " is restrained...",
+    "message4": " escaped from the enemy's restraint!",
     "minTurns": 1,
     "motion": 0,
-    "name": "[主]触手拘束中",
+    "name": "[Master] Tentacle Restraint Active",
     "note": "<CS_Seal>\n<CS_SealSub>",
     "overlay": 0,
     "priority": 100,
@@ -1951,41 +1597,21 @@
     "autoRemovalTiming": 0,
     "chanceByDamage": 100,
     "traits": [
-      {
-        "code": 21,
-        "dataId": 2,
-        "value": 0.25
-      },
-      {
-        "code": 21,
-        "dataId": 3,
-        "value": 0.75
-      },
-      {
-        "code": 21,
-        "dataId": 6,
-        "value": 0.25
-      },
-      {
-        "code": 22,
-        "dataId": 0,
-        "value": -0.5
-      },
-      {
-        "code": 42,
-        "dataId": 1,
-        "value": 1
-      }
+      { "code": 21, "dataId": 2, "value": 0.25 },
+      { "code": 21, "dataId": 3, "value": 0.75 },
+      { "code": 21, "dataId": 6, "value": 0.25 },
+      { "code": 22, "dataId": 0, "value": -0.5 },
+      { "code": 42, "dataId": 1, "value": 1 }
     ],
     "iconIndex": 618,
     "maxTurns": 1,
-    "message1": "は敵に捕まってしまった！",
+    "message1": " was captured by the enemy!",
     "message2": "",
-    "message3": "は敵に捕まっている……",
-    "message4": "は敵の手から逃れた！",
+    "message3": " is being captured by the enemy...",
+    "message4": " escaped from the enemy's grasp!",
     "minTurns": 1,
     "motion": 0,
-    "name": "[主]人型拘束中",
+    "name": "[Master] Humanoid Restraint Active",
     "note": "<CS_Seal>\n<CS_SealSub>",
     "overlay": 0,
     "priority": 100,
@@ -2049,111 +1675,35 @@
     "autoRemovalTiming": 0,
     "chanceByDamage": 100,
     "traits": [
-      {
-        "code": 21,
-        "dataId": 2,
-        "value": 0.25
-      },
-      {
-        "code": 21,
-        "dataId": 3,
-        "value": 0.75
-      },
-      {
-        "code": 21,
-        "dataId": 6,
-        "value": 0.25
-      },
-      {
-        "code": 22,
-        "dataId": 0,
-        "value": -0.5
-      },
-      {
-        "code": 42,
-        "dataId": 2,
-        "value": 1
-      },
-      {
-        "code": 44,
-        "dataId": 57,
-        "value": 1
-      },
-      {
-        "code": 44,
-        "dataId": 58,
-        "value": 1
-      },
-      {
-        "code": 44,
-        "dataId": 60,
-        "value": 1
-      },
-      {
-        "code": 44,
-        "dataId": 61,
-        "value": 1
-      },
-      {
-        "code": 44,
-        "dataId": 62,
-        "value": 1
-      },
-      {
-        "code": 44,
-        "dataId": 63,
-        "value": 1
-      },
-      {
-        "code": 44,
-        "dataId": 64,
-        "value": 1
-      },
-      {
-        "code": 44,
-        "dataId": 66,
-        "value": 1
-      },
-      {
-        "code": 44,
-        "dataId": 67,
-        "value": 1
-      },
-      {
-        "code": 44,
-        "dataId": 68,
-        "value": 1
-      },
-      {
-        "code": 44,
-        "dataId": 69,
-        "value": 1
-      },
-      {
-        "code": 44,
-        "dataId": 70,
-        "value": 1
-      },
-      {
-        "code": 44,
-        "dataId": 72,
-        "value": 1
-      },
-      {
-        "code": 44,
-        "dataId": 73,
-        "value": 1
-      }
+      { "code": 21, "dataId": 2, "value": 0.25 },
+      { "code": 21, "dataId": 3, "value": 0.75 },
+      { "code": 21, "dataId": 6, "value": 0.25 },
+      { "code": 22, "dataId": 0, "value": -0.5 },
+      { "code": 42, "dataId": 2, "value": 1 },
+      { "code": 44, "dataId": 57, "value": 1 },
+      { "code": 44, "dataId": 58, "value": 1 },
+      { "code": 44, "dataId": 60, "value": 1 },
+      { "code": 44, "dataId": 61, "value": 1 },
+      { "code": 44, "dataId": 62, "value": 1 },
+      { "code": 44, "dataId": 63, "value": 1 },
+      { "code": 44, "dataId": 64, "value": 1 },
+      { "code": 44, "dataId": 66, "value": 1 },
+      { "code": 44, "dataId": 67, "value": 1 },
+      { "code": 44, "dataId": 68, "value": 1 },
+      { "code": 44, "dataId": 69, "value": 1 },
+      { "code": 44, "dataId": 70, "value": 1 },
+      { "code": 44, "dataId": 72, "value": 1 },
+      { "code": 44, "dataId": 73, "value": 1 }
     ],
     "iconIndex": 616,
     "maxTurns": 1,
-    "message1": "は敵に拘束されてしまった！",
+    "message1": " was restrained by the enemy!",
     "message2": "",
-    "message3": "は拘束されている……",
-    "message4": "は敵の拘束から逃れた！",
+    "message3": " is restrained...",
+    "message4": " escaped from the enemy's restraint!",
     "minTurns": 1,
     "motion": 0,
-    "name": "[リ]ジェル拘束中",
+    "name": "Liese's Gel Restraint",
     "note": "<CS_Seal>\n<CS_SealSub>",
     "overlay": 0,
     "priority": 100,
@@ -2169,111 +1719,35 @@
     "autoRemovalTiming": 0,
     "chanceByDamage": 100,
     "traits": [
-      {
-        "code": 21,
-        "dataId": 2,
-        "value": 0.25
-      },
-      {
-        "code": 21,
-        "dataId": 3,
-        "value": 0.75
-      },
-      {
-        "code": 21,
-        "dataId": 6,
-        "value": 0.25
-      },
-      {
-        "code": 22,
-        "dataId": 0,
-        "value": -0.5
-      },
-      {
-        "code": 42,
-        "dataId": 2,
-        "value": 1
-      },
-      {
-        "code": 44,
-        "dataId": 57,
-        "value": 1
-      },
-      {
-        "code": 44,
-        "dataId": 58,
-        "value": 1
-      },
-      {
-        "code": 44,
-        "dataId": 60,
-        "value": 1
-      },
-      {
-        "code": 44,
-        "dataId": 61,
-        "value": 1
-      },
-      {
-        "code": 44,
-        "dataId": 62,
-        "value": 1
-      },
-      {
-        "code": 44,
-        "dataId": 63,
-        "value": 1
-      },
-      {
-        "code": 44,
-        "dataId": 64,
-        "value": 1
-      },
-      {
-        "code": 44,
-        "dataId": 66,
-        "value": 1
-      },
-      {
-        "code": 44,
-        "dataId": 67,
-        "value": 1
-      },
-      {
-        "code": 44,
-        "dataId": 68,
-        "value": 1
-      },
-      {
-        "code": 44,
-        "dataId": 69,
-        "value": 1
-      },
-      {
-        "code": 44,
-        "dataId": 70,
-        "value": 1
-      },
-      {
-        "code": 44,
-        "dataId": 72,
-        "value": 1
-      },
-      {
-        "code": 44,
-        "dataId": 73,
-        "value": 1
-      }
+      { "code": 21, "dataId": 2, "value": 0.25 },
+      { "code": 21, "dataId": 3, "value": 0.75 },
+      { "code": 21, "dataId": 6, "value": 0.25 },
+      { "code": 22, "dataId": 0, "value": -0.5 },
+      { "code": 42, "dataId": 2, "value": 1 },
+      { "code": 44, "dataId": 57, "value": 1 },
+      { "code": 44, "dataId": 58, "value": 1 },
+      { "code": 44, "dataId": 60, "value": 1 },
+      { "code": 44, "dataId": 61, "value": 1 },
+      { "code": 44, "dataId": 62, "value": 1 },
+      { "code": 44, "dataId": 63, "value": 1 },
+      { "code": 44, "dataId": 64, "value": 1 },
+      { "code": 44, "dataId": 66, "value": 1 },
+      { "code": 44, "dataId": 67, "value": 1 },
+      { "code": 44, "dataId": 68, "value": 1 },
+      { "code": 44, "dataId": 69, "value": 1 },
+      { "code": 44, "dataId": 70, "value": 1 },
+      { "code": 44, "dataId": 72, "value": 1 },
+      { "code": 44, "dataId": 73, "value": 1 }
     ],
     "iconIndex": 617,
     "maxTurns": 1,
-    "message1": "は敵に拘束されてしまった！",
+    "message1": " was restrained by the enemy!",
     "message2": "",
-    "message3": "は拘束されている……",
-    "message4": "は敵の拘束から逃れた！",
+    "message3": " is restrained...",
+    "message4": " escaped from the enemy's restraint!",
     "minTurns": 1,
     "motion": 0,
-    "name": "[リ]触手拘束中",
+    "name": "[Liese] Tentacle Restraint Active",
     "note": "<CS_Seal>\n<CS_SealSub>",
     "overlay": 0,
     "priority": 100,
@@ -2289,111 +1763,35 @@
     "autoRemovalTiming": 0,
     "chanceByDamage": 100,
     "traits": [
-      {
-        "code": 21,
-        "dataId": 2,
-        "value": 0.25
-      },
-      {
-        "code": 21,
-        "dataId": 3,
-        "value": 0.75
-      },
-      {
-        "code": 21,
-        "dataId": 6,
-        "value": 0.25
-      },
-      {
-        "code": 22,
-        "dataId": 0,
-        "value": -0.5
-      },
-      {
-        "code": 42,
-        "dataId": 2,
-        "value": 1
-      },
-      {
-        "code": 44,
-        "dataId": 57,
-        "value": 1
-      },
-      {
-        "code": 44,
-        "dataId": 58,
-        "value": 1
-      },
-      {
-        "code": 44,
-        "dataId": 60,
-        "value": 1
-      },
-      {
-        "code": 44,
-        "dataId": 61,
-        "value": 1
-      },
-      {
-        "code": 44,
-        "dataId": 62,
-        "value": 1
-      },
-      {
-        "code": 44,
-        "dataId": 63,
-        "value": 1
-      },
-      {
-        "code": 44,
-        "dataId": 64,
-        "value": 1
-      },
-      {
-        "code": 44,
-        "dataId": 66,
-        "value": 1
-      },
-      {
-        "code": 44,
-        "dataId": 67,
-        "value": 1
-      },
-      {
-        "code": 44,
-        "dataId": 68,
-        "value": 1
-      },
-      {
-        "code": 44,
-        "dataId": 69,
-        "value": 1
-      },
-      {
-        "code": 44,
-        "dataId": 70,
-        "value": 1
-      },
-      {
-        "code": 44,
-        "dataId": 72,
-        "value": 1
-      },
-      {
-        "code": 44,
-        "dataId": 73,
-        "value": 1
-      }
+      { "code": 21, "dataId": 2, "value": 0.25 },
+      { "code": 21, "dataId": 3, "value": 0.75 },
+      { "code": 21, "dataId": 6, "value": 0.25 },
+      { "code": 22, "dataId": 0, "value": -0.5 },
+      { "code": 42, "dataId": 2, "value": 1 },
+      { "code": 44, "dataId": 57, "value": 1 },
+      { "code": 44, "dataId": 58, "value": 1 },
+      { "code": 44, "dataId": 60, "value": 1 },
+      { "code": 44, "dataId": 61, "value": 1 },
+      { "code": 44, "dataId": 62, "value": 1 },
+      { "code": 44, "dataId": 63, "value": 1 },
+      { "code": 44, "dataId": 64, "value": 1 },
+      { "code": 44, "dataId": 66, "value": 1 },
+      { "code": 44, "dataId": 67, "value": 1 },
+      { "code": 44, "dataId": 68, "value": 1 },
+      { "code": 44, "dataId": 69, "value": 1 },
+      { "code": 44, "dataId": 70, "value": 1 },
+      { "code": 44, "dataId": 72, "value": 1 },
+      { "code": 44, "dataId": 73, "value": 1 }
     ],
     "iconIndex": 618,
     "maxTurns": 1,
-    "message1": "は敵に捕まってしまった！",
+    "message1": " was captured by the enemy!",
     "message2": "",
-    "message3": "は敵に捕まっている……",
-    "message4": "は敵の手から逃れた！",
+    "message3": " is being captured by the enemy...",
+    "message4": " escaped from the enemy's grasp!",
     "minTurns": 1,
     "motion": 0,
-    "name": "[リ]人型拘束中",
+    "name": "[Liese] Humanoid Restraint Active",
     "note": "<CS_Seal>\n<CS_SealSub>",
     "overlay": 0,
     "priority": 100,
@@ -2456,13 +1854,7 @@
     "id": 71,
     "autoRemovalTiming": 0,
     "chanceByDamage": 100,
-    "traits": [
-      {
-        "code": 41,
-        "dataId": 4,
-        "value": 1
-      }
-    ],
+    "traits": [{ "code": 41, "dataId": 4, "value": 1 }],
     "iconIndex": 0,
     "maxTurns": 1,
     "message1": "",
@@ -2471,7 +1863,7 @@
     "message4": "",
     "minTurns": 1,
     "motion": 0,
-    "name": "スキル：振り解く追加",
+    "name": "Skill: Shake Off Addition",
     "note": "拘束中ステートに追加すると人型で乳揉み、\n膣舐め両方の時になぜか重複するため、\n振り解く単体でステートを作成。",
     "overlay": 0,
     "priority": 100,
@@ -2534,22 +1926,16 @@
     "id": 74,
     "autoRemovalTiming": 2,
     "chanceByDamage": 100,
-    "traits": [
-      {
-        "code": 21,
-        "dataId": 2,
-        "value": 0.75
-      }
-    ],
+    "traits": [{ "code": 21, "dataId": 2, "value": 0.75 }],
     "iconIndex": 50,
     "maxTurns": 5,
     "message1": "",
-    "message2": "の攻撃力が低下した！",
-    "message3": "の攻撃力は低下している。",
-    "message4": "の攻撃力が元に戻った！",
+    "message2": "'s attack power has decreased!",
+    "message3": "'s attack power has decreased.",
+    "message4": "'s attack power has returned to normal!",
     "minTurns": 3,
     "motion": 0,
-    "name": "パワーブレイク",
+    "name": "Power Break",
     "note": "フローラスキル用",
     "overlay": 0,
     "priority": 80,
@@ -2564,22 +1950,16 @@
     "id": 75,
     "autoRemovalTiming": 2,
     "chanceByDamage": 100,
-    "traits": [
-      {
-        "code": 21,
-        "dataId": 3,
-        "value": 0.75
-      }
-    ],
+    "traits": [{ "code": 21, "dataId": 3, "value": 0.75 }],
     "iconIndex": 51,
     "maxTurns": 5,
     "message1": "",
-    "message2": "の防御力が低下した！",
-    "message3": "の防御力は低下している。",
-    "message4": "の防御力が元に戻った！",
+    "message2": "'s defense power has decreased!",
+    "message3": "'s defense power has decreased.",
+    "message4": "'s defense power has returned to normal!",
     "minTurns": 3,
     "motion": 0,
-    "name": "ガードブレイク",
+    "name": "Guard Break",
     "note": "フローラスキル用",
     "overlay": 0,
     "priority": 80,
@@ -2594,22 +1974,16 @@
     "id": 76,
     "autoRemovalTiming": 2,
     "chanceByDamage": 100,
-    "traits": [
-      {
-        "code": 22,
-        "dataId": 6,
-        "value": 0.65
-      }
-    ],
+    "traits": [{ "code": 22, "dataId": 6, "value": 0.65 }],
     "iconIndex": 73,
     "maxTurns": 5,
     "message1": "",
     "message2": "",
     "message3": "",
-    "message4": "カウンターの効果がなくなった。",
+    "message4": "The effect of the counter has worn off.",
     "minTurns": 5,
     "motion": 0,
-    "name": "カウンター",
+    "name": "Counter",
     "note": "<CE_反撃スキルID:12>\n<CE_クロスカウンター>\n<CE_魔法反撃:65>\nフローラスキル用（説明文よりも若干高めに設定）",
     "overlay": 0,
     "priority": 80,
@@ -2624,22 +1998,16 @@
     "id": 77,
     "autoRemovalTiming": 2,
     "chanceByDamage": 100,
-    "traits": [
-      {
-        "code": 22,
-        "dataId": 2,
-        "value": 0.5
-      }
-    ],
+    "traits": [{ "code": 22, "dataId": 2, "value": 0.5 }],
     "iconIndex": 31,
     "maxTurns": 5,
-    "message1": "の会心率がＵＰした！",
+    "message1": "'s critical hit rate went UP!",
     "message2": "",
-    "message3": "の会心率が上がっている。",
-    "message4": "の会心率が元に戻った！",
+    "message3": "'s critical hit rate is increasing.",
+    "message4": "'s critical hit rate returned to normal!",
     "minTurns": 5,
     "motion": 0,
-    "name": "マインドエッジ",
+    "name": "Mind Edge",
     "note": "フローラスキル用",
     "overlay": 0,
     "priority": 80,
@@ -2654,22 +2022,16 @@
     "id": 78,
     "autoRemovalTiming": 2,
     "chanceByDamage": 100,
-    "traits": [
-      {
-        "code": 61,
-        "dataId": 0,
-        "value": 1
-      }
-    ],
+    "traits": [{ "code": 61, "dataId": 0, "value": 1 }],
     "iconIndex": 82,
     "maxTurns": 3,
-    "message1": "の行動回数が増えた！",
+    "message1": "'s number of actions has increased!",
     "message2": "",
-    "message3": "の行動回数が増えている。",
-    "message4": "の行動回数が元に戻った！",
+    "message3": "'s number of actions has increased.",
+    "message4": "'s number of actions has been restored!",
     "minTurns": 3,
     "motion": 0,
-    "name": "ブーストアップ",
+    "name": "Boost Up",
     "note": "フローラスキル用",
     "overlay": 0,
     "priority": 80,
@@ -2735,13 +2097,13 @@
     "iconIndex": 631,
     "maxTurns": 5,
     "message1": "",
-    "message2": "は凍てついた！",
-    "message3": "は凍えている……",
-    "message4": "は元に戻った！",
+    "message2": " was frozen solid!",
+    "message3": " is freezing...",
+    "message4": " returned to normal!",
     "minTurns": 5,
     "motion": 1,
     "overlay": 0,
-    "name": "プロテクション",
+    "name": "Protection",
     "note": "リーゼ魔法用",
     "priority": 60,
     "releaseByDamage": false,
@@ -2752,16 +2114,8 @@
     "restriction": 0,
     "stepsToRemove": 100,
     "traits": [
-      {
-        "code": 21,
-        "dataId": 3,
-        "value": 1.25
-      },
-      {
-        "code": 21,
-        "dataId": 5,
-        "value": 1.25
-      }
+      { "code": 21, "dataId": 3, "value": 1.25 },
+      { "code": 21, "dataId": 5, "value": 1.25 }
     ]
   },
   {
@@ -2771,13 +2125,13 @@
     "iconIndex": 630,
     "maxTurns": 4,
     "message1": "",
-    "message2": "は凍てついた！",
-    "message3": "は凍えている……",
-    "message4": "は元に戻った！",
+    "message2": " was frozen solid!",
+    "message3": " is freezing...",
+    "message4": " returned to normal!",
     "minTurns": 2,
     "motion": 1,
     "overlay": 0,
-    "name": "コキュートス",
+    "name": "Cocytus",
     "note": "リーゼ魔法用",
     "priority": 60,
     "releaseByDamage": false,
@@ -2788,41 +2142,13 @@
     "restriction": 4,
     "stepsToRemove": 100,
     "traits": [
-      {
-        "code": 22,
-        "dataId": 7,
-        "value": -0.05
-      },
-      {
-        "code": 21,
-        "dataId": 2,
-        "value": 0.8
-      },
-      {
-        "code": 21,
-        "dataId": 3,
-        "value": 0.8
-      },
-      {
-        "code": 21,
-        "dataId": 4,
-        "value": 0.8
-      },
-      {
-        "code": 21,
-        "dataId": 5,
-        "value": 0.8
-      },
-      {
-        "code": 21,
-        "dataId": 6,
-        "value": 0.8
-      },
-      {
-        "code": 21,
-        "dataId": 7,
-        "value": 0.8
-      }
+      { "code": 22, "dataId": 7, "value": -0.05 },
+      { "code": 21, "dataId": 2, "value": 0.8 },
+      { "code": 21, "dataId": 3, "value": 0.8 },
+      { "code": 21, "dataId": 4, "value": 0.8 },
+      { "code": 21, "dataId": 5, "value": 0.8 },
+      { "code": 21, "dataId": 6, "value": 0.8 },
+      { "code": 21, "dataId": 7, "value": 0.8 }
     ]
   },
   {
@@ -3030,7 +2356,7 @@
     "message4": "",
     "minTurns": 1,
     "motion": 0,
-    "name": "[主]衣服破損なし",
+    "name": "[Master] No Clothing Damage",
     "note": "未使用-----",
     "overlay": 0,
     "priority": 100,
@@ -3054,7 +2380,7 @@
     "message4": "",
     "minTurns": 1,
     "motion": 0,
-    "name": "[主]衣服破損１",
+    "name": "[Master]Clothing Damage 1",
     "note": "未使用-----",
     "overlay": 0,
     "priority": 100,
@@ -3078,7 +2404,7 @@
     "message4": "",
     "minTurns": 1,
     "motion": 0,
-    "name": "[主]衣服破損２(胸露出)",
+    "name": "[Master] Clothing Damage 2 (Breast Exposure)",
     "note": "未使用-----",
     "overlay": 0,
     "priority": 100,
@@ -3102,7 +2428,7 @@
     "message4": "",
     "minTurns": 1,
     "motion": 0,
-    "name": "[主]衣服破損３(下着)",
+    "name": "[Master] Clothing Damage 3 (Underwear)",
     "note": "未使用-----",
     "overlay": 0,
     "priority": 100,
@@ -3126,7 +2452,7 @@
     "message4": "",
     "minTurns": 1,
     "motion": 0,
-    "name": "[主]衣服全損(全裸)",
+    "name": "[Master] Total Clothing Damage (Nude)",
     "note": "未使用-----",
     "overlay": 0,
     "priority": 100,
@@ -3150,7 +2476,7 @@
     "message4": "",
     "minTurns": 1,
     "motion": 0,
-    "name": "[リ]衣服破損なし",
+    "name": "[Liese] No Clothing Damage",
     "note": "未使用-----",
     "overlay": 0,
     "priority": 100,
@@ -3174,7 +2500,7 @@
     "message4": "",
     "minTurns": 1,
     "motion": 0,
-    "name": "[リ]衣服破損１",
+    "name": "[Liese]Clothing Damage 1",
     "note": "未使用-----",
     "overlay": 0,
     "priority": 100,
@@ -3198,7 +2524,7 @@
     "message4": "",
     "minTurns": 1,
     "motion": 0,
-    "name": "[リ]衣服破損２(胸露出)",
+    "name": "[Liese] Clothing Damage 2 (Breast Exposure)",
     "note": "未使用-----",
     "overlay": 0,
     "priority": 100,
@@ -3222,7 +2548,7 @@
     "message4": "",
     "minTurns": 1,
     "motion": 0,
-    "name": "[リ]衣服破損３(下着)",
+    "name": "[Liese] Clothing Damage 3 (Underwear)",
     "note": "未使用-----",
     "overlay": 0,
     "priority": 100,
@@ -3246,7 +2572,7 @@
     "message4": "",
     "minTurns": 1,
     "motion": 0,
-    "name": "[リ]衣服全損(全裸)",
+    "name": "[Liese] Total Clothing Loss (Nude)",
     "note": "未使用-----",
     "overlay": 0,
     "priority": 100,
@@ -3294,7 +2620,7 @@
     "message4": "",
     "minTurns": 1,
     "motion": 0,
-    "name": "Ａブレイク耐性",
+    "name": "A Break Resistance",
     "note": "連続アーマーブレイクを防ぐ\nクロスリペア直後のアーマーブレイクを防ぐ",
     "overlay": 0,
     "priority": 100,
@@ -3310,36 +2636,12 @@
     "autoRemovalTiming": 0,
     "chanceByDamage": 100,
     "traits": [
-      {
-        "code": 44,
-        "dataId": 30,
-        "value": 1
-      },
-      {
-        "code": 44,
-        "dataId": 31,
-        "value": 1
-      },
-      {
-        "code": 44,
-        "dataId": 32,
-        "value": 1
-      },
-      {
-        "code": 44,
-        "dataId": 50,
-        "value": 1
-      },
-      {
-        "code": 44,
-        "dataId": 51,
-        "value": 1
-      },
-      {
-        "code": 44,
-        "dataId": 52,
-        "value": 1
-      }
+      { "code": 44, "dataId": 30, "value": 1 },
+      { "code": 44, "dataId": 31, "value": 1 },
+      { "code": 44, "dataId": 32, "value": 1 },
+      { "code": 44, "dataId": 50, "value": 1 },
+      { "code": 44, "dataId": 51, "value": 1 },
+      { "code": 44, "dataId": 52, "value": 1 }
     ],
     "iconIndex": 0,
     "maxTurns": 2,
@@ -3349,7 +2651,7 @@
     "message4": "",
     "minTurns": 2,
     "motion": 1,
-    "name": "連携技禁止[拘束時用]",
+    "name": "Combo Skill Prohibition [For Restraint]",
     "note": "拘束状態時はこちらを使用する\n拘束状態時はアイコンは表示しない\n各拘束のコモンイベント内に配置",
     "overlay": 0,
     "priority": 50,
@@ -3365,36 +2667,12 @@
     "autoRemovalTiming": 2,
     "chanceByDamage": 100,
     "traits": [
-      {
-        "code": 44,
-        "dataId": 30,
-        "value": 1
-      },
-      {
-        "code": 44,
-        "dataId": 31,
-        "value": 1
-      },
-      {
-        "code": 44,
-        "dataId": 32,
-        "value": 1
-      },
-      {
-        "code": 44,
-        "dataId": 50,
-        "value": 1
-      },
-      {
-        "code": 44,
-        "dataId": 51,
-        "value": 1
-      },
-      {
-        "code": 44,
-        "dataId": 52,
-        "value": 1
-      }
+      { "code": 44, "dataId": 30, "value": 1 },
+      { "code": 44, "dataId": 31, "value": 1 },
+      { "code": 44, "dataId": 32, "value": 1 },
+      { "code": 44, "dataId": 50, "value": 1 },
+      { "code": 44, "dataId": 51, "value": 1 },
+      { "code": 44, "dataId": 52, "value": 1 }
     ],
     "iconIndex": 351,
     "maxTurns": 3,
@@ -3404,7 +2682,7 @@
     "message4": "",
     "minTurns": 3,
     "motion": 1,
-    "name": "連携技禁止",
+    "name": "Combo Skill Prohibition",
     "note": "技使用後のステートはこちらを使用\nコモンイベント１０３番で使用\n注意：連携技で全滅させるとこのステートを含む\nコモンが戦闘後に実行されて残ってしまう。\n以下のコモンでステート解除している\n・メニュー開コモン\n・戦闘開始\n",
     "overlay": 0,
     "priority": 50,
@@ -3636,31 +2914,19 @@
     "autoRemovalTiming": 2,
     "chanceByDamage": 100,
     "traits": [
-      {
-        "code": 21,
-        "dataId": 6,
-        "value": 0.75
-      },
-      {
-        "code": 22,
-        "dataId": 2,
-        "value": -0.05
-      },
-      {
-        "code": 22,
-        "dataId": 1,
-        "value": -0.1
-      }
+      { "code": 21, "dataId": 6, "value": 0.75 },
+      { "code": 22, "dataId": 2, "value": -0.05 },
+      { "code": 22, "dataId": 1, "value": -0.1 }
     ],
     "iconIndex": 231,
     "maxTurns": 4,
-    "message1": "は少し息が上がっている。",
+    "message1": " is a bit out of breath.",
     "message2": "",
-    "message3": "は少し息が上がっている……",
+    "message3": " is a bit out of breath...",
     "message4": "",
     "minTurns": 3,
     "motion": 0,
-    "name": "フローラ絶頂後",
+    "name": "Flora's Climax Aftermath",
     "note": "マジカルキッス後",
     "overlay": 0,
     "priority": 50,
@@ -3676,31 +2942,19 @@
     "autoRemovalTiming": 2,
     "chanceByDamage": 100,
     "traits": [
-      {
-        "code": 21,
-        "dataId": 2,
-        "value": 1.5
-      },
-      {
-        "code": 22,
-        "dataId": 1,
-        "value": 0.05
-      },
-      {
-        "code": 22,
-        "dataId": 2,
-        "value": 0.05
-      }
+      { "code": 21, "dataId": 2, "value": 1.5 },
+      { "code": 22, "dataId": 1, "value": 0.05 },
+      { "code": 22, "dataId": 2, "value": 0.05 }
     ],
     "iconIndex": 34,
     "maxTurns": 4,
-    "message1": "の攻撃力があがった！",
+    "message1": "'s attack power has increased!",
     "message2": "",
     "message3": "",
     "message4": "",
     "minTurns": 3,
     "motion": 0,
-    "name": "特殊攻撃力ＵＰ",
+    "name": "Special Attack Power UP",
     "note": "クロスリペア後",
     "overlay": 0,
     "priority": 50,
@@ -3715,22 +2969,16 @@
     "id": 116,
     "autoRemovalTiming": 2,
     "chanceByDamage": 100,
-    "traits": [
-      {
-        "code": 21,
-        "dataId": 2,
-        "value": 1.25
-      }
-    ],
+    "traits": [{ "code": 21, "dataId": 2, "value": 1.25 }],
     "iconIndex": 34,
     "maxTurns": 5,
-    "message1": "の攻撃力があがった！",
+    "message1": "'s attack power has increased!",
     "message2": "",
     "message3": "",
     "message4": "",
     "minTurns": 4,
     "motion": 0,
-    "name": "百合スキル攻撃力ＵＰ",
+    "name": "Yuri Skill Attack Power UP",
     "note": "乳揉み後\n乳吸い後",
     "overlay": 0,
     "priority": 50,
@@ -3745,22 +2993,16 @@
     "id": 117,
     "autoRemovalTiming": 2,
     "chanceByDamage": 100,
-    "traits": [
-      {
-        "code": 22,
-        "dataId": 2,
-        "value": 0.3
-      }
-    ],
+    "traits": [{ "code": 22, "dataId": 2, "value": 0.3 }],
     "iconIndex": 31,
     "maxTurns": 5,
-    "message1": "の会心率がＵＰした！",
+    "message1": "'s critical hit rate went UP!",
     "message2": "",
-    "message3": "の会心率が上がっている。",
-    "message4": "の会心率が元に戻った！",
+    "message3": "'s critical hit rate is increasing.",
+    "message4": "'s critical hit rate returned to normal!",
     "minTurns": 4,
     "motion": 0,
-    "name": "百合スキル会心率ＵＰ",
+    "name": "Yuri Skill Critical Hit Rate UP",
     "note": "指マン後",
     "overlay": 0,
     "priority": 80,
@@ -3776,46 +3018,22 @@
     "autoRemovalTiming": 2,
     "chanceByDamage": 100,
     "traits": [
-      {
-        "code": 21,
-        "dataId": 2,
-        "value": 1.25
-      },
-      {
-        "code": 21,
-        "dataId": 3,
-        "value": 1.25
-      },
-      {
-        "code": 21,
-        "dataId": 4,
-        "value": 1.25
-      },
-      {
-        "code": 21,
-        "dataId": 5,
-        "value": 1.25
-      },
-      {
-        "code": 21,
-        "dataId": 6,
-        "value": 1.25
-      },
-      {
-        "code": 21,
-        "dataId": 7,
-        "value": 1.25
-      }
+      { "code": 21, "dataId": 2, "value": 1.25 },
+      { "code": 21, "dataId": 3, "value": 1.25 },
+      { "code": 21, "dataId": 4, "value": 1.25 },
+      { "code": 21, "dataId": 5, "value": 1.25 },
+      { "code": 21, "dataId": 6, "value": 1.25 },
+      { "code": 21, "dataId": 7, "value": 1.25 }
     ],
     "iconIndex": 84,
     "maxTurns": 5,
-    "message1": "の会心率がＵＰした！",
+    "message1": "'s critical hit rate went UP!",
     "message2": "",
-    "message3": "の会心率が上がっている。",
-    "message4": "の会心率が元に戻った！",
+    "message3": "'s critical hit rate is increasing.",
+    "message4": "'s critical hit rate returned to normal!",
     "minTurns": 4,
     "motion": 0,
-    "name": "百合スキル全ステＵＰ",
+    "name": "Yuri Skill All Stats UP",
     "note": "指マン後",
     "overlay": 0,
     "priority": 80,
@@ -3879,41 +3097,21 @@
     "autoRemovalTiming": 0,
     "chanceByDamage": 100,
     "traits": [
-      {
-        "code": 21,
-        "dataId": 3,
-        "value": 0.9
-      },
-      {
-        "code": 21,
-        "dataId": 5,
-        "value": 0.9
-      },
-      {
-        "code": 21,
-        "dataId": 6,
-        "value": 0.5
-      },
-      {
-        "code": 22,
-        "dataId": 0,
-        "value": -0.4
-      },
-      {
-        "code": 22,
-        "dataId": 1,
-        "value": -0.5
-      }
+      { "code": 21, "dataId": 3, "value": 0.9 },
+      { "code": 21, "dataId": 5, "value": 0.9 },
+      { "code": 21, "dataId": 6, "value": 0.5 },
+      { "code": 22, "dataId": 0, "value": -0.4 },
+      { "code": 22, "dataId": 1, "value": -0.5 }
     ],
     "iconIndex": 625,
     "maxTurns": 4,
-    "message1": "敏捷性と命中率が下がった！",
+    "message1": "Agility and accuracy have decreased!",
     "message2": "",
-    "message3": "敏捷性と命中率が低下している。",
+    "message3": "Agility and accuracy have decreased.",
     "message4": "",
     "minTurns": 4,
     "motion": 0,
-    "name": "ぶっかけ状態",
+    "name": "Bukkake State",
     "note": "",
     "overlay": 0,
     "priority": 50,
@@ -3929,36 +3127,20 @@
     "autoRemovalTiming": 0,
     "chanceByDamage": 100,
     "traits": [
-      {
-        "code": 21,
-        "dataId": 3,
-        "value": 0.9
-      },
-      {
-        "code": 21,
-        "dataId": 6,
-        "value": 0.5
-      },
-      {
-        "code": 22,
-        "dataId": 0,
-        "value": -0.5
-      },
-      {
-        "code": 22,
-        "dataId": 1,
-        "value": -0.5
-      }
+      { "code": 21, "dataId": 3, "value": 0.9 },
+      { "code": 21, "dataId": 6, "value": 0.5 },
+      { "code": 22, "dataId": 0, "value": -0.5 },
+      { "code": 22, "dataId": 1, "value": -0.5 }
     ],
     "iconIndex": 613,
     "maxTurns": 4,
-    "message1": "敏捷性と命中率が下がった！",
+    "message1": "Agility and accuracy have decreased!",
     "message2": "",
-    "message3": "敏捷性と命中率が低下している。",
+    "message3": "Agility and accuracy have decreased.",
     "message4": "",
     "minTurns": 4,
     "motion": 0,
-    "name": "墨ぶっかけ状態",
+    "name": "Ink Splatter Status",
     "note": "",
     "overlay": 0,
     "priority": 50,
@@ -3973,22 +3155,16 @@
     "id": 123,
     "autoRemovalTiming": 2,
     "chanceByDamage": 100,
-    "traits": [
-      {
-        "code": 21,
-        "dataId": 2,
-        "value": 1.25
-      }
-    ],
+    "traits": [{ "code": 21, "dataId": 2, "value": 1.25 }],
     "iconIndex": 34,
     "maxTurns": 5,
-    "message1": "の攻撃力があがった！",
+    "message1": "'s attack power has increased!",
     "message2": "",
     "message3": "",
     "message4": "",
     "minTurns": 3,
     "motion": 0,
-    "name": "フローラ怒り",
+    "name": "Flora's Wrath",
     "note": "バトルカットイン後",
     "overlay": 0,
     "priority": 50,
@@ -4003,22 +3179,16 @@
     "id": 124,
     "autoRemovalTiming": 2,
     "chanceByDamage": 100,
-    "traits": [
-      {
-        "code": 21,
-        "dataId": 2,
-        "value": 1.25
-      }
-    ],
+    "traits": [{ "code": 21, "dataId": 2, "value": 1.25 }],
     "iconIndex": 34,
     "maxTurns": 5,
-    "message1": "の攻撃力があがった！",
+    "message1": "'s attack power has increased!",
     "message2": "",
     "message3": "",
     "message4": "",
     "minTurns": 3,
     "motion": 0,
-    "name": "リーゼ怒り",
+    "name": "Liese's Wrath",
     "note": "バトルカットイン後",
     "overlay": 0,
     "priority": 50,
@@ -4081,22 +3251,16 @@
     "id": 127,
     "autoRemovalTiming": 2,
     "chanceByDamage": 100,
-    "traits": [
-      {
-        "code": 21,
-        "dataId": 2,
-        "value": 1.5
-      }
-    ],
+    "traits": [{ "code": 21, "dataId": 2, "value": 1.5 }],
     "iconIndex": 636,
     "maxTurns": 5,
-    "message1": "の攻撃力があがった！",
-    "message2": "の攻撃力があがった！",
-    "message3": "のお尻にショーツが喰いこんでいる。",
-    "message4": "の攻撃力が元に戻った！",
+    "message1": "'s attack power has increased!",
+    "message2": "'s attack power has increased!",
+    "message3": "'s shorts are wedged into their butt.",
+    "message4": "'s attack power has returned to normal!",
     "minTurns": 3,
     "motion": 0,
-    "name": "尻キュン(攻＋)",
+    "name": "Butt Squeeze (Attack +)",
     "note": "",
     "overlay": 0,
     "priority": 80,
@@ -4111,22 +3275,16 @@
     "id": 128,
     "autoRemovalTiming": 2,
     "chanceByDamage": 100,
-    "traits": [
-      {
-        "code": 21,
-        "dataId": 3,
-        "value": 0.75
-      }
-    ],
+    "traits": [{ "code": 21, "dataId": 3, "value": 0.75 }],
     "iconIndex": 637,
     "maxTurns": 5,
-    "message1": "の防御力が低下した！",
-    "message2": "の防御力が低下した！",
-    "message3": "のお尻にショーツが喰いこんでいる。",
-    "message4": "の防御力が元に戻った！",
+    "message1": "'s defense power has decreased!",
+    "message2": "'s defense power has decreased!",
+    "message3": "'s shorts are wedged into their butt.",
+    "message4": "'s defense power has returned to normal!",
     "minTurns": 3,
     "motion": 0,
-    "name": "尻キュン(防－)",
+    "name": "Butt Squeeze (Defense-)",
     "note": "",
     "overlay": 0,
     "priority": 80,
@@ -4141,22 +3299,16 @@
     "id": 129,
     "autoRemovalTiming": 2,
     "chanceByDamage": 100,
-    "traits": [
-      {
-        "code": 21,
-        "dataId": 6,
-        "value": 0.75
-      }
-    ],
+    "traits": [{ "code": 21, "dataId": 6, "value": 0.75 }],
     "iconIndex": 638,
     "maxTurns": 5,
-    "message1": "の敏捷性が低下した！",
-    "message2": "の敏捷性が低下した！",
-    "message3": "のお尻にショーツが喰いこんでいる。",
-    "message4": "の敏捷性が元に戻った！",
+    "message1": "'s agility decreased!",
+    "message2": "'s agility decreased!",
+    "message3": "'s shorts are wedged into their butt.",
+    "message4": "'s agility has returned to normal!",
     "minTurns": 3,
     "motion": 0,
-    "name": "尻キュン(敏捷－)",
+    "name": "Butt Squeeze (Agility Down)",
     "note": "",
     "overlay": 0,
     "priority": 80,
@@ -4220,36 +3372,12 @@
     "autoRemovalTiming": 0,
     "chanceByDamage": 100,
     "traits": [
-      {
-        "code": 44,
-        "dataId": 42,
-        "value": 1
-      },
-      {
-        "code": 44,
-        "dataId": 43,
-        "value": 1
-      },
-      {
-        "code": 44,
-        "dataId": 45,
-        "value": 1
-      },
-      {
-        "code": 44,
-        "dataId": 46,
-        "value": 1
-      },
-      {
-        "code": 44,
-        "dataId": 47,
-        "value": 1
-      },
-      {
-        "code": 44,
-        "dataId": 48,
-        "value": 1
-      }
+      { "code": 44, "dataId": 42, "value": 1 },
+      { "code": 44, "dataId": 43, "value": 1 },
+      { "code": 44, "dataId": 45, "value": 1 },
+      { "code": 44, "dataId": 46, "value": 1 },
+      { "code": 44, "dataId": 47, "value": 1 },
+      { "code": 44, "dataId": 48, "value": 1 }
     ],
     "iconIndex": 0,
     "maxTurns": 1,
@@ -4259,7 +3387,7 @@
     "message4": "",
     "minTurns": 1,
     "motion": 0,
-    "name": "周回時スキル禁止",
+    "name": "No Skills on Repeat Turns",
     "note": "ザコシーフとの戦いでリーゼの百合スキルを\n使用不可にする。",
     "overlay": 0,
     "priority": 50,
@@ -7107,26 +6235,18 @@
     "autoRemovalTiming": 0,
     "chanceByDamage": 100,
     "traits": [
-      {
-        "code": 31,
-        "dataId": 2,
-        "value": 1
-      },
-      {
-        "code": 11,
-        "dataId": 2,
-        "value": 0.9
-      }
+      { "code": 31, "dataId": 2, "value": 1 },
+      { "code": 11, "dataId": 2, "value": 0.9 }
     ],
     "iconIndex": 64,
     "maxTurns": 2,
-    "message1": "の攻撃時属性が火属性になった！",
+    "message1": "'s attack attribute changed to fire!",
     "message2": "",
-    "message3": "の攻撃時属性が火属性になっている。",
+    "message3": "'s attack attribute has become fire attribute.",
     "message4": "",
     "minTurns": 1,
     "motion": 0,
-    "name": "精霊のメダル(火)",
+    "name": "Spirit Medal (Fire)",
     "note": "",
     "overlay": 0,
     "priority": 75,
@@ -7142,26 +6262,18 @@
     "autoRemovalTiming": 0,
     "chanceByDamage": 100,
     "traits": [
-      {
-        "code": 31,
-        "dataId": 3,
-        "value": 1
-      },
-      {
-        "code": 11,
-        "dataId": 3,
-        "value": 0.9
-      }
+      { "code": 31, "dataId": 3, "value": 1 },
+      { "code": 11, "dataId": 3, "value": 0.9 }
     ],
     "iconIndex": 69,
     "maxTurns": 5,
-    "message1": "の攻撃時属性が風属性になった！",
+    "message1": "'s attack attribute changed to wind!",
     "message2": "",
-    "message3": "の攻撃時属性が風属性になっている。",
+    "message3": "'s attack attribute has become wind attribute.",
     "message4": "",
     "minTurns": 5,
     "motion": 0,
-    "name": "精霊のメダル(風)",
+    "name": "Spirit Medal (Wind)",
     "note": "",
     "overlay": 0,
     "priority": 75,
@@ -7177,26 +6289,18 @@
     "autoRemovalTiming": 0,
     "chanceByDamage": 100,
     "traits": [
-      {
-        "code": 31,
-        "dataId": 4,
-        "value": 1
-      },
-      {
-        "code": 11,
-        "dataId": 4,
-        "value": 0.9
-      }
+      { "code": 31, "dataId": 4, "value": 1 },
+      { "code": 11, "dataId": 4, "value": 0.9 }
     ],
     "iconIndex": 68,
     "maxTurns": 5,
-    "message1": "の攻撃時属性が土属性になった！",
+    "message1": "'s attack attribute changed to Earth!",
     "message2": "",
-    "message3": "の攻撃時属性が土属性になっている。",
+    "message3": "'s attack attribute has become Earth element.",
     "message4": "",
     "minTurns": 5,
     "motion": 0,
-    "name": "精霊のメダル(土)",
+    "name": "Spirit Medal (Earth)",
     "note": "",
     "overlay": 0,
     "priority": 75,
@@ -7212,26 +6316,18 @@
     "autoRemovalTiming": 0,
     "chanceByDamage": 100,
     "traits": [
-      {
-        "code": 31,
-        "dataId": 5,
-        "value": 1
-      },
-      {
-        "code": 11,
-        "dataId": 5,
-        "value": 0.9
-      }
+      { "code": 31, "dataId": 5, "value": 1 },
+      { "code": 11, "dataId": 5, "value": 0.9 }
     ],
     "iconIndex": 67,
     "maxTurns": 5,
-    "message1": "の攻撃時属性が水属性になった！",
+    "message1": "'s attack attribute changed to water!",
     "message2": "",
-    "message3": "の攻撃時属性が水属性になっている。",
+    "message3": "'s attack attribute has become water-based.",
     "message4": "",
     "minTurns": 5,
     "motion": 0,
-    "name": "精霊のメダル(水)",
+    "name": "Spirit Medal (Water)",
     "note": "",
     "overlay": 0,
     "priority": 75,
@@ -7247,31 +6343,19 @@
     "autoRemovalTiming": 0,
     "chanceByDamage": 100,
     "traits": [
-      {
-        "code": 31,
-        "dataId": 6,
-        "value": 1
-      },
-      {
-        "code": 11,
-        "dataId": 6,
-        "value": 0.9
-      },
-      {
-        "code": 21,
-        "dataId": 2,
-        "value": 1.5
-      }
+      { "code": 31, "dataId": 6, "value": 1 },
+      { "code": 11, "dataId": 6, "value": 0.9 },
+      { "code": 21, "dataId": 2, "value": 1.5 }
     ],
     "iconIndex": 70,
     "maxTurns": 5,
-    "message1": "の光属性にブーストが掛かった！",
+    "message1": " received a boost to their light attribute!",
     "message2": "",
-    "message3": "の光属性にブーストが掛かっている。",
+    "message3": " has a boost on their light attribute.",
     "message4": "",
     "minTurns": 5,
     "motion": 0,
-    "name": "精霊のメダル(光)",
+    "name": "Spirit Medal (Light)",
     "note": "",
     "overlay": 0,
     "priority": 75,
@@ -7289,13 +6373,13 @@
     "traits": [],
     "iconIndex": 71,
     "maxTurns": 5,
-    "message1": "属性付加状態をリセットした！",
+    "message1": "Reset the attribute enhancement status!",
     "message2": "",
     "message3": "",
     "message4": "",
     "minTurns": 5,
     "motion": 0,
-    "name": "精霊のメダル(闇)",
+    "name": "Spirit Medal (Darkness)",
     "note": "",
     "overlay": 0,
     "priority": 75,
@@ -8222,22 +7306,16 @@
     "id": 295,
     "autoRemovalTiming": 2,
     "chanceByDamage": 100,
-    "traits": [
-      {
-        "code": 21,
-        "dataId": 2,
-        "value": 1.3
-      }
-    ],
+    "traits": [{ "code": 21, "dataId": 2, "value": 1.3 }],
     "iconIndex": 34,
     "maxTurns": 5,
-    "message1": "の攻撃力が上がった！",
-    "message2": "の攻撃力が上がった！",
-    "message3": "の攻撃力がＵＰしている……",
-    "message4": "の攻撃力が元に戻った。",
+    "message1": "'s attack power has increased!",
+    "message2": "'s attack power has increased!",
+    "message3": "'s attack power is increasing...",
+    "message4": "'s attack power has returned to normal.",
     "minTurns": 5,
     "motion": 0,
-    "name": "ウェポンブレス",
+    "name": "Weapon Breath",
     "note": "",
     "overlay": 0,
     "priority": 50,
@@ -8252,22 +7330,16 @@
     "id": 296,
     "autoRemovalTiming": 2,
     "chanceByDamage": 100,
-    "traits": [
-      {
-        "code": 21,
-        "dataId": 3,
-        "value": 1.3
-      }
-    ],
+    "traits": [{ "code": 21, "dataId": 3, "value": 1.3 }],
     "iconIndex": 35,
     "maxTurns": 5,
-    "message1": "の防御力が上がった！",
-    "message2": "の防御力が上がった！",
-    "message3": "の防御力がＵＰしている……",
-    "message4": "の防御力が元に戻った。",
+    "message1": "'s defense power has increased!",
+    "message2": "'s defense power increased!",
+    "message3": "'s defense power has increased...",
+    "message4": "'s defense power has returned to normal.",
     "minTurns": 5,
     "motion": 0,
-    "name": "アーマーブレス",
+    "name": "Armor Bless",
     "note": "",
     "overlay": 0,
     "priority": 50,
@@ -8283,26 +7355,18 @@
     "autoRemovalTiming": 2,
     "chanceByDamage": 100,
     "traits": [
-      {
-        "code": 21,
-        "dataId": 4,
-        "value": 1.3
-      },
-      {
-        "code": 21,
-        "dataId": 5,
-        "value": 1.3
-      }
+      { "code": 21, "dataId": 4, "value": 1.3 },
+      { "code": 21, "dataId": 5, "value": 1.3 }
     ],
     "iconIndex": 36,
     "maxTurns": 5,
-    "message1": "の魔法力、魔法防御力が上がった！",
-    "message2": "の魔法力、魔法防御力が上がった！",
-    "message3": "の魔法力、魔法防御力がＵＰしている……",
-    "message4": "の魔法力、魔法防御力が元に戻った。",
+    "message1": "'s magical power and magical defense have increased!",
+    "message2": "'s magical power and magical defense have increased!",
+    "message3": "'s magical power and magical defense are increasing...",
+    "message4": "'s magical power and magical defense have returned to normal.",
     "minTurns": 5,
     "motion": 0,
-    "name": "マジックブレス",
+    "name": "Magic Breath",
     "note": "",
     "overlay": 0,
     "priority": 50,
@@ -8317,22 +7381,16 @@
     "id": 298,
     "autoRemovalTiming": 2,
     "chanceByDamage": 100,
-    "traits": [
-      {
-        "code": 21,
-        "dataId": 6,
-        "value": 1.3
-      }
-    ],
+    "traits": [{ "code": 21, "dataId": 6, "value": 1.3 }],
     "iconIndex": 38,
     "maxTurns": 5,
-    "message1": "の敏捷性が上がった！",
-    "message2": "の敏捷性が上がった！",
-    "message3": "の敏捷性がＵＰしている……",
-    "message4": "の敏捷性が元に戻った。",
+    "message1": "'s agility increased!",
+    "message2": "'s agility increased!",
+    "message3": "'s agility has increased...",
+    "message4": "'s agility has returned to normal.",
     "minTurns": 5,
     "motion": 0,
-    "name": "クイックムーヴ",
+    "name": "Quick Move",
     "note": "",
     "overlay": 0,
     "priority": 50,
@@ -8380,7 +7438,7 @@
     "message4": "",
     "minTurns": 1,
     "motion": 0,
-    "name": "↓↓↓↓↓エネミー専用",
+    "name": "Enemy Exclusive",
     "note": "",
     "overlay": 0,
     "priority": 50,
@@ -8395,22 +7453,16 @@
     "id": 301,
     "autoRemovalTiming": 2,
     "chanceByDamage": 100,
-    "traits": [
-      {
-        "code": 21,
-        "dataId": 2,
-        "value": 0.75
-      }
-    ],
+    "traits": [{ "code": 21, "dataId": 2, "value": 0.75 }],
     "iconIndex": 50,
     "maxTurns": 5,
-    "message1": "の攻撃力が下がった！",
-    "message2": "の攻撃力が下がった！",
-    "message3": "の攻撃力は低下している……",
+    "message1": "'s attack power has decreased!",
+    "message2": "'s attack power has decreased!",
+    "message3": "'s attack power is decreasing...",
     "message4": "",
     "minTurns": 4,
     "motion": 0,
-    "name": "ウェポンカース",
+    "name": "Weapon Curse",
     "note": "",
     "overlay": 0,
     "priority": 70,
@@ -8425,22 +7477,16 @@
     "id": 302,
     "autoRemovalTiming": 2,
     "chanceByDamage": 100,
-    "traits": [
-      {
-        "code": 21,
-        "dataId": 3,
-        "value": 0.75
-      }
-    ],
+    "traits": [{ "code": 21, "dataId": 3, "value": 0.75 }],
     "iconIndex": 51,
     "maxTurns": 5,
-    "message1": "の防御力が下がった！",
-    "message2": "の防御力が下がった！",
-    "message3": "の防御力は低下している……",
+    "message1": "'s defense power has decreased!",
+    "message2": "'s defense power has decreased!",
+    "message3": "'s defense is decreasing...",
     "message4": "",
     "minTurns": 4,
     "motion": 0,
-    "name": "アーマーカース",
+    "name": "Armor Curse",
     "note": "",
     "overlay": 0,
     "priority": 70,
@@ -8456,26 +7502,18 @@
     "autoRemovalTiming": 2,
     "chanceByDamage": 100,
     "traits": [
-      {
-        "code": 21,
-        "dataId": 4,
-        "value": 0.75
-      },
-      {
-        "code": 21,
-        "dataId": 5,
-        "value": 0.75
-      }
+      { "code": 21, "dataId": 4, "value": 0.75 },
+      { "code": 21, "dataId": 5, "value": 0.75 }
     ],
     "iconIndex": 52,
     "maxTurns": 5,
-    "message1": "の魔法力、魔法防御が下がった！",
-    "message2": "の魔法力、魔法防御が下がった！",
-    "message3": "の魔法力、魔法防御は低下している……",
+    "message1": "'s magical power, magical defense has decreased!",
+    "message2": "'s magical power, magical defense has decreased!",
+    "message3": "'s magical power and magical defense are decreasing...",
     "message4": "",
     "minTurns": 4,
     "motion": 0,
-    "name": "マジックカース",
+    "name": "Magic Curse",
     "note": "",
     "overlay": 0,
     "priority": 70,
@@ -8490,22 +7528,16 @@
     "id": 304,
     "autoRemovalTiming": 2,
     "chanceByDamage": 100,
-    "traits": [
-      {
-        "code": 21,
-        "dataId": 6,
-        "value": 0.75
-      }
-    ],
+    "traits": [{ "code": 21, "dataId": 6, "value": 0.75 }],
     "iconIndex": 54,
     "maxTurns": 5,
-    "message1": "の敏捷性が下がった！",
-    "message2": "の敏捷性が下がった！",
-    "message3": "の敏捷性は低下している……",
+    "message1": "'s agility decreased!",
+    "message2": "'s agility decreased!",
+    "message3": "'s agility is decreasing...",
     "message4": "",
     "minTurns": 4,
     "motion": 0,
-    "name": "スロウムーヴ",
+    "name": "Slow Move",
     "note": "",
     "overlay": 0,
     "priority": 70,
@@ -8524,12 +7556,12 @@
     "iconIndex": 87,
     "maxTurns": 1,
     "message1": "",
-    "message2": "は力を溜めている！",
+    "message2": " is charging power!",
     "message3": "",
     "message4": "",
     "minTurns": 1,
     "motion": 0,
-    "name": "痛恨の一撃準備",
+    "name": "Critical Hit Preparation",
     "note": "",
     "overlay": 0,
     "priority": 50,
@@ -8548,12 +7580,12 @@
     "iconIndex": 87,
     "maxTurns": 1,
     "message1": "",
-    "message2": "は力を溜めている！",
+    "message2": " is charging up power!",
     "message3": "",
     "message4": "",
     "minTurns": 1,
     "motion": 0,
-    "name": "多段攻撃準備",
+    "name": "Multi-Stage Attack Preparation",
     "note": "",
     "overlay": 0,
     "priority": 50,
@@ -8572,12 +7604,12 @@
     "iconIndex": 87,
     "maxTurns": 1,
     "message1": "",
-    "message2": "はペニスを擦りはじめた。",
-    "message3": "はペニスを擦っている。",
+    "message2": " began rubbing their penis.",
+    "message3": " is rubbing their penis.",
     "message4": "",
     "minTurns": 1,
     "motion": 0,
-    "name": "[主]ぶっかけ準備",
+    "name": "[Master] Bukkake Ready",
     "note": "下半身アーマーブレイク時、ぶっかけ準備で\n行動中のエネミーに付加する。\nダメージで解除を入れてもぶっかけされてしまう。\n（ターンの最初に行動が決定されるため）",
     "overlay": 0,
     "priority": 50,
@@ -8596,12 +7628,12 @@
     "iconIndex": 87,
     "maxTurns": 1,
     "message1": "",
-    "message2": "はペニスを擦りはじめた。",
-    "message3": "はペニスを擦っている。",
+    "message2": " began rubbing their penis.",
+    "message3": " is rubbing their penis.",
     "message4": "",
     "minTurns": 1,
     "motion": 0,
-    "name": "[リ]ぶっかけ準備",
+    "name": "[Liese] Bukkake Preparation",
     "note": "下半身アーマーブレイク時、ぶっかけ準備で\n行動中のエネミーに付加する。\nダメージで解除を入れてもぶっかけされてしまう。\n（ターンの最初に行動が決定されるため）",
     "overlay": 0,
     "priority": 50,
@@ -8913,7 +7945,7 @@
     "message4": "",
     "minTurns": 1,
     "motion": 0,
-    "name": "[拘束中]フローラ",
+    "name": "[Bound] Flora",
     "note": "組み付いた際にステートを付加する。\nエネミー用",
     "overlay": 0,
     "priority": 50,
@@ -8937,7 +7969,7 @@
     "message4": "",
     "minTurns": 1,
     "motion": 0,
-    "name": "[拘束中]リーゼ",
+    "name": "[Bound] Liese",
     "note": "組み付いた際にステートを付加する。\nエネミー用",
     "overlay": 0,
     "priority": 50,
@@ -8961,7 +7993,7 @@
     "message4": "",
     "minTurns": 1,
     "motion": 0,
-    "name": "[拘束中:胸]フローラ",
+    "name": "[Bound: Chest] Flora",
     "note": "組み付いた際にステートを付加する。\nエネミー用",
     "overlay": 0,
     "priority": 50,
@@ -8985,7 +8017,7 @@
     "message4": "",
     "minTurns": 1,
     "motion": 0,
-    "name": "[拘束中:胸]リーゼ",
+    "name": "[Bound:Breasts] Liese",
     "note": "組み付いた際にステートを付加する。\nエネミー用",
     "overlay": 0,
     "priority": 50,
