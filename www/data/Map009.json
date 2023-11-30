@@ -3,20 +3,10 @@
   "autoplayBgs": true,
   "battleback1Name": "",
   "battleback2Name": "",
-  "bgm": {
-    "name": "OGG_Bridge01",
-    "pan": 0,
-    "pitch": 100,
-    "volume": 90
-  },
-  "bgs": {
-    "name": "",
-    "pan": 0,
-    "pitch": 100,
-    "volume": 90
-  },
+  "bgm": { "name": "OGG_Bridge01", "pan": 0, "pitch": 100, "volume": 90 },
+  "bgs": { "name": "", "pan": 0, "pitch": 100, "volume": 90 },
   "disableDashing": false,
-  "displayName": "サウスカフェ",
+  "displayName": "South Cafe",
   "encounterList": [],
   "encounterStep": 30,
   "height": 18,
@@ -220,20 +210,11 @@
               "indent": 0,
               "parameters": ["<animeLight:TM_Yellow01 192 0 -20 6>"]
             },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -279,21 +260,10 @@
             "pattern": 1,
             "characterIndex": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -340,25 +310,12 @@
             "tileId": 0
           },
           "list": [
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [16]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 117, "indent": 0, "parameters": [16] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -396,25 +353,12 @@
             "tileId": 0
           },
           "list": [
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [12]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 117, "indent": 0, "parameters": [12] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -461,25 +405,12 @@
             "tileId": 0
           },
           "list": [
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [22]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 117, "indent": 0, "parameters": [22] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -526,139 +457,47 @@
             "characterIndex": 0
           },
           "list": [
-            {
-              "code": 111,
-              "indent": 0,
-              "parameters": [2, "A", 0]
-            },
-            {
-              "code": 213,
-              "indent": 1,
-              "parameters": [0, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["店主の\\N[44]"]
-            },
+            { "code": 111, "indent": 0, "parameters": [2, "A", 0] },
+            { "code": 213, "indent": 1, "parameters": [0, 3, false] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": [
-                "「いらっしゃい。うちのおすすめはサーモンを使ったサウスパスタだよ。」"
+                "Shopkeeper's \\N[44] \"Welcome. Our recommendation is the salmon South\nPasta.\""
               ]
             },
-            {
-              "code": 123,
-              "indent": 1,
-              "parameters": ["A", 1]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 213,
-              "indent": 1,
-              "parameters": [0, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["店主の\\N[44]"]
-            },
+            { "code": 123, "indent": 1, "parameters": ["A", 1] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 411, "indent": 0, "parameters": [] },
+            { "code": 213, "indent": 1, "parameters": [0, 3, false] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": [
-                "「サウスカフェへようこそ。川を眺めながらランチなんてどうだい……？」"
+                "Shopkeeper's \\N[44] \"Welcome to South Cafe. How about lunch while\nenjoying the view of the river...?\""
               ]
             },
-            {
-              "code": 123,
-              "indent": 1,
-              "parameters": ["A", 0]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 302,
-              "indent": 0,
-              "parameters": [0, 54, 0, 0, false]
-            },
-            {
-              "code": 605,
-              "indent": 0,
-              "parameters": [0, 60, 0, 0]
-            },
-            {
-              "code": 605,
-              "indent": 0,
-              "parameters": [0, 56, 0, 0]
-            },
-            {
-              "code": 605,
-              "indent": 0,
-              "parameters": [0, 61, 0, 0]
-            },
-            {
-              "code": 605,
-              "indent": 0,
-              "parameters": [0, 62, 0, 0]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 123, "indent": 1, "parameters": ["A", 0] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 412, "indent": 0, "parameters": [] },
+            { "code": 302, "indent": 0, "parameters": [0, 54, 0, 0, false] },
+            { "code": 605, "indent": 0, "parameters": [0, 60, 0, 0] },
+            { "code": 605, "indent": 0, "parameters": [0, 56, 0, 0] },
+            { "code": 605, "indent": 0, "parameters": [0, 61, 0, 0] },
+            { "code": 605, "indent": 0, "parameters": [0, 62, 0, 0] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
-              "parameters": ["店主の\\N[44]"]
+              "parameters": ["Shopkeeper's \\N[44] \"Thank you very much.\""]
             },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["「ありがとうございました。」"]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -705,63 +544,28 @@
             "characterIndex": 5
           },
           "list": [
-            {
-              "code": 111,
-              "indent": 0,
-              "parameters": [2, "A", 0]
-            },
-            {
-              "code": 213,
-              "indent": 1,
-              "parameters": [0, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["カフェの男性客"]
-            },
+            { "code": 111, "indent": 0, "parameters": [2, "A", 0] },
+            { "code": 213, "indent": 1, "parameters": [0, 3, false] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": [
-                "「フライにはやっぱり、タルタルだよな…… もぐもぐ。」"
+                "Male Customer at the Cafe: \"Tartar sauce really is the best with fried\nfish... *munch munch*.\""
               ]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
-              "parameters": ["男性客は美味しそうにランチを食べている。"]
+              "parameters": [
+                "The male customer is eating his lunch with relish."
+              ]
             },
-            {
-              "code": 123,
-              "indent": 1,
-              "parameters": ["A", 1]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 213,
-              "indent": 1,
-              "parameters": [0, 3, false]
-            },
+            { "code": 123, "indent": 1, "parameters": ["A", 1] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 411, "indent": 0, "parameters": [] },
+            { "code": 213, "indent": 1, "parameters": [0, 3, false] },
             {
               "code": 205,
               "indent": 1,
@@ -769,17 +573,9 @@
                 0,
                 {
                   "list": [
-                    {
-                      "code": 36,
-                      "indent": null
-                    },
-                    {
-                      "code": 25,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
+                    { "code": 36, "indent": null },
+                    { "code": 25, "indent": null },
+                    { "code": 0 }
                   ],
                   "repeat": false,
                   "skippable": true,
@@ -790,44 +586,20 @@
             {
               "code": 505,
               "indent": 1,
-              "parameters": [
-                {
-                  "code": 36,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 36, "indent": null }]
             },
             {
               "code": 505,
               "indent": 1,
-              "parameters": [
-                {
-                  "code": 25,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 25, "indent": null }]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["カフェの男性客"]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": [
-                "「今日の日替わりは川魚のフライなんだ。衣がサクサクでタルタルソースと一緒に"
+                "Male Customer at the Cafe: \"Today's special is river fish fry. It's\ndelicious with its crispy batter, especially when eaten with tartar\nsauce.\""
               ]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["食べると美味いんだ。」"]
             },
             {
               "code": 205,
@@ -836,17 +608,9 @@
                 0,
                 {
                   "list": [
-                    {
-                      "code": 19,
-                      "indent": null
-                    },
-                    {
-                      "code": 35,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
+                    { "code": 19, "indent": null },
+                    { "code": 35, "indent": null },
+                    { "code": 0 }
                   ],
                   "repeat": false,
                   "skippable": true,
@@ -857,52 +621,21 @@
             {
               "code": 505,
               "indent": 1,
-              "parameters": [
-                {
-                  "code": 19,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 19, "indent": null }]
             },
             {
               "code": 505,
               "indent": 1,
-              "parameters": [
-                {
-                  "code": 35,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 35, "indent": null }]
             },
-            {
-              "code": 123,
-              "indent": 1,
-              "parameters": ["A", 0]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 123, "indent": 1, "parameters": ["A", 0] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 412, "indent": 0, "parameters": [] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -953,38 +686,16 @@
               "code": 250,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "RGSS3_Move",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "RGSS3_Move", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 201,
-              "indent": 0,
-              "parameters": [0, 49, 6, 7, 2, 0]
-            },
-            {
-              "code": 122,
-              "indent": 0,
-              "parameters": [10, 10, 0, 0, 1]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 201, "indent": 0, "parameters": [0, 49, 6, 7, 2, 0] },
+            { "code": 122, "indent": 0, "parameters": [10, 10, 0, 0, 1] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -1030,21 +741,10 @@
             "pattern": 1,
             "characterIndex": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -1096,20 +796,11 @@
               "indent": 0,
               "parameters": ["<animeLight:TM_Yellow01 192 0 -20 6>"]
             },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -1156,99 +847,36 @@
             "characterIndex": 7
           },
           "list": [
-            {
-              "code": 111,
-              "indent": 0,
-              "parameters": [2, "A", 0]
-            },
-            {
-              "code": 213,
-              "indent": 1,
-              "parameters": [0, 7, false]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["カフェの女性客"]
-            },
+            { "code": 111, "indent": 0, "parameters": [2, "A", 0] },
+            { "code": 213, "indent": 1, "parameters": [0, 7, false] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": [
-                "「最近は遊歩道も魔物が出るって噂よねぇ…… こんなんじゃ散歩も楽しめないわ。」"
+                "Café Lady \"I've heard rumors that monsters have been appearing on the\npromenade lately... With things like this, you can't even enjoy a\nwalk.\""
               ]
             },
-            {
-              "code": 123,
-              "indent": 1,
-              "parameters": ["A", 1]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 213,
-              "indent": 1,
-              "parameters": [0, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["カフェの女性客"]
-            },
+            { "code": 123, "indent": 1, "parameters": ["A", 1] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 411, "indent": 0, "parameters": [] },
+            { "code": 213, "indent": 1, "parameters": [0, 3, false] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": [
-                "「橋の向こうには遊歩道もあるのよ。あとで散歩でもしようかしら。」"
+                "Café Lady \"There's a promenade beyond the bridge, too. Maybe I'll take\na stroll there later.\""
               ]
             },
-            {
-              "code": 123,
-              "indent": 1,
-              "parameters": ["A", 0]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 123, "indent": 1, "parameters": ["A", 0] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 412, "indent": 0, "parameters": [] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -1294,21 +922,10 @@
             "pattern": 1,
             "characterIndex": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -1355,60 +972,19 @@
             "tileId": 0
           },
           "list": [
-            {
-              "code": 111,
-              "indent": 0,
-              "parameters": [0, 28, 0]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [233]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 111,
-              "indent": 0,
-              "parameters": [0, 29, 0]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [234]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 111, "indent": 0, "parameters": [0, 28, 0] },
+            { "code": 117, "indent": 1, "parameters": [233] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 412, "indent": 0, "parameters": [] },
+            { "code": 111, "indent": 0, "parameters": [0, 29, 0] },
+            { "code": 117, "indent": 1, "parameters": [234] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 412, "indent": 0, "parameters": [] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false

@@ -3,20 +3,10 @@
   "autoplayBgs": true,
   "battleback1Name": "",
   "battleback2Name": "",
-  "bgm": {
-    "name": "OGG_Shop01",
-    "pan": 0,
-    "pitch": 100,
-    "volume": 90
-  },
-  "bgs": {
-    "name": "",
-    "pan": 0,
-    "pitch": 100,
-    "volume": 90
-  },
+  "bgm": { "name": "OGG_Shop01", "pan": 0, "pitch": 100, "volume": 90 },
+  "bgs": { "name": "", "pan": 0, "pitch": 100, "volume": 90 },
   "disableDashing": false,
-  "displayName": "冒険者ギルド",
+  "displayName": "Adventurers' Guild",
   "encounterList": [],
   "encounterStep": 30,
   "height": 20,
@@ -238,20 +228,11 @@
               "indent": 0,
               "parameters": ["<animeLight:TM_Yellow01 128 0 -20 6>"]
             },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -305,31 +286,12 @@
                 -1,
                 {
                   "list": [
-                    {
-                      "code": 29,
-                      "parameters": [3],
-                      "indent": null
-                    },
-                    {
-                      "code": 4,
-                      "indent": null
-                    },
-                    {
-                      "code": 4,
-                      "indent": null
-                    },
-                    {
-                      "code": 4,
-                      "indent": null
-                    },
-                    {
-                      "code": 29,
-                      "parameters": [4],
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
+                    { "code": 29, "parameters": [3], "indent": null },
+                    { "code": 4, "indent": null },
+                    { "code": 4, "indent": null },
+                    { "code": 4, "indent": null },
+                    { "code": 29, "parameters": [4], "indent": null },
+                    { "code": 0 }
                   ],
                   "repeat": false,
                   "skippable": true,
@@ -340,166 +302,67 @@
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 29,
-                  "parameters": [3],
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 29, "parameters": [3], "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 4,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 4, "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 4,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 4, "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 4,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 4, "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 29,
-                  "parameters": [4],
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 29, "parameters": [4], "indent": null }]
             },
-            {
-              "code": 122,
-              "indent": 0,
-              "parameters": [3, 3, 0, 0, 1]
-            },
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [9]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["リーゼ"]
-            },
+            { "code": 122, "indent": 0, "parameters": [3, 3, 0, 0, 1] },
+            { "code": 117, "indent": 0, "parameters": [9] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「ここが冒険者ギルドの本部よ。他のところに比べると少しだけ規模が大きいの。」"
+                "Lize: \"This is the headquarters of the Adventurers' Guild. It's a bit\nlarger in scale compared to other places.\""
               ]
             },
-            {
-              "code": 221,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [3]
-            },
-            {
-              "code": 201,
-              "indent": 0,
-              "parameters": [0, 108, 14, 9, 8, 0]
-            },
-            {
-              "code": 222,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [7, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["ギルド長の\\N[54]"]
-            },
+            { "code": 221, "indent": 0, "parameters": [] },
+            { "code": 117, "indent": 0, "parameters": [3] },
+            { "code": 201, "indent": 0, "parameters": [0, 108, 14, 9, 8, 0] },
+            { "code": 222, "indent": 0, "parameters": [] },
+            { "code": 213, "indent": 0, "parameters": [7, 3, false] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「いらっしゃい、私は\\N[54]。\\N[265]のギルド長よ。あなた達のことは"
+                "Guild Master \\N[54]: \"Welcome, I am \\N[54]. The Guild Master of\n\\N[265]. I've heard about you two from \\N[264] branch's \\N[24].\""
               ]
             },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["\\N[264]支部の\\N[24]から聞いてるわ。」"]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["ギルド長の\\N[54]"]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「二人とも塔の魔術師なんでしょ？ \\N[302]も倒してるって話だし期待してるわよ。」"
+                "Guild Master \\N[265]: \"You're both tower magicians, right? I've heard\nyou even defeated \\N[54]. I'm expecting great things from you.\""
               ]
             },
-            {
-              "code": 221,
-              "indent": 0,
-              "parameters": []
-            },
+            { "code": 221, "indent": 0, "parameters": [] },
             {
               "code": 205,
               "indent": 0,
               "parameters": [
                 -1,
                 {
-                  "list": [
-                    {
-                      "code": 16,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
-                  ],
+                  "list": [{ "code": 16, "indent": null }, { "code": 0 }],
                   "repeat": false,
                   "skippable": true,
                   "wait": true
@@ -509,37 +372,15 @@
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 16,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 16, "indent": null }]
             },
-            {
-              "code": 222,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 123,
-              "indent": 0,
-              "parameters": ["A", 0]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 222, "indent": 0, "parameters": [] },
+            { "code": 123, "indent": 0, "parameters": ["A", 0] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -581,38 +422,16 @@
               "code": 250,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "RGSS3_Move",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "RGSS3_Move", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 201,
-              "indent": 0,
-              "parameters": [0, 70, 14, 25, 2, 0]
-            },
-            {
-              "code": 122,
-              "indent": 0,
-              "parameters": [10, 10, 0, 0, 1]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 201, "indent": 0, "parameters": [0, 70, 14, 25, 2, 0] },
+            { "code": 122, "indent": 0, "parameters": [10, 10, 0, 0, 1] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -659,25 +478,12 @@
             "tileId": 0
           },
           "list": [
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [16]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 117, "indent": 0, "parameters": [16] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -715,25 +521,12 @@
             "tileId": 0
           },
           "list": [
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [12]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 117, "indent": 0, "parameters": [12] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -780,25 +573,12 @@
             "tileId": 0
           },
           "list": [
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [22]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 117, "indent": 0, "parameters": [22] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -850,20 +630,11 @@
               "indent": 0,
               "parameters": ["<animeLight:TM_Yellow01 128 0 -20 6>"]
             },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -915,20 +686,11 @@
               "indent": 0,
               "parameters": ["<animeLight:TM_Yellow01 128 0 -20 6>"]
             },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -975,99 +737,36 @@
             "characterIndex": 7
           },
           "list": [
-            {
-              "code": 111,
-              "indent": 0,
-              "parameters": [2, "A", 0]
-            },
-            {
-              "code": 213,
-              "indent": 1,
-              "parameters": [7, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["ギルド長の\\N[54]"]
-            },
+            { "code": 111, "indent": 0, "parameters": [2, "A", 0] },
+            { "code": 213, "indent": 1, "parameters": [7, 3, false] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": [
-                "「\\N[302]が各地で発生してるみたいね。あれは一体何なのかしら……」"
+                "Guild Master \\N[54] \"\\N[302] seem to be occurring all over the place.\nI wonder what they could possibly be...\""
               ]
             },
-            {
-              "code": 123,
-              "indent": 1,
-              "parameters": ["A", 1]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 213,
-              "indent": 1,
-              "parameters": [7, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["ギルド長の\\N[54]"]
-            },
+            { "code": 123, "indent": 1, "parameters": ["A", 1] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 411, "indent": 0, "parameters": [] },
+            { "code": 213, "indent": 1, "parameters": [7, 3, false] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": [
-                "「いらっしゃい。端末を見て好きな案件を請け負ってね～」"
+                "Guild Master \\N[54] \"Welcome. Please take a look at the terminal and\naccept any job you like~\""
               ]
             },
-            {
-              "code": 123,
-              "indent": 1,
-              "parameters": ["A", 0]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 123, "indent": 1, "parameters": ["A", 0] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 412, "indent": 0, "parameters": [] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -1119,20 +818,11 @@
               "indent": 0,
               "parameters": ["<animeLight:TM_Yellow01 128 0 -20 6>"]
             },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -1179,58 +869,27 @@
             "characterIndex": 0
           },
           "list": [
-            {
-              "code": 111,
-              "indent": 0,
-              "parameters": [2, "A", 0]
-            },
-            {
-              "code": 213,
-              "indent": 1,
-              "parameters": [0, 7, false]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["戦士風の男性"]
-            },
+            { "code": 111, "indent": 0, "parameters": [2, "A", 0] },
+            { "code": 213, "indent": 1, "parameters": [0, 7, false] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": [
-                "「ん～ この案件は難しそうだなぁ…… \\N[302]は硬いしな～」"
+                "Warrior-like man: \"Hmm, this case seems tricky... \\N[302] is pretty\ntough too...\""
               ]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
-              "parameters": ["鎧を着た男性は端末を見て首を傾げている。"]
+              "parameters": [
+                "The man in armor is looking at the terminal and tilting his head."
+              ]
             },
-            {
-              "code": 123,
-              "indent": 1,
-              "parameters": ["A", 1]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 0,
-              "parameters": []
-            },
+            { "code": 123, "indent": 1, "parameters": ["A", 1] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 411, "indent": 0, "parameters": [] },
             {
               "code": 205,
               "indent": 1,
@@ -1238,17 +897,9 @@
                 0,
                 {
                   "list": [
-                    {
-                      "code": 36,
-                      "indent": null
-                    },
-                    {
-                      "code": 25,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
+                    { "code": 36, "indent": null },
+                    { "code": 25, "indent": null },
+                    { "code": 0 }
                   ],
                   "repeat": false,
                   "skippable": true,
@@ -1259,49 +910,21 @@
             {
               "code": 505,
               "indent": 1,
-              "parameters": [
-                {
-                  "code": 36,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 36, "indent": null }]
             },
             {
               "code": 505,
               "indent": 1,
-              "parameters": [
-                {
-                  "code": 25,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 25, "indent": null }]
             },
-            {
-              "code": 213,
-              "indent": 1,
-              "parameters": [0, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["戦士風の男性"]
-            },
+            { "code": 213, "indent": 1, "parameters": [0, 3, false] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": [
-                "「なかなか自分に合う案件が見つからないんだ。簡単だと報酬は少ないし、"
+                "Warrior-like man: \"I just can't seem to find a job that suits me. If\nit's easy, the reward is small, and if it's difficult, there's a risk\nof losing my life.\""
               ]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["難しい案件は命を落とす危険があるからね。」"]
             },
             {
               "code": 205,
@@ -1310,17 +933,9 @@
                 0,
                 {
                   "list": [
-                    {
-                      "code": 19,
-                      "indent": null
-                    },
-                    {
-                      "code": 35,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
+                    { "code": 19, "indent": null },
+                    { "code": 35, "indent": null },
+                    { "code": 0 }
                   ],
                   "repeat": false,
                   "skippable": true,
@@ -1331,52 +946,21 @@
             {
               "code": 505,
               "indent": 1,
-              "parameters": [
-                {
-                  "code": 19,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 19, "indent": null }]
             },
             {
               "code": 505,
               "indent": 1,
-              "parameters": [
-                {
-                  "code": 35,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 35, "indent": null }]
             },
-            {
-              "code": 123,
-              "indent": 1,
-              "parameters": ["A", 0]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 123, "indent": 1, "parameters": ["A", 0] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 412, "indent": 0, "parameters": [] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -1423,56 +1007,27 @@
             "characterIndex": 2
           },
           "list": [
-            {
-              "code": 111,
-              "indent": 0,
-              "parameters": [2, "A", 0]
-            },
-            {
-              "code": 213,
-              "indent": 1,
-              "parameters": [0, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 111, "indent": 0, "parameters": [2, "A", 0] },
+            { "code": 213, "indent": 1, "parameters": [0, 3, false] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
-              "parameters": ["魔術師の女性"]
+              "parameters": [
+                "The female magician says, \"I really want to learn some new magic\nsoon...\""
+              ]
             },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
-              "parameters": ["「そろそろ新しい魔法を覚えたいのよね……」"]
+              "parameters": [
+                "The female magician is earnestly reading her grimoire."
+              ]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["魔術師の女性は熱心に魔導書を読んでいる。"]
-            },
-            {
-              "code": 123,
-              "indent": 1,
-              "parameters": ["A", 1]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 0,
-              "parameters": []
-            },
+            { "code": 123, "indent": 1, "parameters": ["A", 1] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 411, "indent": 0, "parameters": [] },
             {
               "code": 205,
               "indent": 1,
@@ -1480,17 +1035,9 @@
                 0,
                 {
                   "list": [
-                    {
-                      "code": 36,
-                      "indent": null
-                    },
-                    {
-                      "code": 25,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
+                    { "code": 36, "indent": null },
+                    { "code": 25, "indent": null },
+                    { "code": 0 }
                   ],
                   "repeat": false,
                   "skippable": true,
@@ -1501,49 +1048,21 @@
             {
               "code": 505,
               "indent": 1,
-              "parameters": [
-                {
-                  "code": 36,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 36, "indent": null }]
             },
             {
               "code": 505,
               "indent": 1,
-              "parameters": [
-                {
-                  "code": 25,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 25, "indent": null }]
             },
-            {
-              "code": 213,
-              "indent": 1,
-              "parameters": [0, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["魔術師の女性"]
-            },
+            { "code": 213, "indent": 1, "parameters": [0, 3, false] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": [
-                "「最近さぁ、\\N[302]関連の案件が多いのよね～ あいつら弱そうに見えるけどさ、"
+                "The female magician says, \"Lately, you know, there have been a lot of\ncases related to \\N[302]~ They might look weak, but they're actually\nquite troublesome with their high defense~\""
               ]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["防御力が高くて厄介なのよ～」"]
             },
             {
               "code": 205,
@@ -1552,17 +1071,9 @@
                 0,
                 {
                   "list": [
-                    {
-                      "code": 17,
-                      "indent": null
-                    },
-                    {
-                      "code": 35,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
+                    { "code": 17, "indent": null },
+                    { "code": 35, "indent": null },
+                    { "code": 0 }
                   ],
                   "repeat": false,
                   "skippable": true,
@@ -1573,52 +1084,21 @@
             {
               "code": 505,
               "indent": 1,
-              "parameters": [
-                {
-                  "code": 17,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 17, "indent": null }]
             },
             {
               "code": 505,
               "indent": 1,
-              "parameters": [
-                {
-                  "code": 35,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 35, "indent": null }]
             },
-            {
-              "code": 123,
-              "indent": 1,
-              "parameters": ["A", 0]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 123, "indent": 1, "parameters": ["A", 0] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 412, "indent": 0, "parameters": [] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -1666,35 +1146,20 @@
             "characterIndex": 2
           },
           "list": [
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [-1, 7, false]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 213, "indent": 0, "parameters": [-1, 7, false] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
-              "parameters": ["今はまだ請け負える案件がないようだ。"]
+              "parameters": [
+                "It seems there are no jobs available to take on right now."
+              ]
             },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -1789,33 +1254,22 @@
                 "案件終了用の変数を「１」にして案件をグレー表示にする。"
               ]
             },
-            {
-              "code": 118,
-              "indent": 0,
-              "parameters": ["１"]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 118, "indent": 0, "parameters": ["１"] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
-              "parameters": ["端末に案件が表示されている。"]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["― 請け負う案件を選択してください。"]
+              "parameters": [
+                "A job is displayed on the terminal. - Please select a job to\nundertake."
+              ]
             },
             {
               "code": 102,
               "indent": 0,
               "parameters": [
                 [
-                  "海浜公園で魔物退治if(v[361]>=1)",
-                  "\\C[7]海浜公園で魔物退治if(v[362]>=1)"
+                  "Exterminate the monsters at the Seaside Parkif(v[361]>=1)",
+                  "\\C[7]Exterminate monsters at the Seaside Parkif(v[362]>=1)"
                 ],
                 -1,
                 0,
@@ -1828,16 +1282,8 @@
               "indent": 0,
               "parameters": [0, "海浜公園で魔物退治if(v[361]>=1)"]
             },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [277]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
+            { "code": 117, "indent": 1, "parameters": [277] },
+            { "code": 0, "indent": 1, "parameters": [] },
             {
               "code": 402,
               "indent": 0,
@@ -1847,46 +1293,25 @@
               "code": 250,
               "indent": 1,
               "parameters": [
-                {
-                  "name": "Buzzer1",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "Buzzer1", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
-              "parameters": ["この案件は終了しました。"]
+              "parameters": ["This job has been completed."]
             },
-            {
-              "code": 119,
-              "indent": 1,
-              "parameters": ["１"]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 0,
-              "parameters": []
-            },
+            { "code": 119, "indent": 1, "parameters": ["１"] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 404, "indent": 0, "parameters": [] },
             {
               "code": 102,
               "indent": 0,
               "parameters": [
                 [
-                  "行方不明者の捜索if(v[363]>=1)",
-                  "\\C[7]行方不明者の捜索if(v[364]>=1)"
+                  "Search for the missing personif(v[363]>=1)",
+                  "\\C[7]Search for the missing personif(v[364]>=1)"
                 ],
                 -1,
                 -1,
@@ -1899,16 +1324,8 @@
               "indent": 0,
               "parameters": [0, "行方不明者の捜索if(v[363]>=1)"]
             },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [278]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
+            { "code": 117, "indent": 1, "parameters": [278] },
+            { "code": 0, "indent": 1, "parameters": [] },
             {
               "code": 402,
               "indent": 0,
@@ -1918,46 +1335,25 @@
               "code": 250,
               "indent": 1,
               "parameters": [
-                {
-                  "name": "Buzzer1",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "Buzzer1", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
-              "parameters": ["この案件は終了しました。"]
+              "parameters": ["This job has been completed."]
             },
-            {
-              "code": 119,
-              "indent": 1,
-              "parameters": ["１"]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 0,
-              "parameters": []
-            },
+            { "code": 119, "indent": 1, "parameters": ["１"] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 404, "indent": 0, "parameters": [] },
             {
               "code": 102,
               "indent": 0,
               "parameters": [
                 [
-                  "ケモノランドで魔物退治if(v[365]>=1)",
-                  "\\C[7]ケモノランドで魔物退治if(v[366]>=1)"
+                  "Exterminate monsters in Beastlandif(v[365]>=1)",
+                  "\\C[7]Vanquish the monsters in Beastlandif(v[366]>=1)"
                 ],
                 -1,
                 -1,
@@ -1970,16 +1366,8 @@
               "indent": 0,
               "parameters": [0, "ケモノランドで魔物退治if(v[365]>=1)"]
             },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [279]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
+            { "code": 117, "indent": 1, "parameters": [279] },
+            { "code": 0, "indent": 1, "parameters": [] },
             {
               "code": 402,
               "indent": 0,
@@ -1989,88 +1377,34 @@
               "code": 250,
               "indent": 1,
               "parameters": [
-                {
-                  "name": "Buzzer1",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "Buzzer1", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
-              "parameters": ["この案件は終了しました。"]
+              "parameters": ["This job has been completed."]
             },
-            {
-              "code": 119,
-              "indent": 1,
-              "parameters": ["１"]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 0,
-              "parameters": []
-            },
+            { "code": 119, "indent": 1, "parameters": ["１"] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 404, "indent": 0, "parameters": [] },
             {
               "code": 102,
               "indent": 0,
-              "parameters": [["キャンセル"], 0, -1, 1, 0]
+              "parameters": [["Cancel"], 0, -1, 1, 0]
             },
-            {
-              "code": 402,
-              "indent": 0,
-              "parameters": [0, "キャンセル"]
-            },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["ChoicePos -1 -1 12"]
-            },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["MessageRows 4"]
-            },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["MessageWidth 1000"]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 402, "indent": 0, "parameters": [0, "キャンセル"] },
+            { "code": 356, "indent": 1, "parameters": ["ChoicePos -1 -1 12"] },
+            { "code": 356, "indent": 1, "parameters": ["MessageRows 4"] },
+            { "code": 356, "indent": 1, "parameters": ["MessageWidth 1000"] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 404, "indent": 0, "parameters": [] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -2116,21 +1450,10 @@
             "direction": 2,
             "pattern": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -2177,60 +1500,19 @@
             "tileId": 0
           },
           "list": [
-            {
-              "code": 111,
-              "indent": 0,
-              "parameters": [0, 28, 0]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [233]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 111,
-              "indent": 0,
-              "parameters": [0, 29, 0]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [234]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 111, "indent": 0, "parameters": [0, 28, 0] },
+            { "code": 117, "indent": 1, "parameters": [233] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 412, "indent": 0, "parameters": [] },
+            { "code": 111, "indent": 0, "parameters": [0, 29, 0] },
+            { "code": 117, "indent": 1, "parameters": [234] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 412, "indent": 0, "parameters": [] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -2290,20 +1572,11 @@
               "indent": 0,
               "parameters": ["変数３３２番が１以上の時に点灯させる"]
             },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false

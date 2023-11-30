@@ -3,20 +3,10 @@
   "autoplayBgs": true,
   "battleback1Name": "",
   "battleback2Name": "",
-  "bgm": {
-    "name": "OGG_Shop01",
-    "pan": 0,
-    "pitch": 100,
-    "volume": 90
-  },
-  "bgs": {
-    "name": "",
-    "pan": 0,
-    "pitch": 100,
-    "volume": 90
-  },
+  "bgm": { "name": "OGG_Shop01", "pan": 0, "pitch": 100, "volume": 90 },
+  "bgs": { "name": "", "pan": 0, "pitch": 100, "volume": 90 },
   "disableDashing": false,
-  "displayName": "ブリジット治療院",
+  "displayName": "Bridget Clinic",
   "encounterList": [],
   "encounterStep": 30,
   "height": 20,
@@ -236,20 +226,11 @@
               "indent": 0,
               "parameters": ["<animeLight:TM_Yellow01 192 0 -20 6>"]
             },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -296,65 +277,24 @@
             "characterIndex": 5
           },
           "list": [
-            {
-              "code": 203,
-              "indent": 0,
-              "parameters": [0, 0, 13, 8, 6]
-            },
-            {
-              "code": 204,
-              "indent": 0,
-              "parameters": [2, 1, 2]
-            },
-            {
-              "code": 222,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [0, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["\\N[75]"]
-            },
+            { "code": 203, "indent": 0, "parameters": [0, 0, 13, 8, 6] },
+            { "code": 204, "indent": 0, "parameters": [2, 1, 2] },
+            { "code": 222, "indent": 0, "parameters": [] },
+            { "code": 213, "indent": 0, "parameters": [0, 3, false] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「あらためて自己紹介させてもらうわね。私は\\N[75]。この治療院の院長よ」"
+                "\\N[75]\"Let me introduce myself once again. I am \\N[75], the director\nof this clinic.\""
               ]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["\\N[75]"]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「ここは普通の治療院とは少し違って私の研究も兼ねてるんだけど、呪いや性病、"
-              ]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": [
-                "お尻むずむずといった特殊なステータス異常を治療しているの。」"
+                "\\N[75]\"This clinic is a bit different from ordinary ones as it also\nserves as my research facility, treating special status abnormalities\nlike curses, sexually transmitted diseases, and itchy butts.\""
               ]
             },
             {
@@ -364,17 +304,9 @@
                 0,
                 {
                   "list": [
-                    {
-                      "code": 1,
-                      "indent": null
-                    },
-                    {
-                      "code": 18,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
+                    { "code": 1, "indent": null },
+                    { "code": 18, "indent": null },
+                    { "code": 0 }
                   ],
                   "repeat": false,
                   "skippable": true,
@@ -385,22 +317,12 @@
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 1,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 1, "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 18,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 18, "indent": null }]
             },
             {
               "code": 205,
@@ -408,15 +330,7 @@
               "parameters": [
                 -1,
                 {
-                  "list": [
-                    {
-                      "code": 18,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
-                  ],
+                  "list": [{ "code": 18, "indent": null }, { "code": 0 }],
                   "repeat": false,
                   "skippable": true,
                   "wait": false
@@ -426,116 +340,51 @@
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 18,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 18, "indent": null }]
             },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [0, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["\\N[75]"]
-            },
+            { "code": 213, "indent": 0, "parameters": [0, 3, false] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「ちなみに、右側にある小部屋はステート実験室よ。レバーを操作すると"
+                "\\N[75]\"By the way, the small room on the right is the state experiment\nlab. Be careful when operating the lever, as it can cause status\nabnormalities.\""
               ]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["ステータス異常になっちゃうから注意してね。」"]
             },
             {
               "code": 250,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "Chime1",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "Chime1", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "特殊なステート異常「呪い」「性病」「お尻むずむず」になった場合はこの治療院で"
+                "If you suffer from special status abnormalities such as \"curse,\"\n\"sexually transmitted disease,\" or \"itchy butt,\" this clinic can treat\nthem."
               ]
             },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["治すことが可能です。"]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["ちなみにこれらのステート異常はアイテムの"]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["\\ii[27]、\\ii[28]、\\ii[29]でも治療が可能です。"]
-            },
-            {
-              "code": 122,
-              "indent": 0,
-              "parameters": [3, 3, 0, 0, 1]
-            },
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [9]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["リーゼ"]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「私はアイテムで治すから、フローラは研究に協力してあげたらどうかな……？」"
+                "Incidentally, these status abnormalities can also be treated with\nitems \\ii[27], \\ii[28], \\ii[29]."
               ]
             },
+            { "code": 122, "indent": 0, "parameters": [3, 3, 0, 0, 1] },
+            { "code": 117, "indent": 0, "parameters": [9] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
-              "code": 117,
+              "code": 401,
               "indent": 0,
-              "parameters": [2]
+              "parameters": [
+                "Lize\"I'll use items for treatment, so maybe you could help Flora with\nher research...?\""
+              ]
             },
+            { "code": 117, "indent": 0, "parameters": [2] },
             {
               "code": 205,
               "indent": 0,
@@ -543,17 +392,9 @@
                 0,
                 {
                   "list": [
-                    {
-                      "code": 4,
-                      "indent": null
-                    },
-                    {
-                      "code": 18,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
+                    { "code": 4, "indent": null },
+                    { "code": 18, "indent": null },
+                    { "code": 0 }
                   ],
                   "repeat": false,
                   "skippable": true,
@@ -564,22 +405,12 @@
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 4,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 4, "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 18,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 18, "indent": null }]
             },
             {
               "code": 205,
@@ -587,15 +418,7 @@
               "parameters": [
                 -1,
                 {
-                  "list": [
-                    {
-                      "code": 17,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
-                  ],
+                  "list": [{ "code": 17, "indent": null }, { "code": 0 }],
                   "repeat": false,
                   "skippable": true,
                   "wait": false
@@ -605,77 +428,27 @@
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 17,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 17, "indent": null }]
             },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [0, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["\\N[75]"]
-            },
+            { "code": 213, "indent": 0, "parameters": [0, 3, false] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「助けてくれたし協力してくれるなら治療費はタダにするから。あと、もし良かったら"
+                "\\N[75]\"Since you helped me out and are willing to cooperate, I'll make\nthe treatment free of charge. Also, if you'd like, why not use this?\nIt's very convenient for carrying around large books.\""
               ]
             },
+            { "code": 213, "indent": 0, "parameters": [-1, 3, false] },
+            { "code": 122, "indent": 0, "parameters": [2, 2, 0, 0, 2] },
+            { "code": 117, "indent": 0, "parameters": [6] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
-              "parameters": [
-                "これ使う？ 大きな本を持ち運ぶのにとっても便利よ。」"
-              ]
+              "parameters": ["Lize\"Wow, thank you so much.\""]
             },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [-1, 3, false]
-            },
-            {
-              "code": 122,
-              "indent": 0,
-              "parameters": [2, 2, 0, 0, 2]
-            },
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [6]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["リーゼ"]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["「わ～ ありがとうございます。」"]
-            },
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [2]
-            },
+            { "code": 117, "indent": 0, "parameters": [2] },
             {
               "code": 250,
               "indent": 0,
@@ -688,48 +461,23 @@
                 }
               ]
             },
-            {
-              "code": 126,
-              "indent": 0,
-              "parameters": [253, 0, 0, 1]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 126, "indent": 0, "parameters": [253, 0, 0, 1] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
-              "parameters": ["\\ii[253]を手に入れた！"]
+              "parameters": ["You obtained \\ii[29]!"]
             },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [0, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["\\N[75]"]
-            },
+            { "code": 213, "indent": 0, "parameters": [0, 3, false] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「じゃぁ今日は本当にありがとう。治療が必要な時はいつでも来てちょうだい。」"
+                "\\N[75]\"Well then, thank you truly for today. Please come by anytime\nyou need treatment.\""
               ]
             },
-            {
-              "code": 221,
-              "indent": 0,
-              "parameters": []
-            },
+            { "code": 221, "indent": 0, "parameters": [] },
             {
               "code": 249,
               "indent": 0,
@@ -742,23 +490,15 @@
                 }
               ]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "ギルドの案件「治療院で魔物退治」をクリアしました！"
+                "You've cleared the guild task \"Monster Extermination at the Clinic\"!"
               ]
             },
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["実績 260"]
-            },
+            { "code": 356, "indent": 0, "parameters": ["実績 260"] },
             {
               "code": 250,
               "indent": 0,
@@ -771,85 +511,32 @@
                 }
               ]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
-              "parameters": ["報酬３００Ｇを手に入れた！"]
+              "parameters": ["You received a reward of 300G!"]
             },
-            {
-              "code": 203,
-              "indent": 0,
-              "parameters": [2, 0, 11, 7, 8]
-            },
-            {
-              "code": 201,
-              "indent": 0,
-              "parameters": [0, 166, 14, 8, 2, 0]
-            },
-            {
-              "code": 121,
-              "indent": 0,
-              "parameters": [442, 442, 0]
-            },
-            {
-              "code": 222,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 121,
-              "indent": 0,
-              "parameters": [223, 223, 1]
-            },
-            {
-              "code": 121,
-              "indent": 0,
-              "parameters": [224, 224, 0]
-            },
+            { "code": 203, "indent": 0, "parameters": [2, 0, 11, 7, 8] },
+            { "code": 201, "indent": 0, "parameters": [0, 166, 14, 8, 2, 0] },
+            { "code": 121, "indent": 0, "parameters": [442, 442, 0] },
+            { "code": 222, "indent": 0, "parameters": [] },
+            { "code": 121, "indent": 0, "parameters": [223, 223, 1] },
+            { "code": 121, "indent": 0, "parameters": [224, 224, 0] },
             {
               "code": 108,
               "indent": 0,
               "parameters": ["---------------------ギルド案件用"]
             },
-            {
-              "code": 122,
-              "indent": 0,
-              "parameters": [353, 353, 0, 0, 0]
-            },
-            {
-              "code": 122,
-              "indent": 0,
-              "parameters": [333, 333, 2, 0, 1]
-            },
-            {
-              "code": 122,
-              "indent": 0,
-              "parameters": [354, 354, 0, 0, 1]
-            },
-            {
-              "code": 222,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 122, "indent": 0, "parameters": [353, 353, 0, 0, 0] },
+            { "code": 122, "indent": 0, "parameters": [333, 333, 2, 0, 1] },
+            { "code": 122, "indent": 0, "parameters": [354, 354, 0, 0, 1] },
+            { "code": 222, "indent": 0, "parameters": [] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -887,99 +574,44 @@
             "characterIndex": 5
           },
           "list": [
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [0, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["\\N[75]"]
-            },
+            { "code": 213, "indent": 0, "parameters": [0, 3, false] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「いらっしゃい。治療が必要なら全裸になってベッドに上がってね。」"
+                "\\N[75]\"Welcome. If you need treatment, please get naked and lie down\non the bed.\""
               ]
             },
-            {
-              "code": 111,
-              "indent": 0,
-              "parameters": [2, "A", 1]
-            },
-            {
-              "code": 213,
-              "indent": 1,
-              "parameters": [-1, 1, true]
-            },
-            {
-              "code": 213,
-              "indent": 1,
-              "parameters": [-1, 7, false]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 111, "indent": 0, "parameters": [2, "A", 1] },
+            { "code": 213, "indent": 1, "parameters": [-1, 1, true] },
+            { "code": 213, "indent": 1, "parameters": [-1, 7, false] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
-              "parameters": ["フローラ"]
+              "parameters": ["Flora \"Eh? Why naked...?\""]
             },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["「えっ？ なんで裸……？」"]
-            },
-            {
-              "code": 123,
-              "indent": 1,
-              "parameters": ["A", 0]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 123, "indent": 1, "parameters": ["A", 0] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 412, "indent": 0, "parameters": [] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "フローラの「呪い」「性病」「お尻むずむず」状態を治療します。"
+                "Treating Flora's \"Curse,\" \"Sexual Disease,\" \"Itchy Butt\" conditions.\nWhat will you do...?"
               ]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["どうしますか……？"]
             },
             {
               "code": 102,
               "indent": 0,
               "parameters": [
                 [
-                  "呪いを治療",
-                  "性病を治療",
-                  "お尻むずむずを治療",
-                  "治療しない"
+                  "Cure the curse",
+                  "Treat the sexually transmitted disease",
+                  "Treat the itchy butt",
+                  "Do not treat"
                 ],
                 3,
                 0,
@@ -987,136 +619,45 @@
                 0
               ]
             },
-            {
-              "code": 402,
-              "indent": 0,
-              "parameters": [0, "呪いを治療"]
-            },
-            {
-              "code": 111,
-              "indent": 1,
-              "parameters": [4, 1, 6, 37]
-            },
-            {
-              "code": 213,
-              "indent": 2,
-              "parameters": [0, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 402, "indent": 0, "parameters": [0, "呪いを治療"] },
+            { "code": 111, "indent": 1, "parameters": [4, 1, 6, 37] },
+            { "code": 213, "indent": 2, "parameters": [0, 3, false] },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["\\N[75]"]
+              "parameters": [
+                "\\N[75]\"Understood. Then, let's begin right away.\""
+              ]
             },
-            {
-              "code": 401,
-              "indent": 2,
-              "parameters": ["「わかったわ。じゃぁ早速はじめましょうか。」"]
-            },
-            {
-              "code": 221,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 111,
-              "indent": 2,
-              "parameters": [0, 738, 0]
-            },
-            {
-              "code": 101,
-              "indent": 3,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 221, "indent": 2, "parameters": [] },
+            { "code": 111, "indent": 2, "parameters": [0, 738, 0] },
+            { "code": 101, "indent": 3, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 3,
-              "parameters": ["Ｈイベントを飛ばしますか？"]
+              "parameters": ["Would you like to skip the H event?"]
             },
             {
               "code": 102,
               "indent": 3,
-              "parameters": [["はい", "いいえ"], 1, 0, 1, 0]
+              "parameters": [["Yes", "No"], 1, 0, 1, 0]
             },
-            {
-              "code": 402,
-              "indent": 3,
-              "parameters": [0, "はい"]
-            },
-            {
-              "code": 121,
-              "indent": 4,
-              "parameters": [20, 20, 0]
-            },
-            {
-              "code": 0,
-              "indent": 4,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 3,
-              "parameters": [1, "いいえ"]
-            },
-            {
-              "code": 0,
-              "indent": 4,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 243,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [447]
-            },
-            {
-              "code": 244,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 222,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 313,
-              "indent": 2,
-              "parameters": [0, 1, 1, 37]
-            },
+            { "code": 402, "indent": 3, "parameters": [0, "はい"] },
+            { "code": 121, "indent": 4, "parameters": [20, 20, 0] },
+            { "code": 0, "indent": 4, "parameters": [] },
+            { "code": 402, "indent": 3, "parameters": [1, "いいえ"] },
+            { "code": 0, "indent": 4, "parameters": [] },
+            { "code": 404, "indent": 3, "parameters": [] },
+            { "code": 0, "indent": 3, "parameters": [] },
+            { "code": 411, "indent": 2, "parameters": [] },
+            { "code": 0, "indent": 3, "parameters": [] },
+            { "code": 412, "indent": 2, "parameters": [] },
+            { "code": 243, "indent": 2, "parameters": [] },
+            { "code": 117, "indent": 2, "parameters": [447] },
+            { "code": 244, "indent": 2, "parameters": [] },
+            { "code": 222, "indent": 2, "parameters": [] },
+            { "code": 313, "indent": 2, "parameters": [0, 1, 1, 37] },
             {
               "code": 250,
               "indent": 2,
@@ -1129,253 +670,84 @@
                 }
               ]
             },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 2,
               "parameters": [
-                "フローラのステート異常『呪い』が消えてなくなった。"
+                "Flora's status abnormality \"Curse\" has disappeared."
               ]
             },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [25]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [26]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [28]
-            },
-            {
-              "code": 122,
-              "indent": 2,
-              "parameters": [30, 30, 1, 0, 1]
-            },
-            {
-              "code": 122,
-              "indent": 2,
-              "parameters": [41, 41, 1, 0, 6]
-            },
-            {
-              "code": 122,
-              "indent": 2,
-              "parameters": [72, 72, 1, 0, 1]
-            },
-            {
-              "code": 122,
-              "indent": 2,
-              "parameters": [75, 75, 1, 0, 6]
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 117, "indent": 2, "parameters": [25] },
+            { "code": 117, "indent": 2, "parameters": [26] },
+            { "code": 117, "indent": 2, "parameters": [28] },
+            { "code": 122, "indent": 2, "parameters": [30, 30, 1, 0, 1] },
+            { "code": 122, "indent": 2, "parameters": [41, 41, 1, 0, 6] },
+            { "code": 122, "indent": 2, "parameters": [72, 72, 1, 0, 1] },
+            { "code": 122, "indent": 2, "parameters": [75, 75, 1, 0, 6] },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["フローラ：レズ＋１、絶頂回数＋６"]
+              "parameters": [
+                "Flora: Lesbian +1, Orgasms +6 Lize: F Cunnilingus +1, Made Her Cum +6"
+              ]
             },
+            { "code": 117, "indent": 2, "parameters": [39] },
+            { "code": 356, "indent": 2, "parameters": ["実績 324"] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 411, "indent": 1, "parameters": [] },
+            { "code": 213, "indent": 2, "parameters": [0, 7, false] },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["リーゼ　：Ｆクンニ＋１、Ｆイカせた回数＋６"]
+              "parameters": [
+                "\\N[75]\"Hmm, it seems like treatment isn't necessary...\""
+              ]
             },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [39]
-            },
-            {
-              "code": 356,
-              "indent": 2,
-              "parameters": ["実績 324"]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 213,
-              "indent": 2,
-              "parameters": [0, 7, false]
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 412, "indent": 1, "parameters": [] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 402, "indent": 0, "parameters": [1, "性病を治療"] },
+            { "code": 111, "indent": 1, "parameters": [4, 1, 6, 34] },
+            { "code": 213, "indent": 2, "parameters": [0, 3, false] },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["\\N[75]"]
+              "parameters": [
+                "\\N[75]\"Understood. Then, let's begin right away.\""
+              ]
             },
-            {
-              "code": 401,
-              "indent": 2,
-              "parameters": ["「う～ん、治療は必要ないみたいね……」"]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 0,
-              "parameters": [1, "性病を治療"]
-            },
-            {
-              "code": 111,
-              "indent": 1,
-              "parameters": [4, 1, 6, 34]
-            },
-            {
-              "code": 213,
-              "indent": 2,
-              "parameters": [0, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 2,
-              "parameters": ["\\N[75]"]
-            },
-            {
-              "code": 401,
-              "indent": 2,
-              "parameters": ["「わかったわ。じゃぁ早速はじめましょうか。」"]
-            },
-            {
-              "code": 221,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 111,
-              "indent": 2,
-              "parameters": [0, 739, 0]
-            },
-            {
-              "code": 101,
-              "indent": 3,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 221, "indent": 2, "parameters": [] },
+            { "code": 111, "indent": 2, "parameters": [0, 739, 0] },
+            { "code": 101, "indent": 3, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 3,
-              "parameters": ["Ｈイベントを飛ばしますか？"]
+              "parameters": ["Would you like to skip the H event?"]
             },
             {
               "code": 102,
               "indent": 3,
-              "parameters": [["はい", "いいえ"], 1, 0, 1, 0]
+              "parameters": [["Yes", "No"], 1, 0, 1, 0]
             },
-            {
-              "code": 402,
-              "indent": 3,
-              "parameters": [0, "はい"]
-            },
-            {
-              "code": 121,
-              "indent": 4,
-              "parameters": [20, 20, 0]
-            },
-            {
-              "code": 0,
-              "indent": 4,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 3,
-              "parameters": [1, "いいえ"]
-            },
-            {
-              "code": 0,
-              "indent": 4,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 243,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [448]
-            },
-            {
-              "code": 244,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 222,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 313,
-              "indent": 2,
-              "parameters": [0, 1, 1, 34]
-            },
+            { "code": 402, "indent": 3, "parameters": [0, "はい"] },
+            { "code": 121, "indent": 4, "parameters": [20, 20, 0] },
+            { "code": 0, "indent": 4, "parameters": [] },
+            { "code": 402, "indent": 3, "parameters": [1, "いいえ"] },
+            { "code": 0, "indent": 4, "parameters": [] },
+            { "code": 404, "indent": 3, "parameters": [] },
+            { "code": 0, "indent": 3, "parameters": [] },
+            { "code": 411, "indent": 2, "parameters": [] },
+            { "code": 0, "indent": 3, "parameters": [] },
+            { "code": 412, "indent": 2, "parameters": [] },
+            { "code": 243, "indent": 2, "parameters": [] },
+            { "code": 117, "indent": 2, "parameters": [448] },
+            { "code": 244, "indent": 2, "parameters": [] },
+            { "code": 222, "indent": 2, "parameters": [] },
+            { "code": 313, "indent": 2, "parameters": [0, 1, 1, 34] },
             {
               "code": 250,
               "indent": 2,
@@ -1388,253 +760,88 @@
                 }
               ]
             },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 2,
               "parameters": [
-                "フローラのステート異常『性病』が消えてなくなった。"
+                "Flora's status abnormality \"Sexual Disease\" has disappeared."
               ]
             },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [25]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [26]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [28]
-            },
-            {
-              "code": 122,
-              "indent": 2,
-              "parameters": [30, 30, 1, 0, 1]
-            },
-            {
-              "code": 122,
-              "indent": 2,
-              "parameters": [35, 35, 1, 0, 1]
-            },
-            {
-              "code": 122,
-              "indent": 2,
-              "parameters": [41, 41, 1, 0, 4]
-            },
-            {
-              "code": 122,
-              "indent": 2,
-              "parameters": [75, 75, 1, 0, 4]
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 117, "indent": 2, "parameters": [25] },
+            { "code": 117, "indent": 2, "parameters": [26] },
+            { "code": 117, "indent": 2, "parameters": [28] },
+            { "code": 122, "indent": 2, "parameters": [30, 30, 1, 0, 1] },
+            { "code": 122, "indent": 2, "parameters": [35, 35, 1, 0, 1] },
+            { "code": 122, "indent": 2, "parameters": [41, 41, 1, 0, 4] },
+            { "code": 122, "indent": 2, "parameters": [75, 75, 1, 0, 4] },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["フローラ：レズ＋１、膣穴経験＋１、絶頂回数＋４"]
+              "parameters": [
+                "Flora: Lesbian +1, Vaginal Experience +1, Orgasms +4 Lize: Made Her\nCum +4"
+              ]
             },
+            { "code": 117, "indent": 2, "parameters": [39] },
+            { "code": 356, "indent": 2, "parameters": ["実績 325"] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 411, "indent": 1, "parameters": [] },
+            { "code": 213, "indent": 2, "parameters": [0, 7, false] },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["リーゼ　：Ｆイカせた回数＋４"]
+              "parameters": [
+                "\\N[75]\"Hmm, it seems like treatment isn't necessary...\""
+              ]
             },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [39]
-            },
-            {
-              "code": 356,
-              "indent": 2,
-              "parameters": ["実績 325"]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 213,
-              "indent": 2,
-              "parameters": [0, 7, false]
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 2,
-              "parameters": ["\\N[75]"]
-            },
-            {
-              "code": 401,
-              "indent": 2,
-              "parameters": ["「う～ん、治療は必要ないみたいね……」"]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 412, "indent": 1, "parameters": [] },
+            { "code": 0, "indent": 1, "parameters": [] },
             {
               "code": 402,
               "indent": 0,
               "parameters": [2, "お尻むずむずを治療"]
             },
-            {
-              "code": 111,
-              "indent": 1,
-              "parameters": [4, 1, 6, 35]
-            },
-            {
-              "code": 213,
-              "indent": 2,
-              "parameters": [0, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 111, "indent": 1, "parameters": [4, 1, 6, 35] },
+            { "code": 213, "indent": 2, "parameters": [0, 3, false] },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["\\N[75]"]
+              "parameters": [
+                "\\N[75]\"Understood. Then, let's begin right away.\""
+              ]
             },
-            {
-              "code": 401,
-              "indent": 2,
-              "parameters": ["「わかったわ。じゃぁ早速はじめましょうか。」"]
-            },
-            {
-              "code": 221,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 111,
-              "indent": 2,
-              "parameters": [0, 740, 0]
-            },
-            {
-              "code": 101,
-              "indent": 3,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 221, "indent": 2, "parameters": [] },
+            { "code": 111, "indent": 2, "parameters": [0, 740, 0] },
+            { "code": 101, "indent": 3, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 3,
-              "parameters": ["Ｈイベントを飛ばしますか？"]
+              "parameters": ["Would you like to skip the H event?"]
             },
             {
               "code": 102,
               "indent": 3,
-              "parameters": [["はい", "いいえ"], 1, 0, 1, 0]
+              "parameters": [["Yes", "No"], 1, 0, 1, 0]
             },
-            {
-              "code": 402,
-              "indent": 3,
-              "parameters": [0, "はい"]
-            },
-            {
-              "code": 121,
-              "indent": 4,
-              "parameters": [20, 20, 0]
-            },
-            {
-              "code": 0,
-              "indent": 4,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 3,
-              "parameters": [1, "いいえ"]
-            },
-            {
-              "code": 0,
-              "indent": 4,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 243,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [449]
-            },
-            {
-              "code": 244,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 222,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 313,
-              "indent": 2,
-              "parameters": [0, 1, 1, 35]
-            },
+            { "code": 402, "indent": 3, "parameters": [0, "はい"] },
+            { "code": 121, "indent": 4, "parameters": [20, 20, 0] },
+            { "code": 0, "indent": 4, "parameters": [] },
+            { "code": 402, "indent": 3, "parameters": [1, "いいえ"] },
+            { "code": 0, "indent": 4, "parameters": [] },
+            { "code": 404, "indent": 3, "parameters": [] },
+            { "code": 0, "indent": 3, "parameters": [] },
+            { "code": 411, "indent": 2, "parameters": [] },
+            { "code": 0, "indent": 3, "parameters": [] },
+            { "code": 412, "indent": 2, "parameters": [] },
+            { "code": 243, "indent": 2, "parameters": [] },
+            { "code": 117, "indent": 2, "parameters": [449] },
+            { "code": 244, "indent": 2, "parameters": [] },
+            { "code": 222, "indent": 2, "parameters": [] },
+            { "code": 313, "indent": 2, "parameters": [0, 1, 1, 35] },
             {
               "code": 250,
               "indent": 2,
@@ -1647,132 +854,48 @@
                 }
               ]
             },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 2,
               "parameters": [
-                "フローラのステート異常『お尻むずむず』が消えてなくなった。"
+                "Flora's status abnormality \"Itchy Butt\" has disappeared."
               ]
             },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [25]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [26]
-            },
-            {
-              "code": 122,
-              "indent": 2,
-              "parameters": [36, 36, 1, 0, 1]
-            },
-            {
-              "code": 122,
-              "indent": 2,
-              "parameters": [41, 41, 1, 0, 2]
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 117, "indent": 2, "parameters": [25] },
+            { "code": 117, "indent": 2, "parameters": [26] },
+            { "code": 122, "indent": 2, "parameters": [36, 36, 1, 0, 1] },
+            { "code": 122, "indent": 2, "parameters": [41, 41, 1, 0, 2] },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["フローラ：肛門経験＋１、絶頂回数＋２"]
+              "parameters": ["Flora: Anal Experience +1, Orgasms +2"]
             },
-            {
-              "code": 356,
-              "indent": 2,
-              "parameters": ["実績 326"]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 213,
-              "indent": 2,
-              "parameters": [0, 7, false]
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 356, "indent": 2, "parameters": ["実績 326"] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 411, "indent": 1, "parameters": [] },
+            { "code": 213, "indent": 2, "parameters": [0, 7, false] },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["\\N[75]"]
+              "parameters": [
+                "\\N[75]\"Hmm, it seems like treatment isn't necessary...\""
+              ]
             },
-            {
-              "code": 401,
-              "indent": 2,
-              "parameters": ["「う～ん、治療は必要ないみたいね……」"]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 0,
-              "parameters": [3, "治療しない"]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 121,
-              "indent": 0,
-              "parameters": [20, 20, 1]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 412, "indent": 1, "parameters": [] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 402, "indent": 0, "parameters": [3, "治療しない"] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 404, "indent": 0, "parameters": [] },
+            { "code": 121, "indent": 0, "parameters": [20, 20, 1] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -1819,25 +942,12 @@
             "tileId": 0
           },
           "list": [
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [16]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 117, "indent": 0, "parameters": [16] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -1875,25 +985,12 @@
             "tileId": 0
           },
           "list": [
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [12]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 117, "indent": 0, "parameters": [12] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -1940,25 +1037,12 @@
             "tileId": 0
           },
           "list": [
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [22]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 117, "indent": 0, "parameters": [22] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -2010,20 +1094,11 @@
               "indent": 0,
               "parameters": ["<animeLight:TM_Yellow01 192 0 -20 6>"]
             },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -2070,130 +1145,59 @@
             "characterIndex": 0
           },
           "list": [
-            {
-              "code": 111,
-              "indent": 0,
-              "parameters": [2, "A", 0]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 111, "indent": 0, "parameters": [2, "A", 0] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
-              "parameters": ["ステートを付与する実験用のレバーだ。"]
+              "parameters": ["It's a lever for experimental state application."]
             },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 411, "indent": 0, "parameters": [] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
-              "parameters": ["ステートを付与する実験用のレバーだ。"]
+              "parameters": [
+                "It's a lever for experimental state application. There's a warning\nnote above it."
+              ]
             },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
-              "parameters": ["上に注意書きがある。"]
+              "parameters": ["*Warning! Do not use indiscriminately."]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 122, "indent": 1, "parameters": [3, 3, 0, 0, 1] },
+            { "code": 117, "indent": 1, "parameters": [9] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
-              "parameters": ["※注意！ むやみに使用しないでください。"]
+              "parameters": ["Lize: \"I'll refrain... I'll wait outside.\""]
             },
-            {
-              "code": 122,
-              "indent": 1,
-              "parameters": [3, 3, 0, 0, 1]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [9]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["リーゼ"]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["「私は遠慮しとくから…… 外で待ってるね。」"]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [2]
-            },
-            {
-              "code": 213,
-              "indent": 1,
-              "parameters": [-1, 7, true]
-            },
-            {
-              "code": 123,
-              "indent": 1,
-              "parameters": ["A", 0]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 117, "indent": 1, "parameters": [2] },
+            { "code": 213, "indent": 1, "parameters": [-1, 7, true] },
+            { "code": 123, "indent": 1, "parameters": ["A", 0] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 412, "indent": 0, "parameters": [] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
-              "parameters": ["フローラにステートを付与します。"]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["どうしますか……？"]
+              "parameters": [
+                "Will you apply a state to Flora? What will you do...?"
+              ]
             },
             {
               "code": 102,
               "indent": 0,
               "parameters": [
                 [
-                  "呪い状態にする",
-                  "性病状態にする",
-                  "お尻むずむず状態にする",
-                  "何もしない"
+                  "Inflict a curse status",
+                  "Inflict with a status ailment",
+                  "Make her butt tingle",
+                  "Do nothing"
                 ],
                 3,
                 0,
@@ -2201,33 +1205,20 @@
                 0
               ]
             },
-            {
-              "code": 402,
-              "indent": 0,
-              "parameters": [0, "呪い状態にする"]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 402, "indent": 0, "parameters": [0, "呪い状態にする"] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": [
-                "フローラはダイヤルを「呪い」にあわせてレバーをおろした。"
+                "Flora adjusted the dial to \"curse\" and lowered the lever."
               ]
             },
             {
               "code": 250,
               "indent": 1,
               "parameters": [
-                {
-                  "name": "Switch3",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "Switch3", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
             {
@@ -2237,36 +1228,13 @@
                 0,
                 {
                   "list": [
-                    {
-                      "code": 15,
-                      "parameters": [2],
-                      "indent": null
-                    },
-                    {
-                      "code": 17,
-                      "indent": null
-                    },
-                    {
-                      "code": 15,
-                      "parameters": [2],
-                      "indent": null
-                    },
-                    {
-                      "code": 18,
-                      "indent": null
-                    },
-                    {
-                      "code": 15,
-                      "parameters": [2],
-                      "indent": null
-                    },
-                    {
-                      "code": 19,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
+                    { "code": 15, "parameters": [2], "indent": null },
+                    { "code": 17, "indent": null },
+                    { "code": 15, "parameters": [2], "indent": null },
+                    { "code": 18, "indent": null },
+                    { "code": 15, "parameters": [2], "indent": null },
+                    { "code": 19, "indent": null },
+                    { "code": 0 }
                   ],
                   "repeat": false,
                   "skippable": true,
@@ -2277,117 +1245,85 @@
             {
               "code": 505,
               "indent": 1,
-              "parameters": [
-                {
-                  "code": 15,
-                  "parameters": [2],
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 15, "parameters": [2], "indent": null }]
             },
             {
               "code": 505,
               "indent": 1,
-              "parameters": [
-                {
-                  "code": 17,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 17, "indent": null }]
             },
             {
               "code": 505,
               "indent": 1,
-              "parameters": [
-                {
-                  "code": 15,
-                  "parameters": [2],
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 15, "parameters": [2], "indent": null }]
             },
             {
               "code": 505,
               "indent": 1,
-              "parameters": [
-                {
-                  "code": 18,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 18, "indent": null }]
             },
             {
               "code": 505,
               "indent": 1,
-              "parameters": [
-                {
-                  "code": 15,
-                  "parameters": [2],
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 15, "parameters": [2], "indent": null }]
             },
             {
               "code": 505,
               "indent": 1,
+              "parameters": [{ "code": 19, "indent": null }]
+            },
+            { "code": 212, "indent": 1, "parameters": [-1, 158, true] },
+            { "code": 213, "indent": 1, "parameters": [-1, 1, false] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
+            { "code": 401, "indent": 1, "parameters": ["Flora: \"Kyaa...!\""] },
+            {
+              "code": 250,
+              "indent": 1,
               "parameters": [
-                {
-                  "code": 19,
-                  "indent": null
-                }
+                { "name": "ZE_Gaaan02", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 212,
-              "indent": 1,
-              "parameters": [-1, 158, true]
-            },
-            {
-              "code": 213,
-              "indent": 1,
-              "parameters": [-1, 1, false]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
-              "parameters": ["フローラ"]
+              "parameters": ["Flora has become \"\\it[37]\"!"]
             },
+            { "code": 313, "indent": 1, "parameters": [0, 1, 0, 37] },
+            {
+              "code": 205,
+              "indent": 1,
+              "parameters": [
+                0,
+                {
+                  "list": [{ "code": 16, "indent": null }, { "code": 0 }],
+                  "repeat": false,
+                  "skippable": true,
+                  "wait": true
+                }
+              ]
+            },
+            {
+              "code": 505,
+              "indent": 1,
+              "parameters": [{ "code": 16, "indent": null }]
+            },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 402, "indent": 0, "parameters": [1, "性病状態にする"] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
-              "parameters": ["「きゃぁっ……！」"]
+              "parameters": [
+                "Flora adjusted the dial to \"STD\" and lowered the lever."
+              ]
             },
             {
               "code": 250,
               "indent": 1,
               "parameters": [
-                {
-                  "name": "ZE_Gaaan02",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "Switch3", "volume": 90, "pitch": 100, "pan": 0 }
               ]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["フローラは『\\it[37]』になってしまった！"]
-            },
-            {
-              "code": 313,
-              "indent": 1,
-              "parameters": [0, 1, 0, 37]
             },
             {
               "code": 205,
@@ -2396,13 +1332,13 @@
                 0,
                 {
                   "list": [
-                    {
-                      "code": 16,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
+                    { "code": 15, "parameters": [2], "indent": null },
+                    { "code": 17, "indent": null },
+                    { "code": 15, "parameters": [2], "indent": null },
+                    { "code": 18, "indent": null },
+                    { "code": 15, "parameters": [2], "indent": null },
+                    { "code": 19, "indent": null },
+                    { "code": 0 }
                   ],
                   "repeat": false,
                   "skippable": true,
@@ -2413,85 +1349,69 @@
             {
               "code": 505,
               "indent": 1,
-              "parameters": [
-                {
-                  "code": 16,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 15, "parameters": [2], "indent": null }]
             },
             {
-              "code": 0,
+              "code": 505,
               "indent": 1,
-              "parameters": []
+              "parameters": [{ "code": 17, "indent": null }]
             },
             {
-              "code": 402,
-              "indent": 0,
-              "parameters": [1, "性病状態にする"]
-            },
-            {
-              "code": 101,
+              "code": 505,
               "indent": 1,
-              "parameters": ["", 0, 0, 2]
+              "parameters": [{ "code": 15, "parameters": [2], "indent": null }]
             },
             {
-              "code": 401,
+              "code": 505,
               "indent": 1,
-              "parameters": [
-                "フローラはダイヤルを「性病」にあわせてレバーをおろした。"
-              ]
+              "parameters": [{ "code": 18, "indent": null }]
             },
+            {
+              "code": 505,
+              "indent": 1,
+              "parameters": [{ "code": 15, "parameters": [2], "indent": null }]
+            },
+            {
+              "code": 505,
+              "indent": 1,
+              "parameters": [{ "code": 19, "indent": null }]
+            },
+            { "code": 212, "indent": 1, "parameters": [-1, 158, true] },
+            { "code": 213, "indent": 1, "parameters": [-1, 1, false] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
+            { "code": 401, "indent": 1, "parameters": ["Flora: \"Kyaa...!\""] },
+            { "code": 111, "indent": 1, "parameters": [0, 5, 0] },
             {
               "code": 250,
-              "indent": 1,
+              "indent": 2,
               "parameters": [
-                {
-                  "name": "Switch3",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "ZE_Gaaan02", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
+            {
+              "code": 401,
+              "indent": 2,
+              "parameters": ["Flora has become \"\\it[37]\"!"]
+            },
+            { "code": 313, "indent": 2, "parameters": [0, 1, 0, 34] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 411, "indent": 1, "parameters": [] },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
+            {
+              "code": 401,
+              "indent": 2,
+              "parameters": ["Flora's hymen prevented \\it[37]."]
+            },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 412, "indent": 1, "parameters": [] },
             {
               "code": 205,
               "indent": 1,
               "parameters": [
                 0,
                 {
-                  "list": [
-                    {
-                      "code": 15,
-                      "parameters": [2],
-                      "indent": null
-                    },
-                    {
-                      "code": 17,
-                      "indent": null
-                    },
-                    {
-                      "code": 15,
-                      "parameters": [2],
-                      "indent": null
-                    },
-                    {
-                      "code": 18,
-                      "indent": null
-                    },
-                    {
-                      "code": 15,
-                      "parameters": [2],
-                      "indent": null
-                    },
-                    {
-                      "code": 19,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
-                  ],
+                  "list": [{ "code": 16, "indent": null }, { "code": 0 }],
                   "repeat": false,
                   "skippable": true,
                   "wait": true
@@ -2501,216 +1421,27 @@
             {
               "code": 505,
               "indent": 1,
-              "parameters": [
-                {
-                  "code": 15,
-                  "parameters": [2],
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 16, "indent": null }]
             },
-            {
-              "code": 505,
-              "indent": 1,
-              "parameters": [
-                {
-                  "code": 17,
-                  "indent": null
-                }
-              ]
-            },
-            {
-              "code": 505,
-              "indent": 1,
-              "parameters": [
-                {
-                  "code": 15,
-                  "parameters": [2],
-                  "indent": null
-                }
-              ]
-            },
-            {
-              "code": 505,
-              "indent": 1,
-              "parameters": [
-                {
-                  "code": 18,
-                  "indent": null
-                }
-              ]
-            },
-            {
-              "code": 505,
-              "indent": 1,
-              "parameters": [
-                {
-                  "code": 15,
-                  "parameters": [2],
-                  "indent": null
-                }
-              ]
-            },
-            {
-              "code": 505,
-              "indent": 1,
-              "parameters": [
-                {
-                  "code": 19,
-                  "indent": null
-                }
-              ]
-            },
-            {
-              "code": 212,
-              "indent": 1,
-              "parameters": [-1, 158, true]
-            },
-            {
-              "code": 213,
-              "indent": 1,
-              "parameters": [-1, 1, false]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["フローラ"]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["「きゃぁっ……！」"]
-            },
-            {
-              "code": 111,
-              "indent": 1,
-              "parameters": [0, 5, 0]
-            },
-            {
-              "code": 250,
-              "indent": 2,
-              "parameters": [
-                {
-                  "name": "ZE_Gaaan02",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
-              ]
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 2,
-              "parameters": ["フローラは『\\it[34]』になってしまった！"]
-            },
-            {
-              "code": 313,
-              "indent": 2,
-              "parameters": [0, 1, 0, 34]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 2,
-              "parameters": ["フローラの処女膜が\\it[34]を防いだ。"]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 205,
-              "indent": 1,
-              "parameters": [
-                0,
-                {
-                  "list": [
-                    {
-                      "code": 16,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
-                  ],
-                  "repeat": false,
-                  "skippable": true,
-                  "wait": true
-                }
-              ]
-            },
-            {
-              "code": 505,
-              "indent": 1,
-              "parameters": [
-                {
-                  "code": 16,
-                  "indent": null
-                }
-              ]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
+            { "code": 0, "indent": 1, "parameters": [] },
             {
               "code": 402,
               "indent": 0,
               "parameters": [2, "お尻むずむず状態にする"]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": [
-                "フローラはダイヤルを「お尻むずむず」にあわせてレバーをおろした。"
+                "Flora adjusted the dial to \"itchy butt\" and lowered the lever."
               ]
             },
             {
               "code": 250,
               "indent": 1,
               "parameters": [
-                {
-                  "name": "Switch3",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "Switch3", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
             {
@@ -2720,36 +1451,13 @@
                 0,
                 {
                   "list": [
-                    {
-                      "code": 15,
-                      "parameters": [2],
-                      "indent": null
-                    },
-                    {
-                      "code": 17,
-                      "indent": null
-                    },
-                    {
-                      "code": 15,
-                      "parameters": [2],
-                      "indent": null
-                    },
-                    {
-                      "code": 18,
-                      "indent": null
-                    },
-                    {
-                      "code": 15,
-                      "parameters": [2],
-                      "indent": null
-                    },
-                    {
-                      "code": 19,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
+                    { "code": 15, "parameters": [2], "indent": null },
+                    { "code": 17, "indent": null },
+                    { "code": 15, "parameters": [2], "indent": null },
+                    { "code": 18, "indent": null },
+                    { "code": 15, "parameters": [2], "indent": null },
+                    { "code": 19, "indent": null },
+                    { "code": 0 }
                   ],
                   "repeat": false,
                   "skippable": true,
@@ -2760,133 +1468,58 @@
             {
               "code": 505,
               "indent": 1,
-              "parameters": [
-                {
-                  "code": 15,
-                  "parameters": [2],
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 15, "parameters": [2], "indent": null }]
             },
             {
               "code": 505,
               "indent": 1,
-              "parameters": [
-                {
-                  "code": 17,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 17, "indent": null }]
             },
             {
               "code": 505,
               "indent": 1,
-              "parameters": [
-                {
-                  "code": 15,
-                  "parameters": [2],
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 15, "parameters": [2], "indent": null }]
             },
             {
               "code": 505,
               "indent": 1,
-              "parameters": [
-                {
-                  "code": 18,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 18, "indent": null }]
             },
             {
               "code": 505,
               "indent": 1,
-              "parameters": [
-                {
-                  "code": 15,
-                  "parameters": [2],
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 15, "parameters": [2], "indent": null }]
             },
             {
               "code": 505,
               "indent": 1,
-              "parameters": [
-                {
-                  "code": 19,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 19, "indent": null }]
             },
-            {
-              "code": 212,
-              "indent": 1,
-              "parameters": [-1, 158, true]
-            },
-            {
-              "code": 213,
-              "indent": 1,
-              "parameters": [-1, 1, false]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["フローラ"]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["「きゃぁっ……！」"]
-            },
+            { "code": 212, "indent": 1, "parameters": [-1, 158, true] },
+            { "code": 213, "indent": 1, "parameters": [-1, 1, false] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
+            { "code": 401, "indent": 1, "parameters": ["Flora: \"Kyaa...!\""] },
             {
               "code": 250,
               "indent": 1,
               "parameters": [
-                {
-                  "name": "ZE_Gaaan02",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "ZE_Gaaan02", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
-              "parameters": ["フローラは『\\it[35]』になってしまった！"]
+              "parameters": ["Flora has become \"\\it[37]\"!"]
             },
-            {
-              "code": 313,
-              "indent": 1,
-              "parameters": [0, 1, 0, 35]
-            },
+            { "code": 313, "indent": 1, "parameters": [0, 1, 0, 35] },
             {
               "code": 205,
               "indent": 1,
               "parameters": [
                 0,
                 {
-                  "list": [
-                    {
-                      "code": 16,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
-                  ],
+                  "list": [{ "code": 16, "indent": null }, { "code": 0 }],
                   "repeat": false,
                   "skippable": true,
                   "wait": true
@@ -2896,47 +1529,17 @@
             {
               "code": 505,
               "indent": 1,
-              "parameters": [
-                {
-                  "code": 16,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 16, "indent": null }]
             },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 0,
-              "parameters": [3, "何もしない"]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 402, "indent": 0, "parameters": [3, "何もしない"] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 404, "indent": 0, "parameters": [] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -2987,38 +1590,16 @@
               "code": 250,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "RGSS3_Move",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "RGSS3_Move", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 201,
-              "indent": 0,
-              "parameters": [0, 165, 17, 10, 2, 0]
-            },
-            {
-              "code": 122,
-              "indent": 0,
-              "parameters": [10, 10, 0, 0, 1]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 201, "indent": 0, "parameters": [0, 165, 17, 10, 2, 0] },
+            { "code": 122, "indent": 0, "parameters": [10, 10, 0, 0, 1] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -3065,25 +1646,12 @@
             "characterIndex": 6
           },
           "list": [
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [4]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 117, "indent": 0, "parameters": [4] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -3133,60 +1701,19 @@
             "tileId": 0
           },
           "list": [
-            {
-              "code": 111,
-              "indent": 0,
-              "parameters": [0, 28, 0]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [233]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 111,
-              "indent": 0,
-              "parameters": [0, 29, 0]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [234]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 111, "indent": 0, "parameters": [0, 28, 0] },
+            { "code": 117, "indent": 1, "parameters": [233] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 412, "indent": 0, "parameters": [] },
+            { "code": 111, "indent": 0, "parameters": [0, 29, 0] },
+            { "code": 117, "indent": 1, "parameters": [234] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 412, "indent": 0, "parameters": [] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false

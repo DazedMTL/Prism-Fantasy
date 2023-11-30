@@ -3,20 +3,10 @@
   "autoplayBgs": true,
   "battleback1Name": "",
   "battleback2Name": "",
-  "bgm": {
-    "name": "OGG_Shop01",
-    "pan": 0,
-    "pitch": 100,
-    "volume": 90
-  },
-  "bgs": {
-    "name": "",
-    "pan": 0,
-    "pitch": 100,
-    "volume": 90
-  },
+  "bgm": { "name": "OGG_Shop01", "pan": 0, "pitch": 100, "volume": 90 },
+  "bgs": { "name": "", "pan": 0, "pitch": 100, "volume": 90 },
   "disableDashing": false,
-  "displayName": "買取ショップ",
+  "displayName": "Buyback Shop",
   "encounterList": [],
   "encounterStep": 30,
   "height": 19,
@@ -228,20 +218,11 @@
               "indent": 0,
               "parameters": ["<animeLight:TM_Yellow01 192 0 -20 6>"]
             },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -287,21 +268,10 @@
             "pattern": 1,
             "characterIndex": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -348,25 +318,12 @@
             "tileId": 0
           },
           "list": [
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [16]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 117, "indent": 0, "parameters": [16] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -404,25 +361,12 @@
             "tileId": 0
           },
           "list": [
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [12]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 117, "indent": 0, "parameters": [12] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -469,25 +413,12 @@
             "tileId": 0
           },
           "list": [
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [22]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 117, "indent": 0, "parameters": [22] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -534,36 +465,15 @@
             "characterIndex": 5
           },
           "list": [
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [0, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 213, "indent": 0, "parameters": [0, 3, false] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
-              "parameters": ["買取ショップの\\N[69]"]
+              "parameters": ["Welcome to the pawnshop."]
             },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["「いらっしゃいませ。」"]
-            },
-            {
-              "code": 118,
-              "indent": 0,
-              "parameters": ["１"]
-            },
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["ChoicePos -1 -1 9"]
-            },
+            { "code": 118, "indent": 0, "parameters": ["１"] },
+            { "code": 356, "indent": 0, "parameters": ["ChoicePos -1 -1 9"] },
             {
               "code": 108,
               "indent": 0,
@@ -614,26 +524,17 @@
               "indent": 0,
               "parameters": [290, 290, 0, 3, 0, 128, 0]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
-              "parameters": ["買取ショップの\\N[69]"]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["「何か売りたいモノはあるかい……？」"]
+              "parameters": ["Do you have anything you'd like to sell...?"]
             },
             {
               "code": 102,
               "indent": 0,
               "parameters": [
-                ["[売値 80G] \\ii[119] 所持数\\V[281]"],
+                ["[Sell Price: 80G] \\ii[119] Quantity Owned: \\V[281]"],
                 -1,
                 0,
                 1,
@@ -645,116 +546,48 @@
               "indent": 0,
               "parameters": [0, "[売値 80G] \\ii[119] 所持数\\V[281]"]
             },
-            {
-              "code": 111,
-              "indent": 1,
-              "parameters": [1, 281, 0, 0, 2]
-            },
-            {
-              "code": 213,
-              "indent": 2,
-              "parameters": [0, 7, false]
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 111, "indent": 1, "parameters": [1, 281, 0, 0, 2] },
+            { "code": 213, "indent": 2, "parameters": [0, 7, false] },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["買取ショップの\\N[69]"]
+              "parameters": ["Hm? It seems you don't have any."]
             },
+            { "code": 119, "indent": 2, "parameters": ["１"] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 411, "indent": 1, "parameters": [] },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["「ん？ 持ってないようですね……」"]
+              "parameters": ["You have '\\V[281]' of \\ii[119], so..."]
             },
-            {
-              "code": 119,
-              "indent": 2,
-              "parameters": ["１"]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 122, "indent": 2, "parameters": [281, 281, 3, 0, 80] },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["買取ショップの\\N[69]"]
-            },
-            {
-              "code": 401,
-              "indent": 2,
-              "parameters": ["「お持ちの\\ii[119]は「\\V[281]」枚ですので…… 」"]
-            },
-            {
-              "code": 122,
-              "indent": 2,
-              "parameters": [281, 281, 3, 0, 80]
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 2,
-              "parameters": ["買取ショップの\\N[69]"]
-            },
-            {
-              "code": 401,
-              "indent": 2,
-              "parameters": ["「\\V[281]Ｇになりますがどうしますか？\\$」"]
+              "parameters": [
+                "That will be \\V[281]G. What would you like to do?\\$"
+              ]
             },
             {
               "code": 102,
               "indent": 2,
-              "parameters": [["売る", "売らない"], 1, 0, 1, 0]
+              "parameters": [["Sell", "Don't sell"], 1, 0, 1, 0]
             },
-            {
-              "code": 402,
-              "indent": 2,
-              "parameters": [0, "売る"]
-            },
-            {
-              "code": 213,
-              "indent": 3,
-              "parameters": [0, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 3,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 402, "indent": 2, "parameters": [0, "売る"] },
+            { "code": 213, "indent": 3, "parameters": [0, 3, false] },
+            { "code": 101, "indent": 3, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 3,
-              "parameters": ["買取ショップの\\N[69]"]
+              "parameters": [
+                "The transaction is complete. Thank you very much."
+              ]
             },
-            {
-              "code": 401,
-              "indent": 3,
-              "parameters": ["「売買成立ですね。ありがとうございました。」"]
-            },
-            {
-              "code": 126,
-              "indent": 3,
-              "parameters": [119, 1, 0, 1000]
-            },
+            { "code": 126, "indent": 3, "parameters": [119, 1, 0, 1000] },
             {
               "code": 250,
               "indent": 3,
@@ -767,80 +600,32 @@
                 }
               ]
             },
-            {
-              "code": 125,
-              "indent": 3,
-              "parameters": [0, 1, 281]
-            },
-            {
-              "code": 101,
-              "indent": 3,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 125, "indent": 3, "parameters": [0, 1, 281] },
+            { "code": 101, "indent": 3, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 3,
-              "parameters": ["\\V[281]Ｇ手に入れた！\\$"]
+              "parameters": ["Gained \\V[281]G!\\$"]
             },
-            {
-              "code": 119,
-              "indent": 3,
-              "parameters": ["１"]
-            },
-            {
-              "code": 0,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 2,
-              "parameters": [1, "売らない"]
-            },
-            {
-              "code": 119,
-              "indent": 3,
-              "parameters": ["１"]
-            },
-            {
-              "code": 0,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 0,
-              "parameters": []
-            },
+            { "code": 119, "indent": 3, "parameters": ["１"] },
+            { "code": 0, "indent": 3, "parameters": [] },
+            { "code": 402, "indent": 2, "parameters": [1, "売らない"] },
+            { "code": 119, "indent": 3, "parameters": ["１"] },
+            { "code": 0, "indent": 3, "parameters": [] },
+            { "code": 404, "indent": 2, "parameters": [] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 412, "indent": 1, "parameters": [] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 404, "indent": 0, "parameters": [] },
             {
               "code": 102,
               "indent": 0,
               "parameters": [
                 [
-                  "[売値 36G] \\ii[122] 所持数\\V[284]",
-                  "[売値 32G] \\ii[123] 所持数\\V[285]",
-                  "[売値 43G] \\ii[124] 所持数\\V[286]",
-                  "[売値 46G] \\ii[125] 所持数\\V[287]"
+                  "[Sell Price 36G] \\ii[122] Quantity Owned\\V[284]",
+                  "[Sell Price 32G] \\ii[123] Quantity Owned\\V[285]",
+                  "[Selling Price: 43G] \\ii[124] Quantity Owned: \\V[286]",
+                  "[Selling Price: 46G] \\ii[125] Quantity Owned: \\V[287]"
                 ],
                 -1,
                 -1,
@@ -853,116 +638,48 @@
               "indent": 0,
               "parameters": [0, "[売値 36G] \\ii[122] 所持数\\V[284]"]
             },
-            {
-              "code": 111,
-              "indent": 1,
-              "parameters": [1, 284, 0, 0, 2]
-            },
-            {
-              "code": 213,
-              "indent": 2,
-              "parameters": [0, 7, false]
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 111, "indent": 1, "parameters": [1, 284, 0, 0, 2] },
+            { "code": 213, "indent": 2, "parameters": [0, 7, false] },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["買取ショップの\\N[69]"]
+              "parameters": ["Hm? It seems you don't have any."]
             },
+            { "code": 119, "indent": 2, "parameters": ["１"] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 411, "indent": 1, "parameters": [] },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["「ん？ 持ってないようですね……」"]
+              "parameters": ["You have '\\V[281]' of \\ii[119], so..."]
             },
-            {
-              "code": 119,
-              "indent": 2,
-              "parameters": ["１"]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 122, "indent": 2, "parameters": [284, 284, 3, 0, 36] },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["買取ショップの\\N[69]"]
-            },
-            {
-              "code": 401,
-              "indent": 2,
-              "parameters": ["「お持ちの\\ii[122]は「\\V[284]」個ですので…… 」"]
-            },
-            {
-              "code": 122,
-              "indent": 2,
-              "parameters": [284, 284, 3, 0, 36]
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 2,
-              "parameters": ["買取ショップの\\N[69]"]
-            },
-            {
-              "code": 401,
-              "indent": 2,
-              "parameters": ["「\\V[284]Ｇになりますがどうしますか？\\$」"]
+              "parameters": [
+                "That will be \\V[281]G. What would you like to do?\\$"
+              ]
             },
             {
               "code": 102,
               "indent": 2,
-              "parameters": [["売る", "売らない"], 1, 0, 1, 0]
+              "parameters": [["Sell", "Don't sell"], 1, 0, 1, 0]
             },
-            {
-              "code": 402,
-              "indent": 2,
-              "parameters": [0, "売る"]
-            },
-            {
-              "code": 213,
-              "indent": 3,
-              "parameters": [0, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 3,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 402, "indent": 2, "parameters": [0, "売る"] },
+            { "code": 213, "indent": 3, "parameters": [0, 3, false] },
+            { "code": 101, "indent": 3, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 3,
-              "parameters": ["買取ショップの\\N[69]"]
+              "parameters": [
+                "The transaction is complete. Thank you very much."
+              ]
             },
-            {
-              "code": 401,
-              "indent": 3,
-              "parameters": ["「売買成立ですね。ありがとうございました。」"]
-            },
-            {
-              "code": 126,
-              "indent": 3,
-              "parameters": [122, 1, 0, 1000]
-            },
+            { "code": 126, "indent": 3, "parameters": [122, 1, 0, 1000] },
             {
               "code": 250,
               "indent": 3,
@@ -975,181 +692,69 @@
                 }
               ]
             },
-            {
-              "code": 125,
-              "indent": 3,
-              "parameters": [0, 1, 284]
-            },
-            {
-              "code": 101,
-              "indent": 3,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 125, "indent": 3, "parameters": [0, 1, 284] },
+            { "code": 101, "indent": 3, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 3,
-              "parameters": ["\\V[284]Ｇ手に入れた！\\$"]
+              "parameters": ["Gained \\V[281]G!\\$"]
             },
-            {
-              "code": 119,
-              "indent": 3,
-              "parameters": ["１"]
-            },
-            {
-              "code": 0,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 2,
-              "parameters": [1, "売らない"]
-            },
-            {
-              "code": 119,
-              "indent": 3,
-              "parameters": ["１"]
-            },
-            {
-              "code": 0,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
+            { "code": 119, "indent": 3, "parameters": ["１"] },
+            { "code": 0, "indent": 3, "parameters": [] },
+            { "code": 402, "indent": 2, "parameters": [1, "売らない"] },
+            { "code": 119, "indent": 3, "parameters": ["１"] },
+            { "code": 0, "indent": 3, "parameters": [] },
+            { "code": 404, "indent": 2, "parameters": [] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 412, "indent": 1, "parameters": [] },
+            { "code": 0, "indent": 1, "parameters": [] },
             {
               "code": 402,
               "indent": 0,
               "parameters": [1, "[売値 32G] \\ii[123] 所持数\\V[285]"]
             },
-            {
-              "code": 111,
-              "indent": 1,
-              "parameters": [1, 285, 0, 0, 2]
-            },
-            {
-              "code": 213,
-              "indent": 2,
-              "parameters": [0, 7, false]
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 111, "indent": 1, "parameters": [1, 285, 0, 0, 2] },
+            { "code": 213, "indent": 2, "parameters": [0, 7, false] },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["買取ショップの\\N[69]"]
+              "parameters": ["Hm? It seems you don't have any."]
             },
+            { "code": 119, "indent": 2, "parameters": ["１"] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 411, "indent": 1, "parameters": [] },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["「ん？ 持ってないようですね……」"]
+              "parameters": ["You have '\\V[281]' of \\ii[119], so..."]
             },
-            {
-              "code": 119,
-              "indent": 2,
-              "parameters": ["１"]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 122, "indent": 2, "parameters": [285, 285, 3, 0, 32] },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["買取ショップの\\N[69]"]
-            },
-            {
-              "code": 401,
-              "indent": 2,
-              "parameters": ["「お持ちの\\ii[123]は「\\V[285]」個ですので…… 」"]
-            },
-            {
-              "code": 122,
-              "indent": 2,
-              "parameters": [285, 285, 3, 0, 32]
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 2,
-              "parameters": ["買取ショップの\\N[69]"]
-            },
-            {
-              "code": 401,
-              "indent": 2,
-              "parameters": ["「\\V[285]Ｇになりますがどうしますか？\\$」"]
+              "parameters": [
+                "That will be \\V[281]G. What would you like to do?\\$"
+              ]
             },
             {
               "code": 102,
               "indent": 2,
-              "parameters": [["売る", "売らない"], 1, 0, 1, 0]
+              "parameters": [["Sell", "Don't sell"], 1, 0, 1, 0]
             },
-            {
-              "code": 402,
-              "indent": 2,
-              "parameters": [0, "売る"]
-            },
-            {
-              "code": 213,
-              "indent": 3,
-              "parameters": [0, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 3,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 402, "indent": 2, "parameters": [0, "売る"] },
+            { "code": 213, "indent": 3, "parameters": [0, 3, false] },
+            { "code": 101, "indent": 3, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 3,
-              "parameters": ["買取ショップの\\N[69]"]
+              "parameters": [
+                "The transaction is complete. Thank you very much."
+              ]
             },
-            {
-              "code": 401,
-              "indent": 3,
-              "parameters": ["「売買成立ですね。ありがとうございました。」"]
-            },
-            {
-              "code": 126,
-              "indent": 3,
-              "parameters": [123, 1, 0, 1000]
-            },
+            { "code": 126, "indent": 3, "parameters": [123, 1, 0, 1000] },
             {
               "code": 250,
               "indent": 3,
@@ -1162,181 +767,69 @@
                 }
               ]
             },
-            {
-              "code": 125,
-              "indent": 3,
-              "parameters": [0, 1, 285]
-            },
-            {
-              "code": 101,
-              "indent": 3,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 125, "indent": 3, "parameters": [0, 1, 285] },
+            { "code": 101, "indent": 3, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 3,
-              "parameters": ["\\V[285]Ｇ手に入れた！\\$"]
+              "parameters": ["Gained \\V[281]G!\\$"]
             },
-            {
-              "code": 119,
-              "indent": 3,
-              "parameters": ["１"]
-            },
-            {
-              "code": 0,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 2,
-              "parameters": [1, "売らない"]
-            },
-            {
-              "code": 119,
-              "indent": 3,
-              "parameters": ["１"]
-            },
-            {
-              "code": 0,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
+            { "code": 119, "indent": 3, "parameters": ["１"] },
+            { "code": 0, "indent": 3, "parameters": [] },
+            { "code": 402, "indent": 2, "parameters": [1, "売らない"] },
+            { "code": 119, "indent": 3, "parameters": ["１"] },
+            { "code": 0, "indent": 3, "parameters": [] },
+            { "code": 404, "indent": 2, "parameters": [] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 412, "indent": 1, "parameters": [] },
+            { "code": 0, "indent": 1, "parameters": [] },
             {
               "code": 402,
               "indent": 0,
               "parameters": [2, "[売値 43G] \\ii[124] 所持数\\V[286]"]
             },
-            {
-              "code": 111,
-              "indent": 1,
-              "parameters": [1, 286, 0, 0, 2]
-            },
-            {
-              "code": 213,
-              "indent": 2,
-              "parameters": [0, 7, false]
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 111, "indent": 1, "parameters": [1, 286, 0, 0, 2] },
+            { "code": 213, "indent": 2, "parameters": [0, 7, false] },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["買取ショップの\\N[69]"]
+              "parameters": ["Hm? It seems you don't have any."]
             },
+            { "code": 119, "indent": 2, "parameters": ["１"] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 411, "indent": 1, "parameters": [] },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["「ん？ 持ってないようですね……」"]
+              "parameters": ["You have '\\V[281]' of \\ii[119], so..."]
             },
-            {
-              "code": 119,
-              "indent": 2,
-              "parameters": ["１"]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 122, "indent": 2, "parameters": [286, 286, 3, 0, 43] },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["買取ショップの\\N[69]"]
-            },
-            {
-              "code": 401,
-              "indent": 2,
-              "parameters": ["「お持ちの\\ii[124]は「\\V[286]」個ですので…… 」"]
-            },
-            {
-              "code": 122,
-              "indent": 2,
-              "parameters": [286, 286, 3, 0, 43]
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 2,
-              "parameters": ["買取ショップの\\N[69]"]
-            },
-            {
-              "code": 401,
-              "indent": 2,
-              "parameters": ["「\\V[286]Ｇになりますがどうしますか？\\$」"]
+              "parameters": [
+                "That will be \\V[281]G. What would you like to do?\\$"
+              ]
             },
             {
               "code": 102,
               "indent": 2,
-              "parameters": [["売る", "売らない"], 1, 0, 1, 0]
+              "parameters": [["Sell", "Don't sell"], 1, 0, 1, 0]
             },
-            {
-              "code": 402,
-              "indent": 2,
-              "parameters": [0, "売る"]
-            },
-            {
-              "code": 213,
-              "indent": 3,
-              "parameters": [0, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 3,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 402, "indent": 2, "parameters": [0, "売る"] },
+            { "code": 213, "indent": 3, "parameters": [0, 3, false] },
+            { "code": 101, "indent": 3, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 3,
-              "parameters": ["買取ショップの\\N[69]"]
+              "parameters": [
+                "The transaction is complete. Thank you very much."
+              ]
             },
-            {
-              "code": 401,
-              "indent": 3,
-              "parameters": ["「売買成立ですね。ありがとうございました。」"]
-            },
-            {
-              "code": 126,
-              "indent": 3,
-              "parameters": [124, 1, 0, 1000]
-            },
+            { "code": 126, "indent": 3, "parameters": [124, 1, 0, 1000] },
             {
               "code": 250,
               "indent": 3,
@@ -1349,181 +842,69 @@
                 }
               ]
             },
-            {
-              "code": 125,
-              "indent": 3,
-              "parameters": [0, 1, 286]
-            },
-            {
-              "code": 101,
-              "indent": 3,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 125, "indent": 3, "parameters": [0, 1, 286] },
+            { "code": 101, "indent": 3, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 3,
-              "parameters": ["\\V[286]Ｇ手に入れた！\\$"]
+              "parameters": ["Gained \\V[281]G!\\$"]
             },
-            {
-              "code": 119,
-              "indent": 3,
-              "parameters": ["１"]
-            },
-            {
-              "code": 0,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 2,
-              "parameters": [1, "売らない"]
-            },
-            {
-              "code": 119,
-              "indent": 3,
-              "parameters": ["１"]
-            },
-            {
-              "code": 0,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
+            { "code": 119, "indent": 3, "parameters": ["１"] },
+            { "code": 0, "indent": 3, "parameters": [] },
+            { "code": 402, "indent": 2, "parameters": [1, "売らない"] },
+            { "code": 119, "indent": 3, "parameters": ["１"] },
+            { "code": 0, "indent": 3, "parameters": [] },
+            { "code": 404, "indent": 2, "parameters": [] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 412, "indent": 1, "parameters": [] },
+            { "code": 0, "indent": 1, "parameters": [] },
             {
               "code": 402,
               "indent": 0,
               "parameters": [3, "[売値 46G] \\ii[125] 所持数\\V[287]"]
             },
-            {
-              "code": 111,
-              "indent": 1,
-              "parameters": [1, 287, 0, 0, 2]
-            },
-            {
-              "code": 213,
-              "indent": 2,
-              "parameters": [0, 7, false]
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 111, "indent": 1, "parameters": [1, 287, 0, 0, 2] },
+            { "code": 213, "indent": 2, "parameters": [0, 7, false] },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["買取ショップの\\N[69]"]
+              "parameters": ["Hm? It seems you don't have any."]
             },
+            { "code": 119, "indent": 2, "parameters": ["１"] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 411, "indent": 1, "parameters": [] },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["「ん？ 持ってないようですね……」"]
+              "parameters": ["You have '\\V[281]' of \\ii[119], so..."]
             },
-            {
-              "code": 119,
-              "indent": 2,
-              "parameters": ["１"]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 122, "indent": 2, "parameters": [287, 287, 3, 0, 46] },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["買取ショップの\\N[69]"]
-            },
-            {
-              "code": 401,
-              "indent": 2,
-              "parameters": ["「お持ちの\\ii[125]は「\\V[287]」個ですので…… 」"]
-            },
-            {
-              "code": 122,
-              "indent": 2,
-              "parameters": [287, 287, 3, 0, 46]
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 2,
-              "parameters": ["買取ショップの\\N[69]"]
-            },
-            {
-              "code": 401,
-              "indent": 2,
-              "parameters": ["「\\V[287]Ｇになりますがどうしますか？\\$」"]
+              "parameters": [
+                "That will be \\V[281]G. What would you like to do?\\$"
+              ]
             },
             {
               "code": 102,
               "indent": 2,
-              "parameters": [["売る", "売らない"], 1, 0, 1, 0]
+              "parameters": [["Sell", "Don't sell"], 1, 0, 1, 0]
             },
-            {
-              "code": 402,
-              "indent": 2,
-              "parameters": [0, "売る"]
-            },
-            {
-              "code": 213,
-              "indent": 3,
-              "parameters": [0, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 3,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 402, "indent": 2, "parameters": [0, "売る"] },
+            { "code": 213, "indent": 3, "parameters": [0, 3, false] },
+            { "code": 101, "indent": 3, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 3,
-              "parameters": ["買取ショップの\\N[69]"]
+              "parameters": [
+                "The transaction is complete. Thank you very much."
+              ]
             },
-            {
-              "code": 401,
-              "indent": 3,
-              "parameters": ["「売買成立ですね。ありがとうございました。」"]
-            },
-            {
-              "code": 126,
-              "indent": 3,
-              "parameters": [125, 1, 0, 1000]
-            },
+            { "code": 126, "indent": 3, "parameters": [125, 1, 0, 1000] },
             {
               "code": 250,
               "indent": 3,
@@ -1536,80 +917,32 @@
                 }
               ]
             },
-            {
-              "code": 125,
-              "indent": 3,
-              "parameters": [0, 1, 287]
-            },
-            {
-              "code": 101,
-              "indent": 3,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 125, "indent": 3, "parameters": [0, 1, 287] },
+            { "code": 101, "indent": 3, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 3,
-              "parameters": ["\\V[287]Ｇ手に入れた！\\$"]
+              "parameters": ["Gained \\V[281]G!\\$"]
             },
-            {
-              "code": 119,
-              "indent": 3,
-              "parameters": ["１"]
-            },
-            {
-              "code": 0,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 2,
-              "parameters": [1, "売らない"]
-            },
-            {
-              "code": 119,
-              "indent": 3,
-              "parameters": ["１"]
-            },
-            {
-              "code": 0,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 0,
-              "parameters": []
-            },
+            { "code": 119, "indent": 3, "parameters": ["１"] },
+            { "code": 0, "indent": 3, "parameters": [] },
+            { "code": 402, "indent": 2, "parameters": [1, "売らない"] },
+            { "code": 119, "indent": 3, "parameters": ["１"] },
+            { "code": 0, "indent": 3, "parameters": [] },
+            { "code": 404, "indent": 2, "parameters": [] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 412, "indent": 1, "parameters": [] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 404, "indent": 0, "parameters": [] },
             {
               "code": 102,
               "indent": 0,
               "parameters": [
                 [
-                  "[売値 16G] \\ii[126] 所持数\\V[288]",
-                  "[売値 28G] \\ii[127] 所持数\\V[289]",
-                  "[売値128G] \\ii[128] 所持数\\V[290]",
-                  "何も売らない"
+                  "[Sell Price 16G] \\ii[126] Quantity Owned\\V[288]",
+                  "[Selling Price: 28G] \\ii[127] Quantity Owned: \\V[289]",
+                  "[Sell Price: 128G] \\ii[128] Quantity Owned: \\V[290]",
+                  "I won't sell anything"
                 ],
                 3,
                 -1,
@@ -1622,116 +955,48 @@
               "indent": 0,
               "parameters": [0, "[売値 16G] \\ii[126] 所持数\\V[288]"]
             },
-            {
-              "code": 111,
-              "indent": 1,
-              "parameters": [1, 288, 0, 0, 2]
-            },
-            {
-              "code": 213,
-              "indent": 2,
-              "parameters": [0, 7, false]
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 111, "indent": 1, "parameters": [1, 288, 0, 0, 2] },
+            { "code": 213, "indent": 2, "parameters": [0, 7, false] },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["買取ショップの\\N[69]"]
+              "parameters": ["Hm? It seems you don't have any."]
             },
+            { "code": 119, "indent": 2, "parameters": ["１"] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 411, "indent": 1, "parameters": [] },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["「ん？ 持ってないようですね……」"]
+              "parameters": ["You have '\\V[281]' of \\ii[119], so..."]
             },
-            {
-              "code": 119,
-              "indent": 2,
-              "parameters": ["１"]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 122, "indent": 2, "parameters": [288, 288, 3, 0, 16] },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["買取ショップの\\N[69]"]
-            },
-            {
-              "code": 401,
-              "indent": 2,
-              "parameters": ["「お持ちの\\ii[126]は「\\V[288]」個ですので…… 」"]
-            },
-            {
-              "code": 122,
-              "indent": 2,
-              "parameters": [288, 288, 3, 0, 16]
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 2,
-              "parameters": ["買取ショップの\\N[69]"]
-            },
-            {
-              "code": 401,
-              "indent": 2,
-              "parameters": ["「\\V[288]Ｇになりますがどうしますか？\\$」"]
+              "parameters": [
+                "That will be \\V[281]G. What would you like to do?\\$"
+              ]
             },
             {
               "code": 102,
               "indent": 2,
-              "parameters": [["売る", "売らない"], 1, 0, 1, 0]
+              "parameters": [["Sell", "Don't sell"], 1, 0, 1, 0]
             },
-            {
-              "code": 402,
-              "indent": 2,
-              "parameters": [0, "売る"]
-            },
-            {
-              "code": 213,
-              "indent": 3,
-              "parameters": [0, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 3,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 402, "indent": 2, "parameters": [0, "売る"] },
+            { "code": 213, "indent": 3, "parameters": [0, 3, false] },
+            { "code": 101, "indent": 3, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 3,
-              "parameters": ["買取ショップの\\N[69]"]
+              "parameters": [
+                "The transaction is complete. Thank you very much."
+              ]
             },
-            {
-              "code": 401,
-              "indent": 3,
-              "parameters": ["「売買成立ですね。ありがとうございました。」"]
-            },
-            {
-              "code": 126,
-              "indent": 3,
-              "parameters": [126, 1, 0, 1000]
-            },
+            { "code": 126, "indent": 3, "parameters": [126, 1, 0, 1000] },
             {
               "code": 250,
               "indent": 3,
@@ -1744,181 +1009,69 @@
                 }
               ]
             },
-            {
-              "code": 125,
-              "indent": 3,
-              "parameters": [0, 1, 288]
-            },
-            {
-              "code": 101,
-              "indent": 3,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 125, "indent": 3, "parameters": [0, 1, 288] },
+            { "code": 101, "indent": 3, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 3,
-              "parameters": ["\\V[288]Ｇ手に入れた！\\$"]
+              "parameters": ["Gained \\V[281]G!\\$"]
             },
-            {
-              "code": 119,
-              "indent": 3,
-              "parameters": ["１"]
-            },
-            {
-              "code": 0,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 2,
-              "parameters": [1, "売らない"]
-            },
-            {
-              "code": 119,
-              "indent": 3,
-              "parameters": ["１"]
-            },
-            {
-              "code": 0,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
+            { "code": 119, "indent": 3, "parameters": ["１"] },
+            { "code": 0, "indent": 3, "parameters": [] },
+            { "code": 402, "indent": 2, "parameters": [1, "売らない"] },
+            { "code": 119, "indent": 3, "parameters": ["１"] },
+            { "code": 0, "indent": 3, "parameters": [] },
+            { "code": 404, "indent": 2, "parameters": [] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 412, "indent": 1, "parameters": [] },
+            { "code": 0, "indent": 1, "parameters": [] },
             {
               "code": 402,
               "indent": 0,
               "parameters": [1, "[売値 28G] \\ii[127] 所持数\\V[289]"]
             },
-            {
-              "code": 111,
-              "indent": 1,
-              "parameters": [1, 289, 0, 0, 2]
-            },
-            {
-              "code": 213,
-              "indent": 2,
-              "parameters": [0, 7, false]
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 111, "indent": 1, "parameters": [1, 289, 0, 0, 2] },
+            { "code": 213, "indent": 2, "parameters": [0, 7, false] },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["買取ショップの\\N[69]"]
+              "parameters": ["Hm? It seems you don't have any."]
             },
+            { "code": 119, "indent": 2, "parameters": ["１"] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 411, "indent": 1, "parameters": [] },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["「ん？ 持ってないようですね……」"]
+              "parameters": ["You have '\\V[281]' of \\ii[119], so..."]
             },
-            {
-              "code": 119,
-              "indent": 2,
-              "parameters": ["１"]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 122, "indent": 2, "parameters": [289, 289, 3, 0, 28] },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["買取ショップの\\N[69]"]
-            },
-            {
-              "code": 401,
-              "indent": 2,
-              "parameters": ["「お持ちの\\ii[127]は「\\V[289]」個ですので…… 」"]
-            },
-            {
-              "code": 122,
-              "indent": 2,
-              "parameters": [289, 289, 3, 0, 28]
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 2,
-              "parameters": ["買取ショップの\\N[69]"]
-            },
-            {
-              "code": 401,
-              "indent": 2,
-              "parameters": ["「\\V[289]Ｇになりますがどうしますか？\\$」"]
+              "parameters": [
+                "That will be \\V[281]G. What would you like to do?\\$"
+              ]
             },
             {
               "code": 102,
               "indent": 2,
-              "parameters": [["売る", "売らない"], 1, 0, 1, 0]
+              "parameters": [["Sell", "Don't sell"], 1, 0, 1, 0]
             },
-            {
-              "code": 402,
-              "indent": 2,
-              "parameters": [0, "売る"]
-            },
-            {
-              "code": 213,
-              "indent": 3,
-              "parameters": [0, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 3,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 402, "indent": 2, "parameters": [0, "売る"] },
+            { "code": 213, "indent": 3, "parameters": [0, 3, false] },
+            { "code": 101, "indent": 3, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 3,
-              "parameters": ["買取ショップの\\N[69]"]
+              "parameters": [
+                "The transaction is complete. Thank you very much."
+              ]
             },
-            {
-              "code": 401,
-              "indent": 3,
-              "parameters": ["「売買成立ですね。ありがとうございました。」"]
-            },
-            {
-              "code": 126,
-              "indent": 3,
-              "parameters": [127, 1, 0, 1000]
-            },
+            { "code": 126, "indent": 3, "parameters": [127, 1, 0, 1000] },
             {
               "code": 250,
               "indent": 3,
@@ -1931,181 +1084,69 @@
                 }
               ]
             },
-            {
-              "code": 125,
-              "indent": 3,
-              "parameters": [0, 1, 289]
-            },
-            {
-              "code": 101,
-              "indent": 3,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 125, "indent": 3, "parameters": [0, 1, 289] },
+            { "code": 101, "indent": 3, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 3,
-              "parameters": ["\\V[289]Ｇ手に入れた！\\$"]
+              "parameters": ["Gained \\V[281]G!\\$"]
             },
-            {
-              "code": 119,
-              "indent": 3,
-              "parameters": ["１"]
-            },
-            {
-              "code": 0,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 2,
-              "parameters": [1, "売らない"]
-            },
-            {
-              "code": 119,
-              "indent": 3,
-              "parameters": ["１"]
-            },
-            {
-              "code": 0,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
+            { "code": 119, "indent": 3, "parameters": ["１"] },
+            { "code": 0, "indent": 3, "parameters": [] },
+            { "code": 402, "indent": 2, "parameters": [1, "売らない"] },
+            { "code": 119, "indent": 3, "parameters": ["１"] },
+            { "code": 0, "indent": 3, "parameters": [] },
+            { "code": 404, "indent": 2, "parameters": [] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 412, "indent": 1, "parameters": [] },
+            { "code": 0, "indent": 1, "parameters": [] },
             {
               "code": 402,
               "indent": 0,
               "parameters": [2, "[売値128G] \\ii[128] 所持数\\V[290]"]
             },
-            {
-              "code": 111,
-              "indent": 1,
-              "parameters": [1, 290, 0, 0, 2]
-            },
-            {
-              "code": 213,
-              "indent": 2,
-              "parameters": [0, 7, false]
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 111, "indent": 1, "parameters": [1, 290, 0, 0, 2] },
+            { "code": 213, "indent": 2, "parameters": [0, 7, false] },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["買取ショップの\\N[69]"]
+              "parameters": ["Hm? It seems you don't have any."]
             },
+            { "code": 119, "indent": 2, "parameters": ["１"] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 411, "indent": 1, "parameters": [] },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["「ん？ 持ってないようですね……」"]
+              "parameters": ["You have '\\V[281]' of \\ii[119], so..."]
             },
-            {
-              "code": 119,
-              "indent": 2,
-              "parameters": ["１"]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 122, "indent": 2, "parameters": [290, 290, 3, 0, 128] },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["買取ショップの\\N[69]"]
-            },
-            {
-              "code": 401,
-              "indent": 2,
-              "parameters": ["「お持ちの\\ii[128]は「\\V[290]」個ですので…… 」"]
-            },
-            {
-              "code": 122,
-              "indent": 2,
-              "parameters": [290, 290, 3, 0, 128]
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 2,
-              "parameters": ["買取ショップの\\N[69]"]
-            },
-            {
-              "code": 401,
-              "indent": 2,
-              "parameters": ["「\\V[290]Ｇになりますがどうしますか？\\$」"]
+              "parameters": [
+                "That will be \\V[281]G. What would you like to do?\\$"
+              ]
             },
             {
               "code": 102,
               "indent": 2,
-              "parameters": [["売る", "売らない"], 1, 0, 1, 0]
+              "parameters": [["Sell", "Don't sell"], 1, 0, 1, 0]
             },
-            {
-              "code": 402,
-              "indent": 2,
-              "parameters": [0, "売る"]
-            },
-            {
-              "code": 213,
-              "indent": 3,
-              "parameters": [0, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 3,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 402, "indent": 2, "parameters": [0, "売る"] },
+            { "code": 213, "indent": 3, "parameters": [0, 3, false] },
+            { "code": 101, "indent": 3, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 3,
-              "parameters": ["買取ショップの\\N[69]"]
+              "parameters": [
+                "The transaction is complete. Thank you very much."
+              ]
             },
-            {
-              "code": 401,
-              "indent": 3,
-              "parameters": ["「売買成立ですね。ありがとうございました。」"]
-            },
-            {
-              "code": 126,
-              "indent": 3,
-              "parameters": [128, 1, 0, 1000]
-            },
+            { "code": 126, "indent": 3, "parameters": [128, 1, 0, 1000] },
             {
               "code": 250,
               "indent": 3,
@@ -2118,110 +1159,36 @@
                 }
               ]
             },
-            {
-              "code": 125,
-              "indent": 3,
-              "parameters": [0, 1, 290]
-            },
-            {
-              "code": 101,
-              "indent": 3,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 125, "indent": 3, "parameters": [0, 1, 290] },
+            { "code": 101, "indent": 3, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 3,
-              "parameters": ["\\V[290]Ｇ手に入れた！\\$"]
+              "parameters": ["Gained \\V[281]G!\\$"]
             },
-            {
-              "code": 119,
-              "indent": 3,
-              "parameters": ["１"]
-            },
-            {
-              "code": 0,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 2,
-              "parameters": [1, "売らない"]
-            },
-            {
-              "code": 119,
-              "indent": 3,
-              "parameters": ["１"]
-            },
-            {
-              "code": 0,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 0,
-              "parameters": [3, "何も売らない"]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 119, "indent": 3, "parameters": ["１"] },
+            { "code": 0, "indent": 3, "parameters": [] },
+            { "code": 402, "indent": 2, "parameters": [1, "売らない"] },
+            { "code": 119, "indent": 3, "parameters": ["１"] },
+            { "code": 0, "indent": 3, "parameters": [] },
+            { "code": 404, "indent": 2, "parameters": [] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 412, "indent": 1, "parameters": [] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 402, "indent": 0, "parameters": [3, "何も売らない"] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 404, "indent": 0, "parameters": [] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
-              "parameters": ["買取ショップの\\N[69]"]
+              "parameters": ["Thank you very much."]
             },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["「ありがとうございました。」"]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -2268,60 +1235,19 @@
             "tileId": 0
           },
           "list": [
-            {
-              "code": 111,
-              "indent": 0,
-              "parameters": [0, 28, 0]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [233]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 111,
-              "indent": 0,
-              "parameters": [0, 29, 0]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [234]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 111, "indent": 0, "parameters": [0, 28, 0] },
+            { "code": 117, "indent": 1, "parameters": [233] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 412, "indent": 0, "parameters": [] },
+            { "code": 111, "indent": 0, "parameters": [0, 29, 0] },
+            { "code": 117, "indent": 1, "parameters": [234] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 412, "indent": 0, "parameters": [] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -2372,38 +1298,16 @@
               "code": 250,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "RGSS3_Move",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "RGSS3_Move", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 201,
-              "indent": 0,
-              "parameters": [0, 138, 10, 19, 2, 0]
-            },
-            {
-              "code": 122,
-              "indent": 0,
-              "parameters": [10, 10, 0, 0, 1]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 201, "indent": 0, "parameters": [0, 138, 10, 19, 2, 0] },
+            { "code": 122, "indent": 0, "parameters": [10, 10, 0, 0, 1] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -2456,20 +1360,11 @@
               "indent": 0,
               "parameters": ["<animeLight:TM_Yellow01 192 0 -20 6>"]
             },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false

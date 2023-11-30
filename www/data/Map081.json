@@ -3,20 +3,10 @@
   "autoplayBgs": true,
   "battleback1Name": "",
   "battleback2Name": "",
-  "bgm": {
-    "name": "OGG_Village01",
-    "pan": 0,
-    "pitch": 100,
-    "volume": 90
-  },
-  "bgs": {
-    "name": "",
-    "pan": 0,
-    "pitch": 100,
-    "volume": 90
-  },
+  "bgm": { "name": "OGG_Village01", "pan": 0, "pitch": 100, "volume": 90 },
+  "bgs": { "name": "", "pan": 0, "pitch": 100, "volume": 90 },
   "disableDashing": false,
-  "displayName": "クレンペル村長宅",
+  "displayName": "Krempel Village Chief's House",
   "encounterList": [],
   "encounterStep": 30,
   "height": 18,
@@ -214,11 +204,7 @@
             "characterIndex": 1
           },
           "list": [
-            {
-              "code": 111,
-              "indent": 0,
-              "parameters": [0, 359, 0]
-            },
+            { "code": 111, "indent": 0, "parameters": [0, 359, 0] },
             {
               "code": 205,
               "indent": 1,
@@ -226,17 +212,9 @@
                 0,
                 {
                   "list": [
-                    {
-                      "code": 36,
-                      "indent": null
-                    },
-                    {
-                      "code": 25,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
+                    { "code": 36, "indent": null },
+                    { "code": 25, "indent": null },
+                    { "code": 0 }
                   ],
                   "repeat": false,
                   "skippable": true,
@@ -247,60 +225,28 @@
             {
               "code": 505,
               "indent": 1,
-              "parameters": [
-                {
-                  "code": 36,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 36, "indent": null }]
             },
             {
               "code": 505,
               "indent": 1,
+              "parameters": [{ "code": 25, "indent": null }]
+            },
+            { "code": 213, "indent": 1, "parameters": [0, 3, false] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
+            {
+              "code": 401,
+              "indent": 1,
               "parameters": [
-                {
-                  "code": 25,
-                  "indent": null
-                }
+                "Village Chief \\N[48]: \"It seems the High Priestess is safe -- thank\ngoodness.\""
               ]
             },
-            {
-              "code": 213,
-              "indent": 1,
-              "parameters": [0, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["村長の\\N[48]"]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": [
-                "「神殿長は無事だったようですね～ 本当によかった。」"
-              ]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["村長の\\N[48]"]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": [
-                "「引き続きスライムの件…… どうぞよろしくお願いします。」"
+                "Village Chief \\N[48]: \"Please continue to take care of the slime\nmatter...\""
               ]
             },
             {
@@ -310,17 +256,9 @@
                 0,
                 {
                   "list": [
-                    {
-                      "code": 18,
-                      "indent": null
-                    },
-                    {
-                      "code": 35,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
+                    { "code": 18, "indent": null },
+                    { "code": 35, "indent": null },
+                    { "code": 0 }
                   ],
                   "repeat": false,
                   "skippable": true,
@@ -331,88 +269,37 @@
             {
               "code": 505,
               "indent": 1,
-              "parameters": [
-                {
-                  "code": 18,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 18, "indent": null }]
             },
             {
               "code": 505,
               "indent": 1,
+              "parameters": [{ "code": 35, "indent": null }]
+            },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 411, "indent": 0, "parameters": [] },
+            { "code": 111, "indent": 1, "parameters": [2, "A", 0] },
+            { "code": 213, "indent": 2, "parameters": [0, 7, false] },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
+            {
+              "code": 401,
+              "indent": 2,
               "parameters": [
-                {
-                  "code": 35,
-                  "indent": null
-                }
+                "Village Chief \\N[48]: \"Hmm~ I wonder if the High Priestess is really\nokay...?\""
               ]
             },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 111,
-              "indent": 1,
-              "parameters": [2, "A", 0]
-            },
-            {
-              "code": 213,
-              "indent": 2,
-              "parameters": [0, 7, false]
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["村長の\\N[48]"]
+              "parameters": [
+                "The Village Chief seems restless, fidgeting around."
+              ]
             },
-            {
-              "code": 401,
-              "indent": 2,
-              "parameters": ["「ん～ 神殿長は大丈夫だろうか……？ 」"]
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 2,
-              "parameters": ["村長は落ち着かないのか、そわそわしているようだ。"]
-            },
-            {
-              "code": 123,
-              "indent": 2,
-              "parameters": ["A", 1]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 213,
-              "indent": 2,
-              "parameters": [0, 7, false]
-            },
+            { "code": 123, "indent": 2, "parameters": ["A", 1] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 411, "indent": 1, "parameters": [] },
+            { "code": 213, "indent": 2, "parameters": [0, 7, false] },
             {
               "code": 205,
               "indent": 2,
@@ -420,17 +307,9 @@
                 0,
                 {
                   "list": [
-                    {
-                      "code": 36,
-                      "indent": null
-                    },
-                    {
-                      "code": 25,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
+                    { "code": 36, "indent": null },
+                    { "code": 25, "indent": null },
+                    { "code": 0 }
                   ],
                   "repeat": false,
                   "skippable": true,
@@ -441,38 +320,19 @@
             {
               "code": 505,
               "indent": 2,
-              "parameters": [
-                {
-                  "code": 36,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 36, "indent": null }]
             },
             {
               "code": 505,
               "indent": 2,
-              "parameters": [
-                {
-                  "code": 25,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 25, "indent": null }]
             },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 2,
-              "parameters": ["村長の\\N[48]"]
-            },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 2,
               "parameters": [
-                "「神殿長とスライムの件…… どうぞよろしくお願いします。」"
+                "Village Chief \\N[48]: \"Regarding the High Priestess and the slime\nmatter... please take good care of it.\""
               ]
             },
             {
@@ -482,17 +342,9 @@
                 0,
                 {
                   "list": [
-                    {
-                      "code": 18,
-                      "indent": null
-                    },
-                    {
-                      "code": 35,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
+                    { "code": 18, "indent": null },
+                    { "code": 35, "indent": null },
+                    { "code": 0 }
                   ],
                   "repeat": false,
                   "skippable": true,
@@ -503,62 +355,23 @@
             {
               "code": 505,
               "indent": 2,
-              "parameters": [
-                {
-                  "code": 18,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 18, "indent": null }]
             },
             {
               "code": 505,
               "indent": 2,
-              "parameters": [
-                {
-                  "code": 35,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 35, "indent": null }]
             },
-            {
-              "code": 123,
-              "indent": 2,
-              "parameters": ["A", 0]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 123, "indent": 2, "parameters": ["A", 0] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 412, "indent": 1, "parameters": [] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 412, "indent": 0, "parameters": [] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -596,99 +409,36 @@
             "characterIndex": 1
           },
           "list": [
-            {
-              "code": 111,
-              "indent": 0,
-              "parameters": [2, "B", 0]
-            },
-            {
-              "code": 213,
-              "indent": 1,
-              "parameters": [0, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["村長の\\N[48]"]
-            },
+            { "code": 111, "indent": 0, "parameters": [2, "B", 0] },
+            { "code": 213, "indent": 1, "parameters": [0, 3, false] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": [
-                "「何もない村ですが、身体を休めるにはいい場所だと思いますよ。」"
+                "Village Chief \\N[48] \"It's a humble village, but I think it's a good\nplace to rest your body.\""
               ]
             },
-            {
-              "code": 123,
-              "indent": 1,
-              "parameters": ["B", 1]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 213,
-              "indent": 1,
-              "parameters": [0, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["村長の\\N[48]"]
-            },
+            { "code": 123, "indent": 1, "parameters": ["B", 1] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 411, "indent": 0, "parameters": [] },
+            { "code": 213, "indent": 1, "parameters": [0, 3, false] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": [
-                "「スライム退治ありがとうございました。またいつでも遊びに来てください。」"
+                "Village Chief \\N[48] \"Thank you for taking care of the slimes. Please\nfeel free to visit us again anytime.\""
               ]
             },
-            {
-              "code": 123,
-              "indent": 1,
-              "parameters": ["B", 0]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 123, "indent": 1, "parameters": ["B", 0] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 412, "indent": 0, "parameters": [] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -735,11 +485,7 @@
             "tileId": 0
           },
           "list": [
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["実績 34"]
-            },
+            { "code": 356, "indent": 0, "parameters": ["実績 34"] },
             {
               "code": 205,
               "indent": 0,
@@ -747,26 +493,11 @@
                 -1,
                 {
                   "list": [
-                    {
-                      "code": 29,
-                      "parameters": [3],
-                      "indent": null
-                    },
-                    {
-                      "code": 4,
-                      "indent": null
-                    },
-                    {
-                      "code": 4,
-                      "indent": null
-                    },
-                    {
-                      "code": 4,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
+                    { "code": 29, "parameters": [3], "indent": null },
+                    { "code": 4, "indent": null },
+                    { "code": 4, "indent": null },
+                    { "code": 4, "indent": null },
+                    { "code": 0 }
                   ],
                   "repeat": false,
                   "skippable": true,
@@ -777,109 +508,44 @@
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 29,
-                  "parameters": [3],
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 29, "parameters": [3], "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 4,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 4, "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 4,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 4, "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
+              "parameters": [{ "code": 4, "indent": null }]
+            },
+            { "code": 230, "indent": 0, "parameters": [60] },
+            { "code": 213, "indent": 0, "parameters": [9, 7, false] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
+            {
+              "code": 401,
+              "indent": 0,
               "parameters": [
-                {
-                  "code": 4,
-                  "indent": null
-                }
+                "White-haired man: \"Hmm, this is troubling... I wonder if everything is\nokay...?\""
               ]
             },
-            {
-              "code": 230,
-              "indent": 0,
-              "parameters": [60]
-            },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [9, 7, false]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 213, "indent": 0, "parameters": [-1, 3, false] },
+            { "code": 122, "indent": 0, "parameters": [2, 2, 0, 0, 1] },
+            { "code": 117, "indent": 0, "parameters": [7] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
-              "parameters": ["白髪の男性"]
+              "parameters": ["Flora: \"Hello~ Is the village chief in...?\""]
             },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["「ん～ 困ったなぁ～　大丈夫だろうか……？」"]
-            },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [-1, 3, false]
-            },
-            {
-              "code": 122,
-              "indent": 0,
-              "parameters": [2, 2, 0, 0, 1]
-            },
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [7]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["フローラ"]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["「こんにちは～ 村長さんはいますか……？」"]
-            },
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [2]
-            },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [9, 1, true]
-            },
+            { "code": 117, "indent": 0, "parameters": [2] },
+            { "code": 213, "indent": 0, "parameters": [9, 1, true] },
             {
               "code": 205,
               "indent": 0,
@@ -887,17 +553,9 @@
                 9,
                 {
                   "list": [
-                    {
-                      "code": 36,
-                      "indent": null
-                    },
-                    {
-                      "code": 25,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
+                    { "code": 36, "indent": null },
+                    { "code": 25, "indent": null },
+                    { "code": 0 }
                   ],
                   "repeat": false,
                   "skippable": true,
@@ -908,189 +566,75 @@
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 36,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 36, "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 25,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 25, "indent": null }]
             },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [9, 2, false]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["村長の\\N[48]"]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["「ん？ 私が村長の\\N[48]だが…… 君たちは？」"]
-            },
-            {
-              "code": 221,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 213, "indent": 0, "parameters": [9, 2, false] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "フローラたちはギルドの案件でこの村に来たことを告げた。"
+                "Village Chief \\N[48]: \"Hm? I am Village Chief \\N[48]... And who might\nyou be?\""
               ]
             },
-            {
-              "code": 203,
-              "indent": 0,
-              "parameters": [9, 0, 15, 8, 4]
-            },
-            {
-              "code": 201,
-              "indent": 0,
-              "parameters": [0, 81, 14, 8, 6, 0]
-            },
-            {
-              "code": 222,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [9, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["村長の\\N[48]"]
-            },
+            { "code": 221, "indent": 0, "parameters": [] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「ああ、ちょうどよかった。実はちょっと困ったことになっててね。」　"
+                "Flora and her companions informed him that they had come to the\nvillage on guild business."
               ]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["村長の\\N[48]"]
-            },
+            { "code": 203, "indent": 0, "parameters": [9, 0, 15, 8, 4] },
+            { "code": 201, "indent": 0, "parameters": [0, 81, 14, 8, 6, 0] },
+            { "code": 222, "indent": 0, "parameters": [] },
+            { "code": 213, "indent": 0, "parameters": [9, 3, false] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「今朝になって、急にこの村の神殿長が山道の魔物を退治しに行くといって"
+                "Village Chief \\N[48]: \"Ah, perfect timing. Actually, we've run into a\nbit of trouble.\""
               ]
             },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "出掛けてしまったんですよ。ギルドに頼んであるって言ったんだが……」"
+                "Village Chief \\N[48]: \"This morning, the head priestess of our\nvillage's temple suddenly set out to exterminate the monsters on the\nmountain path. I told her we had requested help from the guild but...\""
               ]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["村長の\\N[48]"]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「腕に自身があるとか言ってたけど…… とりあえず彼女を追ってもらえませんかね？"
+                "Village Chief \\N[48]: \"She said she was confident in her abilities...\nbut could you possibly go after her? The entrance to the mountain path\nis this way.\""
               ]
             },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["山道への入口はこちらになります。」"]
-            },
-            {
-              "code": 221,
-              "indent": 0,
-              "parameters": []
-            },
+            { "code": 221, "indent": 0, "parameters": [] },
             {
               "code": 250,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "RGSS3_Move",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "RGSS3_Move", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 201,
-              "indent": 0,
-              "parameters": [0, 65, 27, 6, 8, 0]
-            },
-            {
-              "code": 122,
-              "indent": 0,
-              "parameters": [10, 10, 0, 0, 1]
-            },
-            {
-              "code": 121,
-              "indent": 0,
-              "parameters": [356, 356, 0]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 201, "indent": 0, "parameters": [0, 65, 27, 6, 8, 0] },
+            { "code": 122, "indent": 0, "parameters": [10, 10, 0, 0, 1] },
+            { "code": 121, "indent": 0, "parameters": [356, 356, 0] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -1132,38 +676,16 @@
               "code": 250,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "RGSS3_Move",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "RGSS3_Move", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 201,
-              "indent": 0,
-              "parameters": [0, 65, 9, 8, 2, 0]
-            },
-            {
-              "code": 122,
-              "indent": 0,
-              "parameters": [10, 10, 0, 0, 1]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 201, "indent": 0, "parameters": [0, 65, 9, 8, 2, 0] },
+            { "code": 122, "indent": 0, "parameters": [10, 10, 0, 0, 1] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -1208,26 +730,11 @@
                 -1,
                 {
                   "list": [
-                    {
-                      "code": 29,
-                      "parameters": [3],
-                      "indent": null
-                    },
-                    {
-                      "code": 4,
-                      "indent": null
-                    },
-                    {
-                      "code": 4,
-                      "indent": null
-                    },
-                    {
-                      "code": 4,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
+                    { "code": 29, "parameters": [3], "indent": null },
+                    { "code": 4, "indent": null },
+                    { "code": 4, "indent": null },
+                    { "code": 4, "indent": null },
+                    { "code": 0 }
                   ],
                   "repeat": false,
                   "skippable": true,
@@ -1238,64 +745,31 @@
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 29,
-                  "parameters": [3],
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 29, "parameters": [3], "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 4,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 4, "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 4,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 4, "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 4,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 4, "indent": null }]
             },
-            {
-              "code": 230,
-              "indent": 0,
-              "parameters": [60]
-            },
-            {
-              "code": 221,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 230, "indent": 0, "parameters": [60] },
+            { "code": 221, "indent": 0, "parameters": [] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "フローラたちは村長に山道の巨大スライムを倒したことを報告した。"
+                "Flora and her companions reported to the village chief that they had\ndefeated the giant slime on the mountain path."
               ]
             },
             {
@@ -1310,13 +784,8 @@
                       "parameters": ["!$Food_MV01", 0],
                       "indent": null
                     },
-                    {
-                      "code": 17,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
+                    { "code": 17, "indent": null },
+                    { "code": 0 }
                   ],
                   "repeat": false,
                   "skippable": true,
@@ -1328,139 +797,53 @@
               "code": 505,
               "indent": 0,
               "parameters": [
-                {
-                  "code": 41,
-                  "parameters": ["!$Food_MV01", 0],
-                  "indent": null
-                }
+                { "code": 41, "parameters": ["!$Food_MV01", 0], "indent": null }
               ]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 17,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 17, "indent": null }]
             },
-            {
-              "code": 201,
-              "indent": 0,
-              "parameters": [0, 81, 17, 7, 4, 0]
-            },
-            {
-              "code": 222,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [1, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["村長の\\N[48]"]
-            },
+            { "code": 201, "indent": 0, "parameters": [0, 81, 17, 7, 4, 0] },
+            { "code": 222, "indent": 0, "parameters": [] },
+            { "code": 213, "indent": 0, "parameters": [1, 3, false] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「ありがとうございました。神殿長も無事に帰ってきましたし本当に助かりました。」"
+                "Village Chief \\N[48]: \"Thank you very much. The temple chief has also\nreturned safely, and we are truly grateful.\""
               ]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["村長の\\N[48]"]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["「じゃぁこれがスライム退治の報酬です。」"]
-            },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [1, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["村長の\\N[48]"]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「あと、もしよかったらこれもどうぞ。海でも川でも使える万能な釣竿です。"
+                "Village Chief \\N[48]: \"Well then, here is your reward for defeating\nthe slime.\""
               ]
             },
+            { "code": 213, "indent": 0, "parameters": [1, 3, false] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "昔、私が使っていたものですが、旅の途中にでもお楽しみください。」"
+                "Village Chief \\N[48]: \"Also, if you'd like, please take this as well.\nIt's a versatile fishing rod that can be used in both the sea and\nrivers. It's something I used to use, but please enjoy it during your\ntravels.\""
               ]
             },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [-1, 3, false]
-            },
-            {
-              "code": 122,
-              "indent": 0,
-              "parameters": [2, 2, 0, 0, 1]
-            },
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [6]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 213, "indent": 0, "parameters": [-1, 3, false] },
+            { "code": 122, "indent": 0, "parameters": [2, 2, 0, 0, 1] },
+            { "code": 117, "indent": 0, "parameters": [6] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
-              "parameters": ["フローラ"]
+              "parameters": ["Flora: \"Wow~ Thank you so much!\""]
             },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["「わ～ ありがとうございます！」"]
-            },
-            {
-              "code": 221,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [2]
-            },
+            { "code": 221, "indent": 0, "parameters": [] },
+            { "code": 117, "indent": 0, "parameters": [2] },
             {
               "code": 205,
               "indent": 0,
@@ -1468,14 +851,8 @@
                 10,
                 {
                   "list": [
-                    {
-                      "code": 41,
-                      "parameters": ["", 0],
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
+                    { "code": 41, "parameters": ["", 0], "indent": null },
+                    { "code": 0 }
                   ],
                   "repeat": false,
                   "skippable": true,
@@ -1487,11 +864,7 @@
               "code": 505,
               "indent": 0,
               "parameters": [
-                {
-                  "code": 41,
-                  "parameters": ["", 0],
-                  "indent": null
-                }
+                { "code": 41, "parameters": ["", 0], "indent": null }
               ]
             },
             {
@@ -1506,23 +879,15 @@
                 }
               ]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "ギルドの案件「北の村で魔物退治」をクリアしました！"
+                "Cleared the guild task \"Monster Extermination in the Northern\nVillage\"!"
               ]
             },
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["実績 251"]
-            },
+            { "code": 356, "indent": 0, "parameters": ["実績 251"] },
             {
               "code": 250,
               "indent": 0,
@@ -1535,20 +900,12 @@
                 }
               ]
             },
-            {
-              "code": 125,
-              "indent": 0,
-              "parameters": [0, 0, 300]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 125, "indent": 0, "parameters": [0, 0, 300] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
-              "parameters": ["報酬３００Ｇを手に入れた！"]
+              "parameters": ["Received 300G as a reward!"]
             },
             {
               "code": 250,
@@ -1562,38 +919,17 @@
                 }
               ]
             },
-            {
-              "code": 126,
-              "indent": 0,
-              "parameters": [266, 0, 0, 1]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["\\ii[266]を手に入れた！"]
-            },
+            { "code": 126, "indent": 0, "parameters": [266, 0, 0, 1] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
+            { "code": 401, "indent": 0, "parameters": ["Acquired \\ii[266]!"] },
             {
               "code": 250,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "RGSS3_Move",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "RGSS3_Move", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 201,
-              "indent": 0,
-              "parameters": [0, 65, 9, 8, 2, 0]
-            },
+            { "code": 201, "indent": 0, "parameters": [0, 65, 9, 8, 2, 0] },
             {
               "code": 205,
               "indent": 0,
@@ -1601,14 +937,8 @@
                 -1,
                 {
                   "list": [
-                    {
-                      "code": 29,
-                      "parameters": [4],
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
+                    { "code": 29, "parameters": [4], "indent": null },
+                    { "code": 0 }
                   ],
                   "repeat": false,
                   "skippable": true,
@@ -1619,73 +949,26 @@
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 29,
-                  "parameters": [4],
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 29, "parameters": [4], "indent": null }]
             },
-            {
-              "code": 122,
-              "indent": 0,
-              "parameters": [10, 10, 0, 0, 1]
-            },
-            {
-              "code": 222,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 121,
-              "indent": 0,
-              "parameters": [362, 362, 0]
-            },
-            {
-              "code": 121,
-              "indent": 0,
-              "parameters": [201, 201, 1]
-            },
-            {
-              "code": 121,
-              "indent": 0,
-              "parameters": [202, 202, 0]
-            },
+            { "code": 122, "indent": 0, "parameters": [10, 10, 0, 0, 1] },
+            { "code": 222, "indent": 0, "parameters": [] },
+            { "code": 121, "indent": 0, "parameters": [362, 362, 0] },
+            { "code": 121, "indent": 0, "parameters": [201, 201, 1] },
+            { "code": 121, "indent": 0, "parameters": [202, 202, 0] },
             {
               "code": 108,
               "indent": 0,
               "parameters": ["---------------------ギルド案件用"]
             },
-            {
-              "code": 122,
-              "indent": 0,
-              "parameters": [335, 335, 0, 0, 0]
-            },
-            {
-              "code": 122,
-              "indent": 0,
-              "parameters": [331, 331, 2, 0, 1]
-            },
-            {
-              "code": 122,
-              "indent": 0,
-              "parameters": [336, 336, 0, 0, 1]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 122, "indent": 0, "parameters": [335, 335, 0, 0, 0] },
+            { "code": 122, "indent": 0, "parameters": [331, 331, 2, 0, 1] },
+            { "code": 122, "indent": 0, "parameters": [336, 336, 0, 0, 1] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -1727,38 +1010,16 @@
               "code": 250,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "RGSS3_Move",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "RGSS3_Move", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 201,
-              "indent": 0,
-              "parameters": [0, 65, 9, 8, 2, 0]
-            },
-            {
-              "code": 122,
-              "indent": 0,
-              "parameters": [10, 10, 0, 0, 1]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 201, "indent": 0, "parameters": [0, 65, 9, 8, 2, 0] },
+            { "code": 122, "indent": 0, "parameters": [10, 10, 0, 0, 1] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -1805,25 +1066,12 @@
             "tileId": 0
           },
           "list": [
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [16]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 117, "indent": 0, "parameters": [16] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -1861,25 +1109,12 @@
             "tileId": 0
           },
           "list": [
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [12]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 117, "indent": 0, "parameters": [12] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -1926,25 +1161,12 @@
             "tileId": 0
           },
           "list": [
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [22]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 117, "indent": 0, "parameters": [22] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -1996,20 +1218,11 @@
               "indent": 0,
               "parameters": ["<animeLight:TM_Yellow01 128 0 -20 6>"]
             },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -2061,20 +1274,11 @@
               "indent": 0,
               "parameters": ["<animeLight:TM_Yellow01 128 0 -20 6>"]
             },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -2120,21 +1324,10 @@
             "pattern": 1,
             "characterIndex": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -2171,21 +1364,10 @@
             "direction": 2,
             "pattern": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -2232,60 +1414,19 @@
             "tileId": 0
           },
           "list": [
-            {
-              "code": 111,
-              "indent": 0,
-              "parameters": [0, 28, 0]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [233]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 111,
-              "indent": 0,
-              "parameters": [0, 29, 0]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [234]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 111, "indent": 0, "parameters": [0, 28, 0] },
+            { "code": 117, "indent": 1, "parameters": [233] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 412, "indent": 0, "parameters": [] },
+            { "code": 111, "indent": 0, "parameters": [0, 29, 0] },
+            { "code": 117, "indent": 1, "parameters": [234] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 412, "indent": 0, "parameters": [] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -2331,21 +1472,10 @@
             "pattern": 1,
             "characterIndex": 1
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -2382,21 +1512,10 @@
             "pattern": 0,
             "tileId": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -2442,21 +1561,10 @@
             "pattern": 1,
             "characterIndex": 1
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -2503,30 +1611,17 @@
             "tileId": 0
           },
           "list": [
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
-              "parameters": ["いろいろな本が並んでいる。"]
+              "parameters": ["Various books are lined up."]
             },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -2573,30 +1668,17 @@
             "tileId": 0
           },
           "list": [
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
-              "parameters": ["いろいろな本が並んでいる。"]
+              "parameters": ["Various books are lined up."]
             },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false

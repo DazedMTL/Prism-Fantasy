@@ -3,18 +3,8 @@
   "autoplayBgs": true,
   "battleback1Name": "",
   "battleback2Name": "",
-  "bgm": {
-    "name": "OGG_Map02",
-    "pan": 0,
-    "pitch": 100,
-    "volume": 90
-  },
-  "bgs": {
-    "name": "",
-    "pan": 0,
-    "pitch": 100,
-    "volume": 90
-  },
+  "bgm": { "name": "OGG_Map02", "pan": 0, "pitch": 100, "volume": 90 },
+  "bgs": { "name": "", "pan": 0, "pitch": 100, "volume": 90 },
   "disableDashing": false,
   "displayName": "",
   "encounterList": [],
@@ -202,75 +192,39 @@
             "tileId": 0
           },
           "list": [
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
-              "parameters": ["リーゼ"]
+              "parameters": ["Lize: \"So, are you ready? Let's go, Flora.\""]
             },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
-              "parameters": ["「じゃぁ準備はいい？ 行くわよ、フローラ。」"]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["フローラ"]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["「うん、リーゼちゃん。」"]
+              "parameters": ["Flora: \"Yes, Lize-chan.\""]
             },
             {
               "code": 250,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "WS_Warp01",
-                  "volume": 90,
-                  "pitch": 60,
-                  "pan": 0
-                }
+                { "name": "WS_Warp01", "volume": 90, "pitch": 60, "pan": 0 }
               ]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "リーゼが呪文を唱えると二人の身体が光り輝き異世界へと転移を始める。"
+                "As Lize chants a spell, both of their bodies begin to shine and they\nstart to transfer to another world."
               ]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["リーゼ"]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「空間座標指定…… ターゲット、浮遊世界\\N[261]\\N[262]へ！」"
+                "Lize: \"Spatial coordinates set... Target, the floating world\n\\N[261]\\N[262]!\""
               ]
             },
             {
@@ -290,21 +244,9 @@
               "indent": 0,
               "parameters": [[255, 255, 255, 255], 30, false]
             },
-            {
-              "code": 230,
-              "indent": 0,
-              "parameters": [60]
-            },
-            {
-              "code": 221,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 211,
-              "indent": 0,
-              "parameters": [0]
-            },
+            { "code": 230, "indent": 0, "parameters": [60] },
+            { "code": 221, "indent": 0, "parameters": [] },
+            { "code": 211, "indent": 0, "parameters": [0] },
             {
               "code": 231,
               "indent": 0,
@@ -348,247 +290,91 @@
               "indent": 0,
               "parameters": [41, 0, 0, 0, 1460, 0, 100, 100, 128, 0, 240, false]
             },
-            {
-              "code": 222,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 230,
-              "indent": 0,
-              "parameters": [120]
-            },
-            {
-              "code": 122,
-              "indent": 0,
-              "parameters": [3, 3, 0, 0, 1]
-            },
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [9]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["リーゼ"]
-            },
+            { "code": 222, "indent": 0, "parameters": [] },
+            { "code": 230, "indent": 0, "parameters": [120] },
+            { "code": 122, "indent": 0, "parameters": [3, 3, 0, 0, 1] },
+            { "code": 117, "indent": 0, "parameters": [9] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「ここが私が住んでる世界、\\N[261]よ。フローラの世界とは違って私が育った"
+                "Lize: \"This is the world I live in, \\N[262]. Unlike Flora's world, the\ncontinent I grew up on floats in the sky.\""
               ]
             },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["世界は大陸が空に浮かんでるの。」"]
-            },
-            {
-              "code": 122,
-              "indent": 0,
-              "parameters": [2, 2, 0, 0, 21]
-            },
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [6]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["フローラ"]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["「うわ、すごい…… なんか冒険って感じがするね。」"]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["リーゼ"]
-            },
+            { "code": 122, "indent": 0, "parameters": [2, 2, 0, 0, 21] },
+            { "code": 117, "indent": 0, "parameters": [6] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「フローラには光の戦士として虚無という災厄からこの世界を救ってもらうわ。」"
+                "Flora: \"Wow, that's amazing... It really feels like an adventure.\""
               ]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["リーゼ"]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「ここ\\N[261]は異世界をつなぐ中心地。ここが虚無に呑み込まれると他の世界も"
+                "Lize: \"Flora, as a Warrior of Light, you must save this world from a\ncalamity known as the Void.\""
               ]
             },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["消えて無くなってしまうの。」"]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["リーゼ"]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「私は光の巫女としてフローラをサポートするから一緒に頑張りましょう。」"
+                "Lize: \"\\N[262] is the central hub that connects different worlds. If\nit's swallowed by the Void, other worlds will disappear too.\""
               ]
             },
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [11]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["リーゼ"]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["「そして、いま私たちがいるのが東のこの辺り……」"]
-            },
-            {
-              "code": 121,
-              "indent": 0,
-              "parameters": [250, 250, 0]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["リーゼ"]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「目標は\\N[262]だったんだけど…… 転送場所が大幅にズレちゃったみたい。"
+                "Lize: \"As a Priestess of Light, I'll support you, Flora. Let's work\nhard together.\""
               ]
             },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["おそらく魔物にかけられた呪いの影響ね。」"]
-            },
-            {
-              "code": 121,
-              "indent": 0,
-              "parameters": [251, 251, 0]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["リーゼ"]
-            },
+            { "code": 117, "indent": 0, "parameters": [11] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「まずはこの森を抜けて、ここにある\\N[264]を目指しましょう。」"
+                "Lize: \"And now, we're in the eastern part here...\""
               ]
             },
+            { "code": 121, "indent": 0, "parameters": [250, 250, 0] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
-              "code": 242,
+              "code": 401,
               "indent": 0,
-              "parameters": [2]
+              "parameters": [
+                "Lize: \"Our goal was \\N[262], but... it looks like our transfer\nlocation was significantly off. Probably due to a curse cast by\nmonsters.\""
+              ]
             },
+            { "code": 121, "indent": 0, "parameters": [251, 251, 0] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
-              "code": 221,
+              "code": 401,
               "indent": 0,
-              "parameters": []
+              "parameters": [
+                "Lize: \"First, we need to get through this forest and head for \\N[262]\nlocated here.\""
+              ]
             },
-            {
-              "code": 230,
-              "indent": 0,
-              "parameters": [60]
-            },
-            {
-              "code": 121,
-              "indent": 0,
-              "parameters": [21, 21, 1]
-            },
-            {
-              "code": 201,
-              "indent": 0,
-              "parameters": [0, 20, 23, 21, 6, 0]
-            },
-            {
-              "code": 122,
-              "indent": 0,
-              "parameters": [10, 10, 0, 0, 1]
-            },
-            {
-              "code": 281,
-              "indent": 0,
-              "parameters": [0]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 242, "indent": 0, "parameters": [2] },
+            { "code": 221, "indent": 0, "parameters": [] },
+            { "code": 230, "indent": 0, "parameters": [60] },
+            { "code": 121, "indent": 0, "parameters": [21, 21, 1] },
+            { "code": 201, "indent": 0, "parameters": [0, 20, 23, 21, 6, 0] },
+            { "code": 122, "indent": 0, "parameters": [10, 10, 0, 0, 1] },
+            { "code": 281, "indent": 0, "parameters": [0] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -626,69 +412,36 @@
             "tileId": 0
           },
           "list": [
-            {
-              "code": 230,
-              "indent": 0,
-              "parameters": [45]
-            },
+            { "code": 230, "indent": 0, "parameters": [45] },
             {
               "code": 250,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "Chime1",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "Chime1", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["場所の移動には\\N[261]の全体マップを使用します。"]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "街の人々との会話や特定のイベントをクリアすることで、移動できる場所が"
+                "Use the \\N[261] World Map to move to different locations."
               ]
             },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
-              "parameters": ["増えていきます。"]
+              "parameters": [
+                "By talking with townspeople and clearing specific events, you'll\nunlock more places to travel to."
+              ]
             },
-            {
-              "code": 123,
-              "indent": 0,
-              "parameters": ["A", 0]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 123, "indent": 0, "parameters": ["A", 0] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -726,523 +479,162 @@
             "tileId": 0
           },
           "list": [
-            {
-              "code": 118,
-              "indent": 0,
-              "parameters": ["１"]
-            },
-            {
-              "code": 122,
-              "indent": 0,
-              "parameters": [2, 2, 0, 0, 21]
-            },
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [6]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 118, "indent": 0, "parameters": ["１"] },
+            { "code": 122, "indent": 0, "parameters": [2, 2, 0, 0, 21] },
+            { "code": 117, "indent": 0, "parameters": [6] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
-              "parameters": ["フローラ"]
+              "parameters": ["Flora: \"Where should we go...?\""]
             },
+            { "code": 356, "indent": 0, "parameters": ["ChoicePos -1 -1"] },
+            { "code": 356, "indent": 0, "parameters": ["ChoicePos 32 188 8"] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
-              "parameters": ["「どこに行こうか……？」"]
-            },
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["ChoicePos -1 -1"]
-            },
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["ChoicePos 32 188 8"]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["行き先を選択してください。"]
+              "parameters": ["Please select a destination."]
             },
             {
               "code": 102,
               "indent": 0,
-              "parameters": [["― 移動先一覧 ―"], -1, -1, 2, 0]
+              "parameters": [["― Destination List ―"], -1, -1, 2, 0]
             },
-            {
-              "code": 402,
-              "indent": 0,
-              "parameters": [0, "― 移動先一覧 ―"]
-            },
+            { "code": 402, "indent": 0, "parameters": [0, "― 移動先一覧 ―"] },
             {
               "code": 250,
               "indent": 1,
               "parameters": [
-                {
-                  "name": "Buzzer1",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "Buzzer1", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 119,
-              "indent": 1,
-              "parameters": ["１"]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 0,
-              "parameters": []
-            },
+            { "code": 119, "indent": 1, "parameters": ["１"] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 404, "indent": 0, "parameters": [] },
             {
               "code": 102,
               "indent": 0,
               "parameters": [["\\N[263]"], -1, 0, 2, 0]
             },
-            {
-              "code": 402,
-              "indent": 0,
-              "parameters": [0, "\\N[263]"]
-            },
-            {
-              "code": 108,
-              "indent": 1,
-              "parameters": ["東の森"]
-            },
-            {
-              "code": 221,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [3]
-            },
-            {
-              "code": 201,
-              "indent": 1,
-              "parameters": [0, 7, 23, 5, 2, 2]
-            },
-            {
-              "code": 222,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["ChoicePos 144 402"]
-            },
-            {
-              "code": 122,
-              "indent": 1,
-              "parameters": [2, 2, 0, 0, 1]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [6]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 402, "indent": 0, "parameters": [0, "\\N[263]"] },
+            { "code": 108, "indent": 1, "parameters": ["東の森"] },
+            { "code": 221, "indent": 1, "parameters": [] },
+            { "code": 117, "indent": 1, "parameters": [3] },
+            { "code": 201, "indent": 1, "parameters": [0, 7, 23, 5, 2, 2] },
+            { "code": 222, "indent": 1, "parameters": [] },
+            { "code": 356, "indent": 1, "parameters": ["ChoicePos 144 402"] },
+            { "code": 122, "indent": 1, "parameters": [2, 2, 0, 0, 1] },
+            { "code": 117, "indent": 1, "parameters": [6] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
-              "parameters": ["フローラ"]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["「\\N[263]でいい……？」"]
+              "parameters": ["Flora: \"Is \\N[263] okay...?\""]
             },
             {
               "code": 102,
               "indent": 1,
-              "parameters": [["はい", "いいえ"], 1, 0, 1, 0]
+              "parameters": [["Yes", "No"], 1, 0, 1, 0]
             },
-            {
-              "code": 402,
-              "indent": 1,
-              "parameters": [0, "はい"]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [3]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [211]
-            },
-            {
-              "code": 122,
-              "indent": 2,
-              "parameters": [10, 10, 0, 0, 1]
-            },
-            {
-              "code": 121,
-              "indent": 2,
-              "parameters": [101, 101, 0]
-            },
-            {
-              "code": 201,
-              "indent": 2,
-              "parameters": [0, 10, 0, 14, 6, 0]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 1,
-              "parameters": [1, "いいえ"]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [2]
-            },
-            {
-              "code": 119,
-              "indent": 2,
-              "parameters": ["１"]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 0,
-              "parameters": []
-            },
+            { "code": 402, "indent": 1, "parameters": [0, "はい"] },
+            { "code": 117, "indent": 2, "parameters": [3] },
+            { "code": 117, "indent": 2, "parameters": [211] },
+            { "code": 122, "indent": 2, "parameters": [10, 10, 0, 0, 1] },
+            { "code": 121, "indent": 2, "parameters": [101, 101, 0] },
+            { "code": 201, "indent": 2, "parameters": [0, 10, 0, 14, 6, 0] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 402, "indent": 1, "parameters": [1, "いいえ"] },
+            { "code": 117, "indent": 2, "parameters": [2] },
+            { "code": 119, "indent": 2, "parameters": ["１"] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 404, "indent": 1, "parameters": [] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 404, "indent": 0, "parameters": [] },
             {
               "code": 102,
               "indent": 0,
               "parameters": [["\\N[264]"], -1, -1, 2, 0]
             },
-            {
-              "code": 402,
-              "indent": 0,
-              "parameters": [0, "\\N[264]"]
-            },
-            {
-              "code": 108,
-              "indent": 1,
-              "parameters": ["ルエンテ"]
-            },
-            {
-              "code": 221,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [3]
-            },
-            {
-              "code": 201,
-              "indent": 1,
-              "parameters": [0, 7, 21, 7, 2, 2]
-            },
-            {
-              "code": 222,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["ChoicePos 144 402"]
-            },
-            {
-              "code": 122,
-              "indent": 1,
-              "parameters": [2, 2, 0, 0, 2]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [6]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 402, "indent": 0, "parameters": [0, "\\N[264]"] },
+            { "code": 108, "indent": 1, "parameters": ["ルエンテ"] },
+            { "code": 221, "indent": 1, "parameters": [] },
+            { "code": 117, "indent": 1, "parameters": [3] },
+            { "code": 201, "indent": 1, "parameters": [0, 7, 21, 7, 2, 2] },
+            { "code": 222, "indent": 1, "parameters": [] },
+            { "code": 356, "indent": 1, "parameters": ["ChoicePos 144 402"] },
+            { "code": 122, "indent": 1, "parameters": [2, 2, 0, 0, 2] },
+            { "code": 117, "indent": 1, "parameters": [6] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
-              "parameters": ["フローラ"]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["「\\N[264]に行く？」"]
+              "parameters": ["Flora: \"Shall we go to \\N[263]?\""]
             },
             {
               "code": 102,
               "indent": 1,
-              "parameters": [["はい", "いいえ"], 1, 0, 1, 0]
+              "parameters": [["Yes", "No"], 1, 0, 1, 0]
             },
-            {
-              "code": 402,
-              "indent": 1,
-              "parameters": [0, "はい"]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [3]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [211]
-            },
-            {
-              "code": 122,
-              "indent": 2,
-              "parameters": [10, 10, 0, 0, 1]
-            },
-            {
-              "code": 201,
-              "indent": 2,
-              "parameters": [0, 33, 14, 35, 8, 0]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 1,
-              "parameters": [1, "いいえ"]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [2]
-            },
-            {
-              "code": 119,
-              "indent": 2,
-              "parameters": ["１"]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 0,
-              "parameters": []
-            },
+            { "code": 402, "indent": 1, "parameters": [0, "はい"] },
+            { "code": 117, "indent": 2, "parameters": [3] },
+            { "code": 117, "indent": 2, "parameters": [211] },
+            { "code": 122, "indent": 2, "parameters": [10, 10, 0, 0, 1] },
+            { "code": 201, "indent": 2, "parameters": [0, 33, 14, 35, 8, 0] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 402, "indent": 1, "parameters": [1, "いいえ"] },
+            { "code": 117, "indent": 2, "parameters": [2] },
+            { "code": 119, "indent": 2, "parameters": ["１"] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 404, "indent": 1, "parameters": [] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 404, "indent": 0, "parameters": [] },
             {
               "code": 102,
               "indent": 0,
-              "parameters": [["\\N[266]洞窟if(s[252])"], -1, -1, 2, 0]
+              "parameters": [["Go to the cave?if(s[252])"], -1, -1, 2, 0]
             },
             {
               "code": 402,
               "indent": 0,
               "parameters": [0, "\\N[266]洞窟if(s[252])"]
             },
-            {
-              "code": 108,
-              "indent": 1,
-              "parameters": ["タラソナ山洞窟"]
-            },
-            {
-              "code": 221,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [3]
-            },
-            {
-              "code": 201,
-              "indent": 1,
-              "parameters": [0, 7, 21, 4, 2, 2]
-            },
-            {
-              "code": 222,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["ChoicePos 144 402"]
-            },
-            {
-              "code": 122,
-              "indent": 1,
-              "parameters": [2, 2, 0, 0, 1]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [6]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 108, "indent": 1, "parameters": ["タラソナ山洞窟"] },
+            { "code": 221, "indent": 1, "parameters": [] },
+            { "code": 117, "indent": 1, "parameters": [3] },
+            { "code": 201, "indent": 1, "parameters": [0, 7, 21, 4, 2, 2] },
+            { "code": 222, "indent": 1, "parameters": [] },
+            { "code": 356, "indent": 1, "parameters": ["ChoicePos 144 402"] },
+            { "code": 122, "indent": 1, "parameters": [2, 2, 0, 0, 1] },
+            { "code": 117, "indent": 1, "parameters": [6] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
-              "parameters": ["フローラ"]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["「\\N[266]洞窟でいい……？」"]
+              "parameters": ["Flora: \"Is the \\N[263] Cave okay...?\""]
             },
             {
               "code": 102,
               "indent": 1,
-              "parameters": [["はい", "いいえ"], 1, 0, 1, 0]
+              "parameters": [["Yes", "No"], 1, 0, 1, 0]
             },
-            {
-              "code": 402,
-              "indent": 1,
-              "parameters": [0, "はい"]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [3]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [211]
-            },
-            {
-              "code": 122,
-              "indent": 2,
-              "parameters": [10, 10, 0, 0, 0]
-            },
-            {
-              "code": 111,
-              "indent": 2,
-              "parameters": [0, 321, 0]
-            },
-            {
-              "code": 121,
-              "indent": 3,
-              "parameters": [101, 101, 0]
-            },
-            {
-              "code": 0,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 201,
-              "indent": 2,
-              "parameters": [0, 39, 17, 32, 8, 0]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 1,
-              "parameters": [1, "いいえ"]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [2]
-            },
-            {
-              "code": 119,
-              "indent": 2,
-              "parameters": ["１"]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 0,
-              "parameters": []
-            },
+            { "code": 402, "indent": 1, "parameters": [0, "はい"] },
+            { "code": 117, "indent": 2, "parameters": [3] },
+            { "code": 117, "indent": 2, "parameters": [211] },
+            { "code": 122, "indent": 2, "parameters": [10, 10, 0, 0, 0] },
+            { "code": 111, "indent": 2, "parameters": [0, 321, 0] },
+            { "code": 121, "indent": 3, "parameters": [101, 101, 0] },
+            { "code": 0, "indent": 3, "parameters": [] },
+            { "code": 412, "indent": 2, "parameters": [] },
+            { "code": 201, "indent": 2, "parameters": [0, 39, 17, 32, 8, 0] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 402, "indent": 1, "parameters": [1, "いいえ"] },
+            { "code": 117, "indent": 2, "parameters": [2] },
+            { "code": 119, "indent": 2, "parameters": ["１"] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 404, "indent": 1, "parameters": [] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 404, "indent": 0, "parameters": [] },
             {
               "code": 102,
               "indent": 0,
@@ -1253,131 +645,38 @@
               "indent": 0,
               "parameters": [0, "\\N[270]if(s[262])"]
             },
-            {
-              "code": 108,
-              "indent": 1,
-              "parameters": ["クレンペル"]
-            },
-            {
-              "code": 221,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [3]
-            },
-            {
-              "code": 201,
-              "indent": 1,
-              "parameters": [0, 7, 20, 3, 2, 2]
-            },
-            {
-              "code": 222,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["ChoicePos 144 402"]
-            },
-            {
-              "code": 122,
-              "indent": 1,
-              "parameters": [2, 2, 0, 0, 2]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [6]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 108, "indent": 1, "parameters": ["クレンペル"] },
+            { "code": 221, "indent": 1, "parameters": [] },
+            { "code": 117, "indent": 1, "parameters": [3] },
+            { "code": 201, "indent": 1, "parameters": [0, 7, 20, 3, 2, 2] },
+            { "code": 222, "indent": 1, "parameters": [] },
+            { "code": 356, "indent": 1, "parameters": ["ChoicePos 144 402"] },
+            { "code": 122, "indent": 1, "parameters": [2, 2, 0, 0, 2] },
+            { "code": 117, "indent": 1, "parameters": [6] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
-              "parameters": ["フローラ"]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["「\\N[270]でいい……？」"]
+              "parameters": ["Flora: \"Is \\N[263] okay...?\""]
             },
             {
               "code": 102,
               "indent": 1,
-              "parameters": [["はい", "いいえ"], 1, 0, 1, 0]
+              "parameters": [["Yes", "No"], 1, 0, 1, 0]
             },
-            {
-              "code": 402,
-              "indent": 1,
-              "parameters": [0, "はい"]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [3]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [211]
-            },
-            {
-              "code": 122,
-              "indent": 2,
-              "parameters": [10, 10, 0, 0, 1]
-            },
-            {
-              "code": 201,
-              "indent": 2,
-              "parameters": [0, 65, 18, 33, 8, 0]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 1,
-              "parameters": [1, "いいえ"]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [2]
-            },
-            {
-              "code": 119,
-              "indent": 2,
-              "parameters": ["１"]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 0,
-              "parameters": []
-            },
+            { "code": 402, "indent": 1, "parameters": [0, "はい"] },
+            { "code": 117, "indent": 2, "parameters": [3] },
+            { "code": 117, "indent": 2, "parameters": [211] },
+            { "code": 122, "indent": 2, "parameters": [10, 10, 0, 0, 1] },
+            { "code": 201, "indent": 2, "parameters": [0, 65, 18, 33, 8, 0] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 402, "indent": 1, "parameters": [1, "いいえ"] },
+            { "code": 117, "indent": 2, "parameters": [2] },
+            { "code": 119, "indent": 2, "parameters": ["１"] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 404, "indent": 1, "parameters": [] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 404, "indent": 0, "parameters": [] },
             {
               "code": 102,
               "indent": 0,
@@ -1388,406 +687,123 @@
               "indent": 0,
               "parameters": [0, "\\N[269]if(s[261])"]
             },
-            {
-              "code": 108,
-              "indent": 1,
-              "parameters": ["ゴラル平原"]
-            },
-            {
-              "code": 221,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [3]
-            },
-            {
-              "code": 201,
-              "indent": 1,
-              "parameters": [0, 7, 19, 5, 2, 2]
-            },
-            {
-              "code": 222,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["ChoicePos 144 402"]
-            },
-            {
-              "code": 122,
-              "indent": 1,
-              "parameters": [2, 2, 0, 0, 2]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [6]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 108, "indent": 1, "parameters": ["ゴラル平原"] },
+            { "code": 221, "indent": 1, "parameters": [] },
+            { "code": 117, "indent": 1, "parameters": [3] },
+            { "code": 201, "indent": 1, "parameters": [0, 7, 19, 5, 2, 2] },
+            { "code": 222, "indent": 1, "parameters": [] },
+            { "code": 356, "indent": 1, "parameters": ["ChoicePos 144 402"] },
+            { "code": 122, "indent": 1, "parameters": [2, 2, 0, 0, 2] },
+            { "code": 117, "indent": 1, "parameters": [6] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
-              "parameters": ["フローラ"]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["「\\N[269]でいい……？」"]
+              "parameters": ["Flora: \"Is \\N[263] okay...?\""]
             },
             {
               "code": 102,
               "indent": 1,
-              "parameters": [["はい", "いいえ"], 1, 0, 1, 0]
+              "parameters": [["Yes", "No"], 1, 0, 1, 0]
             },
-            {
-              "code": 402,
-              "indent": 1,
-              "parameters": [0, "はい"]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [3]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [211]
-            },
-            {
-              "code": 122,
-              "indent": 2,
-              "parameters": [10, 10, 0, 0, 1]
-            },
-            {
-              "code": 121,
-              "indent": 2,
-              "parameters": [101, 101, 0]
-            },
-            {
-              "code": 201,
-              "indent": 2,
-              "parameters": [0, 71, 19, 39, 8, 0]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 1,
-              "parameters": [1, "いいえ"]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [2]
-            },
-            {
-              "code": 119,
-              "indent": 2,
-              "parameters": ["１"]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 0,
-              "parameters": []
-            },
+            { "code": 402, "indent": 1, "parameters": [0, "はい"] },
+            { "code": 117, "indent": 2, "parameters": [3] },
+            { "code": 117, "indent": 2, "parameters": [211] },
+            { "code": 122, "indent": 2, "parameters": [10, 10, 0, 0, 1] },
+            { "code": 121, "indent": 2, "parameters": [101, 101, 0] },
+            { "code": 201, "indent": 2, "parameters": [0, 71, 19, 39, 8, 0] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 402, "indent": 1, "parameters": [1, "いいえ"] },
+            { "code": 117, "indent": 2, "parameters": [2] },
+            { "code": 119, "indent": 2, "parameters": ["１"] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 404, "indent": 1, "parameters": [] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 404, "indent": 0, "parameters": [] },
             {
               "code": 102,
               "indent": 0,
-              "parameters": [["\\N[267][東]if(s[255])"], -1, -1, 2, 0]
+              "parameters": [["[East]if(s[255])"], -1, -1, 2, 0]
             },
             {
               "code": 402,
               "indent": 0,
               "parameters": [0, "\\N[267][東]if(s[255])"]
             },
-            {
-              "code": 108,
-              "indent": 1,
-              "parameters": ["サウスブリッジ東側"]
-            },
-            {
-              "code": 221,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [3]
-            },
-            {
-              "code": 201,
-              "indent": 1,
-              "parameters": [0, 7, 19, 8, 2, 2]
-            },
-            {
-              "code": 222,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["ChoicePos 144 402"]
-            },
-            {
-              "code": 122,
-              "indent": 1,
-              "parameters": [2, 2, 0, 0, 2]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [6]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 108, "indent": 1, "parameters": ["サウスブリッジ東側"] },
+            { "code": 221, "indent": 1, "parameters": [] },
+            { "code": 117, "indent": 1, "parameters": [3] },
+            { "code": 201, "indent": 1, "parameters": [0, 7, 19, 8, 2, 2] },
+            { "code": 222, "indent": 1, "parameters": [] },
+            { "code": 356, "indent": 1, "parameters": ["ChoicePos 144 402"] },
+            { "code": 122, "indent": 1, "parameters": [2, 2, 0, 0, 2] },
+            { "code": 117, "indent": 1, "parameters": [6] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
-              "parameters": ["フローラ"]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["「\\N[267]でいい……？」"]
+              "parameters": ["Flora: \"Is \\N[263] okay...?\""]
             },
             {
               "code": 102,
               "indent": 1,
-              "parameters": [["はい", "いいえ"], 1, 0, 1, 0]
+              "parameters": [["Yes", "No"], 1, 0, 1, 0]
             },
-            {
-              "code": 402,
-              "indent": 1,
-              "parameters": [0, "はい"]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [3]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [211]
-            },
-            {
-              "code": 122,
-              "indent": 2,
-              "parameters": [10, 10, 0, 0, 1]
-            },
-            {
-              "code": 201,
-              "indent": 2,
-              "parameters": [0, 49, 47, 17, 4, 0]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 1,
-              "parameters": [1, "いいえ"]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [2]
-            },
-            {
-              "code": 119,
-              "indent": 2,
-              "parameters": ["１"]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 0,
-              "parameters": []
-            },
+            { "code": 402, "indent": 1, "parameters": [0, "はい"] },
+            { "code": 117, "indent": 2, "parameters": [3] },
+            { "code": 117, "indent": 2, "parameters": [211] },
+            { "code": 122, "indent": 2, "parameters": [10, 10, 0, 0, 1] },
+            { "code": 201, "indent": 2, "parameters": [0, 49, 47, 17, 4, 0] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 402, "indent": 1, "parameters": [1, "いいえ"] },
+            { "code": 117, "indent": 2, "parameters": [2] },
+            { "code": 119, "indent": 2, "parameters": ["１"] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 404, "indent": 1, "parameters": [] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 404, "indent": 0, "parameters": [] },
             {
               "code": 102,
               "indent": 0,
-              "parameters": [["\\N[267][西]if(s[256])"], -1, -1, 2, 0]
+              "parameters": [["[West]if(s[256])"], -1, -1, 2, 0]
             },
             {
               "code": 402,
               "indent": 0,
               "parameters": [0, "\\N[267][西]if(s[256])"]
             },
-            {
-              "code": 108,
-              "indent": 1,
-              "parameters": ["サウスブリッジ西側"]
-            },
-            {
-              "code": 221,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [3]
-            },
-            {
-              "code": 201,
-              "indent": 1,
-              "parameters": [0, 7, 18, 8, 2, 2]
-            },
-            {
-              "code": 222,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["ChoicePos 144 402"]
-            },
-            {
-              "code": 122,
-              "indent": 1,
-              "parameters": [2, 2, 0, 0, 2]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [6]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 108, "indent": 1, "parameters": ["サウスブリッジ西側"] },
+            { "code": 221, "indent": 1, "parameters": [] },
+            { "code": 117, "indent": 1, "parameters": [3] },
+            { "code": 201, "indent": 1, "parameters": [0, 7, 18, 8, 2, 2] },
+            { "code": 222, "indent": 1, "parameters": [] },
+            { "code": 356, "indent": 1, "parameters": ["ChoicePos 144 402"] },
+            { "code": 122, "indent": 1, "parameters": [2, 2, 0, 0, 2] },
+            { "code": 117, "indent": 1, "parameters": [6] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
-              "parameters": ["フローラ"]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["「\\N[267]でいい……？」"]
+              "parameters": ["Flora: \"Is \\N[263] okay...?\""]
             },
             {
               "code": 102,
               "indent": 1,
-              "parameters": [["はい", "いいえ"], 1, 0, 1, 0]
+              "parameters": [["Yes", "No"], 1, 0, 1, 0]
             },
-            {
-              "code": 402,
-              "indent": 1,
-              "parameters": [0, "はい"]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [3]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [211]
-            },
-            {
-              "code": 122,
-              "indent": 2,
-              "parameters": [10, 10, 0, 0, 1]
-            },
-            {
-              "code": 201,
-              "indent": 2,
-              "parameters": [0, 49, 0, 17, 6, 0]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 1,
-              "parameters": [1, "いいえ"]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [2]
-            },
-            {
-              "code": 119,
-              "indent": 2,
-              "parameters": ["１"]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 0,
-              "parameters": []
-            },
+            { "code": 402, "indent": 1, "parameters": [0, "はい"] },
+            { "code": 117, "indent": 2, "parameters": [3] },
+            { "code": 117, "indent": 2, "parameters": [211] },
+            { "code": 122, "indent": 2, "parameters": [10, 10, 0, 0, 1] },
+            { "code": 201, "indent": 2, "parameters": [0, 49, 0, 17, 6, 0] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 402, "indent": 1, "parameters": [1, "いいえ"] },
+            { "code": 117, "indent": 2, "parameters": [2] },
+            { "code": 119, "indent": 2, "parameters": ["１"] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 404, "indent": 1, "parameters": [] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 404, "indent": 0, "parameters": [] },
             {
               "code": 102,
               "indent": 0,
@@ -1798,146 +814,49 @@
               "indent": 0,
               "parameters": [0, "\\N[262]if(s[253])"]
             },
-            {
-              "code": 108,
-              "indent": 1,
-              "parameters": ["時空の塔"]
-            },
-            {
-              "code": 221,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [3]
-            },
-            {
-              "code": 201,
-              "indent": 1,
-              "parameters": [0, 7, 17, 6, 2, 2]
-            },
-            {
-              "code": 222,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["ChoicePos 144 402"]
-            },
-            {
-              "code": 122,
-              "indent": 1,
-              "parameters": [2, 2, 0, 0, 1]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [6]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 108, "indent": 1, "parameters": ["時空の塔"] },
+            { "code": 221, "indent": 1, "parameters": [] },
+            { "code": 117, "indent": 1, "parameters": [3] },
+            { "code": 201, "indent": 1, "parameters": [0, 7, 17, 6, 2, 2] },
+            { "code": 222, "indent": 1, "parameters": [] },
+            { "code": 356, "indent": 1, "parameters": ["ChoicePos 144 402"] },
+            { "code": 122, "indent": 1, "parameters": [2, 2, 0, 0, 1] },
+            { "code": 117, "indent": 1, "parameters": [6] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
-              "parameters": ["フローラ"]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["「\\N[262]でいい……？」"]
+              "parameters": ["Flora: \"Is \\N[263] okay...?\""]
             },
             {
               "code": 102,
               "indent": 1,
-              "parameters": [["はい", "いいえ"], 1, 0, 1, 0]
+              "parameters": [["Yes", "No"], 1, 0, 1, 0]
             },
-            {
-              "code": 402,
-              "indent": 1,
-              "parameters": [0, "はい"]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [3]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [211]
-            },
-            {
-              "code": 122,
-              "indent": 2,
-              "parameters": [10, 10, 0, 0, 1]
-            },
-            {
-              "code": 201,
-              "indent": 2,
-              "parameters": [0, 53, 18, 34, 8, 0]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 1,
-              "parameters": [1, "いいえ"]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [2]
-            },
-            {
-              "code": 119,
-              "indent": 2,
-              "parameters": ["１"]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 0,
-              "parameters": []
-            },
+            { "code": 402, "indent": 1, "parameters": [0, "はい"] },
+            { "code": 117, "indent": 2, "parameters": [3] },
+            { "code": 117, "indent": 2, "parameters": [211] },
+            { "code": 122, "indent": 2, "parameters": [10, 10, 0, 0, 1] },
+            { "code": 201, "indent": 2, "parameters": [0, 53, 18, 34, 8, 0] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 402, "indent": 1, "parameters": [1, "いいえ"] },
+            { "code": 117, "indent": 2, "parameters": [2] },
+            { "code": 119, "indent": 2, "parameters": ["１"] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 404, "indent": 1, "parameters": [] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 404, "indent": 0, "parameters": [] },
             {
               "code": 102,
               "indent": 0,
-              "parameters": [["\\N[268]海岸if(s[257])"], -1, -1, 2, 0]
+              "parameters": [["Beachif(s[257])"], -1, -1, 2, 0]
             },
             {
               "code": 402,
               "indent": 0,
               "parameters": [0, "\\N[268]海岸if(s[257])"]
             },
-            {
-              "code": 108,
-              "indent": 1,
-              "parameters": ["ナギア海岸"]
-            },
+            { "code": 108, "indent": 1, "parameters": ["ナギア海岸"] },
             {
               "code": 408,
               "indent": 1,
@@ -1947,177 +866,73 @@
               "code": 250,
               "indent": 1,
               "parameters": [
-                {
-                  "name": "RGSS3_Move",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "RGSS3_Move", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 221,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [3]
-            },
-            {
-              "code": 230,
-              "indent": 1,
-              "parameters": [60]
-            },
+            { "code": 221, "indent": 1, "parameters": [] },
+            { "code": 117, "indent": 1, "parameters": [3] },
+            { "code": 230, "indent": 1, "parameters": [60] },
             {
               "code": 245,
               "indent": 1,
               "parameters": [
-                {
-                  "name": "Sea",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "Sea", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["\\N[264]を超えて海岸まで来ると島が見える……"]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": [
-                "距離はそれほどでもないが、さすがに泳いで渡るのは無理だろう。"
+                "When you cross \\N[263], you can see an island off the coast... It's\nnot too far away, but it's definitely impossible to swim across."
               ]
             },
-            {
-              "code": 201,
-              "indent": 1,
-              "parameters": [0, 7, 22, 7, 6, 2]
-            },
-            {
-              "code": 222,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 122,
-              "indent": 1,
-              "parameters": [2, 2, 0, 0, 21]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [6]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 201, "indent": 1, "parameters": [0, 7, 22, 7, 6, 2] },
+            { "code": 222, "indent": 1, "parameters": [] },
+            { "code": 122, "indent": 1, "parameters": [2, 2, 0, 0, 21] },
+            { "code": 117, "indent": 1, "parameters": [6] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
-              "parameters": ["フローラ"]
+              "parameters": [
+                "Flora: \"That's the island, right... Hmm, what should we do?\""
+              ]
             },
+            { "code": 221, "indent": 1, "parameters": [] },
+            { "code": 117, "indent": 1, "parameters": [3] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
-              "parameters": ["「あの島だよね…… ん～ どうしようか？」"]
-            },
-            {
-              "code": 221,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [3]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["しばらく海岸線を歩いていると岩場にたどり着いた。"]
+              "parameters": [
+                "After walking along the coastline for a while, we reached a rocky\narea."
+              ]
             },
             {
               "code": 232,
               "indent": 1,
               "parameters": [96, 0, 0, 0, 0, 0, 100, 100, 0, 0, 1, true]
             },
-            {
-              "code": 222,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 122,
-              "indent": 1,
-              "parameters": [3, 3, 0, 0, 1]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [9]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 222, "indent": 1, "parameters": [] },
+            { "code": 122, "indent": 1, "parameters": [3, 3, 0, 0, 1] },
+            { "code": 117, "indent": 1, "parameters": [9] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
-              "parameters": ["リーゼ"]
+              "parameters": ["Lize: \"Hey, what is that over there...?\""]
             },
+            { "code": 213, "indent": 1, "parameters": [-1, 1, true] },
+            { "code": 122, "indent": 1, "parameters": [2, 2, 0, 0, 21] },
+            { "code": 117, "indent": 1, "parameters": [6] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
-              "parameters": ["「ねぇ、あれは何かしら……？」"]
-            },
-            {
-              "code": 213,
-              "indent": 1,
-              "parameters": [-1, 1, true]
-            },
-            {
-              "code": 122,
-              "indent": 1,
-              "parameters": [2, 2, 0, 0, 21]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [6]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["フローラ"]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["「あれって…… 地下への入口？ トンネルかな？！」"]
+              "parameters": [
+                "Flora: \"That looks like... an entrance underground? Maybe a tunnel?!\""
+              ]
             },
             {
               "code": 250,
@@ -2131,131 +946,53 @@
                 }
               ]
             },
-            {
-              "code": 246,
-              "indent": 1,
-              "parameters": [4]
-            },
-            {
-              "code": 121,
-              "indent": 1,
-              "parameters": [258, 258, 0]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 246, "indent": 1, "parameters": [4] },
+            { "code": 121, "indent": 1, "parameters": [258, 258, 0] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
-              "parameters": ["海岸の岩場に地下道を見つけた！"]
+              "parameters": [
+                "We found an underground passage in the rocks on the coast!"
+              ]
             },
-            {
-              "code": 221,
-              "indent": 1,
-              "parameters": []
-            },
+            { "code": 221, "indent": 1, "parameters": [] },
             {
               "code": 232,
               "indent": 1,
               "parameters": [96, 0, 0, 0, 0, 0, 100, 100, 255, 0, 1, true]
             },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [3]
-            },
-            {
-              "code": 201,
-              "indent": 1,
-              "parameters": [0, 7, 23, 7, 2, 0]
-            },
-            {
-              "code": 222,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["ChoicePos 144 402"]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 117, "indent": 1, "parameters": [3] },
+            { "code": 201, "indent": 1, "parameters": [0, 7, 23, 7, 2, 0] },
+            { "code": 222, "indent": 1, "parameters": [] },
+            { "code": 356, "indent": 1, "parameters": ["ChoicePos 144 402"] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
-              "parameters": ["\\N[268]地下道に入りますか？"]
+              "parameters": ["Will you enter the \\N[263] Underground Passage?"]
             },
             {
               "code": 102,
               "indent": 1,
-              "parameters": [["はい", "いいえ"], 1, 0, 1, 0]
+              "parameters": [["Yes", "No"], 1, 0, 1, 0]
             },
-            {
-              "code": 402,
-              "indent": 1,
-              "parameters": [0, "はい"]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [3]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [211]
-            },
-            {
-              "code": 122,
-              "indent": 2,
-              "parameters": [10, 10, 0, 0, 0]
-            },
-            {
-              "code": 121,
-              "indent": 2,
-              "parameters": [257, 257, 1]
-            },
-            {
-              "code": 201,
-              "indent": 2,
-              "parameters": [0, 13, 7, 8, 6, 0]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 1,
-              "parameters": [1, "いいえ"]
-            },
-            {
-              "code": 121,
-              "indent": 2,
-              "parameters": [257, 257, 1]
-            },
+            { "code": 402, "indent": 1, "parameters": [0, "はい"] },
+            { "code": 117, "indent": 2, "parameters": [3] },
+            { "code": 117, "indent": 2, "parameters": [211] },
+            { "code": 122, "indent": 2, "parameters": [10, 10, 0, 0, 0] },
+            { "code": 121, "indent": 2, "parameters": [257, 257, 1] },
+            { "code": 201, "indent": 2, "parameters": [0, 13, 7, 8, 6, 0] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 402, "indent": 1, "parameters": [1, "いいえ"] },
+            { "code": 121, "indent": 2, "parameters": [257, 257, 1] },
             {
               "code": 205,
               "indent": 2,
               "parameters": [
                 -1,
                 {
-                  "list": [
-                    {
-                      "code": 16,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
-                  ],
+                  "list": [{ "code": 16, "indent": null }, { "code": 0 }],
                   "repeat": false,
                   "skippable": true,
                   "wait": true
@@ -2265,318 +1002,115 @@
             {
               "code": 505,
               "indent": 2,
-              "parameters": [
-                {
-                  "code": 16,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 16, "indent": null }]
             },
-            {
-              "code": 119,
-              "indent": 2,
-              "parameters": ["１"]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 0,
-              "parameters": []
-            },
+            { "code": 119, "indent": 2, "parameters": ["１"] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 404, "indent": 1, "parameters": [] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 404, "indent": 0, "parameters": [] },
             {
               "code": 102,
               "indent": 0,
-              "parameters": [["\\N[268]地下道[西]if(s[258])"], -1, -1, 2, 0]
+              "parameters": [
+                ["Enter the Western Underground Passage?if(s[258])"],
+                -1,
+                -1,
+                2,
+                0
+              ]
             },
             {
               "code": 402,
               "indent": 0,
               "parameters": [0, "\\N[268]地下道[西]if(s[258])"]
             },
-            {
-              "code": 108,
-              "indent": 1,
-              "parameters": ["地下道[西]"]
-            },
-            {
-              "code": 221,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [3]
-            },
-            {
-              "code": 201,
-              "indent": 1,
-              "parameters": [0, 7, 23, 7, 2, 2]
-            },
-            {
-              "code": 222,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["ChoicePos 144 402"]
-            },
-            {
-              "code": 122,
-              "indent": 1,
-              "parameters": [2, 2, 0, 0, 1]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [6]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 108, "indent": 1, "parameters": ["地下道[西]"] },
+            { "code": 221, "indent": 1, "parameters": [] },
+            { "code": 117, "indent": 1, "parameters": [3] },
+            { "code": 201, "indent": 1, "parameters": [0, 7, 23, 7, 2, 2] },
+            { "code": 222, "indent": 1, "parameters": [] },
+            { "code": 356, "indent": 1, "parameters": ["ChoicePos 144 402"] },
+            { "code": 122, "indent": 1, "parameters": [2, 2, 0, 0, 1] },
+            { "code": 117, "indent": 1, "parameters": [6] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
-              "parameters": ["フローラ"]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["「\\N[268]地下道でいい……？」"]
+              "parameters": [
+                "Flora: \"Is the \\N[263] Underground Passage okay...?\""
+              ]
             },
             {
               "code": 102,
               "indent": 1,
-              "parameters": [["はい", "いいえ"], 1, 0, 1, 0]
+              "parameters": [["Yes", "No"], 1, 0, 1, 0]
             },
-            {
-              "code": 402,
-              "indent": 1,
-              "parameters": [0, "はい"]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [3]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [211]
-            },
-            {
-              "code": 122,
-              "indent": 2,
-              "parameters": [10, 10, 0, 0, 0]
-            },
-            {
-              "code": 121,
-              "indent": 2,
-              "parameters": [101, 101, 0]
-            },
-            {
-              "code": 201,
-              "indent": 2,
-              "parameters": [0, 13, 7, 8, 6, 0]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 1,
-              "parameters": [1, "いいえ"]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [2]
-            },
-            {
-              "code": 119,
-              "indent": 2,
-              "parameters": ["１"]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 0,
-              "parameters": []
-            },
+            { "code": 402, "indent": 1, "parameters": [0, "はい"] },
+            { "code": 117, "indent": 2, "parameters": [3] },
+            { "code": 117, "indent": 2, "parameters": [211] },
+            { "code": 122, "indent": 2, "parameters": [10, 10, 0, 0, 0] },
+            { "code": 121, "indent": 2, "parameters": [101, 101, 0] },
+            { "code": 201, "indent": 2, "parameters": [0, 13, 7, 8, 6, 0] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 402, "indent": 1, "parameters": [1, "いいえ"] },
+            { "code": 117, "indent": 2, "parameters": [2] },
+            { "code": 119, "indent": 2, "parameters": ["１"] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 404, "indent": 1, "parameters": [] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 404, "indent": 0, "parameters": [] },
             {
               "code": 102,
               "indent": 0,
-              "parameters": [["\\N[268]地下道[東]if(s[259])"], -1, -1, 2, 0]
+              "parameters": [
+                ["Underground Passage [East]if(s[259])"],
+                -1,
+                -1,
+                2,
+                0
+              ]
             },
             {
               "code": 402,
               "indent": 0,
               "parameters": [0, "\\N[268]地下道[東]if(s[259])"]
             },
-            {
-              "code": 108,
-              "indent": 1,
-              "parameters": ["地下道[東]"]
-            },
-            {
-              "code": 221,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [3]
-            },
-            {
-              "code": 201,
-              "indent": 1,
-              "parameters": [0, 7, 24, 7, 2, 2]
-            },
-            {
-              "code": 222,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["ChoicePos 144 402"]
-            },
-            {
-              "code": 122,
-              "indent": 1,
-              "parameters": [2, 2, 0, 0, 1]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [6]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 108, "indent": 1, "parameters": ["地下道[東]"] },
+            { "code": 221, "indent": 1, "parameters": [] },
+            { "code": 117, "indent": 1, "parameters": [3] },
+            { "code": 201, "indent": 1, "parameters": [0, 7, 24, 7, 2, 2] },
+            { "code": 222, "indent": 1, "parameters": [] },
+            { "code": 356, "indent": 1, "parameters": ["ChoicePos 144 402"] },
+            { "code": 122, "indent": 1, "parameters": [2, 2, 0, 0, 1] },
+            { "code": 117, "indent": 1, "parameters": [6] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
-              "parameters": ["フローラ"]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["「\\N[268]地下道でいい……？」"]
+              "parameters": [
+                "Flora: \"Is the \\N[263] Underground Passage okay...?\""
+              ]
             },
             {
               "code": 102,
               "indent": 1,
-              "parameters": [["はい", "いいえ"], 1, 0, 1, 0]
+              "parameters": [["Yes", "No"], 1, 0, 1, 0]
             },
-            {
-              "code": 402,
-              "indent": 1,
-              "parameters": [0, "はい"]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [3]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [211]
-            },
-            {
-              "code": 122,
-              "indent": 2,
-              "parameters": [10, 10, 0, 0, 0]
-            },
-            {
-              "code": 121,
-              "indent": 2,
-              "parameters": [101, 101, 0]
-            },
-            {
-              "code": 201,
-              "indent": 2,
-              "parameters": [0, 23, 39, 8, 4, 0]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 1,
-              "parameters": [1, "いいえ"]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [2]
-            },
-            {
-              "code": 119,
-              "indent": 2,
-              "parameters": ["１"]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 0,
-              "parameters": []
-            },
+            { "code": 402, "indent": 1, "parameters": [0, "はい"] },
+            { "code": 117, "indent": 2, "parameters": [3] },
+            { "code": 117, "indent": 2, "parameters": [211] },
+            { "code": 122, "indent": 2, "parameters": [10, 10, 0, 0, 0] },
+            { "code": 121, "indent": 2, "parameters": [101, 101, 0] },
+            { "code": 201, "indent": 2, "parameters": [0, 23, 39, 8, 4, 0] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 402, "indent": 1, "parameters": [1, "いいえ"] },
+            { "code": 117, "indent": 2, "parameters": [2] },
+            { "code": 119, "indent": 2, "parameters": ["１"] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 404, "indent": 1, "parameters": [] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 404, "indent": 0, "parameters": [] },
             {
               "code": 102,
               "indent": 0,
@@ -2587,821 +1121,270 @@
               "indent": 0,
               "parameters": [0, "\\N[271]if(s[260])"]
             },
-            {
-              "code": 108,
-              "indent": 1,
-              "parameters": ["東の神殿"]
-            },
-            {
-              "code": 221,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [3]
-            },
-            {
-              "code": 201,
-              "indent": 1,
-              "parameters": [0, 7, 25, 8, 2, 2]
-            },
-            {
-              "code": 222,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["ChoicePos 144 402"]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 108, "indent": 1, "parameters": ["東の神殿"] },
+            { "code": 221, "indent": 1, "parameters": [] },
+            { "code": 117, "indent": 1, "parameters": [3] },
+            { "code": 201, "indent": 1, "parameters": [0, 7, 25, 8, 2, 2] },
+            { "code": 222, "indent": 1, "parameters": [] },
+            { "code": 356, "indent": 1, "parameters": ["ChoicePos 144 402"] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
-              "parameters": ["\\N[271]に移動しますか？"]
+              "parameters": ["Will you move to \\N[263]?"]
             },
             {
               "code": 102,
               "indent": 1,
-              "parameters": [["はい", "いいえ"], 1, 0, 1, 0]
+              "parameters": [["Yes", "No"], 1, 0, 1, 0]
             },
-            {
-              "code": 402,
-              "indent": 1,
-              "parameters": [0, "はい"]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [3]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [211]
-            },
-            {
-              "code": 122,
-              "indent": 2,
-              "parameters": [10, 10, 0, 0, 1]
-            },
-            {
-              "code": 201,
-              "indent": 2,
-              "parameters": [0, 24, 18, 26, 8, 0]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 1,
-              "parameters": [1, "いいえ"]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [2]
-            },
-            {
-              "code": 119,
-              "indent": 2,
-              "parameters": ["１"]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 0,
-              "parameters": []
-            },
+            { "code": 402, "indent": 1, "parameters": [0, "はい"] },
+            { "code": 117, "indent": 2, "parameters": [3] },
+            { "code": 117, "indent": 2, "parameters": [211] },
+            { "code": 122, "indent": 2, "parameters": [10, 10, 0, 0, 1] },
+            { "code": 201, "indent": 2, "parameters": [0, 24, 18, 26, 8, 0] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 402, "indent": 1, "parameters": [1, "いいえ"] },
+            { "code": 117, "indent": 2, "parameters": [2] },
+            { "code": 119, "indent": 2, "parameters": ["１"] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 404, "indent": 1, "parameters": [] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 404, "indent": 0, "parameters": [] },
             {
               "code": 102,
               "indent": 0,
-              "parameters": [["海浜公園if(s[263])"], -1, -1, 2, 0]
+              "parameters": [
+                ["Move to the Seaside Park?if(s[263])"],
+                -1,
+                -1,
+                2,
+                0
+              ]
             },
             {
               "code": 402,
               "indent": 0,
               "parameters": [0, "海浜公園if(s[263])"]
             },
-            {
-              "code": 108,
-              "indent": 1,
-              "parameters": ["海浜公園"]
-            },
-            {
-              "code": 221,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [3]
-            },
-            {
-              "code": 201,
-              "indent": 1,
-              "parameters": [0, 7, 15, 9, 2, 2]
-            },
-            {
-              "code": 222,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["ChoicePos 144 402"]
-            },
-            {
-              "code": 122,
-              "indent": 1,
-              "parameters": [2, 2, 0, 0, 1]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [6]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 108, "indent": 1, "parameters": ["海浜公園"] },
+            { "code": 221, "indent": 1, "parameters": [] },
+            { "code": 117, "indent": 1, "parameters": [3] },
+            { "code": 201, "indent": 1, "parameters": [0, 7, 15, 9, 2, 2] },
+            { "code": 222, "indent": 1, "parameters": [] },
+            { "code": 356, "indent": 1, "parameters": ["ChoicePos 144 402"] },
+            { "code": 122, "indent": 1, "parameters": [2, 2, 0, 0, 1] },
+            { "code": 117, "indent": 1, "parameters": [6] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
-              "parameters": ["フローラ"]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["「海浜公園でいい……？」"]
+              "parameters": ["Flora: \"Is Seaside Park okay...?\""]
             },
             {
               "code": 102,
               "indent": 1,
-              "parameters": [["はい", "いいえ"], 1, 0, 1, 0]
+              "parameters": [["Yes", "No"], 1, 0, 1, 0]
             },
-            {
-              "code": 402,
-              "indent": 1,
-              "parameters": [0, "はい"]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [3]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [211]
-            },
-            {
-              "code": 122,
-              "indent": 2,
-              "parameters": [10, 10, 0, 0, 1]
-            },
-            {
-              "code": 111,
-              "indent": 2,
-              "parameters": [0, 367, 0]
-            },
-            {
-              "code": 121,
-              "indent": 3,
-              "parameters": [101, 101, 0]
-            },
-            {
-              "code": 0,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 201,
-              "indent": 2,
-              "parameters": [0, 90, 31, 0, 2, 0]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 1,
-              "parameters": [1, "いいえ"]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [2]
-            },
-            {
-              "code": 119,
-              "indent": 2,
-              "parameters": ["１"]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 0,
-              "parameters": []
-            },
+            { "code": 402, "indent": 1, "parameters": [0, "はい"] },
+            { "code": 117, "indent": 2, "parameters": [3] },
+            { "code": 117, "indent": 2, "parameters": [211] },
+            { "code": 122, "indent": 2, "parameters": [10, 10, 0, 0, 1] },
+            { "code": 111, "indent": 2, "parameters": [0, 367, 0] },
+            { "code": 121, "indent": 3, "parameters": [101, 101, 0] },
+            { "code": 0, "indent": 3, "parameters": [] },
+            { "code": 412, "indent": 2, "parameters": [] },
+            { "code": 201, "indent": 2, "parameters": [0, 90, 31, 0, 2, 0] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 402, "indent": 1, "parameters": [1, "いいえ"] },
+            { "code": 117, "indent": 2, "parameters": [2] },
+            { "code": 119, "indent": 2, "parameters": ["１"] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 404, "indent": 1, "parameters": [] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 404, "indent": 0, "parameters": [] },
             {
               "code": 102,
               "indent": 0,
-              "parameters": [["プリエージュif(s[254])"], -1, -1, 2, 0]
+              "parameters": [["Priegeif(s[254])"], -1, -1, 2, 0]
             },
             {
               "code": 402,
               "indent": 0,
               "parameters": [0, "プリエージュif(s[254])"]
             },
-            {
-              "code": 108,
-              "indent": 1,
-              "parameters": ["プリエージュ"]
-            },
-            {
-              "code": 221,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [3]
-            },
-            {
-              "code": 201,
-              "indent": 1,
-              "parameters": [0, 7, 13, 7, 2, 2]
-            },
-            {
-              "code": 222,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["ChoicePos 144 402"]
-            },
-            {
-              "code": 122,
-              "indent": 1,
-              "parameters": [2, 2, 0, 0, 1]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [6]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 108, "indent": 1, "parameters": ["プリエージュ"] },
+            { "code": 221, "indent": 1, "parameters": [] },
+            { "code": 117, "indent": 1, "parameters": [3] },
+            { "code": 201, "indent": 1, "parameters": [0, 7, 13, 7, 2, 2] },
+            { "code": 222, "indent": 1, "parameters": [] },
+            { "code": 356, "indent": 1, "parameters": ["ChoicePos 144 402"] },
+            { "code": 122, "indent": 1, "parameters": [2, 2, 0, 0, 1] },
+            { "code": 117, "indent": 1, "parameters": [6] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
-              "parameters": ["フローラ"]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["「プリエージュでいい……？」"]
+              "parameters": ["Flora: \"Is Prie-jou okay...?\""]
             },
             {
               "code": 102,
               "indent": 1,
-              "parameters": [["はい", "いいえ"], 1, 0, 1, 0]
+              "parameters": [["Yes", "No"], 1, 0, 1, 0]
             },
-            {
-              "code": 402,
-              "indent": 1,
-              "parameters": [0, "はい"]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [3]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [211]
-            },
-            {
-              "code": 122,
-              "indent": 2,
-              "parameters": [10, 10, 0, 0, 1]
-            },
-            {
-              "code": 201,
-              "indent": 2,
-              "parameters": [0, 70, 21, 35, 8, 0]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 1,
-              "parameters": [1, "いいえ"]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [2]
-            },
-            {
-              "code": 119,
-              "indent": 2,
-              "parameters": ["１"]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 0,
-              "parameters": []
-            },
+            { "code": 402, "indent": 1, "parameters": [0, "はい"] },
+            { "code": 117, "indent": 2, "parameters": [3] },
+            { "code": 117, "indent": 2, "parameters": [211] },
+            { "code": 122, "indent": 2, "parameters": [10, 10, 0, 0, 1] },
+            { "code": 201, "indent": 2, "parameters": [0, 70, 21, 35, 8, 0] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 402, "indent": 1, "parameters": [1, "いいえ"] },
+            { "code": 117, "indent": 2, "parameters": [2] },
+            { "code": 119, "indent": 2, "parameters": ["１"] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 404, "indent": 1, "parameters": [] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 404, "indent": 0, "parameters": [] },
             {
               "code": 102,
               "indent": 0,
-              "parameters": [["西の森if(s[264])"], -1, -1, 2, 0]
+              "parameters": [["West Forestif(s[264])"], -1, -1, 2, 0]
             },
-            {
-              "code": 402,
-              "indent": 0,
-              "parameters": [0, "西の森if(s[264])"]
-            },
-            {
-              "code": 108,
-              "indent": 1,
-              "parameters": ["西の森"]
-            },
-            {
-              "code": 221,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [3]
-            },
-            {
-              "code": 201,
-              "indent": 1,
-              "parameters": [0, 7, 10, 6, 2, 2]
-            },
-            {
-              "code": 222,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["ChoicePos 144 402"]
-            },
-            {
-              "code": 122,
-              "indent": 1,
-              "parameters": [2, 2, 0, 0, 1]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [6]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 402, "indent": 0, "parameters": [0, "西の森if(s[264])"] },
+            { "code": 108, "indent": 1, "parameters": ["西の森"] },
+            { "code": 221, "indent": 1, "parameters": [] },
+            { "code": 117, "indent": 1, "parameters": [3] },
+            { "code": 201, "indent": 1, "parameters": [0, 7, 10, 6, 2, 2] },
+            { "code": 222, "indent": 1, "parameters": [] },
+            { "code": 356, "indent": 1, "parameters": ["ChoicePos 144 402"] },
+            { "code": 122, "indent": 1, "parameters": [2, 2, 0, 0, 1] },
+            { "code": 117, "indent": 1, "parameters": [6] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
-              "parameters": ["フローラ"]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["「西の森でいい……？」"]
+              "parameters": ["Flora: \"Is the Western Forest okay...?\""]
             },
             {
               "code": 102,
               "indent": 1,
-              "parameters": [["はい", "いいえ"], 1, 0, 1, 0]
+              "parameters": [["Yes", "No"], 1, 0, 1, 0]
             },
-            {
-              "code": 402,
-              "indent": 1,
-              "parameters": [0, "はい"]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [3]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [211]
-            },
-            {
-              "code": 122,
-              "indent": 2,
-              "parameters": [10, 10, 0, 0, 0]
-            },
-            {
-              "code": 121,
-              "indent": 2,
-              "parameters": [101, 101, 0]
-            },
-            {
-              "code": 201,
-              "indent": 2,
-              "parameters": [0, 110, 22, 47, 8, 0]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 1,
-              "parameters": [1, "いいえ"]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [2]
-            },
-            {
-              "code": 119,
-              "indent": 2,
-              "parameters": ["１"]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 0,
-              "parameters": []
-            },
+            { "code": 402, "indent": 1, "parameters": [0, "はい"] },
+            { "code": 117, "indent": 2, "parameters": [3] },
+            { "code": 117, "indent": 2, "parameters": [211] },
+            { "code": 122, "indent": 2, "parameters": [10, 10, 0, 0, 0] },
+            { "code": 121, "indent": 2, "parameters": [101, 101, 0] },
+            { "code": 201, "indent": 2, "parameters": [0, 110, 22, 47, 8, 0] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 402, "indent": 1, "parameters": [1, "いいえ"] },
+            { "code": 117, "indent": 2, "parameters": [2] },
+            { "code": 119, "indent": 2, "parameters": ["１"] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 404, "indent": 1, "parameters": [] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 404, "indent": 0, "parameters": [] },
             {
               "code": 102,
               "indent": 0,
-              "parameters": [["\\N[274]地下道[東]if(s[265])"], -1, -1, 2, 0]
+              "parameters": [
+                ["Underground Passage [East]if(s[265])"],
+                -1,
+                -1,
+                2,
+                0
+              ]
             },
             {
               "code": 402,
               "indent": 0,
               "parameters": [0, "\\N[274]地下道[東]if(s[265])"]
             },
-            {
-              "code": 108,
-              "indent": 1,
-              "parameters": ["ヴェナデ地下道[東]"]
-            },
-            {
-              "code": 221,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [3]
-            },
-            {
-              "code": 201,
-              "indent": 1,
-              "parameters": [0, 7, 10, 8, 2, 2]
-            },
-            {
-              "code": 222,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["ChoicePos 144 402"]
-            },
-            {
-              "code": 122,
-              "indent": 1,
-              "parameters": [2, 2, 0, 0, 1]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [6]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 108, "indent": 1, "parameters": ["ヴェナデ地下道[東]"] },
+            { "code": 221, "indent": 1, "parameters": [] },
+            { "code": 117, "indent": 1, "parameters": [3] },
+            { "code": 201, "indent": 1, "parameters": [0, 7, 10, 8, 2, 2] },
+            { "code": 222, "indent": 1, "parameters": [] },
+            { "code": 356, "indent": 1, "parameters": ["ChoicePos 144 402"] },
+            { "code": 122, "indent": 1, "parameters": [2, 2, 0, 0, 1] },
+            { "code": 117, "indent": 1, "parameters": [6] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
-              "parameters": ["フローラ"]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["「ヴェナデ地下道でいい……？」"]
+              "parameters": [
+                "Flora: \"Is Venade Underground Passage okay...?\""
+              ]
             },
             {
               "code": 102,
               "indent": 1,
-              "parameters": [["はい", "いいえ"], 1, 0, 1, 0]
+              "parameters": [["Yes", "No"], 1, 0, 1, 0]
             },
-            {
-              "code": 402,
-              "indent": 1,
-              "parameters": [0, "はい"]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [3]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [211]
-            },
-            {
-              "code": 122,
-              "indent": 2,
-              "parameters": [10, 10, 0, 0, 0]
-            },
-            {
-              "code": 201,
-              "indent": 2,
-              "parameters": [0, 123, 36, 12, 4, 0]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 1,
-              "parameters": [1, "いいえ"]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [2]
-            },
-            {
-              "code": 119,
-              "indent": 2,
-              "parameters": ["１"]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 0,
-              "parameters": []
-            },
+            { "code": 402, "indent": 1, "parameters": [0, "はい"] },
+            { "code": 117, "indent": 2, "parameters": [3] },
+            { "code": 117, "indent": 2, "parameters": [211] },
+            { "code": 122, "indent": 2, "parameters": [10, 10, 0, 0, 0] },
+            { "code": 201, "indent": 2, "parameters": [0, 123, 36, 12, 4, 0] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 402, "indent": 1, "parameters": [1, "いいえ"] },
+            { "code": 117, "indent": 2, "parameters": [2] },
+            { "code": 119, "indent": 2, "parameters": ["１"] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 404, "indent": 1, "parameters": [] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 404, "indent": 0, "parameters": [] },
             {
               "code": 102,
               "indent": 0,
-              "parameters": [["\\N[274]地下道[西]if(s[266])"], -1, -1, 2, 0]
+              "parameters": [
+                ["\\N[274]Underground Passage [West]if(s[266])"],
+                -1,
+                -1,
+                2,
+                0
+              ]
             },
             {
               "code": 402,
               "indent": 0,
               "parameters": [0, "\\N[274]地下道[西]if(s[266])"]
             },
-            {
-              "code": 108,
-              "indent": 1,
-              "parameters": ["ヴェナデ地下道[西]"]
-            },
-            {
-              "code": 221,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [3]
-            },
-            {
-              "code": 201,
-              "indent": 1,
-              "parameters": [0, 7, 8, 7, 2, 2]
-            },
-            {
-              "code": 222,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["ChoicePos 144 402"]
-            },
-            {
-              "code": 122,
-              "indent": 1,
-              "parameters": [2, 2, 0, 0, 1]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [6]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 108, "indent": 1, "parameters": ["ヴェナデ地下道[西]"] },
+            { "code": 221, "indent": 1, "parameters": [] },
+            { "code": 117, "indent": 1, "parameters": [3] },
+            { "code": 201, "indent": 1, "parameters": [0, 7, 8, 7, 2, 2] },
+            { "code": 222, "indent": 1, "parameters": [] },
+            { "code": 356, "indent": 1, "parameters": ["ChoicePos 144 402"] },
+            { "code": 122, "indent": 1, "parameters": [2, 2, 0, 0, 1] },
+            { "code": 117, "indent": 1, "parameters": [6] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
-              "parameters": ["フローラ"]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["「ヴェナデ地下道でいい……？」"]
+              "parameters": [
+                "Flora: \"Is Venade Underground Passage okay...?\""
+              ]
             },
             {
               "code": 102,
               "indent": 1,
-              "parameters": [["はい", "いいえ"], 1, 0, 1, 0]
+              "parameters": [["Yes", "No"], 1, 0, 1, 0]
             },
-            {
-              "code": 402,
-              "indent": 1,
-              "parameters": [0, "はい"]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [3]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [211]
-            },
-            {
-              "code": 122,
-              "indent": 2,
-              "parameters": [10, 10, 0, 0, 0]
-            },
-            {
-              "code": 121,
-              "indent": 2,
-              "parameters": [101, 101, 0]
-            },
-            {
-              "code": 201,
-              "indent": 2,
-              "parameters": [0, 122, 7, 9, 6, 0]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 1,
-              "parameters": [1, "いいえ"]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [2]
-            },
-            {
-              "code": 119,
-              "indent": 2,
-              "parameters": ["１"]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 0,
-              "parameters": []
-            },
+            { "code": 402, "indent": 1, "parameters": [0, "はい"] },
+            { "code": 117, "indent": 2, "parameters": [3] },
+            { "code": 117, "indent": 2, "parameters": [211] },
+            { "code": 122, "indent": 2, "parameters": [10, 10, 0, 0, 0] },
+            { "code": 121, "indent": 2, "parameters": [101, 101, 0] },
+            { "code": 201, "indent": 2, "parameters": [0, 122, 7, 9, 6, 0] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 402, "indent": 1, "parameters": [1, "いいえ"] },
+            { "code": 117, "indent": 2, "parameters": [2] },
+            { "code": 119, "indent": 2, "parameters": ["１"] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 404, "indent": 1, "parameters": [] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 404, "indent": 0, "parameters": [] },
             {
               "code": 102,
               "indent": 0,
@@ -3412,136 +1395,40 @@
               "indent": 0,
               "parameters": [0, "\\N[275]if(s[267])"]
             },
-            {
-              "code": 108,
-              "indent": 1,
-              "parameters": ["西の神殿"]
-            },
-            {
-              "code": 221,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [3]
-            },
-            {
-              "code": 201,
-              "indent": 1,
-              "parameters": [0, 7, 7, 6, 2, 2]
-            },
-            {
-              "code": 222,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["ChoicePos 144 402"]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 108, "indent": 1, "parameters": ["西の神殿"] },
+            { "code": 221, "indent": 1, "parameters": [] },
+            { "code": 117, "indent": 1, "parameters": [3] },
+            { "code": 201, "indent": 1, "parameters": [0, 7, 7, 6, 2, 2] },
+            { "code": 222, "indent": 1, "parameters": [] },
+            { "code": 356, "indent": 1, "parameters": ["ChoicePos 144 402"] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
-              "parameters": ["\\N[275]に移動しますか？"]
+              "parameters": ["Will you move to \\N[263]?"]
             },
             {
               "code": 102,
               "indent": 1,
-              "parameters": [["はい", "いいえ"], 1, 0, 1, 0]
+              "parameters": [["Yes", "No"], 1, 0, 1, 0]
             },
-            {
-              "code": 402,
-              "indent": 1,
-              "parameters": [0, "はい"]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [3]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [211]
-            },
-            {
-              "code": 122,
-              "indent": 2,
-              "parameters": [10, 10, 0, 0, 0]
-            },
-            {
-              "code": 111,
-              "indent": 2,
-              "parameters": [0, 379, 0]
-            },
-            {
-              "code": 121,
-              "indent": 3,
-              "parameters": [101, 101, 0]
-            },
-            {
-              "code": 0,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 201,
-              "indent": 2,
-              "parameters": [0, 125, 17, 26, 8, 0]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 1,
-              "parameters": [1, "いいえ"]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [2]
-            },
-            {
-              "code": 119,
-              "indent": 2,
-              "parameters": ["１"]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 0,
-              "parameters": []
-            },
+            { "code": 402, "indent": 1, "parameters": [0, "はい"] },
+            { "code": 117, "indent": 2, "parameters": [3] },
+            { "code": 117, "indent": 2, "parameters": [211] },
+            { "code": 122, "indent": 2, "parameters": [10, 10, 0, 0, 0] },
+            { "code": 111, "indent": 2, "parameters": [0, 379, 0] },
+            { "code": 121, "indent": 3, "parameters": [101, 101, 0] },
+            { "code": 0, "indent": 3, "parameters": [] },
+            { "code": 412, "indent": 2, "parameters": [] },
+            { "code": 201, "indent": 2, "parameters": [0, 125, 17, 26, 8, 0] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 402, "indent": 1, "parameters": [1, "いいえ"] },
+            { "code": 117, "indent": 2, "parameters": [2] },
+            { "code": 119, "indent": 2, "parameters": ["１"] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 404, "indent": 1, "parameters": [] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 404, "indent": 0, "parameters": [] },
             {
               "code": 102,
               "indent": 0,
@@ -3552,323 +1439,111 @@
               "indent": 0,
               "parameters": [0, "\\N[272]if(s[268])"]
             },
-            {
-              "code": 108,
-              "indent": 1,
-              "parameters": ["サンタンデイル"]
-            },
-            {
-              "code": 221,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [3]
-            },
-            {
-              "code": 201,
-              "indent": 1,
-              "parameters": [0, 7, 14, 4, 2, 2]
-            },
-            {
-              "code": 222,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["ChoicePos 144 402"]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 108, "indent": 1, "parameters": ["サンタンデイル"] },
+            { "code": 221, "indent": 1, "parameters": [] },
+            { "code": 117, "indent": 1, "parameters": [3] },
+            { "code": 201, "indent": 1, "parameters": [0, 7, 14, 4, 2, 2] },
+            { "code": 222, "indent": 1, "parameters": [] },
+            { "code": 356, "indent": 1, "parameters": ["ChoicePos 144 402"] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
-              "parameters": ["\\N[272]に移動しますか？"]
+              "parameters": ["Will you move to \\N[263]?"]
             },
             {
               "code": 102,
               "indent": 1,
-              "parameters": [["はい", "いいえ"], 1, 0, 1, 0]
+              "parameters": [["Yes", "No"], 1, 0, 1, 0]
             },
-            {
-              "code": 402,
-              "indent": 1,
-              "parameters": [0, "はい"]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [3]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [211]
-            },
-            {
-              "code": 122,
-              "indent": 2,
-              "parameters": [10, 10, 0, 0, 0]
-            },
-            {
-              "code": 111,
-              "indent": 2,
-              "parameters": [0, 393, 0]
-            },
-            {
-              "code": 111,
-              "indent": 3,
-              "parameters": [0, 394, 1]
-            },
+            { "code": 402, "indent": 1, "parameters": [0, "はい"] },
+            { "code": 117, "indent": 2, "parameters": [3] },
+            { "code": 117, "indent": 2, "parameters": [211] },
+            { "code": 122, "indent": 2, "parameters": [10, 10, 0, 0, 0] },
+            { "code": 111, "indent": 2, "parameters": [0, 393, 0] },
+            { "code": 111, "indent": 3, "parameters": [0, 394, 1] },
             {
               "code": 241,
               "indent": 4,
               "parameters": [
-                {
-                  "name": "OGG_Event08",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "OGG_Event08", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 121,
-              "indent": 4,
-              "parameters": [21, 21, 0]
-            },
-            {
-              "code": 121,
-              "indent": 4,
-              "parameters": [14, 14, 0]
-            },
-            {
-              "code": 0,
-              "indent": 4,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 201,
-              "indent": 2,
-              "parameters": [0, 138, 19, 46, 8, 0]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 1,
-              "parameters": [1, "いいえ"]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [2]
-            },
-            {
-              "code": 119,
-              "indent": 2,
-              "parameters": ["１"]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 0,
-              "parameters": []
-            },
+            { "code": 121, "indent": 4, "parameters": [21, 21, 0] },
+            { "code": 121, "indent": 4, "parameters": [14, 14, 0] },
+            { "code": 0, "indent": 4, "parameters": [] },
+            { "code": 412, "indent": 3, "parameters": [] },
+            { "code": 0, "indent": 3, "parameters": [] },
+            { "code": 412, "indent": 2, "parameters": [] },
+            { "code": 201, "indent": 2, "parameters": [0, 138, 19, 46, 8, 0] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 402, "indent": 1, "parameters": [1, "いいえ"] },
+            { "code": 117, "indent": 2, "parameters": [2] },
+            { "code": 119, "indent": 2, "parameters": ["１"] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 404, "indent": 1, "parameters": [] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 404, "indent": 0, "parameters": [] },
             {
               "code": 102,
               "indent": 0,
-              "parameters": [["\\N[276]の廃坑if(s[269])"], -1, -1, 2, 0]
+              "parameters": [
+                ["Move to the abandoned mine?if(s[269])"],
+                -1,
+                -1,
+                2,
+                0
+              ]
             },
             {
               "code": 402,
               "indent": 0,
               "parameters": [0, "\\N[276]の廃坑if(s[269])"]
             },
-            {
-              "code": 108,
-              "indent": 1,
-              "parameters": ["リゴロザ山の廃坑"]
-            },
-            {
-              "code": 221,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [3]
-            },
-            {
-              "code": 201,
-              "indent": 1,
-              "parameters": [0, 7, 11, 3, 2, 2]
-            },
-            {
-              "code": 222,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["ChoicePos 144 402"]
-            },
-            {
-              "code": 122,
-              "indent": 1,
-              "parameters": [2, 2, 0, 0, 1]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [6]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 108, "indent": 1, "parameters": ["リゴロザ山の廃坑"] },
+            { "code": 221, "indent": 1, "parameters": [] },
+            { "code": 117, "indent": 1, "parameters": [3] },
+            { "code": 201, "indent": 1, "parameters": [0, 7, 11, 3, 2, 2] },
+            { "code": 222, "indent": 1, "parameters": [] },
+            { "code": 356, "indent": 1, "parameters": ["ChoicePos 144 402"] },
+            { "code": 122, "indent": 1, "parameters": [2, 2, 0, 0, 1] },
+            { "code": 117, "indent": 1, "parameters": [6] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
-              "parameters": ["フローラ"]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["「\\N[276]の廃坑でいい……？」"]
+              "parameters": [
+                "Flora: \"Is the \\N[263] Abandoned Mine okay...?\""
+              ]
             },
             {
               "code": 102,
               "indent": 1,
-              "parameters": [["はい", "いいえ"], 1, 0, 1, 0]
+              "parameters": [
+                ["Yes, the abandoned mine is fine?", "No"],
+                1,
+                0,
+                1,
+                0
+              ]
             },
-            {
-              "code": 402,
-              "indent": 1,
-              "parameters": [0, "はい"]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [3]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [211]
-            },
-            {
-              "code": 122,
-              "indent": 2,
-              "parameters": [10, 10, 0, 0, 0]
-            },
-            {
-              "code": 111,
-              "indent": 2,
-              "parameters": [0, 404, 0]
-            },
-            {
-              "code": 121,
-              "indent": 3,
-              "parameters": [101, 101, 0]
-            },
-            {
-              "code": 0,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 201,
-              "indent": 2,
-              "parameters": [0, 12, 18, 44, 8, 0]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 1,
-              "parameters": [1, "いいえ"]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [2]
-            },
-            {
-              "code": 119,
-              "indent": 2,
-              "parameters": ["１"]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 0,
-              "parameters": []
-            },
+            { "code": 402, "indent": 1, "parameters": [0, "はい"] },
+            { "code": 117, "indent": 2, "parameters": [3] },
+            { "code": 117, "indent": 2, "parameters": [211] },
+            { "code": 122, "indent": 2, "parameters": [10, 10, 0, 0, 0] },
+            { "code": 111, "indent": 2, "parameters": [0, 404, 0] },
+            { "code": 121, "indent": 3, "parameters": [101, 101, 0] },
+            { "code": 0, "indent": 3, "parameters": [] },
+            { "code": 412, "indent": 2, "parameters": [] },
+            { "code": 201, "indent": 2, "parameters": [0, 12, 18, 44, 8, 0] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 402, "indent": 1, "parameters": [1, "いいえ"] },
+            { "code": 117, "indent": 2, "parameters": [2] },
+            { "code": 119, "indent": 2, "parameters": ["１"] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 404, "indent": 1, "parameters": [] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 404, "indent": 0, "parameters": [] },
             {
               "code": 102,
               "indent": 0,
@@ -3879,520 +1554,166 @@
               "indent": 0,
               "parameters": [0, "\\N[277]if(s[271])"]
             },
-            {
-              "code": 108,
-              "indent": 1,
-              "parameters": ["ノルデ山"]
-            },
-            {
-              "code": 221,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [3]
-            },
-            {
-              "code": 201,
-              "indent": 1,
-              "parameters": [0, 7, 15, 3, 2, 2]
-            },
-            {
-              "code": 222,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["ChoicePos 144 402"]
-            },
-            {
-              "code": 122,
-              "indent": 1,
-              "parameters": [2, 2, 0, 0, 1]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [6]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 108, "indent": 1, "parameters": ["ノルデ山"] },
+            { "code": 221, "indent": 1, "parameters": [] },
+            { "code": 117, "indent": 1, "parameters": [3] },
+            { "code": 201, "indent": 1, "parameters": [0, 7, 15, 3, 2, 2] },
+            { "code": 222, "indent": 1, "parameters": [] },
+            { "code": 356, "indent": 1, "parameters": ["ChoicePos 144 402"] },
+            { "code": 122, "indent": 1, "parameters": [2, 2, 0, 0, 1] },
+            { "code": 117, "indent": 1, "parameters": [6] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
-              "parameters": ["フローラ"]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["「\\N[277]でいい……？」"]
+              "parameters": ["Flora: \"Is \\N[263] okay...?\""]
             },
             {
               "code": 102,
               "indent": 1,
-              "parameters": [["はい", "いいえ"], 1, 0, 1, 0]
+              "parameters": [["Yes", "No"], 1, 0, 1, 0]
             },
-            {
-              "code": 402,
-              "indent": 1,
-              "parameters": [0, "はい"]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [3]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [211]
-            },
-            {
-              "code": 122,
-              "indent": 2,
-              "parameters": [10, 10, 0, 0, 1]
-            },
-            {
-              "code": 111,
-              "indent": 2,
-              "parameters": [0, 413, 0]
-            },
-            {
-              "code": 121,
-              "indent": 3,
-              "parameters": [101, 101, 0]
-            },
-            {
-              "code": 0,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 201,
-              "indent": 2,
-              "parameters": [0, 148, 25, 33, 8, 0]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 1,
-              "parameters": [1, "いいえ"]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [2]
-            },
-            {
-              "code": 119,
-              "indent": 2,
-              "parameters": ["１"]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 0,
-              "parameters": []
-            },
+            { "code": 402, "indent": 1, "parameters": [0, "はい"] },
+            { "code": 117, "indent": 2, "parameters": [3] },
+            { "code": 117, "indent": 2, "parameters": [211] },
+            { "code": 122, "indent": 2, "parameters": [10, 10, 0, 0, 1] },
+            { "code": 111, "indent": 2, "parameters": [0, 413, 0] },
+            { "code": 121, "indent": 3, "parameters": [101, 101, 0] },
+            { "code": 0, "indent": 3, "parameters": [] },
+            { "code": 412, "indent": 2, "parameters": [] },
+            { "code": 201, "indent": 2, "parameters": [0, 148, 25, 33, 8, 0] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 402, "indent": 1, "parameters": [1, "いいえ"] },
+            { "code": 117, "indent": 2, "parameters": [2] },
+            { "code": 119, "indent": 2, "parameters": ["１"] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 404, "indent": 1, "parameters": [] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 404, "indent": 0, "parameters": [] },
             {
               "code": 102,
               "indent": 0,
-              "parameters": [["赤の神殿if(s[272])"], -1, -1, 2, 0]
+              "parameters": [["Red Templeif(s[272])"], -1, -1, 2, 0]
             },
             {
               "code": 402,
               "indent": 0,
               "parameters": [0, "赤の神殿if(s[272])"]
             },
-            {
-              "code": 108,
-              "indent": 1,
-              "parameters": ["赤の神殿"]
-            },
-            {
-              "code": 221,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [3]
-            },
-            {
-              "code": 201,
-              "indent": 1,
-              "parameters": [0, 7, 16, 2, 2, 2]
-            },
-            {
-              "code": 222,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["ChoicePos 144 402"]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 108, "indent": 1, "parameters": ["赤の神殿"] },
+            { "code": 221, "indent": 1, "parameters": [] },
+            { "code": 117, "indent": 1, "parameters": [3] },
+            { "code": 201, "indent": 1, "parameters": [0, 7, 16, 2, 2, 2] },
+            { "code": 222, "indent": 1, "parameters": [] },
+            { "code": 356, "indent": 1, "parameters": ["ChoicePos 144 402"] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
-              "parameters": ["赤の神殿に移動しますか？"]
+              "parameters": ["Will you move to the Red Temple?"]
             },
             {
               "code": 102,
               "indent": 1,
-              "parameters": [["はい", "いいえ"], 1, 0, 1, 0]
+              "parameters": [["Yes", "No"], 1, 0, 1, 0]
             },
-            {
-              "code": 402,
-              "indent": 1,
-              "parameters": [0, "はい"]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [211]
-            },
-            {
-              "code": 122,
-              "indent": 2,
-              "parameters": [10, 10, 0, 0, 1]
-            },
-            {
-              "code": 201,
-              "indent": 2,
-              "parameters": [0, 163, 15, 6, 8, 0]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 1,
-              "parameters": [1, "いいえ"]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [2]
-            },
-            {
-              "code": 119,
-              "indent": 2,
-              "parameters": ["１"]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 0,
-              "parameters": []
-            },
+            { "code": 402, "indent": 1, "parameters": [0, "はい"] },
+            { "code": 117, "indent": 2, "parameters": [211] },
+            { "code": 122, "indent": 2, "parameters": [10, 10, 0, 0, 1] },
+            { "code": 201, "indent": 2, "parameters": [0, 163, 15, 6, 8, 0] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 402, "indent": 1, "parameters": [1, "いいえ"] },
+            { "code": 117, "indent": 2, "parameters": [2] },
+            { "code": 119, "indent": 2, "parameters": ["１"] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 404, "indent": 1, "parameters": [] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 404, "indent": 0, "parameters": [] },
             {
               "code": 102,
               "indent": 0,
-              "parameters": [["ブリジット治療院if(s[273])"], -1, -1, 2, 0]
+              "parameters": [["Bridgette Clinicif(s[273])"], -1, -1, 2, 0]
             },
             {
               "code": 402,
               "indent": 0,
               "parameters": [0, "ブリジット治療院if(s[273])"]
             },
-            {
-              "code": 108,
-              "indent": 1,
-              "parameters": ["治療院"]
-            },
-            {
-              "code": 221,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [3]
-            },
-            {
-              "code": 201,
-              "indent": 1,
-              "parameters": [0, 7, 12, 5, 2, 2]
-            },
-            {
-              "code": 222,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["ChoicePos 144 402"]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 108, "indent": 1, "parameters": ["治療院"] },
+            { "code": 221, "indent": 1, "parameters": [] },
+            { "code": 117, "indent": 1, "parameters": [3] },
+            { "code": 201, "indent": 1, "parameters": [0, 7, 12, 5, 2, 2] },
+            { "code": 222, "indent": 1, "parameters": [] },
+            { "code": 356, "indent": 1, "parameters": ["ChoicePos 144 402"] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
-              "parameters": ["ブリジット治療院に移動しますか？"]
+              "parameters": ["Will you move to Bridget's Clinic?"]
             },
             {
               "code": 102,
               "indent": 1,
-              "parameters": [["はい", "いいえ"], 1, 0, 1, 0]
+              "parameters": [["Yes", "No"], 1, 0, 1, 0]
             },
-            {
-              "code": 402,
-              "indent": 1,
-              "parameters": [0, "はい"]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [3]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [211]
-            },
-            {
-              "code": 122,
-              "indent": 2,
-              "parameters": [10, 10, 0, 0, 1]
-            },
-            {
-              "code": 201,
-              "indent": 2,
-              "parameters": [0, 165, 17, 26, 8, 0]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 1,
-              "parameters": [1, "いいえ"]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [2]
-            },
-            {
-              "code": 119,
-              "indent": 2,
-              "parameters": ["１"]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 0,
-              "parameters": []
-            },
+            { "code": 402, "indent": 1, "parameters": [0, "はい"] },
+            { "code": 117, "indent": 2, "parameters": [3] },
+            { "code": 117, "indent": 2, "parameters": [211] },
+            { "code": 122, "indent": 2, "parameters": [10, 10, 0, 0, 1] },
+            { "code": 201, "indent": 2, "parameters": [0, 165, 17, 26, 8, 0] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 402, "indent": 1, "parameters": [1, "いいえ"] },
+            { "code": 117, "indent": 2, "parameters": [2] },
+            { "code": 119, "indent": 2, "parameters": ["１"] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 404, "indent": 1, "parameters": [] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 404, "indent": 0, "parameters": [] },
             {
               "code": 102,
               "indent": 0,
-              "parameters": [["マドネア湖if(s[274])"], -1, -1, 2, 0]
+              "parameters": [["Move to Madonea Lake?if(s[274])"], -1, -1, 2, 0]
             },
             {
               "code": 402,
               "indent": 0,
               "parameters": [0, "マドネア湖if(s[274])"]
             },
-            {
-              "code": 108,
-              "indent": 1,
-              "parameters": ["マドネア湖"]
-            },
-            {
-              "code": 221,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [3]
-            },
-            {
-              "code": 201,
-              "indent": 1,
-              "parameters": [0, 7, 15, 6, 2, 2]
-            },
-            {
-              "code": 222,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["ChoicePos 144 402"]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 108, "indent": 1, "parameters": ["マドネア湖"] },
+            { "code": 221, "indent": 1, "parameters": [] },
+            { "code": 117, "indent": 1, "parameters": [3] },
+            { "code": 201, "indent": 1, "parameters": [0, 7, 15, 6, 2, 2] },
+            { "code": 222, "indent": 1, "parameters": [] },
+            { "code": 356, "indent": 1, "parameters": ["ChoicePos 144 402"] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
-              "parameters": ["マドネア湖に移動しますか？"]
+              "parameters": ["Will you move to Madonea Lake?"]
             },
             {
               "code": 102,
               "indent": 1,
-              "parameters": [["はい", "いいえ"], 1, 0, 1, 0]
+              "parameters": [["Yes", "No"], 1, 0, 1, 0]
             },
-            {
-              "code": 402,
-              "indent": 1,
-              "parameters": [0, "はい"]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [3]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [211]
-            },
-            {
-              "code": 122,
-              "indent": 2,
-              "parameters": [10, 10, 0, 0, 1]
-            },
-            {
-              "code": 201,
-              "indent": 2,
-              "parameters": [0, 174, 23, 15, 2, 0]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 1,
-              "parameters": [1, "いいえ"]
-            },
-            {
-              "code": 117,
-              "indent": 2,
-              "parameters": [2]
-            },
-            {
-              "code": 119,
-              "indent": 2,
-              "parameters": ["１"]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 402, "indent": 1, "parameters": [0, "はい"] },
+            { "code": 117, "indent": 2, "parameters": [3] },
+            { "code": 117, "indent": 2, "parameters": [211] },
+            { "code": 122, "indent": 2, "parameters": [10, 10, 0, 0, 1] },
+            { "code": 201, "indent": 2, "parameters": [0, 174, 23, 15, 2, 0] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 402, "indent": 1, "parameters": [1, "いいえ"] },
+            { "code": 117, "indent": 2, "parameters": [2] },
+            { "code": 119, "indent": 2, "parameters": ["１"] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 404, "indent": 1, "parameters": [] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 404, "indent": 0, "parameters": [] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -4430,35 +1751,18 @@
             "tileId": 0
           },
           "list": [
-            {
-              "code": 108,
-              "indent": 0,
-              "parameters": ["移動マップ並列停止"]
-            },
+            { "code": 108, "indent": 0, "parameters": ["移動マップ並列停止"] },
             {
               "code": 408,
               "indent": 0,
               "parameters": ["-------------------------------"]
             },
-            {
-              "code": 408,
-              "indent": 0,
-              "parameters": ["ヴェナデ地下道出口"]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 408, "indent": 0, "parameters": ["ヴェナデ地下道出口"] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -4505,25 +1809,12 @@
             "tileId": 0
           },
           "list": [
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [22]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 117, "indent": 0, "parameters": [22] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -4570,25 +1861,12 @@
             "tileId": 0
           },
           "list": [
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [16]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 117, "indent": 0, "parameters": [16] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -4626,25 +1904,12 @@
             "tileId": 0
           },
           "list": [
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [12]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 117, "indent": 0, "parameters": [12] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -4696,20 +1961,11 @@
               "indent": 0,
               "parameters": ["<namePop:\\N[263] 0>"]
             },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -4761,20 +2017,11 @@
               "indent": 0,
               "parameters": ["<namePop:\\N[264] 0>"]
             },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -4817,20 +2064,11 @@
               "indent": 0,
               "parameters": ["<namePop:\\N[264] 0>"]
             },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -4873,20 +2111,11 @@
               "indent": 0,
               "parameters": ["<namePop:\\N[264] 0>"]
             },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -4938,20 +2167,11 @@
               "indent": 0,
               "parameters": ["<namePop:\\N[262] 0>"]
             },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -4994,20 +2214,11 @@
               "indent": 0,
               "parameters": ["<namePop:\\N[262] 0>"]
             },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -5059,20 +2270,11 @@
               "indent": 0,
               "parameters": ["<namePop:\\N[266] 0>"]
             },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -5118,21 +2320,10 @@
             "pattern": 1,
             "characterIndex": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -5175,20 +2366,11 @@
               "indent": 0,
               "parameters": ["<namePop:\\N[270] 0>"]
             },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -5240,20 +2422,11 @@
               "indent": 0,
               "parameters": ["<namePop:\\N[272] 0>"]
             },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -5296,20 +2469,11 @@
               "indent": 0,
               "parameters": ["<namePop:\\N[272] 0>"]
             },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -5361,20 +2525,11 @@
               "indent": 0,
               "parameters": ["<namePop:\\N[265] 0>"]
             },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -5417,20 +2572,11 @@
               "indent": 0,
               "parameters": ["<namePop:\\N[265] 0>"]
             },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -5477,25 +2623,12 @@
             "characterIndex": 0
           },
           "list": [
-            {
-              "code": 108,
-              "indent": 0,
-              "parameters": ["<namePop:橋[東] 48>"]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 108, "indent": 0, "parameters": ["<namePop:橋[東] 48>"] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -5542,25 +2675,12 @@
             "characterIndex": 0
           },
           "list": [
-            {
-              "code": 108,
-              "indent": 0,
-              "parameters": ["<namePop:橋[西] 48>"]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 108, "indent": 0, "parameters": ["<namePop:橋[西] 48>"] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -5612,20 +2732,11 @@
               "indent": 0,
               "parameters": ["<namePop:ナギア海岸 0>"]
             },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -5663,25 +2774,12 @@
             "characterIndex": 0
           },
           "list": [
-            {
-              "code": 108,
-              "indent": 0,
-              "parameters": ["<namePop:地下道 0>"]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 108, "indent": 0, "parameters": ["<namePop:地下道 0>"] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -5728,25 +2826,12 @@
             "characterIndex": 0
           },
           "list": [
-            {
-              "code": 108,
-              "indent": 0,
-              "parameters": ["<namePop:地下道 0>"]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 108, "indent": 0, "parameters": ["<namePop:地下道 0>"] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -5792,21 +2877,10 @@
             "pattern": 1,
             "characterIndex": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -5844,25 +2918,12 @@
             "characterIndex": 0
           },
           "list": [
-            {
-              "code": 108,
-              "indent": 0,
-              "parameters": ["<namePop:神殿 0>"]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 108, "indent": 0, "parameters": ["<namePop:神殿 0>"] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -5914,20 +2975,11 @@
               "indent": 0,
               "parameters": ["<namePop:\\N[269] 0>"]
             },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -5979,20 +3031,11 @@
               "indent": 0,
               "parameters": ["<namePop:海浜公園 0>"]
             },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -6039,25 +3082,12 @@
             "characterIndex": 0
           },
           "list": [
-            {
-              "code": 108,
-              "indent": 0,
-              "parameters": ["<namePop:神殿 0>"]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 108, "indent": 0, "parameters": ["<namePop:神殿 0>"] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -6109,20 +3139,11 @@
               "indent": 0,
               "parameters": ["<namePop:\\N[273] 0>"]
             },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -6174,20 +3195,11 @@
               "indent": 0,
               "parameters": ["<namePop:\\N[276]の廃坑 0>"]
             },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -6234,25 +3246,12 @@
             "characterIndex": 0
           },
           "list": [
-            {
-              "code": 108,
-              "indent": 0,
-              "parameters": ["<namePop:神殿 0>"]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 108, "indent": 0, "parameters": ["<namePop:神殿 0>"] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -6299,25 +3298,12 @@
             "characterIndex": 0
           },
           "list": [
-            {
-              "code": 108,
-              "indent": 0,
-              "parameters": ["<namePop:地下道 0>"]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 108, "indent": 0, "parameters": ["<namePop:地下道 0>"] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -6365,25 +3351,12 @@
             "characterIndex": 0
           },
           "list": [
-            {
-              "code": 108,
-              "indent": 0,
-              "parameters": ["<namePop:地下道 0>"]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 108, "indent": 0, "parameters": ["<namePop:地下道 0>"] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -6435,20 +3408,11 @@
               "indent": 0,
               "parameters": ["<namePop:ノルデ山 0>"]
             },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -6495,25 +3459,12 @@
             "characterIndex": 0
           },
           "list": [
-            {
-              "code": 108,
-              "indent": 0,
-              "parameters": ["<namePop:治療院 0>"]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 108, "indent": 0, "parameters": ["<namePop:治療院 0>"] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -6565,20 +3516,11 @@
               "indent": 0,
               "parameters": ["<namePop:マドネア湖 16>"]
             },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false

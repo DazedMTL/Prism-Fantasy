@@ -3,20 +3,10 @@
   "autoplayBgs": true,
   "battleback1Name": "",
   "battleback2Name": "",
-  "bgm": {
-    "name": "OGG_Tower01",
-    "pan": 0,
-    "pitch": 100,
-    "volume": 90
-  },
-  "bgs": {
-    "name": "",
-    "pan": 0,
-    "pitch": 100,
-    "volume": 90
-  },
+  "bgm": { "name": "OGG_Tower01", "pan": 0, "pitch": 100, "volume": 90 },
+  "bgs": { "name": "", "pan": 0, "pitch": 100, "volume": 90 },
   "disableDashing": false,
-  "displayName": "時空の塔",
+  "displayName": "Tower of Time and Space",
   "encounterList": [],
   "encounterStep": 30,
   "height": 35,
@@ -377,33 +367,15 @@
               "code": 250,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "RGSS3_Move",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "RGSS3_Move", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 201,
-              "indent": 0,
-              "parameters": [0, 62, 20, 3, 2, 0]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 201, "indent": 0, "parameters": [0, 62, 20, 3, 2, 0] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -449,21 +421,10 @@
             "pattern": 1,
             "characterIndex": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -500,21 +461,10 @@
             "pattern": 1,
             "characterIndex": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -561,126 +511,40 @@
             "characterIndex": 0
           },
           "list": [
-            {
-              "code": 111,
-              "indent": 0,
-              "parameters": [2, "A", 0]
-            },
-            {
-              "code": 122,
-              "indent": 1,
-              "parameters": [17, 17, 0, 0, 1]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [254]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["賢者アマカネ"]
-            },
+            { "code": 111, "indent": 0, "parameters": [2, "A", 0] },
+            { "code": 122, "indent": 1, "parameters": [17, 17, 0, 0, 1] },
+            { "code": 117, "indent": 1, "parameters": [254] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": [
-                "「まずは宝珠を集めなければなりません。二人とも頼みましたよ。」"
+                "Sage Amakane: \"First, we must gather the orbs. I'm counting on both of\nyou.\""
               ]
             },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [2]
-            },
-            {
-              "code": 123,
-              "indent": 1,
-              "parameters": ["A", 1]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 122,
-              "indent": 1,
-              "parameters": [17, 17, 0, 0, 1]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [254]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["賢者アマカネ"]
-            },
+            { "code": 117, "indent": 1, "parameters": [2] },
+            { "code": 123, "indent": 1, "parameters": ["A", 1] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 411, "indent": 0, "parameters": [] },
+            { "code": 122, "indent": 1, "parameters": [17, 17, 0, 0, 1] },
+            { "code": 117, "indent": 1, "parameters": [254] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": [
-                "「リーゼの呪いも気になりますが…… すべてを無に帰すといわれる虚無が闇の三将軍を"
+                "Sage Amakane: \"I'm concerned about Lize's curse as well... But what\ncould it mean that the Void, said to reduce everything to nothingness,\nhas spawned the three generals of darkness? What exactly is the Void?\""
               ]
             },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": [
-                "生みだす？ とは…… いったい虚無とはどういう存在なんでしょうか。」"
-              ]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [2]
-            },
-            {
-              "code": 123,
-              "indent": 1,
-              "parameters": ["A", 0]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 117, "indent": 1, "parameters": [2] },
+            { "code": 123, "indent": 1, "parameters": ["A", 0] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 412, "indent": 0, "parameters": [] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -718,122 +582,40 @@
             "characterIndex": 0
           },
           "list": [
-            {
-              "code": 111,
-              "indent": 0,
-              "parameters": [2, "A", 0]
-            },
-            {
-              "code": 122,
-              "indent": 1,
-              "parameters": [17, 17, 0, 0, 1]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [254]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["賢者アマカネ"]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["「二人とも…… 宝珠ことよろしく頼みますよ。」"]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [2]
-            },
-            {
-              "code": 123,
-              "indent": 1,
-              "parameters": ["A", 1]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 122,
-              "indent": 1,
-              "parameters": [17, 17, 0, 0, 1]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [254]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["賢者アマカネ"]
-            },
+            { "code": 111, "indent": 0, "parameters": [2, "A", 0] },
+            { "code": 122, "indent": 1, "parameters": [17, 17, 0, 0, 1] },
+            { "code": 117, "indent": 1, "parameters": [254] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": [
-                "「アンデッドの大群ですがバリアがある以上、問題ないでしょう。気になるのは"
+                "Sage Amakane: \"Both of you... please take good care of the jewel.\""
               ]
             },
+            { "code": 117, "indent": 1, "parameters": [2] },
+            { "code": 123, "indent": 1, "parameters": ["A", 1] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 411, "indent": 0, "parameters": [] },
+            { "code": 122, "indent": 1, "parameters": [17, 17, 0, 0, 1] },
+            { "code": 117, "indent": 1, "parameters": [254] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
-              "parameters": ["あの角の生えた少女ですが……」"]
+              "parameters": [
+                "Sage Amakane: \"There's a horde of undead, but as long as we have the\nbarrier, it shouldn't be a problem. What concerns me is that horned\ngirl...\""
+              ]
             },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [2]
-            },
-            {
-              "code": 123,
-              "indent": 1,
-              "parameters": ["A", 0]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 117, "indent": 1, "parameters": [2] },
+            { "code": 123, "indent": 1, "parameters": ["A", 0] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 412, "indent": 0, "parameters": [] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -871,122 +653,40 @@
             "characterIndex": 0
           },
           "list": [
-            {
-              "code": 111,
-              "indent": 0,
-              "parameters": [2, "A", 0]
-            },
-            {
-              "code": 122,
-              "indent": 1,
-              "parameters": [17, 17, 0, 0, 1]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [254]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["賢者アマカネ"]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["「二人とも…… 宝珠ことよろしく頼みますよ。」"]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [2]
-            },
-            {
-              "code": 123,
-              "indent": 1,
-              "parameters": ["A", 1]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 122,
-              "indent": 1,
-              "parameters": [17, 17, 0, 0, 1]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [254]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["賢者アマカネ"]
-            },
+            { "code": 111, "indent": 0, "parameters": [2, "A", 0] },
+            { "code": 122, "indent": 1, "parameters": [17, 17, 0, 0, 1] },
+            { "code": 117, "indent": 1, "parameters": [254] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": [
-                "「塔のバリアはそう簡単に破られるモノではありません。気になるのはあの角の"
+                "Sage Amakane: \"Both of you... please take good care of the jewel.\""
               ]
             },
+            { "code": 117, "indent": 1, "parameters": [2] },
+            { "code": 123, "indent": 1, "parameters": ["A", 1] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 411, "indent": 0, "parameters": [] },
+            { "code": 122, "indent": 1, "parameters": [17, 17, 0, 0, 1] },
+            { "code": 117, "indent": 1, "parameters": [254] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
-              "parameters": ["生えた少女ですが……」"]
+              "parameters": [
+                "Sage Amakane: \"The tower's barrier won't be broken easily. What\nconcerns me is that horned girl, though...\""
+              ]
             },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [2]
-            },
-            {
-              "code": 123,
-              "indent": 1,
-              "parameters": ["A", 0]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 117, "indent": 1, "parameters": [2] },
+            { "code": 123, "indent": 1, "parameters": ["A", 0] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 412, "indent": 0, "parameters": [] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -1024,129 +724,48 @@
             "characterIndex": 0
           },
           "list": [
-            {
-              "code": 111,
-              "indent": 0,
-              "parameters": [2, "B", 0]
-            },
-            {
-              "code": 122,
-              "indent": 1,
-              "parameters": [17, 17, 0, 0, 1]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [254]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["賢者アマカネ"]
-            },
+            { "code": 111, "indent": 0, "parameters": [2, "B", 0] },
+            { "code": 122, "indent": 1, "parameters": [17, 17, 0, 0, 1] },
+            { "code": 117, "indent": 1, "parameters": [254] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": [
-                "「もうあまり時間が無いようですね。二人とも…… 頼みましたよ。」"
+                "Sage Amakane: \"It seems we don't have much time left. I'm counting on\nboth of you...\""
               ]
             },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [2]
-            },
-            {
-              "code": 123,
-              "indent": 1,
-              "parameters": ["B", 1]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 122,
-              "indent": 1,
-              "parameters": [17, 17, 0, 0, 1]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [254]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["賢者アマカネ"]
-            },
+            { "code": 117, "indent": 1, "parameters": [2] },
+            { "code": 123, "indent": 1, "parameters": ["B", 1] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 411, "indent": 0, "parameters": [] },
+            { "code": 122, "indent": 1, "parameters": [17, 17, 0, 0, 1] },
+            { "code": 117, "indent": 1, "parameters": [254] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": [
-                "「フローラさん、リーゼことをよろしくお願いします。あなたならきっと……」"
+                "Sage Amakane: \"Flora, please take good care of Lize. I'm sure you\ncan...\""
               ]
             },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [2]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 117, "indent": 1, "parameters": [2] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
-              "parameters": ["アマカネは少し悲しそうな顔をしている。"]
+              "parameters": [
+                "Amakane has a slightly sad expression on her face."
+              ]
             },
-            {
-              "code": 123,
-              "indent": 1,
-              "parameters": ["B", 0]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 123, "indent": 1, "parameters": ["B", 0] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 412, "indent": 0, "parameters": [] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -1184,151 +803,58 @@
             "characterIndex": 0
           },
           "list": [
-            {
-              "code": 111,
-              "indent": 0,
-              "parameters": [2, "C", 0]
-            },
-            {
-              "code": 213,
-              "indent": 1,
-              "parameters": [0, 3, false]
-            },
-            {
-              "code": 122,
-              "indent": 1,
-              "parameters": [17, 17, 0, 0, 1]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [254]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["賢者アマカネ"]
-            },
+            { "code": 111, "indent": 0, "parameters": [2, "C", 0] },
+            { "code": 213, "indent": 1, "parameters": [0, 3, false] },
+            { "code": 122, "indent": 1, "parameters": [17, 17, 0, 0, 1] },
+            { "code": 117, "indent": 1, "parameters": [254] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": [
-                "「二人とも本当にお疲れ様でした。しばらくの間、ゆっくりと身体を休めてください。」"
+                "Sage Amakane: \"You both have truly worked hard. Please take some time\nto rest your bodies.\""
               ]
             },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [2]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["アマカネは満面の笑みで二人を見つめている。"]
-            },
-            {
-              "code": 123,
-              "indent": 1,
-              "parameters": ["C", 1]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 213,
-              "indent": 1,
-              "parameters": [0, 3, false]
-            },
-            {
-              "code": 122,
-              "indent": 1,
-              "parameters": [17, 17, 0, 0, 1]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [254]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["賢者アマカネ"]
-            },
+            { "code": 117, "indent": 1, "parameters": [2] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": [
-                "「フローラさん、リーゼこと本当にありがとう。本当に、ううう……」"
+                "Amakane is gazing at the two with a full-faced smile."
               ]
             },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [2]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 123, "indent": 1, "parameters": ["C", 1] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 411, "indent": 0, "parameters": [] },
+            { "code": 213, "indent": 1, "parameters": [0, 3, false] },
+            { "code": 122, "indent": 1, "parameters": [17, 17, 0, 0, 1] },
+            { "code": 117, "indent": 1, "parameters": [254] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": [
-                "アマカネは目を閏わせ、満面の笑みで二人を見つめている。"
+                "Sage Amakane: \"Flora, Lize, thank you so much for everything. Really,\nuuu...\""
               ]
             },
+            { "code": 117, "indent": 1, "parameters": [2] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
-              "code": 123,
+              "code": 401,
               "indent": 1,
-              "parameters": ["C", 0]
+              "parameters": [
+                "Amakane blinks her eyes and continues to gaze at the two with a full-\nfaced smile."
+              ]
             },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 123, "indent": 1, "parameters": ["C", 0] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 412, "indent": 0, "parameters": [] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -1380,20 +906,11 @@
               "indent": 0,
               "parameters": ["<animeLight:TM_Orange01 128 0 -48 6>"]
             },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -1445,20 +962,11 @@
               "indent": 0,
               "parameters": ["<animeLight:TM_Orange01 128 0 -48 6>"]
             },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -1504,21 +1012,10 @@
             "pattern": 1,
             "characterIndex": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -1564,21 +1061,10 @@
             "pattern": 1,
             "characterIndex": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -1624,21 +1110,10 @@
             "pattern": 1,
             "characterIndex": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -1684,21 +1159,10 @@
             "pattern": 1,
             "characterIndex": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -1744,21 +1208,10 @@
             "pattern": 1,
             "characterIndex": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -1804,21 +1257,10 @@
             "pattern": 1,
             "characterIndex": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -1864,21 +1306,10 @@
             "pattern": 1,
             "characterIndex": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -1924,21 +1355,10 @@
             "pattern": 1,
             "characterIndex": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -1985,94 +1405,35 @@
             "characterIndex": 5
           },
           "list": [
-            {
-              "code": 111,
-              "indent": 0,
-              "parameters": [2, "A", 0]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["魔術師\\N[20]"]
-            },
+            { "code": 111, "indent": 0, "parameters": [2, "A", 0] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": [
-                "「そういえば闇の三将軍が現れたとか…… いったい何者なんでしょうか？」"
+                "Magician\\N[20]: \"Come to think of it, they say the Dark Triumvirate\nhas appeared... Who exactly could they be?\""
               ]
             },
-            {
-              "code": 123,
-              "indent": 1,
-              "parameters": ["A", 1]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 213,
-              "indent": 1,
-              "parameters": [0, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["魔術師\\N[20]"]
-            },
+            { "code": 123, "indent": 1, "parameters": ["A", 1] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 411, "indent": 0, "parameters": [] },
+            { "code": 213, "indent": 1, "parameters": [0, 3, false] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": [
-                "「私の名は\\N[20]、盾となりこの塔を守るのが私の役目です。」"
+                "Magician\\N[20]: \"My name is \\N[20], and it is my duty to serve as a\nshield and protect this tower.\""
               ]
             },
-            {
-              "code": 123,
-              "indent": 1,
-              "parameters": ["A", 0]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 123, "indent": 1, "parameters": ["A", 0] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 412, "indent": 0, "parameters": [] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -2110,94 +1471,35 @@
             "characterIndex": 5
           },
           "list": [
-            {
-              "code": 111,
-              "indent": 0,
-              "parameters": [2, "A", 0]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["魔術師\\N[19]"]
-            },
+            { "code": 111, "indent": 0, "parameters": [2, "A", 0] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": [
-                "「あの角の生えた少女、三将軍とやらの一人でしょうか……」"
+                "Magician\\N[19]: \"Is that horned girl one of the so-called Three\nGenerals, I wonder...\""
               ]
             },
-            {
-              "code": 123,
-              "indent": 1,
-              "parameters": ["A", 1]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 213,
-              "indent": 1,
-              "parameters": [0, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["魔術師\\N[20]"]
-            },
+            { "code": 123, "indent": 1, "parameters": ["A", 1] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 411, "indent": 0, "parameters": [] },
+            { "code": 213, "indent": 1, "parameters": [0, 3, false] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": [
-                "「塔のことはお任せください。私が盾となりこの塔をお守りします。」"
+                "Magician\\N[19]: \"Leave the tower to me. I shall become a shield and\nprotect this tower.\""
               ]
             },
-            {
-              "code": 123,
-              "indent": 1,
-              "parameters": ["A", 0]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 123, "indent": 1, "parameters": ["A", 0] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 412, "indent": 0, "parameters": [] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -2235,99 +1537,36 @@
             "characterIndex": 5
           },
           "list": [
-            {
-              "code": 111,
-              "indent": 0,
-              "parameters": [2, "B", 0]
-            },
-            {
-              "code": 213,
-              "indent": 1,
-              "parameters": [0, 2, false]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["魔術師\\N[20]"]
-            },
+            { "code": 111, "indent": 0, "parameters": [2, "B", 0] },
+            { "code": 213, "indent": 1, "parameters": [0, 2, false] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": [
-                "「ローレッタはどこへ消えたのでしょう……？ んん、気になりますね。」"
+                "Magician\\N[20]: \"Where could Loretta have disappeared to...? Hmm, it's\nconcerning.\""
               ]
             },
-            {
-              "code": 123,
-              "indent": 1,
-              "parameters": ["B", 1]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 213,
-              "indent": 1,
-              "parameters": [0, 7, false]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["魔術師\\N[20]"]
-            },
+            { "code": 123, "indent": 1, "parameters": ["B", 1] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 411, "indent": 0, "parameters": [] },
+            { "code": 213, "indent": 1, "parameters": [0, 7, false] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": [
-                "「まさかあれほどとは…… 助けていただきありがとうございました。」"
+                "Magician\\N[20]: \"I never imagined it would be to that extent... Thank\nyou for your help.\""
               ]
             },
-            {
-              "code": 123,
-              "indent": 1,
-              "parameters": ["B", 0]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 123, "indent": 1, "parameters": ["B", 0] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 412, "indent": 0, "parameters": [] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -2365,97 +1604,36 @@
             "characterIndex": 5
           },
           "list": [
-            {
-              "code": 111,
-              "indent": 0,
-              "parameters": [2, "C", 0]
-            },
-            {
-              "code": 213,
-              "indent": 1,
-              "parameters": [0, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["魔術師\\N[20]"]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["「これで私たちの役割もひとまず終了ですね。」"]
-            },
-            {
-              "code": 123,
-              "indent": 1,
-              "parameters": ["C", 1]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 213,
-              "indent": 1,
-              "parameters": [0, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["魔術師\\N[20]"]
-            },
+            { "code": 111, "indent": 0, "parameters": [2, "C", 0] },
+            { "code": 213, "indent": 1, "parameters": [0, 3, false] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": [
-                "「お二人とも、無事で何よりです。本当にお疲れ様でした。」"
+                "Magician\\N[20]: \"With this, our role comes to a temporary close.\""
               ]
             },
+            { "code": 123, "indent": 1, "parameters": ["C", 1] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 411, "indent": 0, "parameters": [] },
+            { "code": 213, "indent": 1, "parameters": [0, 3, false] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
-              "code": 123,
+              "code": 401,
               "indent": 1,
-              "parameters": ["C", 0]
+              "parameters": [
+                "Magician\\N[20]: \"Both of you, it's a relief that you're safe. You've\nreally done well.\""
+              ]
             },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 123, "indent": 1, "parameters": ["C", 0] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 412, "indent": 0, "parameters": [] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -2502,25 +1680,12 @@
             "tileId": 0
           },
           "list": [
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [16]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 117, "indent": 0, "parameters": [16] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -2558,25 +1723,12 @@
             "tileId": 0
           },
           "list": [
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [12]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 117, "indent": 0, "parameters": [12] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -2623,25 +1775,12 @@
             "tileId": 0
           },
           "list": [
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [22]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 117, "indent": 0, "parameters": [22] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -2688,94 +1827,35 @@
             "characterIndex": 5
           },
           "list": [
-            {
-              "code": 111,
-              "indent": 0,
-              "parameters": [2, "A", 0]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["魔術師\\N[19]"]
-            },
+            { "code": 111, "indent": 0, "parameters": [2, "A", 0] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": [
-                "「宝珠を揃えるのは容易なことではありません。どうかお気を付けください。」"
+                "Magician\\N[19]: \"Gathering the orbs is no easy task. Please be\ncareful.\""
               ]
             },
-            {
-              "code": 123,
-              "indent": 1,
-              "parameters": ["A", 1]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 213,
-              "indent": 1,
-              "parameters": [0, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["魔術師\\N[19]"]
-            },
+            { "code": 123, "indent": 1, "parameters": ["A", 1] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 411, "indent": 0, "parameters": [] },
+            { "code": 213, "indent": 1, "parameters": [0, 3, false] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": [
-                "「私の名は\\N[19]、剣となりこの塔を守るのが私の役目です。」"
+                "Magician\\N[19]: \"My name is \\N[19], and it is my duty to become the\nsword that protects this tower.\""
               ]
             },
-            {
-              "code": 123,
-              "indent": 1,
-              "parameters": ["A", 0]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 123, "indent": 1, "parameters": ["A", 0] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 412, "indent": 0, "parameters": [] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -2813,94 +1893,35 @@
             "characterIndex": 5
           },
           "list": [
-            {
-              "code": 111,
-              "indent": 0,
-              "parameters": [2, "A", 0]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["魔術師\\N[19]"]
-            },
+            { "code": 111, "indent": 0, "parameters": [2, "A", 0] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": [
-                "「\\N[272]で何か起こってるのでしょうか？ 連絡がつかないようです。」"
+                "Magician\\N[19] \"\\N[272], is something happening there? It seems we\ncan't get in touch.\""
               ]
             },
-            {
-              "code": 123,
-              "indent": 1,
-              "parameters": ["A", 1]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 213,
-              "indent": 1,
-              "parameters": [0, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["魔術師\\N[19]"]
-            },
+            { "code": 123, "indent": 1, "parameters": ["A", 1] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 411, "indent": 0, "parameters": [] },
+            { "code": 213, "indent": 1, "parameters": [0, 3, false] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": [
-                "「塔のことはお任せください。我が剣でこの塔をお守りします。」"
+                "Magician\\N[19] \"Please leave the tower to me. I shall protect it with\nmy sword.\""
               ]
             },
-            {
-              "code": 123,
-              "indent": 1,
-              "parameters": ["A", 0]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 123, "indent": 1, "parameters": ["A", 0] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 412, "indent": 0, "parameters": [] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -2938,92 +1959,35 @@
             "characterIndex": 5
           },
           "list": [
-            {
-              "code": 111,
-              "indent": 0,
-              "parameters": [2, "B", 0]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["魔術師\\N[19]"]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["「あれほど強いとは…… 闇の三将軍、恐るべし……」"]
-            },
-            {
-              "code": 123,
-              "indent": 1,
-              "parameters": ["B", 1]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 213,
-              "indent": 1,
-              "parameters": [0, 7, false]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["魔術師\\N[19]"]
-            },
+            { "code": 111, "indent": 0, "parameters": [2, "B", 0] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": [
-                "「あんなにあっさり負けてしまうとは…… まだまだ修業が足りないようです。」"
+                "Magician\\N[19]: \"To be that powerful... The Three Generals of Darkness\nare indeed fearsome...\""
               ]
             },
+            { "code": 123, "indent": 1, "parameters": ["B", 1] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 411, "indent": 0, "parameters": [] },
+            { "code": 213, "indent": 1, "parameters": [0, 7, false] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
-              "code": 123,
+              "code": 401,
               "indent": 1,
-              "parameters": ["B", 0]
+              "parameters": [
+                "Magician\\N[19]: \"To lose so easily... It seems I still have much to\nlearn.\""
+              ]
             },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 123, "indent": 1, "parameters": ["B", 0] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 412, "indent": 0, "parameters": [] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -3061,99 +2025,36 @@
             "characterIndex": 5
           },
           "list": [
-            {
-              "code": 111,
-              "indent": 0,
-              "parameters": [2, "C", 0]
-            },
-            {
-              "code": 213,
-              "indent": 1,
-              "parameters": [0, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["魔術師\\N[19]"]
-            },
+            { "code": 111, "indent": 0, "parameters": [2, "C", 0] },
+            { "code": 213, "indent": 1, "parameters": [0, 3, false] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": [
-                "「実は私、ずっと寝不足だったんです…… これでぐっすり眠れそうです。」"
+                "Magician\\N[19]: \"Actually, I've been suffering from lack of sleep...\nNow I think I'll be able to sleep soundly.\""
               ]
             },
-            {
-              "code": 123,
-              "indent": 1,
-              "parameters": ["C", 1]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 213,
-              "indent": 1,
-              "parameters": [0, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["魔術師\\N[19]"]
-            },
+            { "code": 123, "indent": 1, "parameters": ["C", 1] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 411, "indent": 0, "parameters": [] },
+            { "code": 213, "indent": 1, "parameters": [0, 3, false] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": [
-                "「フローラさんありがとうございました。リーゼもよく頑張りましたね。」"
+                "Magician\\N[19]: \"Thank you, Flora-san. Lize also did a great job.\""
               ]
             },
-            {
-              "code": 123,
-              "indent": 1,
-              "parameters": ["C", 0]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 123, "indent": 1, "parameters": ["C", 0] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 412, "indent": 0, "parameters": [] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -3205,20 +2106,11 @@
               "indent": 0,
               "parameters": ["<animeLight:TM_Orange01 128 0 -24 6>"]
             },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -3270,20 +2162,11 @@
               "indent": 0,
               "parameters": ["<animeLight:TM_Orange01 128 0 -24 6>"]
             },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -3335,20 +2218,11 @@
               "indent": 0,
               "parameters": ["<animeLight:TM_Orange01 128 0 -24 6>"]
             },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -3400,20 +2274,11 @@
               "indent": 0,
               "parameters": ["<animeLight:TM_Orange01 128 0 -24 6>"]
             },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -3459,21 +2324,10 @@
             "pattern": 1,
             "characterIndex": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -3519,21 +2373,10 @@
             "pattern": 1,
             "characterIndex": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -3587,35 +2430,13 @@
                 -1,
                 {
                   "list": [
-                    {
-                      "code": 29,
-                      "parameters": [3],
-                      "indent": null
-                    },
-                    {
-                      "code": 4,
-                      "indent": null
-                    },
-                    {
-                      "code": 4,
-                      "indent": null
-                    },
-                    {
-                      "code": 4,
-                      "indent": null
-                    },
-                    {
-                      "code": 4,
-                      "indent": null
-                    },
-                    {
-                      "code": 29,
-                      "parameters": [4],
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
+                    { "code": 29, "parameters": [3], "indent": null },
+                    { "code": 4, "indent": null },
+                    { "code": 4, "indent": null },
+                    { "code": 4, "indent": null },
+                    { "code": 4, "indent": null },
+                    { "code": 29, "parameters": [4], "indent": null },
+                    { "code": 0 }
                   ],
                   "repeat": false,
                   "skippable": true,
@@ -3626,100 +2447,40 @@
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 29,
-                  "parameters": [3],
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 29, "parameters": [3], "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 4,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 4, "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 4,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 4, "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 4,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 4, "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 4,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 4, "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 29,
-                  "parameters": [4],
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 29, "parameters": [4], "indent": null }]
             },
-            {
-              "code": 230,
-              "indent": 0,
-              "parameters": [60]
-            },
-            {
-              "code": 221,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 201,
-              "indent": 0,
-              "parameters": [0, 57, 15, 13, 8, 0]
-            },
-            {
-              "code": 203,
-              "indent": 0,
-              "parameters": [0, 0, 14, 14, 8]
-            },
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [17]
-            },
-            {
-              "code": 204,
-              "indent": 0,
-              "parameters": [8, 2, 6]
-            },
-            {
-              "code": 230,
-              "indent": 0,
-              "parameters": [30]
-            },
+            { "code": 230, "indent": 0, "parameters": [60] },
+            { "code": 221, "indent": 0, "parameters": [] },
+            { "code": 201, "indent": 0, "parameters": [0, 57, 15, 13, 8, 0] },
+            { "code": 203, "indent": 0, "parameters": [0, 0, 14, 14, 8] },
+            { "code": 117, "indent": 0, "parameters": [17] },
+            { "code": 204, "indent": 0, "parameters": [8, 2, 6] },
+            { "code": 230, "indent": 0, "parameters": [30] },
             {
               "code": 356,
               "indent": 0,
@@ -3730,245 +2491,82 @@
               "indent": 0,
               "parameters": ["weather : 1 : 29 : 20 : 20 : 1 : Light_01B : 1"]
             },
-            {
-              "code": 204,
-              "indent": 0,
-              "parameters": [2, 3, 2]
-            },
-            {
-              "code": 222,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 230,
-              "indent": 0,
-              "parameters": [30]
-            },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [3, 3, false]
-            },
-            {
-              "code": 122,
-              "indent": 0,
-              "parameters": [17, 17, 0, 0, 1]
-            },
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [254]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["賢者アマカネ"]
-            },
+            { "code": 204, "indent": 0, "parameters": [2, 3, 2] },
+            { "code": 222, "indent": 0, "parameters": [] },
+            { "code": 230, "indent": 0, "parameters": [30] },
+            { "code": 213, "indent": 0, "parameters": [3, 3, false] },
+            { "code": 122, "indent": 0, "parameters": [17, 17, 0, 0, 1] },
+            { "code": 117, "indent": 0, "parameters": [254] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「あなたが光の戦士ですね…… 異世界からよく来てくれました。私の名はアマカネ。"
+                "Sage Amakane: \"You must be the Warrior of Light... Thank you for\ncoming all the way from another world. My name is Amakane, the\ncaretaker of this tower.\""
               ]
             },
+            { "code": 213, "indent": 0, "parameters": [-1, 3, false] },
+            { "code": 122, "indent": 0, "parameters": [2, 2, 0, 0, 1] },
+            { "code": 117, "indent": 0, "parameters": [6] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
-              "parameters": ["この塔の管理人です。」"]
+              "parameters": ["Flora: \"I'm Flora. Pleased to meet you.\""]
             },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [-1, 3, false]
-            },
-            {
-              "code": 122,
-              "indent": 0,
-              "parameters": [2, 2, 0, 0, 1]
-            },
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [6]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["フローラ"]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["「フローラです。よろしくお願いします。」"]
-            },
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [2]
-            },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [3, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["賢者アマカネ"]
-            },
+            { "code": 117, "indent": 0, "parameters": [2] },
+            { "code": 213, "indent": 0, "parameters": [3, 3, false] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「フローラさんですね…… あなたからとても強い光の力を感じるわ。"
+                "Sage Amakane: \"Ms. Flora... I can feel a very strong power of light\nemanating from you. Lize, thank you for your hard work as well.\""
               ]
             },
+            { "code": 213, "indent": 0, "parameters": [0, 3, false] },
+            { "code": 122, "indent": 0, "parameters": [3, 3, 0, 0, 1] },
+            { "code": 117, "indent": 0, "parameters": [8] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
-              "parameters": ["リーゼもご苦労様でした。」"]
+              "parameters": ["Lize: \"Yes, thank you very much.\""]
             },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [0, 3, false]
-            },
-            {
-              "code": 122,
-              "indent": 0,
-              "parameters": [3, 3, 0, 0, 1]
-            },
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [8]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["リーゼ"]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["「はい、ありがとうございます。」"]
-            },
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [2]
-            },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [3, 3, false]
-            },
-            {
-              "code": 122,
-              "indent": 0,
-              "parameters": [17, 17, 0, 0, 1]
-            },
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [254]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["賢者アマカネ"]
-            },
+            { "code": 117, "indent": 0, "parameters": [2] },
+            { "code": 213, "indent": 0, "parameters": [3, 3, false] },
+            { "code": 122, "indent": 0, "parameters": [17, 17, 0, 0, 1] },
+            { "code": 117, "indent": 0, "parameters": [254] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「話は聞いていると思いますが、ここ\\N[261]は無数の異世界を結ぶ中心地です。」"
+                "Sage Amakane: \"I believe you've been informed, but this place \\N[261]\nis the central hub that connects countless other worlds.\""
               ]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["賢者アマカネ"]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「虚無が巻き起こりこの世界が崩壊すれば、フローラさんの住む世界や他の世界も"
+                "Sage Amakane: \"If the void causes this world to collapse, your world,\nFlora's world, and all other worlds will perish just like \\N[261].\""
               ]
             },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["\\N[261]と同様に滅びてしまいます。」"]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["賢者アマカネ"]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「貴方の使命はリーゼと共に虚無という災厄を食い止めることです。」 "
+                "Sage Amakane: \"Your mission is to work with Lize to prevent the\ncalamity known as the void.\""
               ]
             },
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [2]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 117, "indent": 0, "parameters": [2] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
-              "parameters": ["賢者アマカネ"]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["「さぁこれを……」 "]
+              "parameters": ["Sage Amakane: \"Now, take this...\""]
             },
             {
               "code": 205,
@@ -3977,27 +2575,11 @@
                 3,
                 {
                   "list": [
-                    {
-                      "code": 29,
-                      "parameters": [3],
-                      "indent": null
-                    },
-                    {
-                      "code": 12,
-                      "indent": null
-                    },
-                    {
-                      "code": 13,
-                      "indent": null
-                    },
-                    {
-                      "code": 29,
-                      "parameters": [4],
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
+                    { "code": 29, "parameters": [3], "indent": null },
+                    { "code": 12, "indent": null },
+                    { "code": 13, "indent": null },
+                    { "code": 29, "parameters": [4], "indent": null },
+                    { "code": 0 }
                   ],
                   "repeat": false,
                   "skippable": true,
@@ -4008,50 +2590,24 @@
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 29,
-                  "parameters": [3],
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 29, "parameters": [3], "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 12,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 12, "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 13,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 13, "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 29,
-                  "parameters": [4],
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 29, "parameters": [4], "indent": null }]
             },
-            {
-              "code": 230,
-              "indent": 0,
-              "parameters": [30]
-            },
+            { "code": 230, "indent": 0, "parameters": [30] },
             {
               "code": 250,
               "indent": 0,
@@ -4064,224 +2620,83 @@
                 }
               ]
             },
-            {
-              "code": 126,
-              "indent": 0,
-              "parameters": [254, 0, 0, 1]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["\\ii[254]を手に入れた！"]
-            },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [-1, 1, true]
-            },
+            { "code": 126, "indent": 0, "parameters": [254, 0, 0, 1] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
+            { "code": 401, "indent": 0, "parameters": ["Obtained \\ii[254]!"] },
+            { "code": 213, "indent": 0, "parameters": [-1, 1, true] },
             {
               "code": 250,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "KO_Hatena01",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "KO_Hatena01", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [-1, 2, false]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 213, "indent": 0, "parameters": [-1, 2, false] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
-              "parameters": ["フローラ"]
+              "parameters": ["Flora: \"What is this...?\""]
             },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["「これは……？」 "]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "ずっしりと重みを感じる本は古びているものの、どこか新鮮でなにか不思議な"
+                "The book feels heavy in hand; it's old but somehow fresh, and you can\nsense a mysterious power within it."
               ]
             },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["力を感じる。"]
-            },
-            {
-              "code": 122,
-              "indent": 0,
-              "parameters": [17, 17, 0, 0, 1]
-            },
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [254]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["賢者アマカネ"]
-            },
+            { "code": 122, "indent": 0, "parameters": [17, 17, 0, 0, 1] },
+            { "code": 117, "indent": 0, "parameters": [254] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「これは\\N[41]の書、私たちは預言書と呼んでいます。」 "
+                "Sage Amakane: \"This is the \\N[261] Tome; we call it the Book of\nProphecy.\""
               ]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["賢者アマカネ"]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「偉大な魔術師\\N[40]が書き残した書物です。彼は遥か昔に虚無を"
+                "Sage Amakane: \"It was written by a great magician named \\N[261], who\nis said to have defeated the void long ago and restored light to the\nworld.\""
               ]
             },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "打ち払い、世界に光を取り戻した魔術師だといわれています。」 "
+                "Sage Amakane: \"And when the void once again threatened our world, he\nleft us with instructions on how to counter it.\""
               ]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["賢者アマカネ"]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「そして再びこの世界に虚無が巻き起こった時、それに対する方法を私たちに書き"
+                "Sage Amakane: \"First, you must obtain the hidden orbs in this land.\nRed, green, blue... they are the three orbs of light's primary\ncolors.\""
               ]
             },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["残してくれました。」 "]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["賢者アマカネ"]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「まずはこの地に隠されている宝珠(オーブ)を手に入れてください。赤、緑、青……"
+                "Sage Amakane: \"The prophecy states that the first orb lies in the\neastern lands. The exact location is unknown, but I'm sure you, Flora,\nwill be able to find it.\""
               ]
             },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["光の三原色といわれる三色の宝珠です。」"]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["賢者アマカネ"]
-            },
+            { "code": 117, "indent": 0, "parameters": [2] },
+            { "code": 213, "indent": 0, "parameters": [-1, 1, true] },
+            { "code": 213, "indent": 0, "parameters": [-1, 8, false] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「預言書には東の地に第一の宝珠があると記されています。詳しい場所は不明ですが"
-              ]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": [
-                "フローラさんならきっと辿り着くことができるしょう。」"
-              ]
-            },
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [2]
-            },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [-1, 1, true]
-            },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [-1, 8, false]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["本当に自分にできるのだろうか……？"]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": [
-                "不安な気持ちが急に込み上げ、胸の奥がきゅんと苦しくなる。"
+                "Can I really do this...? A sudden surge of anxiety tightens my chest\nuncomfortably."
               ]
             },
             {
@@ -4291,17 +2706,9 @@
                 0,
                 {
                   "list": [
-                    {
-                      "code": 4,
-                      "indent": null
-                    },
-                    {
-                      "code": 18,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
+                    { "code": 4, "indent": null },
+                    { "code": 18, "indent": null },
+                    { "code": 0 }
                   ],
                   "repeat": false,
                   "skippable": true,
@@ -4312,93 +2719,40 @@
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 4,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 4, "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
+              "parameters": [{ "code": 18, "indent": null }]
+            },
+            { "code": 213, "indent": 0, "parameters": [0, 3, false] },
+            { "code": 122, "indent": 0, "parameters": [3, 3, 0, 0, 2] },
+            { "code": 117, "indent": 0, "parameters": [9] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": ["Lize: \"It's okay. I'm with you... right?\""]
+            },
+            { "code": 117, "indent": 0, "parameters": [2] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
+            {
+              "code": 401,
+              "indent": 0,
               "parameters": [
-                {
-                  "code": 18,
-                  "indent": null
-                }
+                "Lize grips Flora's hand tightly and gives her a reassuring smile."
               ]
             },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [0, 3, false]
-            },
-            {
-              "code": 122,
-              "indent": 0,
-              "parameters": [3, 3, 0, 0, 2]
-            },
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [9]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["リーゼ"]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["「大丈夫よ。私も一緒だから…… ねっ。」"]
-            },
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [2]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["リーゼはフローラの手をぎゅっと握り軽く微笑む。"]
-            },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [-1, 1, true]
-            },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [-1, 3, false]
-            },
+            { "code": 213, "indent": 0, "parameters": [-1, 1, true] },
+            { "code": 213, "indent": 0, "parameters": [-1, 3, false] },
             {
               "code": 205,
               "indent": 0,
               "parameters": [
                 -1,
                 {
-                  "list": [
-                    {
-                      "code": 17,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
-                  ],
+                  "list": [{ "code": 17, "indent": null }, { "code": 0 }],
                   "repeat": false,
                   "skippable": true,
                   "wait": false
@@ -4408,60 +2762,26 @@
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 17,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 17, "indent": null }]
             },
-            {
-              "code": 122,
-              "indent": 0,
-              "parameters": [2, 2, 0, 0, 1]
-            },
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [6]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["フローラ"]
-            },
+            { "code": 122, "indent": 0, "parameters": [2, 2, 0, 0, 1] },
+            { "code": 117, "indent": 0, "parameters": [6] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「そうだね。リーゼちゃんが居てくれたら何とかなると思う。」"
+                "Flora: \"That's right. I think we can manage if you're with me, Lize-\nchan.\""
               ]
             },
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [2]
-            },
+            { "code": 117, "indent": 0, "parameters": [2] },
             {
               "code": 205,
               "indent": 0,
               "parameters": [
                 -1,
                 {
-                  "list": [
-                    {
-                      "code": 19,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
-                  ],
+                  "list": [{ "code": 19, "indent": null }, { "code": 0 }],
                   "repeat": false,
                   "skippable": true,
                   "wait": false
@@ -4471,12 +2791,7 @@
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 19,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 19, "indent": null }]
             },
             {
               "code": 205,
@@ -4484,15 +2799,7 @@
               "parameters": [
                 0,
                 {
-                  "list": [
-                    {
-                      "code": 19,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
-                  ],
+                  "list": [{ "code": 19, "indent": null }, { "code": 0 }],
                   "repeat": false,
                   "skippable": true,
                   "wait": false
@@ -4502,130 +2809,49 @@
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 19,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 19, "indent": null }]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["賢者アマカネ"]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「じゃぁ準備ができ次第、東の地へ向かい第一の宝珠を手に入れてください。"
+                "Sage Amakane: \"Then as soon as you're ready, head east to obtain the\nfirst orb. I'm counting on both of you.\""
               ]
             },
+            { "code": 213, "indent": 0, "parameters": [-1, 3, false] },
+            { "code": 213, "indent": 0, "parameters": [0, 3, false] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
-              "parameters": ["二人とも頼みますよ。」"]
+              "parameters": ["Flora and Lize: \"Yes.\""]
             },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [-1, 3, false]
-            },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [0, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["フローラとリーゼ"]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["「はい。」"]
-            },
-            {
-              "code": 221,
-              "indent": 0,
-              "parameters": []
-            },
+            { "code": 221, "indent": 0, "parameters": [] },
             {
               "code": 250,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "RGSS3_Move",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "RGSS3_Move", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "その後二人は、リーゼに掛けられた呪いのことや\\N[266]の洞窟で出会った"
+                "Afterwards, the two reported about the curse placed on Lize and their\nencounter with one of the three generals of darkness in \\N[261]'s\ncave, Josephine, before leaving the place."
               ]
             },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": [
-                "闇の三将軍の一人、ジョゼフィーヌのことを報告しその場を後にした。"
-              ]
-            },
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["clear_all_weathers"]
-            },
-            {
-              "code": 230,
-              "indent": 0,
-              "parameters": [60]
-            },
-            {
-              "code": 201,
-              "indent": 0,
-              "parameters": [0, 62, 20, 6, 2, 0]
-            },
-            {
-              "code": 121,
-              "indent": 0,
-              "parameters": [335, 335, 0]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 356, "indent": 0, "parameters": ["clear_all_weathers"] },
+            { "code": 230, "indent": 0, "parameters": [60] },
+            { "code": 201, "indent": 0, "parameters": [0, 62, 20, 6, 2, 0] },
+            { "code": 121, "indent": 0, "parameters": [335, 335, 0] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -4662,21 +2888,10 @@
             "pattern": 0,
             "tileId": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -4721,35 +2936,13 @@
                 -1,
                 {
                   "list": [
-                    {
-                      "code": 29,
-                      "parameters": [3],
-                      "indent": null
-                    },
-                    {
-                      "code": 4,
-                      "indent": null
-                    },
-                    {
-                      "code": 4,
-                      "indent": null
-                    },
-                    {
-                      "code": 4,
-                      "indent": null
-                    },
-                    {
-                      "code": 4,
-                      "indent": null
-                    },
-                    {
-                      "code": 29,
-                      "parameters": [4],
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
+                    { "code": 29, "parameters": [3], "indent": null },
+                    { "code": 4, "indent": null },
+                    { "code": 4, "indent": null },
+                    { "code": 4, "indent": null },
+                    { "code": 4, "indent": null },
+                    { "code": 29, "parameters": [4], "indent": null },
+                    { "code": 0 }
                   ],
                   "repeat": false,
                   "skippable": true,
@@ -4760,100 +2953,40 @@
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 29,
-                  "parameters": [3],
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 29, "parameters": [3], "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 4,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 4, "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 4,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 4, "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 4,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 4, "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 4,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 4, "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 29,
-                  "parameters": [4],
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 29, "parameters": [4], "indent": null }]
             },
-            {
-              "code": 230,
-              "indent": 0,
-              "parameters": [60]
-            },
-            {
-              "code": 221,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 201,
-              "indent": 0,
-              "parameters": [0, 57, 15, 13, 8, 0]
-            },
-            {
-              "code": 203,
-              "indent": 0,
-              "parameters": [0, 0, 14, 13, 8]
-            },
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [17]
-            },
-            {
-              "code": 204,
-              "indent": 0,
-              "parameters": [8, 1, 6]
-            },
-            {
-              "code": 230,
-              "indent": 0,
-              "parameters": [30]
-            },
+            { "code": 230, "indent": 0, "parameters": [60] },
+            { "code": 221, "indent": 0, "parameters": [] },
+            { "code": 201, "indent": 0, "parameters": [0, 57, 15, 13, 8, 0] },
+            { "code": 203, "indent": 0, "parameters": [0, 0, 14, 13, 8] },
+            { "code": 117, "indent": 0, "parameters": [17] },
+            { "code": 204, "indent": 0, "parameters": [8, 1, 6] },
+            { "code": 230, "indent": 0, "parameters": [30] },
             {
               "code": 356,
               "indent": 0,
@@ -4864,238 +2997,84 @@
               "indent": 0,
               "parameters": ["weather : 1 : 29 : 20 : 20 : 1 : Light_01B : 1"]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "フローラたちは入手した宝珠のことや、ジョゼフィーヌから聞いたデモンズゲートの"
+                "Flora and her companions talked to Amakane about the orb they had\nobtained and what they had heard from Josephine regarding the Demon's\nGate."
               ]
             },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["ことをアマカネに話した。"]
-            },
-            {
-              "code": 204,
-              "indent": 0,
-              "parameters": [2, 2, 2]
-            },
-            {
-              "code": 222,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [3, 1, true]
-            },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [3, 6, false]
-            },
-            {
-              "code": 122,
-              "indent": 0,
-              "parameters": [17, 17, 0, 0, 3]
-            },
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [254]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["賢者アマカネ"]
-            },
+            { "code": 204, "indent": 0, "parameters": [2, 2, 2] },
+            { "code": 222, "indent": 0, "parameters": [] },
+            { "code": 213, "indent": 0, "parameters": [3, 1, true] },
+            { "code": 213, "indent": 0, "parameters": [3, 6, false] },
+            { "code": 122, "indent": 0, "parameters": [17, 17, 0, 0, 3] },
+            { "code": 117, "indent": 0, "parameters": [254] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「そんな…… 虚無は暗黒の渦。それがまさかデモンズゲートだなんて……」"
+                "Sage Amakane: \"Such... The void is a dark vortex. To think that it was\nactually the Demon's Gate...\""
               ]
             },
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [2]
-            },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [3, 8, true]
-            },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [3, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["賢者アマカネ"]
-            },
+            { "code": 117, "indent": 0, "parameters": [2] },
+            { "code": 213, "indent": 0, "parameters": [3, 8, true] },
+            { "code": 213, "indent": 0, "parameters": [3, 3, false] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「ですが…… こちらも残る宝珠は赤のみですね。それさえ手に入れれば何とか"
+                "Sage Amakane: \"However... we only have the red orb left to obtain. If\nwe can secure that, we should be able to manage somehow.\""
               ]
             },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["対処できるはずです。」"]
-            },
-            {
-              "code": 122,
-              "indent": 0,
-              "parameters": [17, 17, 0, 0, 1]
-            },
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [254]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["賢者アマカネ"]
-            },
+            { "code": 122, "indent": 0, "parameters": [17, 17, 0, 0, 1] },
+            { "code": 117, "indent": 0, "parameters": [254] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「残りの宝珠に関しては調査員からの報告で\\N[272]の神殿長が何か情報を"
+                "Sage Amakane: \"Regarding the remaining orb, reports from our scouts\nsuggest that the high priest of \\N[272] might have some information,\nbut there's something concerning...\""
               ]
             },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["持っているようですが、気になることが……」"]
-            },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [3, 7, false]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["賢者アマカネ"]
-            },
+            { "code": 213, "indent": 0, "parameters": [3, 7, false] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「なぜか神殿長どころか、\\N[272]の街にさえ連絡が繋がらないんです。」"
+                "Sage Amakane: \"For some reason, we can't even get in touch with the\nhigh priest, let alone anyone in the town of \\N[272].\""
               ]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["賢者アマカネ"]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「ここのことは気にせず、二人は至急\\N[272]に向かってもらえますか？"
+                "Sage Amakane: \"Please don't worry about this place, and could you two\nhead to \\N[272] as soon as possible? We must obtain the red orb at all\ncosts.\""
               ]
             },
+            { "code": 117, "indent": 0, "parameters": [2] },
+            { "code": 213, "indent": 0, "parameters": [-1, 3, false] },
+            { "code": 213, "indent": 0, "parameters": [0, 3, false] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
-              "parameters": ["何としても赤の宝珠を手に入れてください。」"]
+              "parameters": ["Flora and Lize: \"Yes, understood.\""]
             },
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [2]
-            },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [-1, 3, false]
-            },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [0, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["フローラとリーゼ"]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["「はい、わかりました。」"]
-            },
-            {
-              "code": 221,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["clear_all_weathers"]
-            },
+            { "code": 221, "indent": 0, "parameters": [] },
+            { "code": 356, "indent": 0, "parameters": ["clear_all_weathers"] },
             {
               "code": 205,
               "indent": 0,
               "parameters": [
                 0,
                 {
-                  "list": [
-                    {
-                      "code": 39,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
-                  ],
+                  "list": [{ "code": 39, "indent": null }, { "code": 0 }],
                   "repeat": false,
                   "skippable": true,
                   "wait": true
@@ -5105,67 +3084,21 @@
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 39,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 39, "indent": null }]
             },
-            {
-              "code": 201,
-              "indent": 0,
-              "parameters": [0, 57, 15, 14, 2, 0]
-            },
-            {
-              "code": 222,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 121,
-              "indent": 0,
-              "parameters": [147, 147, 1]
-            },
-            {
-              "code": 121,
-              "indent": 0,
-              "parameters": [148, 148, 0]
-            },
-            {
-              "code": 121,
-              "indent": 0,
-              "parameters": [149, 149, 0]
-            },
-            {
-              "code": 121,
-              "indent": 0,
-              "parameters": [268, 268, 0]
-            },
-            {
-              "code": 121,
-              "indent": 0,
-              "parameters": [337, 337, 0]
-            },
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [197]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 201, "indent": 0, "parameters": [0, 57, 15, 14, 2, 0] },
+            { "code": 222, "indent": 0, "parameters": [] },
+            { "code": 121, "indent": 0, "parameters": [147, 147, 1] },
+            { "code": 121, "indent": 0, "parameters": [148, 148, 0] },
+            { "code": 121, "indent": 0, "parameters": [149, 149, 0] },
+            { "code": 121, "indent": 0, "parameters": [268, 268, 0] },
+            { "code": 121, "indent": 0, "parameters": [337, 337, 0] },
+            { "code": 117, "indent": 0, "parameters": [197] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -5202,21 +3135,10 @@
             "pattern": 0,
             "tileId": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -5261,35 +3183,13 @@
                 -1,
                 {
                   "list": [
-                    {
-                      "code": 29,
-                      "parameters": [3],
-                      "indent": null
-                    },
-                    {
-                      "code": 4,
-                      "indent": null
-                    },
-                    {
-                      "code": 4,
-                      "indent": null
-                    },
-                    {
-                      "code": 4,
-                      "indent": null
-                    },
-                    {
-                      "code": 4,
-                      "indent": null
-                    },
-                    {
-                      "code": 29,
-                      "parameters": [4],
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
+                    { "code": 29, "parameters": [3], "indent": null },
+                    { "code": 4, "indent": null },
+                    { "code": 4, "indent": null },
+                    { "code": 4, "indent": null },
+                    { "code": 4, "indent": null },
+                    { "code": 29, "parameters": [4], "indent": null },
+                    { "code": 0 }
                   ],
                   "repeat": false,
                   "skippable": true,
@@ -5300,100 +3200,40 @@
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 29,
-                  "parameters": [3],
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 29, "parameters": [3], "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 4,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 4, "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 4,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 4, "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 4,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 4, "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 4,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 4, "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 29,
-                  "parameters": [4],
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 29, "parameters": [4], "indent": null }]
             },
-            {
-              "code": 230,
-              "indent": 0,
-              "parameters": [60]
-            },
-            {
-              "code": 221,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 201,
-              "indent": 0,
-              "parameters": [0, 57, 15, 13, 8, 0]
-            },
-            {
-              "code": 203,
-              "indent": 0,
-              "parameters": [0, 0, 14, 13, 8]
-            },
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [17]
-            },
-            {
-              "code": 204,
-              "indent": 0,
-              "parameters": [8, 1, 6]
-            },
-            {
-              "code": 230,
-              "indent": 0,
-              "parameters": [30]
-            },
+            { "code": 230, "indent": 0, "parameters": [60] },
+            { "code": 221, "indent": 0, "parameters": [] },
+            { "code": 201, "indent": 0, "parameters": [0, 57, 15, 13, 8, 0] },
+            { "code": 203, "indent": 0, "parameters": [0, 0, 14, 13, 8] },
+            { "code": 117, "indent": 0, "parameters": [17] },
+            { "code": 204, "indent": 0, "parameters": [8, 1, 6] },
+            { "code": 230, "indent": 0, "parameters": [30] },
             {
               "code": 356,
               "indent": 0,
@@ -5404,253 +3244,101 @@
               "indent": 0,
               "parameters": ["weather : 1 : 29 : 20 : 20 : 1 : Light_01B : 1"]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "フローラたちは魔王\\N[33]を倒し、虚無と呼ばれていた暗黒の渦……"
+                "Flora and her companions reported to Amakane that they had defeated\nthe Demon Lord \\N[33] and that the dark vortex known as the Void, the\nDemon's Gate, had vanished."
               ]
             },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["デモンズゲートが消滅したことをアマカネに伝えた。"]
-            },
-            {
-              "code": 204,
-              "indent": 0,
-              "parameters": [2, 2, 2]
-            },
-            {
-              "code": 222,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [3, 1, true]
-            },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [3, 3, false]
-            },
-            {
-              "code": 122,
-              "indent": 0,
-              "parameters": [17, 17, 0, 0, 1]
-            },
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [253]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["賢者アマカネ"]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["「ああ、よかった。フローラさん、ありがとう……」"]
-            },
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [2]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["賢者アマカネ"]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["「リーゼもよく無事で…… ううう……」"]
-            },
-            {
-              "code": 221,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 230,
-              "indent": 0,
-              "parameters": [30]
-            },
-            {
-              "code": 222,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [3, 3, false]
-            },
-            {
-              "code": 122,
-              "indent": 0,
-              "parameters": [17, 17, 0, 0, 1]
-            },
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [254]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["賢者アマカネ"]
-            },
+            { "code": 204, "indent": 0, "parameters": [2, 2, 2] },
+            { "code": 222, "indent": 0, "parameters": [] },
+            { "code": 213, "indent": 0, "parameters": [3, 1, true] },
+            { "code": 213, "indent": 0, "parameters": [3, 3, false] },
+            { "code": 122, "indent": 0, "parameters": [17, 17, 0, 0, 1] },
+            { "code": 117, "indent": 0, "parameters": [253] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「これで光の戦士の役割は終了ですね。本当にお疲れ様でした。」"
+                "Sage Amakane: \"Ah, thank goodness. Thank you, Flora-san...\""
               ]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["賢者アマカネ"]
-            },
+            { "code": 117, "indent": 0, "parameters": [2] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「今後はいつでも好きな時に元の世界へ戻れるよう、転送の準備をしておきますね。」"
+                "Sage Amakane: \"And Lize, I'm so relieved you're safe too... uuu...\""
               ]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["賢者アマカネ"]
-            },
+            { "code": 221, "indent": 0, "parameters": [] },
+            { "code": 230, "indent": 0, "parameters": [30] },
+            { "code": 222, "indent": 0, "parameters": [] },
+            { "code": 213, "indent": 0, "parameters": [3, 3, false] },
+            { "code": 122, "indent": 0, "parameters": [17, 17, 0, 0, 1] },
+            { "code": 117, "indent": 0, "parameters": [254] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「この世界を旅立つ時、その時は塔内の転送ルームまで来てください。いいですね？」"
+                "Sage Amakane: \"With this, the role of the Warriors of Light has come\nto an end. You've all done very well.\""
               ]
             },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [-1, 3, false]
-            },
-            {
-              "code": 122,
-              "indent": 0,
-              "parameters": [2, 2, 0, 0, 1]
-            },
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [6]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
-              "parameters": ["フローラ"]
+              "parameters": [
+                "Sage Amakane: \"I'll prepare the transfer so that you can return to\nyour original world whenever you wish from now on.\""
+              ]
             },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
-              "parameters": ["「はい、わかりました。」"]
+              "parameters": [
+                "Sage Amakane: \"When the time comes for you to leave this world, please\ncome to the transfer room inside the tower. Is that alright?\""
+              ]
             },
+            { "code": 213, "indent": 0, "parameters": [-1, 3, false] },
+            { "code": 122, "indent": 0, "parameters": [2, 2, 0, 0, 1] },
+            { "code": 117, "indent": 0, "parameters": [6] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
-              "code": 221,
+              "code": 401,
               "indent": 0,
-              "parameters": []
+              "parameters": ["Flora: \"Yes, I understand.\""]
             },
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [3]
-            },
+            { "code": 221, "indent": 0, "parameters": [] },
+            { "code": 117, "indent": 0, "parameters": [3] },
             {
               "code": 250,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "Chime1",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "Chime1", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "今後、転送ルームでエンディングを迎えることができます。"
+                "From now on, you can reach the ending in the transfer room."
               ]
             },
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["clear_all_weathers"]
-            },
+            { "code": 356, "indent": 0, "parameters": ["clear_all_weathers"] },
             {
               "code": 205,
               "indent": 0,
               "parameters": [
                 0,
                 {
-                  "list": [
-                    {
-                      "code": 39,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
-                  ],
+                  "list": [{ "code": 39, "indent": null }, { "code": 0 }],
                   "repeat": false,
                   "skippable": true,
                   "wait": true
@@ -5660,52 +3348,18 @@
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 39,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 39, "indent": null }]
             },
-            {
-              "code": 201,
-              "indent": 0,
-              "parameters": [0, 57, 15, 14, 2, 0]
-            },
-            {
-              "code": 222,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 121,
-              "indent": 0,
-              "parameters": [479, 479, 0]
-            },
-            {
-              "code": 121,
-              "indent": 0,
-              "parameters": [179, 179, 0]
-            },
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [197]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 201, "indent": 0, "parameters": [0, 57, 15, 14, 2, 0] },
+            { "code": 222, "indent": 0, "parameters": [] },
+            { "code": 121, "indent": 0, "parameters": [479, 479, 0] },
+            { "code": 121, "indent": 0, "parameters": [179, 179, 0] },
+            { "code": 117, "indent": 0, "parameters": [197] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -5742,21 +3396,10 @@
             "pattern": 0,
             "tileId": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -5803,60 +3446,19 @@
             "tileId": 0
           },
           "list": [
-            {
-              "code": 111,
-              "indent": 0,
-              "parameters": [0, 28, 0]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [233]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 111,
-              "indent": 0,
-              "parameters": [0, 29, 0]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [234]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 111, "indent": 0, "parameters": [0, 28, 0] },
+            { "code": 117, "indent": 1, "parameters": [233] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 412, "indent": 0, "parameters": [] },
+            { "code": 111, "indent": 0, "parameters": [0, 29, 0] },
+            { "code": 117, "indent": 1, "parameters": [234] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 412, "indent": 0, "parameters": [] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false

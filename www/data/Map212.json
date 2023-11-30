@@ -3,20 +3,10 @@
   "autoplayBgs": true,
   "battleback1Name": "",
   "battleback2Name": "",
-  "bgm": {
-    "name": "OGG_Slum01",
-    "pan": 0,
-    "pitch": 100,
-    "volume": 90
-  },
-  "bgs": {
-    "name": "",
-    "pan": 0,
-    "pitch": 100,
-    "volume": 90
-  },
+  "bgm": { "name": "OGG_Slum01", "pan": 0, "pitch": 100, "volume": 90 },
+  "bgs": { "name": "", "pan": 0, "pitch": 100, "volume": 90 },
   "disableDashing": false,
-  "displayName": "闇商店",
+  "displayName": "Black Market",
   "encounterList": [],
   "encounterStep": 30,
   "height": 19,
@@ -223,432 +213,162 @@
             "characterIndex": 5
           },
           "list": [
-            {
-              "code": 111,
-              "indent": 0,
-              "parameters": [2, "A", 0]
-            },
-            {
-              "code": 213,
-              "indent": 1,
-              "parameters": [0, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["闇商店の\\N[66]"]
-            },
+            { "code": 111, "indent": 0, "parameters": [2, "A", 0] },
+            { "code": 213, "indent": 1, "parameters": [0, 3, false] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": [
-                "「へへへ、会員証を発行するには顔面騎乗しないとな～」"
+                "Dark Merchant \\N[66]: \"Hehehe, to issue a membership card, you'll need\nto do a face-sitting, you know~\""
               ]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["闇商店の\\N[66]"]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": [
-                "「あんまりハードルを高くしてもいけないし、オレは目隠しして寝転がるから"
+                "Dark Merchant \\N[66]: \"I shouldn't make the hurdle too high, so I'll\njust blindfold myself and lie down. All you need to do is sit on my\nface completely naked...\""
               ]
             },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 411, "indent": 0, "parameters": [] },
+            { "code": 213, "indent": 1, "parameters": [0, 3, false] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": [
-                "お嬢ちゃんは全裸で俺の顔の上に座ってくれりゃあいい……」"
+                "Dark Merchant \\N[66]: \"Ho~ You found me well. I'm \\N[66] of the Dark\nMerchant. Nice to meet you.\""
               ]
             },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 213,
-              "indent": 1,
-              "parameters": [0, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["闇商店の\\N[66]"]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": [
-                "「ほぉ～ よく見つけたな。オレは闇商店の\\N[66]ってんだ。よろしくな。」"
+                "Dark Merchant \\N[66]: \"We have some unusual items here, but you need a\nmembership card to shop. What will you do...?\""
               ]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["闇商店の\\N[66]"]
-            },
+            { "code": 213, "indent": 1, "parameters": [-1, 7, false] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": [
-                "「うちはちょっと変わった商品を置いてたりするんだが、買い物するには"
+                "Flora: \"Um, a membership card... What should I do?\""
               ]
             },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["会員証が必要なんだ。どうする……？」"]
-            },
-            {
-              "code": 213,
-              "indent": 1,
-              "parameters": [-1, 7, false]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["フローラ"]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["「ええっと、会員証ですか…… どうしよう？」"]
-            },
-            {
-              "code": 213,
-              "indent": 1,
-              "parameters": [0, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["闇商店の\\N[66]"]
-            },
+            { "code": 213, "indent": 1, "parameters": [0, 3, false] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": [
-                "「まぁスラムの地下にある闇商店だからな～ 悩むのは当り前よな。」"
+                "Dark Merchant \\N[66]: \"Well, it's a dark merchant in the slums'\nunderground, so it's natural to be worried.\""
               ]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["闇商店の\\N[66]"]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": [
-                "「だがお嬢ちゃんは美少女だし、本来なら１００万Ｇ必要なんだが、特別に"
+                "Dark Merchant \\N[66]: \"But since you're a beautiful girl, normally it\nwould cost 1 million G, but specially for you, I'll issue it with a\nface-sitting, how about it?\""
               ]
             },
+            { "code": 213, "indent": 1, "parameters": [-1, 7, false] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
-              "parameters": ["顔面騎乗で会員証を発行するぜ？」"]
+              "parameters": ["Flora: \"What is that...?\""]
             },
-            {
-              "code": 213,
-              "indent": 1,
-              "parameters": [-1, 7, false]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["フローラ"]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["「なんですか、それ……」"]
-            },
-            {
-              "code": 213,
-              "indent": 1,
-              "parameters": [0, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["闇商店の\\N[66]"]
-            },
+            { "code": 213, "indent": 1, "parameters": [0, 3, false] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": [
-                "「あんまりハードルを高くしてもいけないし、オレは目隠しして寝転がるから"
+                "Dark Merchant \\N[66]: \"I shouldn't make the hurdle too high, so I'll\njust blindfold myself and lie down. All you need to do is sit on my\nface completely naked...\""
               ]
             },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": [
-                "お嬢ちゃんは全裸で俺の顔の上に座ってくれりゃあいい……」"
+                "Dark Merchant \\N[66]: \"After that, well, I'll give you one hell of a\ncunnilingus! Hehehehe...\""
               ]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["闇商店の\\N[66]"]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": [
-                "「その後は、まぁ、めちゃくちゃクンニするけどな！ へへへへ……」"
-              ]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [-1, 7, false]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 412, "indent": 0, "parameters": [] },
+            { "code": 213, "indent": 0, "parameters": [-1, 7, false] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
+            { "code": 401, "indent": 0, "parameters": ["Flora: \"Eeeeh...\""] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
-              "parameters": ["フローラ"]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["「えええ……」"]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["全裸で顔面騎乗しますか……？"]
+              "parameters": [
+                "Will you perform face-sitting completely naked...?"
+              ]
             },
             {
               "code": 102,
               "indent": 0,
-              "parameters": [["はい", "いいえ"], 1, 0, 1, 0]
+              "parameters": [["Yes", "No"], 1, 0, 1, 0]
             },
-            {
-              "code": 402,
-              "indent": 0,
-              "parameters": [0, "はい"]
-            },
-            {
-              "code": 213,
-              "indent": 1,
-              "parameters": [0, 1, true]
-            },
-            {
-              "code": 213,
-              "indent": 1,
-              "parameters": [0, 4, false]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["闇商店の\\N[66]"]
-            },
+            { "code": 402, "indent": 0, "parameters": [0, "はい"] },
+            { "code": 213, "indent": 1, "parameters": [0, 1, true] },
+            { "code": 213, "indent": 1, "parameters": [0, 4, false] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": [
-                "「マジかよ。ハァハァ…… じゃぁ気が変わらないうちに、顔面騎乗してくれよ。」"
+                "Dark Merchant \\N[66]: \"Seriously? Haa haa... Then before you change\nyour mind, go ahead and sit on my face.\""
               ]
             },
-            {
-              "code": 221,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 243,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [470]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [25]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [26]
-            },
-            {
-              "code": 122,
-              "indent": 1,
-              "parameters": [41, 41, 1, 0, 4]
-            },
-            {
-              "code": 122,
-              "indent": 1,
-              "parameters": [42, 42, 1, 0, 1]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 221, "indent": 1, "parameters": [] },
+            { "code": 243, "indent": 1, "parameters": [] },
+            { "code": 117, "indent": 1, "parameters": [470] },
+            { "code": 117, "indent": 1, "parameters": [25] },
+            { "code": 117, "indent": 1, "parameters": [26] },
+            { "code": 122, "indent": 1, "parameters": [41, 41, 1, 0, 4] },
+            { "code": 122, "indent": 1, "parameters": [42, 42, 1, 0, 1] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
-              "parameters": ["フローラ：絶頂回数＋４、絶頂漏らし回数＋１"]
+              "parameters": ["Flora: Climax count +4, Climax leakage count +1"]
             },
-            {
-              "code": 244,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 222,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 213,
-              "indent": 1,
-              "parameters": [0, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["闇商店の\\N[66]"]
-            },
+            { "code": 244, "indent": 1, "parameters": [] },
+            { "code": 222, "indent": 1, "parameters": [] },
+            { "code": 213, "indent": 1, "parameters": [0, 3, false] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": [
-                "「へへへ、やっぱ美少女は違うなぁ～ お嬢ちゃんの顔面騎乗、最高だったぜ～！」"
+                "Dark Merchant \\N[66]: \"Hehehe, as expected of a beautiful girl~ Your\nface-sitting was the best!\""
               ]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["闇商店の\\N[66]"]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": [
-                "「じゃぁこれ、会員証だから。いつでも買物に来てくれ。」"
+                "Dark Merchant \\N[66]: \"Here's your membership card then. Feel free to\nshop anytime.\""
               ]
             },
-            {
-              "code": 221,
-              "indent": 1,
-              "parameters": []
-            },
+            { "code": 221, "indent": 1, "parameters": [] },
             {
               "code": 205,
               "indent": 1,
               "parameters": [
                 -1,
                 {
-                  "list": [
-                    {
-                      "code": 16,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
-                  ],
+                  "list": [{ "code": 16, "indent": null }, { "code": 0 }],
                   "repeat": false,
                   "skippable": true,
                   "wait": false
@@ -658,12 +378,7 @@
             {
               "code": 505,
               "indent": 1,
-              "parameters": [
-                {
-                  "code": 16,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 16, "indent": null }]
             },
             {
               "code": 250,
@@ -677,92 +392,30 @@
                 }
               ]
             },
-            {
-              "code": 126,
-              "indent": 1,
-              "parameters": [258, 0, 0, 1]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["\\ii[258]を手に入れた！"]
-            },
-            {
-              "code": 222,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 121,
-              "indent": 1,
-              "parameters": [541, 541, 0]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 0,
-              "parameters": [1, "いいえ"]
-            },
-            {
-              "code": 213,
-              "indent": 1,
-              "parameters": [0, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["闇商店の\\N[66]"]
-            },
+            { "code": 126, "indent": 1, "parameters": [258, 0, 0, 1] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
+            { "code": 401, "indent": 1, "parameters": ["Acquired \\ii[258]!"] },
+            { "code": 222, "indent": 1, "parameters": [] },
+            { "code": 121, "indent": 1, "parameters": [541, 541, 0] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 402, "indent": 0, "parameters": [1, "いいえ"] },
+            { "code": 213, "indent": 1, "parameters": [0, 3, false] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": [
-                "「へへへ、気が変わったらまた来るといい。待ってるぜ。」"
+                "Dark Merchant \\N[66]: \"Hehehe, if you change your mind, come again.\nI'll be waiting.\""
               ]
             },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 123,
-              "indent": 0,
-              "parameters": ["A", 0]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 404, "indent": 0, "parameters": [] },
+            { "code": 123, "indent": 0, "parameters": ["A", 0] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -800,120 +453,41 @@
             "characterIndex": 5
           },
           "list": [
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [0, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 213, "indent": 0, "parameters": [0, 3, false] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
-              "parameters": ["闇商店の\\N[66]"]
+              "parameters": [
+                "Dark Merchant \\N[66] \"Welcome. Is there anything you desire...?\""
+              ]
             },
+            { "code": 302, "indent": 0, "parameters": [0, 3, 0, 0, false] },
+            { "code": 605, "indent": 0, "parameters": [0, 6, 0, 0] },
+            { "code": 605, "indent": 0, "parameters": [0, 21, 0, 0] },
+            { "code": 605, "indent": 0, "parameters": [0, 22, 0, 0] },
+            { "code": 605, "indent": 0, "parameters": [0, 27, 0, 0] },
+            { "code": 605, "indent": 0, "parameters": [0, 28, 0, 0] },
+            { "code": 605, "indent": 0, "parameters": [0, 29, 0, 0] },
+            { "code": 605, "indent": 0, "parameters": [0, 143, 0, 0] },
+            { "code": 605, "indent": 0, "parameters": [0, 146, 0, 0] },
+            { "code": 605, "indent": 0, "parameters": [0, 25, 0, 0] },
+            { "code": 605, "indent": 0, "parameters": [0, 25, 0, 0] },
+            { "code": 605, "indent": 0, "parameters": [0, 25, 0, 0] },
+            { "code": 213, "indent": 0, "parameters": [0, 3, false] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
-              "parameters": ["「いらっしゃい。何か欲しいモノあるか……？」"]
+              "parameters": [
+                "Dark Merchant \\N[66] \"Thanks! Make sure to come again.\""
+              ]
             },
-            {
-              "code": 302,
-              "indent": 0,
-              "parameters": [0, 3, 0, 0, false]
-            },
-            {
-              "code": 605,
-              "indent": 0,
-              "parameters": [0, 6, 0, 0]
-            },
-            {
-              "code": 605,
-              "indent": 0,
-              "parameters": [0, 21, 0, 0]
-            },
-            {
-              "code": 605,
-              "indent": 0,
-              "parameters": [0, 22, 0, 0]
-            },
-            {
-              "code": 605,
-              "indent": 0,
-              "parameters": [0, 27, 0, 0]
-            },
-            {
-              "code": 605,
-              "indent": 0,
-              "parameters": [0, 28, 0, 0]
-            },
-            {
-              "code": 605,
-              "indent": 0,
-              "parameters": [0, 29, 0, 0]
-            },
-            {
-              "code": 605,
-              "indent": 0,
-              "parameters": [0, 143, 0, 0]
-            },
-            {
-              "code": 605,
-              "indent": 0,
-              "parameters": [0, 146, 0, 0]
-            },
-            {
-              "code": 605,
-              "indent": 0,
-              "parameters": [0, 25, 0, 0]
-            },
-            {
-              "code": 605,
-              "indent": 0,
-              "parameters": [0, 25, 0, 0]
-            },
-            {
-              "code": 605,
-              "indent": 0,
-              "parameters": [0, 25, 0, 0]
-            },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [0, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["闇商店の\\N[66]"]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["「ありがとよ！ また来てくれよな。」"]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -964,38 +538,16 @@
               "code": 250,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "RGSS3_Move",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "RGSS3_Move", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 201,
-              "indent": 0,
-              "parameters": [0, 95, 22, 23, 2, 0]
-            },
-            {
-              "code": 122,
-              "indent": 0,
-              "parameters": [10, 10, 0, 0, 1]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 201, "indent": 0, "parameters": [0, 95, 22, 23, 2, 0] },
+            { "code": 122, "indent": 0, "parameters": [10, 10, 0, 0, 1] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -1042,25 +594,12 @@
             "tileId": 0
           },
           "list": [
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [16]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 117, "indent": 0, "parameters": [16] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -1098,25 +637,12 @@
             "tileId": 0
           },
           "list": [
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [12]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 117, "indent": 0, "parameters": [12] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -1163,25 +689,12 @@
             "tileId": 0
           },
           "list": [
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [22]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 117, "indent": 0, "parameters": [22] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -1233,20 +746,11 @@
               "indent": 0,
               "parameters": ["<animeLight:TM_Yellow01 128 0 -20 6>"]
             },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -1295,60 +799,19 @@
             "tileId": 0
           },
           "list": [
-            {
-              "code": 111,
-              "indent": 0,
-              "parameters": [0, 28, 0]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [233]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 111,
-              "indent": 0,
-              "parameters": [0, 29, 0]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [234]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 111, "indent": 0, "parameters": [0, 28, 0] },
+            { "code": 117, "indent": 1, "parameters": [233] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 412, "indent": 0, "parameters": [] },
+            { "code": 111, "indent": 0, "parameters": [0, 29, 0] },
+            { "code": 117, "indent": 1, "parameters": [234] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 412, "indent": 0, "parameters": [] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false

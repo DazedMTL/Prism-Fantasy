@@ -3,20 +3,10 @@
   "autoplayBgs": true,
   "battleback1Name": "",
   "battleback2Name": "",
-  "bgm": {
-    "name": "OGG_Shop01",
-    "pan": 0,
-    "pitch": 100,
-    "volume": 90
-  },
-  "bgs": {
-    "name": "",
-    "pan": 0,
-    "pitch": 100,
-    "volume": 90
-  },
+  "bgm": { "name": "OGG_Shop01", "pan": 0, "pitch": 100, "volume": 90 },
+  "bgs": { "name": "", "pan": 0, "pitch": 100, "volume": 90 },
   "disableDashing": false,
-  "displayName": "マリオン魔法堂",
+  "displayName": "Marion Magic Shop",
   "encounterList": [],
   "encounterStep": 30,
   "height": 18,
@@ -225,21 +215,10 @@
             "pattern": 0,
             "characterIndex": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -293,31 +272,12 @@
                 -1,
                 {
                   "list": [
-                    {
-                      "code": 29,
-                      "parameters": [3],
-                      "indent": null
-                    },
-                    {
-                      "code": 4,
-                      "indent": null
-                    },
-                    {
-                      "code": 4,
-                      "indent": null
-                    },
-                    {
-                      "code": 4,
-                      "indent": null
-                    },
-                    {
-                      "code": 29,
-                      "parameters": [4],
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
+                    { "code": 29, "parameters": [3], "indent": null },
+                    { "code": 4, "indent": null },
+                    { "code": 4, "indent": null },
+                    { "code": 4, "indent": null },
+                    { "code": 29, "parameters": [4], "indent": null },
+                    { "code": 0 }
                   ],
                   "repeat": false,
                   "skippable": true,
@@ -328,109 +288,44 @@
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 29,
-                  "parameters": [3],
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 29, "parameters": [3], "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 4,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 4, "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 4,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 4, "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 4,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 4, "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 29,
-                  "parameters": [4],
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 29, "parameters": [4], "indent": null }]
             },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [-1, 3, false]
-            },
-            {
-              "code": 122,
-              "indent": 0,
-              "parameters": [2, 2, 0, 0, 1]
-            },
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [7]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 213, "indent": 0, "parameters": [-1, 3, false] },
+            { "code": 122, "indent": 0, "parameters": [2, 2, 0, 0, 1] },
+            { "code": 117, "indent": 0, "parameters": [7] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
-              "parameters": ["フローラ"]
+              "parameters": ["Flora: \"Is this a magic shop, I wonder...?\""]
             },
+            { "code": 117, "indent": 0, "parameters": [2] },
+            { "code": 213, "indent": 0, "parameters": [7, 3, false] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
-              "parameters": ["「ここは、魔法のお店かな……？」"]
-            },
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [2]
-            },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [7, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["魔法堂の店員"]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["「いらっしゃいませ～」"]
+              "parameters": ["Magic Shop Clerk: \"Welcome~\""]
             },
             {
               "code": 205,
@@ -439,23 +334,10 @@
                 -1,
                 {
                   "list": [
-                    {
-                      "code": 29,
-                      "parameters": [3],
-                      "indent": null
-                    },
-                    {
-                      "code": 4,
-                      "indent": null
-                    },
-                    {
-                      "code": 29,
-                      "parameters": [4],
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
+                    { "code": 29, "parameters": [3], "indent": null },
+                    { "code": 4, "indent": null },
+                    { "code": 29, "parameters": [4], "indent": null },
+                    { "code": 0 }
                   ],
                   "repeat": false,
                   "skippable": true,
@@ -466,116 +348,51 @@
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 29,
-                  "parameters": [3],
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 29, "parameters": [3], "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 4,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 4, "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 29,
-                  "parameters": [4],
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 29, "parameters": [4], "indent": null }]
             },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [7, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["魔法堂の店主マリオン"]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["「私はマリオン。この魔法堂の店主よ。」"]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["魔法堂の店主マリオン"]
-            },
+            { "code": 213, "indent": 0, "parameters": [7, 3, false] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「うちでは魔導書の購入と向こうの部屋でスクロールの作成が可能なの。」"
+                "Magic Shop Owner Marion: \"I'm Marion. The owner of this magic shop.\""
               ]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["魔法堂の店長ララァ"]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「あとは、いらない魔導書があったらそこのポストに入れてね。リサイクルに"
+                "Magic Shop Owner Marion: \"Here you can purchase grimoires and create\nscrolls in the room over there.\""
               ]
             },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "協力してくれたら半分くらいお金が戻ってくるからとってもお得よ。」"
+                "Magic Shop Manager Lala: \"Also, if you have any grimoires you don't\nneed anymore, just drop them in that postbox. You'll get about half\nyour money back for recycling them, so it's a really good deal.\""
               ]
             },
-            {
-              "code": 221,
-              "indent": 0,
-              "parameters": []
-            },
+            { "code": 221, "indent": 0, "parameters": [] },
             {
               "code": 205,
               "indent": 0,
               "parameters": [
                 -1,
                 {
-                  "list": [
-                    {
-                      "code": 16,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
-                  ],
+                  "list": [{ "code": 16, "indent": null }, { "code": 0 }],
                   "repeat": false,
                   "skippable": true,
                   "wait": true
@@ -585,37 +402,15 @@
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 16,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 16, "indent": null }]
             },
-            {
-              "code": 222,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 123,
-              "indent": 0,
-              "parameters": ["A", 0]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 222, "indent": 0, "parameters": [] },
+            { "code": 123, "indent": 0, "parameters": ["A", 0] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -657,38 +452,16 @@
               "code": 250,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "RGSS3_Move",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "RGSS3_Move", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 201,
-              "indent": 0,
-              "parameters": [0, 70, 36, 8, 2, 0]
-            },
-            {
-              "code": 122,
-              "indent": 0,
-              "parameters": [10, 10, 0, 0, 1]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 201, "indent": 0, "parameters": [0, 70, 36, 8, 2, 0] },
+            { "code": 122, "indent": 0, "parameters": [10, 10, 0, 0, 1] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -735,25 +508,12 @@
             "tileId": 0
           },
           "list": [
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [16]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 117, "indent": 0, "parameters": [16] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -791,25 +551,12 @@
             "tileId": 0
           },
           "list": [
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [12]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 117, "indent": 0, "parameters": [12] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -856,25 +603,12 @@
             "tileId": 0
           },
           "list": [
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [22]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 117, "indent": 0, "parameters": [22] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -926,20 +660,11 @@
               "indent": 0,
               "parameters": ["<animeLight:TM_Yellow01 128 0 -20 6>"]
             },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -991,20 +716,11 @@
               "indent": 0,
               "parameters": ["<animeLight:TM_Yellow01 128 0 -20 6>"]
             },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -1051,162 +767,54 @@
             "characterIndex": 4
           },
           "list": [
-            {
-              "code": 111,
-              "indent": 0,
-              "parameters": [2, "B", 0]
-            },
-            {
-              "code": 213,
-              "indent": 1,
-              "parameters": [0, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["魔法堂の店主マリオン"]
-            },
+            { "code": 111, "indent": 0, "parameters": [2, "B", 0] },
+            { "code": 213, "indent": 1, "parameters": [0, 3, false] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": [
-                "「いらっしゃいませ～ 欲しいものがあったら気軽に声を掛けてね～」"
+                "Marion, the owner of the Magic Shop: \"Welcome~ Feel free to ask if\nthere's anything you want~\""
               ]
             },
-            {
-              "code": 123,
-              "indent": 1,
-              "parameters": ["B", 1]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 213,
-              "indent": 1,
-              "parameters": [0, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 123, "indent": 1, "parameters": ["B", 1] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 411, "indent": 0, "parameters": [] },
+            { "code": 213, "indent": 1, "parameters": [0, 3, false] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
-              "parameters": ["魔法堂の店主マリオン"]
+              "parameters": [
+                "Marion, the owner of the Magic Shop: \"Welcome~\""
+              ]
             },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["「いらっしゃいませ～」"]
-            },
-            {
-              "code": 123,
-              "indent": 1,
-              "parameters": ["B", 0]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 302,
-              "indent": 0,
-              "parameters": [0, 141, 0, 0, false]
-            },
-            {
-              "code": 605,
-              "indent": 0,
-              "parameters": [0, 142, 0, 0]
-            },
-            {
-              "code": 605,
-              "indent": 0,
-              "parameters": [0, 144, 0, 0]
-            },
-            {
-              "code": 605,
-              "indent": 0,
-              "parameters": [0, 145, 0, 0]
-            },
-            {
-              "code": 605,
-              "indent": 0,
-              "parameters": [0, 147, 0, 0]
-            },
-            {
-              "code": 605,
-              "indent": 0,
-              "parameters": [0, 148, 0, 0]
-            },
-            {
-              "code": 605,
-              "indent": 0,
-              "parameters": [0, 149, 0, 0]
-            },
-            {
-              "code": 605,
-              "indent": 0,
-              "parameters": [0, 4, 0, 0]
-            },
-            {
-              "code": 605,
-              "indent": 0,
-              "parameters": [0, 5, 0, 0]
-            },
-            {
-              "code": 605,
-              "indent": 0,
-              "parameters": [0, 10, 0, 0]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 123, "indent": 1, "parameters": ["B", 0] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 412, "indent": 0, "parameters": [] },
+            { "code": 302, "indent": 0, "parameters": [0, 141, 0, 0, false] },
+            { "code": 605, "indent": 0, "parameters": [0, 142, 0, 0] },
+            { "code": 605, "indent": 0, "parameters": [0, 144, 0, 0] },
+            { "code": 605, "indent": 0, "parameters": [0, 145, 0, 0] },
+            { "code": 605, "indent": 0, "parameters": [0, 147, 0, 0] },
+            { "code": 605, "indent": 0, "parameters": [0, 148, 0, 0] },
+            { "code": 605, "indent": 0, "parameters": [0, 149, 0, 0] },
+            { "code": 605, "indent": 0, "parameters": [0, 4, 0, 0] },
+            { "code": 605, "indent": 0, "parameters": [0, 5, 0, 0] },
+            { "code": 605, "indent": 0, "parameters": [0, 10, 0, 0] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
-              "parameters": ["魔法堂の店主マリオン"]
+              "parameters": [
+                "Marion, the owner of the Magic Shop: \"Thank you very much~\""
+              ]
             },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["「ありがとうございました～」"]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -1253,60 +861,19 @@
             "tileId": 0
           },
           "list": [
-            {
-              "code": 111,
-              "indent": 0,
-              "parameters": [0, 28, 0]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [233]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 111,
-              "indent": 0,
-              "parameters": [0, 29, 0]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [234]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 111, "indent": 0, "parameters": [0, 28, 0] },
+            { "code": 117, "indent": 1, "parameters": [233] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 412, "indent": 0, "parameters": [] },
+            { "code": 111, "indent": 0, "parameters": [0, 29, 0] },
+            { "code": 117, "indent": 1, "parameters": [234] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 412, "indent": 0, "parameters": [] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -1353,85 +920,28 @@
             "characterIndex": 5
           },
           "list": [
-            {
-              "code": 111,
-              "indent": 0,
-              "parameters": [2, "A", 0]
-            },
-            {
-              "code": 213,
-              "indent": 1,
-              "parameters": [0, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 111, "indent": 0, "parameters": [2, "A", 0] },
+            { "code": 213, "indent": 1, "parameters": [0, 3, false] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
-              "parameters": ["魔法堂の店員サマンサ"]
+              "parameters": ["Magic Shop Clerk Samantha: \"Welcome~\""]
             },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["「いらっしゃいませ～」 "]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 213,
-              "indent": 1,
-              "parameters": [0, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": ["魔法堂の店員サマンサ"]
-            },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 411, "indent": 0, "parameters": [] },
+            { "code": 213, "indent": 1, "parameters": [0, 3, false] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": [
-                "「いらっしゃいませ～ 魔法石１０個と精霊のメダルでスクロールを作れますよ。"
+                "Magic Shop Clerk Samantha: \"Welcome~ With 10 magic stones and a spirit\nmedal, you can make a scroll. The service fee will be 100G, what will\nyou do...?\""
               ]
             },
-            {
-              "code": 401,
-              "indent": 1,
-              "parameters": [
-                "手数料は１００Ｇになりますが、どうしますか……？」 "
-              ]
-            },
-            {
-              "code": 123,
-              "indent": 1,
-              "parameters": ["A", 0]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
+            { "code": 123, "indent": 1, "parameters": ["A", 0] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 412, "indent": 0, "parameters": [] },
             {
               "code": 122,
               "indent": 0,
@@ -1467,21 +977,12 @@
               "indent": 0,
               "parameters": [406, 406, 0, 3, 0, 39, 0]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["\\$作りたい魔法のスクロールを選択して下さい。"]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "必要なもの：魔法石１０、各属性の精霊のメダル、手数料１００Ｇ"
+                "\\$Please select the magic scroll you want to create. Required items:\n10 magic stones, a spirit medal of each element, service fee 100G"
               ]
             },
             {
@@ -1489,9 +990,9 @@
               "indent": 0,
               "parameters": [
                 [
-                  "スクロール(火) [魔法石所持数\\V[148]：メダル(火)所持数\\V[401]]",
-                  "スクロール(風) [魔法石所持数\\V[148]：メダル(風)所持数\\V[402]]",
-                  "スクロール(土) [魔法石所持数\\V[148]：メダル(土)所持数\\V[403]]"
+                  "Scroll (Fire) [Magic Stones Owned \\V[148]: Medal (Fire) Owned \\V[401]]",
+                  "Scroll (Wind) [Magic Stones Owned \\V[148]: Wind Medals Owned \\V[402]]",
+                  "Scroll (Earth) [Magic Stones Owned \\V[148]: Earth Medals Owned \\V[403]]"
                 ],
                 -1,
                 0,
@@ -1507,40 +1008,17 @@
                 "スクロール(火) [魔法石所持数\\V[148]：メダル(火)所持数\\V[401]]"
               ]
             },
-            {
-              "code": 111,
-              "indent": 1,
-              "parameters": [1, 148, 0, 10, 1]
-            },
-            {
-              "code": 111,
-              "indent": 2,
-              "parameters": [8, 34]
-            },
-            {
-              "code": 111,
-              "indent": 3,
-              "parameters": [7, 100, 0]
-            },
-            {
-              "code": 213,
-              "indent": 4,
-              "parameters": [0, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 4,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 111, "indent": 1, "parameters": [1, 148, 0, 10, 1] },
+            { "code": 111, "indent": 2, "parameters": [8, 34] },
+            { "code": 111, "indent": 3, "parameters": [7, 100, 0] },
+            { "code": 213, "indent": 4, "parameters": [0, 3, false] },
+            { "code": 101, "indent": 4, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 4,
-              "parameters": ["魔法堂の店員サマンサ"]
-            },
-            {
-              "code": 401,
-              "indent": 4,
-              "parameters": ["「じゃぁ合成するから待っててくださいね～」"]
+              "parameters": [
+                "Magic Shop Clerk Samantha: \"Then please wait while I synthesize it for\nyou~\""
+              ]
             },
             {
               "code": 205,
@@ -1548,15 +1026,7 @@
               "parameters": [
                 0,
                 {
-                  "list": [
-                    {
-                      "code": 19,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
-                  ],
+                  "list": [{ "code": 19, "indent": null }, { "code": 0 }],
                   "repeat": false,
                   "skippable": true,
                   "wait": true
@@ -1566,67 +1036,32 @@
             {
               "code": 505,
               "indent": 4,
-              "parameters": [
-                {
-                  "code": 19,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 19, "indent": null }]
             },
-            {
-              "code": 221,
-              "indent": 4,
-              "parameters": []
-            },
-            {
-              "code": 126,
-              "indent": 4,
-              "parameters": [121, 1, 0, 10]
-            },
-            {
-              "code": 126,
-              "indent": 4,
-              "parameters": [34, 1, 0, 1]
-            },
-            {
-              "code": 125,
-              "indent": 4,
-              "parameters": [1, 0, 100]
-            },
+            { "code": 221, "indent": 4, "parameters": [] },
+            { "code": 126, "indent": 4, "parameters": [121, 1, 0, 10] },
+            { "code": 126, "indent": 4, "parameters": [34, 1, 0, 1] },
+            { "code": 125, "indent": 4, "parameters": [1, 0, 100] },
             {
               "code": 250,
               "indent": 4,
               "parameters": [
-                {
-                  "name": "Magic6",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "Magic6", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 101,
-              "indent": 4,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 4, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 4,
               "parameters": [
-                "店員のサマンサは特殊な合成器を使って魔法のスクロールを生成する。"
+                "Clerk Samantha uses a special synthesizer to create the magic scroll."
               ]
             },
             {
               "code": 250,
               "indent": 4,
               "parameters": [
-                {
-                  "name": "Flash1",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "Flash1", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
             {
@@ -1634,26 +1069,14 @@
               "indent": 4,
               "parameters": [[255, 255, 255, 255], 60, false]
             },
-            {
-              "code": 222,
-              "indent": 4,
-              "parameters": []
-            },
+            { "code": 222, "indent": 4, "parameters": [] },
             {
               "code": 205,
               "indent": 4,
               "parameters": [
                 0,
                 {
-                  "list": [
-                    {
-                      "code": 16,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
-                  ],
+                  "list": [{ "code": 16, "indent": null }, { "code": 0 }],
                   "repeat": false,
                   "skippable": true,
                   "wait": true
@@ -1663,38 +1086,18 @@
             {
               "code": 505,
               "indent": 4,
+              "parameters": [{ "code": 16, "indent": null }]
+            },
+            { "code": 213, "indent": 4, "parameters": [0, 3, false] },
+            { "code": 101, "indent": 4, "parameters": ["", 0, 0, 2] },
+            {
+              "code": 401,
+              "indent": 4,
               "parameters": [
-                {
-                  "code": 16,
-                  "indent": null
-                }
+                "Magic Shop Clerk Samantha: \"Thank you for waiting~\""
               ]
             },
-            {
-              "code": 213,
-              "indent": 4,
-              "parameters": [0, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 4,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 4,
-              "parameters": ["魔法堂の店員サマンサ"]
-            },
-            {
-              "code": 401,
-              "indent": 4,
-              "parameters": ["「お待たせしました～」"]
-            },
-            {
-              "code": 126,
-              "indent": 4,
-              "parameters": [40, 0, 0, 1]
-            },
+            { "code": 126, "indent": 4, "parameters": [40, 0, 0, 1] },
             {
               "code": 250,
               "indent": 4,
@@ -1707,141 +1110,52 @@
                 }
               ]
             },
-            {
-              "code": 101,
-              "indent": 4,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 4, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 4,
-              "parameters": ["\\ii[40]を手に入れた！\\$"]
+              "parameters": ["\\ii[40] acquired!\\$"]
             },
-            {
-              "code": 0,
-              "indent": 4,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 213,
-              "indent": 4,
-              "parameters": [0, 7, false]
-            },
-            {
-              "code": 101,
-              "indent": 4,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 0, "indent": 4, "parameters": [] },
+            { "code": 411, "indent": 3, "parameters": [] },
+            { "code": 213, "indent": 4, "parameters": [0, 7, false] },
+            { "code": 101, "indent": 4, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 4,
-              "parameters": ["魔法堂の店員サマンサ"]
+              "parameters": [
+                "Magic Shop Clerk Samantha: \"Oh dear, it looks like you don't have\nenough money...\""
+              ]
             },
-            {
-              "code": 401,
-              "indent": 4,
-              "parameters": ["「あら、お金が足りないみたいね……」"]
-            },
-            {
-              "code": 0,
-              "indent": 4,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 213,
-              "indent": 3,
-              "parameters": [0, 7, false]
-            },
-            {
-              "code": 101,
-              "indent": 3,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 0, "indent": 4, "parameters": [] },
+            { "code": 412, "indent": 3, "parameters": [] },
+            { "code": 0, "indent": 3, "parameters": [] },
+            { "code": 411, "indent": 2, "parameters": [] },
+            { "code": 213, "indent": 3, "parameters": [0, 7, false] },
+            { "code": 101, "indent": 3, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 3,
-              "parameters": ["魔法堂の店員サマンサ"]
+              "parameters": [
+                "Magic Shop Clerk Samantha: \"Oh dear, it looks like you don't have a\nfire attribute medal...\""
+              ]
             },
-            {
-              "code": 401,
-              "indent": 3,
-              "parameters": ["「あら、火属性のメダルを持ってないみたいね……」"]
-            },
-            {
-              "code": 0,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 213,
-              "indent": 2,
-              "parameters": [0, 7, false]
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 0, "indent": 3, "parameters": [] },
+            { "code": 412, "indent": 2, "parameters": [] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 411, "indent": 1, "parameters": [] },
+            { "code": 213, "indent": 2, "parameters": [0, 7, false] },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["魔法堂の店員サマンサ"]
+              "parameters": [
+                "Magic Shop Clerk Samantha: \"Oh dear, it looks like you don't have\nenough magic stones...\""
+              ]
             },
-            {
-              "code": 401,
-              "indent": 2,
-              "parameters": ["「あら、魔法石が足りないみたいね……」"]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 412, "indent": 1, "parameters": [] },
+            { "code": 0, "indent": 1, "parameters": [] },
             {
               "code": 402,
               "indent": 0,
@@ -1850,40 +1164,17 @@
                 "スクロール(風) [魔法石所持数\\V[148]：メダル(風)所持数\\V[402]]"
               ]
             },
-            {
-              "code": 111,
-              "indent": 1,
-              "parameters": [1, 148, 0, 10, 1]
-            },
-            {
-              "code": 111,
-              "indent": 2,
-              "parameters": [8, 35]
-            },
-            {
-              "code": 111,
-              "indent": 3,
-              "parameters": [7, 100, 0]
-            },
-            {
-              "code": 213,
-              "indent": 4,
-              "parameters": [0, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 4,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 111, "indent": 1, "parameters": [1, 148, 0, 10, 1] },
+            { "code": 111, "indent": 2, "parameters": [8, 35] },
+            { "code": 111, "indent": 3, "parameters": [7, 100, 0] },
+            { "code": 213, "indent": 4, "parameters": [0, 3, false] },
+            { "code": 101, "indent": 4, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 4,
-              "parameters": ["魔法堂の店員サマンサ"]
-            },
-            {
-              "code": 401,
-              "indent": 4,
-              "parameters": ["「じゃぁ合成するから待っててくださいね～」"]
+              "parameters": [
+                "Magic Shop Clerk Samantha: \"Then please wait while I synthesize it for\nyou~\""
+              ]
             },
             {
               "code": 205,
@@ -1891,15 +1182,7 @@
               "parameters": [
                 0,
                 {
-                  "list": [
-                    {
-                      "code": 19,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
-                  ],
+                  "list": [{ "code": 19, "indent": null }, { "code": 0 }],
                   "repeat": false,
                   "skippable": true,
                   "wait": true
@@ -1909,67 +1192,32 @@
             {
               "code": 505,
               "indent": 4,
-              "parameters": [
-                {
-                  "code": 19,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 19, "indent": null }]
             },
-            {
-              "code": 221,
-              "indent": 4,
-              "parameters": []
-            },
-            {
-              "code": 126,
-              "indent": 4,
-              "parameters": [121, 1, 0, 10]
-            },
-            {
-              "code": 126,
-              "indent": 4,
-              "parameters": [35, 1, 0, 1]
-            },
-            {
-              "code": 125,
-              "indent": 4,
-              "parameters": [1, 0, 100]
-            },
+            { "code": 221, "indent": 4, "parameters": [] },
+            { "code": 126, "indent": 4, "parameters": [121, 1, 0, 10] },
+            { "code": 126, "indent": 4, "parameters": [35, 1, 0, 1] },
+            { "code": 125, "indent": 4, "parameters": [1, 0, 100] },
             {
               "code": 250,
               "indent": 4,
               "parameters": [
-                {
-                  "name": "Magic6",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "Magic6", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 101,
-              "indent": 4,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 4, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 4,
               "parameters": [
-                "店員のサマンサは特殊な合成器を使って魔法のスクロールを生成する。"
+                "Clerk Samantha uses a special synthesizer to create the magic scroll."
               ]
             },
             {
               "code": 250,
               "indent": 4,
               "parameters": [
-                {
-                  "name": "Flash1",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "Flash1", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
             {
@@ -1977,26 +1225,14 @@
               "indent": 4,
               "parameters": [[255, 255, 255, 255], 60, false]
             },
-            {
-              "code": 222,
-              "indent": 4,
-              "parameters": []
-            },
+            { "code": 222, "indent": 4, "parameters": [] },
             {
               "code": 205,
               "indent": 4,
               "parameters": [
                 0,
                 {
-                  "list": [
-                    {
-                      "code": 16,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
-                  ],
+                  "list": [{ "code": 16, "indent": null }, { "code": 0 }],
                   "repeat": false,
                   "skippable": true,
                   "wait": true
@@ -2006,38 +1242,18 @@
             {
               "code": 505,
               "indent": 4,
+              "parameters": [{ "code": 16, "indent": null }]
+            },
+            { "code": 213, "indent": 4, "parameters": [0, 3, false] },
+            { "code": 101, "indent": 4, "parameters": ["", 0, 0, 2] },
+            {
+              "code": 401,
+              "indent": 4,
               "parameters": [
-                {
-                  "code": 16,
-                  "indent": null
-                }
+                "Magic Shop Clerk Samantha: \"Thank you for waiting~\""
               ]
             },
-            {
-              "code": 213,
-              "indent": 4,
-              "parameters": [0, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 4,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 4,
-              "parameters": ["魔法堂の店員サマンサ"]
-            },
-            {
-              "code": 401,
-              "indent": 4,
-              "parameters": ["「お待たせしました～」"]
-            },
-            {
-              "code": 126,
-              "indent": 4,
-              "parameters": [41, 0, 0, 1]
-            },
+            { "code": 126, "indent": 4, "parameters": [41, 0, 0, 1] },
             {
               "code": 250,
               "indent": 4,
@@ -2050,141 +1266,52 @@
                 }
               ]
             },
-            {
-              "code": 101,
-              "indent": 4,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 4, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 4,
-              "parameters": ["\\ii[41]を手に入れた！\\$"]
+              "parameters": ["\\ii[40] acquired!\\$"]
             },
-            {
-              "code": 0,
-              "indent": 4,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 213,
-              "indent": 4,
-              "parameters": [0, 7, false]
-            },
-            {
-              "code": 101,
-              "indent": 4,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 0, "indent": 4, "parameters": [] },
+            { "code": 411, "indent": 3, "parameters": [] },
+            { "code": 213, "indent": 4, "parameters": [0, 7, false] },
+            { "code": 101, "indent": 4, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 4,
-              "parameters": ["魔法堂の店員サマンサ"]
+              "parameters": [
+                "Magic Shop Clerk Samantha: \"Oh dear, it looks like you don't have\nenough money...\""
+              ]
             },
-            {
-              "code": 401,
-              "indent": 4,
-              "parameters": ["「あら、お金が足りないみたいね……」"]
-            },
-            {
-              "code": 0,
-              "indent": 4,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 213,
-              "indent": 3,
-              "parameters": [0, 7, false]
-            },
-            {
-              "code": 101,
-              "indent": 3,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 0, "indent": 4, "parameters": [] },
+            { "code": 412, "indent": 3, "parameters": [] },
+            { "code": 0, "indent": 3, "parameters": [] },
+            { "code": 411, "indent": 2, "parameters": [] },
+            { "code": 213, "indent": 3, "parameters": [0, 7, false] },
+            { "code": 101, "indent": 3, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 3,
-              "parameters": ["魔法堂の店員サマンサ"]
+              "parameters": [
+                "Magic Shop Clerk Samantha: \"Oh dear, it looks like you don't have a\nwind attribute medal...\""
+              ]
             },
-            {
-              "code": 401,
-              "indent": 3,
-              "parameters": ["「あら、風属性のメダルを持ってないみたいね……」"]
-            },
-            {
-              "code": 0,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 213,
-              "indent": 2,
-              "parameters": [0, 7, false]
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 0, "indent": 3, "parameters": [] },
+            { "code": 412, "indent": 2, "parameters": [] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 411, "indent": 1, "parameters": [] },
+            { "code": 213, "indent": 2, "parameters": [0, 7, false] },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["魔法堂の店員サマンサ"]
+              "parameters": [
+                "Magic Shop Clerk Samantha: \"Oh dear, it looks like you don't have\nenough magic stones...\""
+              ]
             },
-            {
-              "code": 401,
-              "indent": 2,
-              "parameters": ["「あら、魔法石が足りないみたいね……」"]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 412, "indent": 1, "parameters": [] },
+            { "code": 0, "indent": 1, "parameters": [] },
             {
               "code": 402,
               "indent": 0,
@@ -2193,40 +1320,17 @@
                 "スクロール(土) [魔法石所持数\\V[148]：メダル(土)所持数\\V[403]]"
               ]
             },
-            {
-              "code": 111,
-              "indent": 1,
-              "parameters": [1, 148, 0, 10, 1]
-            },
-            {
-              "code": 111,
-              "indent": 2,
-              "parameters": [8, 36]
-            },
-            {
-              "code": 111,
-              "indent": 3,
-              "parameters": [7, 100, 0]
-            },
-            {
-              "code": 213,
-              "indent": 4,
-              "parameters": [0, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 4,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 111, "indent": 1, "parameters": [1, 148, 0, 10, 1] },
+            { "code": 111, "indent": 2, "parameters": [8, 36] },
+            { "code": 111, "indent": 3, "parameters": [7, 100, 0] },
+            { "code": 213, "indent": 4, "parameters": [0, 3, false] },
+            { "code": 101, "indent": 4, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 4,
-              "parameters": ["魔法堂の店員サマンサ"]
-            },
-            {
-              "code": 401,
-              "indent": 4,
-              "parameters": ["「じゃぁ合成するから待っててくださいね～」"]
+              "parameters": [
+                "Magic Shop Clerk Samantha: \"Then please wait while I synthesize it for\nyou~\""
+              ]
             },
             {
               "code": 205,
@@ -2234,15 +1338,7 @@
               "parameters": [
                 0,
                 {
-                  "list": [
-                    {
-                      "code": 19,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
-                  ],
+                  "list": [{ "code": 19, "indent": null }, { "code": 0 }],
                   "repeat": false,
                   "skippable": true,
                   "wait": true
@@ -2252,67 +1348,32 @@
             {
               "code": 505,
               "indent": 4,
-              "parameters": [
-                {
-                  "code": 19,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 19, "indent": null }]
             },
-            {
-              "code": 221,
-              "indent": 4,
-              "parameters": []
-            },
-            {
-              "code": 126,
-              "indent": 4,
-              "parameters": [121, 1, 0, 10]
-            },
-            {
-              "code": 126,
-              "indent": 4,
-              "parameters": [36, 1, 0, 1]
-            },
-            {
-              "code": 125,
-              "indent": 4,
-              "parameters": [1, 0, 100]
-            },
+            { "code": 221, "indent": 4, "parameters": [] },
+            { "code": 126, "indent": 4, "parameters": [121, 1, 0, 10] },
+            { "code": 126, "indent": 4, "parameters": [36, 1, 0, 1] },
+            { "code": 125, "indent": 4, "parameters": [1, 0, 100] },
             {
               "code": 250,
               "indent": 4,
               "parameters": [
-                {
-                  "name": "Magic6",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "Magic6", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 101,
-              "indent": 4,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 4, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 4,
               "parameters": [
-                "店員のサマンサは特殊な合成器を使って魔法のスクロールを生成する。"
+                "Clerk Samantha uses a special synthesizer to create the magic scroll."
               ]
             },
             {
               "code": 250,
               "indent": 4,
               "parameters": [
-                {
-                  "name": "Flash1",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "Flash1", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
             {
@@ -2320,26 +1381,14 @@
               "indent": 4,
               "parameters": [[255, 255, 255, 255], 60, false]
             },
-            {
-              "code": 222,
-              "indent": 4,
-              "parameters": []
-            },
+            { "code": 222, "indent": 4, "parameters": [] },
             {
               "code": 205,
               "indent": 4,
               "parameters": [
                 0,
                 {
-                  "list": [
-                    {
-                      "code": 16,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
-                  ],
+                  "list": [{ "code": 16, "indent": null }, { "code": 0 }],
                   "repeat": false,
                   "skippable": true,
                   "wait": true
@@ -2349,38 +1398,18 @@
             {
               "code": 505,
               "indent": 4,
+              "parameters": [{ "code": 16, "indent": null }]
+            },
+            { "code": 213, "indent": 4, "parameters": [0, 3, false] },
+            { "code": 101, "indent": 4, "parameters": ["", 0, 0, 2] },
+            {
+              "code": 401,
+              "indent": 4,
               "parameters": [
-                {
-                  "code": 16,
-                  "indent": null
-                }
+                "Magic Shop Clerk Samantha: \"Thank you for waiting~\""
               ]
             },
-            {
-              "code": 213,
-              "indent": 4,
-              "parameters": [0, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 4,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 4,
-              "parameters": ["魔法堂の店員サマンサ"]
-            },
-            {
-              "code": 401,
-              "indent": 4,
-              "parameters": ["「お待たせしました～」"]
-            },
-            {
-              "code": 126,
-              "indent": 4,
-              "parameters": [42, 0, 0, 1]
-            },
+            { "code": 126, "indent": 4, "parameters": [42, 0, 0, 1] },
             {
               "code": 250,
               "indent": 4,
@@ -2393,155 +1422,62 @@
                 }
               ]
             },
-            {
-              "code": 101,
-              "indent": 4,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 4, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 4,
-              "parameters": ["\\ii[42]を手に入れた！\\$"]
+              "parameters": ["\\ii[40] acquired!\\$"]
             },
-            {
-              "code": 0,
-              "indent": 4,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 213,
-              "indent": 4,
-              "parameters": [0, 7, false]
-            },
-            {
-              "code": 101,
-              "indent": 4,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 0, "indent": 4, "parameters": [] },
+            { "code": 411, "indent": 3, "parameters": [] },
+            { "code": 213, "indent": 4, "parameters": [0, 7, false] },
+            { "code": 101, "indent": 4, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 4,
-              "parameters": ["魔法堂の店員サマンサ"]
+              "parameters": [
+                "Magic Shop Clerk Samantha: \"Oh dear, it looks like you don't have\nenough money...\""
+              ]
             },
-            {
-              "code": 401,
-              "indent": 4,
-              "parameters": ["「あら、お金が足りないみたいね……」"]
-            },
-            {
-              "code": 0,
-              "indent": 4,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 213,
-              "indent": 3,
-              "parameters": [0, 7, false]
-            },
-            {
-              "code": 101,
-              "indent": 3,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 0, "indent": 4, "parameters": [] },
+            { "code": 412, "indent": 3, "parameters": [] },
+            { "code": 0, "indent": 3, "parameters": [] },
+            { "code": 411, "indent": 2, "parameters": [] },
+            { "code": 213, "indent": 3, "parameters": [0, 7, false] },
+            { "code": 101, "indent": 3, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 3,
-              "parameters": ["魔法堂の店員サマンサ"]
+              "parameters": [
+                "Magic Shop Clerk Samantha: \"Oh dear, it looks like you don't have an\nearth attribute medal...\""
+              ]
             },
-            {
-              "code": 401,
-              "indent": 3,
-              "parameters": ["「あら、土属性のメダルを持ってないみたいね……」"]
-            },
-            {
-              "code": 0,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 213,
-              "indent": 2,
-              "parameters": [0, 7, false]
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 0, "indent": 3, "parameters": [] },
+            { "code": 412, "indent": 2, "parameters": [] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 411, "indent": 1, "parameters": [] },
+            { "code": 213, "indent": 2, "parameters": [0, 7, false] },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["魔法堂の店員サマンサ"]
+              "parameters": [
+                "Magic Shop Clerk Samantha: \"Oh dear, it looks like you don't have\nenough magic stones...\""
+              ]
             },
-            {
-              "code": 401,
-              "indent": 2,
-              "parameters": ["「あら、魔法石が足りないみたいね……」"]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 0,
-              "parameters": []
-            },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 412, "indent": 1, "parameters": [] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 404, "indent": 0, "parameters": [] },
             {
               "code": 102,
               "indent": 0,
               "parameters": [
                 [
-                  "スクロール(水) [魔法石所持数\\V[148]：メダル(水)所持数\\V[404]]",
-                  "スクロール(光) [魔法石所持数\\V[148]：メダル(光)所持数\\V[405]]",
-                  "スクロール(闇) [魔法石所持数\\V[148]：メダル(闇)所持数\\V[406]]",
-                  "やめる"
+                  "Scroll (Water) [Magic Stones Owned \\V[148]: Water Medals Owned \\V[404]]",
+                  "Scroll (Light) [Magic Stone Count \\V[148]: Medal (Light) Count \\V[405]]",
+                  "Scroll (Darkness) [Magic Stones Owned \\V[148]: Darkness Medals Owned \\V[406]]",
+                  "Quit"
                 ],
                 3,
                 -1,
@@ -2557,40 +1493,17 @@
                 "スクロール(水) [魔法石所持数\\V[148]：メダル(水)所持数\\V[404]]"
               ]
             },
-            {
-              "code": 111,
-              "indent": 1,
-              "parameters": [1, 148, 0, 10, 1]
-            },
-            {
-              "code": 111,
-              "indent": 2,
-              "parameters": [8, 37]
-            },
-            {
-              "code": 111,
-              "indent": 3,
-              "parameters": [7, 100, 0]
-            },
-            {
-              "code": 213,
-              "indent": 4,
-              "parameters": [0, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 4,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 111, "indent": 1, "parameters": [1, 148, 0, 10, 1] },
+            { "code": 111, "indent": 2, "parameters": [8, 37] },
+            { "code": 111, "indent": 3, "parameters": [7, 100, 0] },
+            { "code": 213, "indent": 4, "parameters": [0, 3, false] },
+            { "code": 101, "indent": 4, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 4,
-              "parameters": ["魔法堂の店員サマンサ"]
-            },
-            {
-              "code": 401,
-              "indent": 4,
-              "parameters": ["「じゃぁ合成するから待っててくださいね～」"]
+              "parameters": [
+                "Magic Shop Clerk Samantha: \"Then please wait while I synthesize it for\nyou~\""
+              ]
             },
             {
               "code": 205,
@@ -2598,15 +1511,7 @@
               "parameters": [
                 0,
                 {
-                  "list": [
-                    {
-                      "code": 19,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
-                  ],
+                  "list": [{ "code": 19, "indent": null }, { "code": 0 }],
                   "repeat": false,
                   "skippable": true,
                   "wait": true
@@ -2616,67 +1521,32 @@
             {
               "code": 505,
               "indent": 4,
-              "parameters": [
-                {
-                  "code": 19,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 19, "indent": null }]
             },
-            {
-              "code": 221,
-              "indent": 4,
-              "parameters": []
-            },
-            {
-              "code": 126,
-              "indent": 4,
-              "parameters": [121, 1, 0, 10]
-            },
-            {
-              "code": 126,
-              "indent": 4,
-              "parameters": [37, 1, 0, 1]
-            },
-            {
-              "code": 125,
-              "indent": 4,
-              "parameters": [1, 0, 100]
-            },
+            { "code": 221, "indent": 4, "parameters": [] },
+            { "code": 126, "indent": 4, "parameters": [121, 1, 0, 10] },
+            { "code": 126, "indent": 4, "parameters": [37, 1, 0, 1] },
+            { "code": 125, "indent": 4, "parameters": [1, 0, 100] },
             {
               "code": 250,
               "indent": 4,
               "parameters": [
-                {
-                  "name": "Magic6",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "Magic6", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 101,
-              "indent": 4,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 4, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 4,
               "parameters": [
-                "店員のサマンサは特殊な合成器を使って魔法のスクロールを生成する。"
+                "Clerk Samantha uses a special synthesizer to create the magic scroll."
               ]
             },
             {
               "code": 250,
               "indent": 4,
               "parameters": [
-                {
-                  "name": "Flash1",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "Flash1", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
             {
@@ -2684,26 +1554,14 @@
               "indent": 4,
               "parameters": [[255, 255, 255, 255], 60, false]
             },
-            {
-              "code": 222,
-              "indent": 4,
-              "parameters": []
-            },
+            { "code": 222, "indent": 4, "parameters": [] },
             {
               "code": 205,
               "indent": 4,
               "parameters": [
                 0,
                 {
-                  "list": [
-                    {
-                      "code": 16,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
-                  ],
+                  "list": [{ "code": 16, "indent": null }, { "code": 0 }],
                   "repeat": false,
                   "skippable": true,
                   "wait": true
@@ -2713,38 +1571,18 @@
             {
               "code": 505,
               "indent": 4,
+              "parameters": [{ "code": 16, "indent": null }]
+            },
+            { "code": 213, "indent": 4, "parameters": [0, 3, false] },
+            { "code": 101, "indent": 4, "parameters": ["", 0, 0, 2] },
+            {
+              "code": 401,
+              "indent": 4,
               "parameters": [
-                {
-                  "code": 16,
-                  "indent": null
-                }
+                "Magic Shop Clerk Samantha: \"Thank you for waiting~\""
               ]
             },
-            {
-              "code": 213,
-              "indent": 4,
-              "parameters": [0, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 4,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 4,
-              "parameters": ["魔法堂の店員サマンサ"]
-            },
-            {
-              "code": 401,
-              "indent": 4,
-              "parameters": ["「お待たせしました～」"]
-            },
-            {
-              "code": 126,
-              "indent": 4,
-              "parameters": [43, 0, 0, 1]
-            },
+            { "code": 126, "indent": 4, "parameters": [43, 0, 0, 1] },
             {
               "code": 250,
               "indent": 4,
@@ -2757,141 +1595,52 @@
                 }
               ]
             },
-            {
-              "code": 101,
-              "indent": 4,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 4, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 4,
-              "parameters": ["\\ii[43]を手に入れた！\\$"]
+              "parameters": ["\\ii[40] acquired!\\$"]
             },
-            {
-              "code": 0,
-              "indent": 4,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 213,
-              "indent": 4,
-              "parameters": [0, 7, false]
-            },
-            {
-              "code": 101,
-              "indent": 4,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 0, "indent": 4, "parameters": [] },
+            { "code": 411, "indent": 3, "parameters": [] },
+            { "code": 213, "indent": 4, "parameters": [0, 7, false] },
+            { "code": 101, "indent": 4, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 4,
-              "parameters": ["魔法堂の店員サマンサ"]
+              "parameters": [
+                "Magic Shop Clerk Samantha: \"Oh dear, it looks like you don't have\nenough money...\""
+              ]
             },
-            {
-              "code": 401,
-              "indent": 4,
-              "parameters": ["「あら、お金が足りないみたいね……」"]
-            },
-            {
-              "code": 0,
-              "indent": 4,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 213,
-              "indent": 3,
-              "parameters": [0, 7, false]
-            },
-            {
-              "code": 101,
-              "indent": 3,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 0, "indent": 4, "parameters": [] },
+            { "code": 412, "indent": 3, "parameters": [] },
+            { "code": 0, "indent": 3, "parameters": [] },
+            { "code": 411, "indent": 2, "parameters": [] },
+            { "code": 213, "indent": 3, "parameters": [0, 7, false] },
+            { "code": 101, "indent": 3, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 3,
-              "parameters": ["魔法堂の店員サマンサ"]
+              "parameters": [
+                "Magic Shop Clerk Samantha: \"Oh dear, it looks like you don't have a\nwater attribute medal...\""
+              ]
             },
-            {
-              "code": 401,
-              "indent": 3,
-              "parameters": ["「あら、水属性のメダルを持ってないみたいね……」"]
-            },
-            {
-              "code": 0,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 213,
-              "indent": 2,
-              "parameters": [0, 7, false]
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 0, "indent": 3, "parameters": [] },
+            { "code": 412, "indent": 2, "parameters": [] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 411, "indent": 1, "parameters": [] },
+            { "code": 213, "indent": 2, "parameters": [0, 7, false] },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["魔法堂の店員サマンサ"]
+              "parameters": [
+                "Magic Shop Clerk Samantha: \"Oh dear, it looks like you don't have\nenough magic stones...\""
+              ]
             },
-            {
-              "code": 401,
-              "indent": 2,
-              "parameters": ["「あら、魔法石が足りないみたいね……」"]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 412, "indent": 1, "parameters": [] },
+            { "code": 0, "indent": 1, "parameters": [] },
             {
               "code": 402,
               "indent": 0,
@@ -2900,40 +1649,17 @@
                 "スクロール(光) [魔法石所持数\\V[148]：メダル(光)所持数\\V[405]]"
               ]
             },
-            {
-              "code": 111,
-              "indent": 1,
-              "parameters": [1, 148, 0, 10, 1]
-            },
-            {
-              "code": 111,
-              "indent": 2,
-              "parameters": [8, 38]
-            },
-            {
-              "code": 111,
-              "indent": 3,
-              "parameters": [7, 100, 0]
-            },
-            {
-              "code": 213,
-              "indent": 4,
-              "parameters": [0, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 4,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 111, "indent": 1, "parameters": [1, 148, 0, 10, 1] },
+            { "code": 111, "indent": 2, "parameters": [8, 38] },
+            { "code": 111, "indent": 3, "parameters": [7, 100, 0] },
+            { "code": 213, "indent": 4, "parameters": [0, 3, false] },
+            { "code": 101, "indent": 4, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 4,
-              "parameters": ["魔法堂の店員サマンサ"]
-            },
-            {
-              "code": 401,
-              "indent": 4,
-              "parameters": ["「じゃぁ合成するから待っててくださいね～」"]
+              "parameters": [
+                "Magic Shop Clerk Samantha: \"Then please wait while I synthesize it for\nyou~\""
+              ]
             },
             {
               "code": 205,
@@ -2941,15 +1667,7 @@
               "parameters": [
                 0,
                 {
-                  "list": [
-                    {
-                      "code": 19,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
-                  ],
+                  "list": [{ "code": 19, "indent": null }, { "code": 0 }],
                   "repeat": false,
                   "skippable": true,
                   "wait": true
@@ -2959,67 +1677,32 @@
             {
               "code": 505,
               "indent": 4,
-              "parameters": [
-                {
-                  "code": 19,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 19, "indent": null }]
             },
-            {
-              "code": 221,
-              "indent": 4,
-              "parameters": []
-            },
-            {
-              "code": 126,
-              "indent": 4,
-              "parameters": [121, 1, 0, 10]
-            },
-            {
-              "code": 126,
-              "indent": 4,
-              "parameters": [38, 1, 0, 1]
-            },
-            {
-              "code": 125,
-              "indent": 4,
-              "parameters": [1, 0, 100]
-            },
+            { "code": 221, "indent": 4, "parameters": [] },
+            { "code": 126, "indent": 4, "parameters": [121, 1, 0, 10] },
+            { "code": 126, "indent": 4, "parameters": [38, 1, 0, 1] },
+            { "code": 125, "indent": 4, "parameters": [1, 0, 100] },
             {
               "code": 250,
               "indent": 4,
               "parameters": [
-                {
-                  "name": "Magic6",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "Magic6", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 101,
-              "indent": 4,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 4, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 4,
               "parameters": [
-                "店員のサマンサは特殊な合成器を使って魔法のスクロールを生成する。"
+                "Clerk Samantha uses a special synthesizer to create the magic scroll."
               ]
             },
             {
               "code": 250,
               "indent": 4,
               "parameters": [
-                {
-                  "name": "Flash1",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "Flash1", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
             {
@@ -3027,26 +1710,14 @@
               "indent": 4,
               "parameters": [[255, 255, 255, 255], 60, false]
             },
-            {
-              "code": 222,
-              "indent": 4,
-              "parameters": []
-            },
+            { "code": 222, "indent": 4, "parameters": [] },
             {
               "code": 205,
               "indent": 4,
               "parameters": [
                 0,
                 {
-                  "list": [
-                    {
-                      "code": 16,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
-                  ],
+                  "list": [{ "code": 16, "indent": null }, { "code": 0 }],
                   "repeat": false,
                   "skippable": true,
                   "wait": true
@@ -3056,38 +1727,18 @@
             {
               "code": 505,
               "indent": 4,
+              "parameters": [{ "code": 16, "indent": null }]
+            },
+            { "code": 213, "indent": 4, "parameters": [0, 3, false] },
+            { "code": 101, "indent": 4, "parameters": ["", 0, 0, 2] },
+            {
+              "code": 401,
+              "indent": 4,
               "parameters": [
-                {
-                  "code": 16,
-                  "indent": null
-                }
+                "Magic Shop Clerk Samantha: \"Thank you for waiting~\""
               ]
             },
-            {
-              "code": 213,
-              "indent": 4,
-              "parameters": [0, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 4,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 4,
-              "parameters": ["魔法堂の店員サマンサ"]
-            },
-            {
-              "code": 401,
-              "indent": 4,
-              "parameters": ["「お待たせしました～」"]
-            },
-            {
-              "code": 126,
-              "indent": 4,
-              "parameters": [44, 0, 0, 1]
-            },
+            { "code": 126, "indent": 4, "parameters": [44, 0, 0, 1] },
             {
               "code": 250,
               "indent": 4,
@@ -3100,141 +1751,52 @@
                 }
               ]
             },
-            {
-              "code": 101,
-              "indent": 4,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 4, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 4,
-              "parameters": ["\\ii[44]を手に入れた！\\$"]
+              "parameters": ["\\ii[40] acquired!\\$"]
             },
-            {
-              "code": 0,
-              "indent": 4,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 213,
-              "indent": 4,
-              "parameters": [0, 7, false]
-            },
-            {
-              "code": 101,
-              "indent": 4,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 0, "indent": 4, "parameters": [] },
+            { "code": 411, "indent": 3, "parameters": [] },
+            { "code": 213, "indent": 4, "parameters": [0, 7, false] },
+            { "code": 101, "indent": 4, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 4,
-              "parameters": ["魔法堂の店員サマンサ"]
+              "parameters": [
+                "Magic Shop Clerk Samantha: \"Oh dear, it looks like you don't have\nenough money...\""
+              ]
             },
-            {
-              "code": 401,
-              "indent": 4,
-              "parameters": ["「あら、お金が足りないみたいね……」"]
-            },
-            {
-              "code": 0,
-              "indent": 4,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 213,
-              "indent": 3,
-              "parameters": [0, 7, false]
-            },
-            {
-              "code": 101,
-              "indent": 3,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 0, "indent": 4, "parameters": [] },
+            { "code": 412, "indent": 3, "parameters": [] },
+            { "code": 0, "indent": 3, "parameters": [] },
+            { "code": 411, "indent": 2, "parameters": [] },
+            { "code": 213, "indent": 3, "parameters": [0, 7, false] },
+            { "code": 101, "indent": 3, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 3,
-              "parameters": ["魔法堂の店員サマンサ"]
+              "parameters": [
+                "Magic Shop Clerk Samantha: \"Oh dear, it looks like you don't have a\nlight attribute medal...\""
+              ]
             },
-            {
-              "code": 401,
-              "indent": 3,
-              "parameters": ["「あら、光属性のメダルを持ってないみたいね……」"]
-            },
-            {
-              "code": 0,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 213,
-              "indent": 2,
-              "parameters": [0, 7, false]
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 0, "indent": 3, "parameters": [] },
+            { "code": 412, "indent": 2, "parameters": [] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 411, "indent": 1, "parameters": [] },
+            { "code": 213, "indent": 2, "parameters": [0, 7, false] },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["魔法堂の店員サマンサ"]
+              "parameters": [
+                "Magic Shop Clerk Samantha: \"Oh dear, it looks like you don't have\nenough magic stones...\""
+              ]
             },
-            {
-              "code": 401,
-              "indent": 2,
-              "parameters": ["「あら、魔法石が足りないみたいね……」"]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 412, "indent": 1, "parameters": [] },
+            { "code": 0, "indent": 1, "parameters": [] },
             {
               "code": 402,
               "indent": 0,
@@ -3243,40 +1805,17 @@
                 "スクロール(闇) [魔法石所持数\\V[148]：メダル(闇)所持数\\V[406]]"
               ]
             },
-            {
-              "code": 111,
-              "indent": 1,
-              "parameters": [1, 148, 0, 10, 1]
-            },
-            {
-              "code": 111,
-              "indent": 2,
-              "parameters": [8, 39]
-            },
-            {
-              "code": 111,
-              "indent": 3,
-              "parameters": [7, 100, 0]
-            },
-            {
-              "code": 213,
-              "indent": 4,
-              "parameters": [0, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 4,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 111, "indent": 1, "parameters": [1, 148, 0, 10, 1] },
+            { "code": 111, "indent": 2, "parameters": [8, 39] },
+            { "code": 111, "indent": 3, "parameters": [7, 100, 0] },
+            { "code": 213, "indent": 4, "parameters": [0, 3, false] },
+            { "code": 101, "indent": 4, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 4,
-              "parameters": ["魔法堂の店員サマンサ"]
-            },
-            {
-              "code": 401,
-              "indent": 4,
-              "parameters": ["「じゃぁ合成するから待っててくださいね～」"]
+              "parameters": [
+                "Magic Shop Clerk Samantha: \"Then please wait while I synthesize it for\nyou~\""
+              ]
             },
             {
               "code": 205,
@@ -3284,15 +1823,7 @@
               "parameters": [
                 0,
                 {
-                  "list": [
-                    {
-                      "code": 19,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
-                  ],
+                  "list": [{ "code": 19, "indent": null }, { "code": 0 }],
                   "repeat": false,
                   "skippable": true,
                   "wait": true
@@ -3302,67 +1833,32 @@
             {
               "code": 505,
               "indent": 4,
-              "parameters": [
-                {
-                  "code": 19,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 19, "indent": null }]
             },
-            {
-              "code": 221,
-              "indent": 4,
-              "parameters": []
-            },
-            {
-              "code": 126,
-              "indent": 4,
-              "parameters": [121, 1, 0, 10]
-            },
-            {
-              "code": 126,
-              "indent": 4,
-              "parameters": [39, 1, 0, 1]
-            },
-            {
-              "code": 125,
-              "indent": 4,
-              "parameters": [1, 0, 100]
-            },
+            { "code": 221, "indent": 4, "parameters": [] },
+            { "code": 126, "indent": 4, "parameters": [121, 1, 0, 10] },
+            { "code": 126, "indent": 4, "parameters": [39, 1, 0, 1] },
+            { "code": 125, "indent": 4, "parameters": [1, 0, 100] },
             {
               "code": 250,
               "indent": 4,
               "parameters": [
-                {
-                  "name": "Magic6",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "Magic6", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 101,
-              "indent": 4,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 4, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 4,
               "parameters": [
-                "店員のサマンサは特殊な合成器を使って魔法のスクロールを生成する。"
+                "Clerk Samantha uses a special synthesizer to create the magic scroll."
               ]
             },
             {
               "code": 250,
               "indent": 4,
               "parameters": [
-                {
-                  "name": "Flash1",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "Flash1", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
             {
@@ -3370,26 +1866,14 @@
               "indent": 4,
               "parameters": [[255, 255, 255, 255], 60, false]
             },
-            {
-              "code": 222,
-              "indent": 4,
-              "parameters": []
-            },
+            { "code": 222, "indent": 4, "parameters": [] },
             {
               "code": 205,
               "indent": 4,
               "parameters": [
                 0,
                 {
-                  "list": [
-                    {
-                      "code": 16,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
-                  ],
+                  "list": [{ "code": 16, "indent": null }, { "code": 0 }],
                   "repeat": false,
                   "skippable": true,
                   "wait": true
@@ -3399,38 +1883,18 @@
             {
               "code": 505,
               "indent": 4,
+              "parameters": [{ "code": 16, "indent": null }]
+            },
+            { "code": 213, "indent": 4, "parameters": [0, 3, false] },
+            { "code": 101, "indent": 4, "parameters": ["", 0, 0, 2] },
+            {
+              "code": 401,
+              "indent": 4,
               "parameters": [
-                {
-                  "code": 16,
-                  "indent": null
-                }
+                "Magic Shop Clerk Samantha: \"Thank you for waiting~\""
               ]
             },
-            {
-              "code": 213,
-              "indent": 4,
-              "parameters": [0, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 4,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 4,
-              "parameters": ["魔法堂の店員サマンサ"]
-            },
-            {
-              "code": 401,
-              "indent": 4,
-              "parameters": ["「お待たせしました～」"]
-            },
-            {
-              "code": 126,
-              "indent": 4,
-              "parameters": [45, 0, 0, 1]
-            },
+            { "code": 126, "indent": 4, "parameters": [45, 0, 0, 1] },
             {
               "code": 250,
               "indent": 4,
@@ -3443,170 +1907,60 @@
                 }
               ]
             },
-            {
-              "code": 101,
-              "indent": 4,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 4, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 4,
-              "parameters": ["\\ii[45]を手に入れた！\\$"]
+              "parameters": ["\\ii[40] acquired!\\$"]
             },
-            {
-              "code": 0,
-              "indent": 4,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 213,
-              "indent": 4,
-              "parameters": [0, 7, false]
-            },
-            {
-              "code": 101,
-              "indent": 4,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 0, "indent": 4, "parameters": [] },
+            { "code": 411, "indent": 3, "parameters": [] },
+            { "code": 213, "indent": 4, "parameters": [0, 7, false] },
+            { "code": 101, "indent": 4, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 4,
-              "parameters": ["魔法堂の店員サマンサ"]
+              "parameters": [
+                "Magic Shop Clerk Samantha: \"Oh dear, it looks like you don't have\nenough money...\""
+              ]
             },
-            {
-              "code": 401,
-              "indent": 4,
-              "parameters": ["「あら、お金が足りないみたいね……」"]
-            },
-            {
-              "code": 0,
-              "indent": 4,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 213,
-              "indent": 3,
-              "parameters": [0, 7, false]
-            },
-            {
-              "code": 101,
-              "indent": 3,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 0, "indent": 4, "parameters": [] },
+            { "code": 412, "indent": 3, "parameters": [] },
+            { "code": 0, "indent": 3, "parameters": [] },
+            { "code": 411, "indent": 2, "parameters": [] },
+            { "code": 213, "indent": 3, "parameters": [0, 7, false] },
+            { "code": 101, "indent": 3, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 3,
-              "parameters": ["魔法堂の店員サマンサ"]
+              "parameters": [
+                "Magic Shop Clerk Samantha: \"Oh dear, it looks like you don't have a\ndark attribute medal...\""
+              ]
             },
-            {
-              "code": 401,
-              "indent": 3,
-              "parameters": ["「あら、闇属性のメダルを持ってないみたいね……」"]
-            },
-            {
-              "code": 0,
-              "indent": 3,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 213,
-              "indent": 2,
-              "parameters": [0, 7, false]
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 0, "indent": 3, "parameters": [] },
+            { "code": 412, "indent": 2, "parameters": [] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 411, "indent": 1, "parameters": [] },
+            { "code": 213, "indent": 2, "parameters": [0, 7, false] },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["魔法堂の店員サマンサ"]
+              "parameters": [
+                "Magic Shop Clerk Samantha: \"Oh dear, it looks like you don't have\nenough magic stones...\""
+              ]
             },
-            {
-              "code": 401,
-              "indent": 2,
-              "parameters": ["「あら、魔法石が足りないみたいね……」"]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 0,
-              "parameters": [3, "やめる"]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 412, "indent": 1, "parameters": [] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 402, "indent": 0, "parameters": [3, "やめる"] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 404, "indent": 0, "parameters": [] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -3653,62 +2007,33 @@
             "characterIndex": 0
           },
           "list": [
-            {
-              "code": 111,
-              "indent": 0,
-              "parameters": [2, "A", 1]
-            },
+            { "code": 111, "indent": 0, "parameters": [2, "A", 1] },
             {
               "code": 250,
               "indent": 1,
               "parameters": [
-                {
-                  "name": "Chime1",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "Chime1", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": [
-                "このポストに投函された魔導書はクリーニング後に再利用されます。"
+                "The grimoires deposited in this post will be reused after cleaning."
               ]
             },
-            {
-              "code": 101,
-              "indent": 1,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 1,
               "parameters": [
-                "投函すると購入時の価格のおよそ半値程度の金額が返金されます。"
+                "When you deposit one, you will be refunded approximately half the\npurchase price."
               ]
             },
-            {
-              "code": 123,
-              "indent": 1,
-              "parameters": ["A", 0]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
+            { "code": 123, "indent": 1, "parameters": ["A", 0] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 412, "indent": 0, "parameters": [] },
             {
               "code": 122,
               "indent": 0,
@@ -3754,21 +2079,12 @@
               "indent": 0,
               "parameters": [399, 399, 0, 3, 0, 149, 0]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["魔導書をポストに投函しますか？"]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "― １冊ずつ処理されます。投函する魔導書を選択してください。\\$"
+                "Would you like to deposit a grimoire into the post? - They will be\nprocessed one at a time. Please select the grimoire you wish to\ndeposit.\\$"
               ]
             },
             {
@@ -3776,12 +2092,12 @@
               "indent": 0,
               "parameters": [
                 [
-                  "\\ii[141]　 [所持数\\V[391]：返金額１２０Ｇ]",
-                  "\\ii[142]　 [所持数\\V[392]：返金額２４０Ｇ]",
-                  "\\ii[143]　 [所持数\\V[393]：返金額４８０Ｇ]",
-                  "\\ii[144] [所持数\\V[394]：返金額１８０Ｇ]",
-                  "\\ii[145] [所持数\\V[395]：返金額３６０Ｇ]",
-                  "\\ii[146] [所持数\\V[396]：返金額６４０Ｇ]"
+                  "[Quantity \\V[391]: Refund Amount 120G]",
+                  "[Quantity \\V[392]: Refund Amount 240G]",
+                  "[Quantity \\V[393]: Refund Amount 480G]",
+                  "[Quantity \\V[394]: Refund Amount 180G]",
+                  "[Quantity \\V[395]: Refund Amount 360G]",
+                  "[Quantity \\V[396]: Refund Amount 640G]"
                 ],
                 -1,
                 0,
@@ -3794,20 +2110,12 @@
               "indent": 0,
               "parameters": [0, "\\ii[141]　 [所持数\\V[391]：返金額１２０Ｇ]"]
             },
-            {
-              "code": 111,
-              "indent": 1,
-              "parameters": [8, 141]
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 111, "indent": 1, "parameters": [8, 141] },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["魔導書ポストに「\\ii[141]」を一冊投函した。"]
+              "parameters": ["Deposited \"\\ii[141]\" into the grimoire post."]
             },
             {
               "code": 250,
@@ -3821,80 +2129,32 @@
                 }
               ]
             },
-            {
-              "code": 125,
-              "indent": 2,
-              "parameters": [0, 0, 120]
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 125, "indent": 2, "parameters": [0, 0, 120] },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
+            { "code": 401, "indent": 2, "parameters": ["Acquired \\$120G!"] },
+            { "code": 126, "indent": 2, "parameters": [141, 1, 0, 1] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 411, "indent": 1, "parameters": [] },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["\\$１２０Ｇ手に入れた！"]
+              "parameters": ["It seems you don't have \"\\ii[141]\"."]
             },
-            {
-              "code": 126,
-              "indent": 2,
-              "parameters": [141, 1, 0, 1]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 2,
-              "parameters": ["\\ii[141]を持っていないようです。"]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 412, "indent": 1, "parameters": [] },
+            { "code": 0, "indent": 1, "parameters": [] },
             {
               "code": 402,
               "indent": 0,
               "parameters": [1, "\\ii[142]　 [所持数\\V[392]：返金額２４０Ｇ]"]
             },
-            {
-              "code": 111,
-              "indent": 1,
-              "parameters": [8, 142]
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 111, "indent": 1, "parameters": [8, 142] },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["魔導書ポストに「\\ii[142]」を一冊投函した。"]
+              "parameters": ["Deposited \"\\ii[141]\" into the grimoire post."]
             },
             {
               "code": 250,
@@ -3908,80 +2168,32 @@
                 }
               ]
             },
-            {
-              "code": 125,
-              "indent": 2,
-              "parameters": [0, 0, 240]
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 125, "indent": 2, "parameters": [0, 0, 240] },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
+            { "code": 401, "indent": 2, "parameters": ["Acquired \\$240G!"] },
+            { "code": 126, "indent": 2, "parameters": [142, 1, 0, 1] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 411, "indent": 1, "parameters": [] },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["\\$２４０Ｇ手に入れた！"]
+              "parameters": ["It seems you don't have \"\\ii[141]\"."]
             },
-            {
-              "code": 126,
-              "indent": 2,
-              "parameters": [142, 1, 0, 1]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 2,
-              "parameters": ["\\ii[142]を持っていないようです。"]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 412, "indent": 1, "parameters": [] },
+            { "code": 0, "indent": 1, "parameters": [] },
             {
               "code": 402,
               "indent": 0,
               "parameters": [2, "\\ii[143]　 [所持数\\V[393]：返金額４８０Ｇ]"]
             },
-            {
-              "code": 111,
-              "indent": 1,
-              "parameters": [8, 143]
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 111, "indent": 1, "parameters": [8, 143] },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["魔導書ポストに「\\ii[143]」を一冊投函した。"]
+              "parameters": ["Deposited \"\\ii[141]\" into the grimoire post."]
             },
             {
               "code": 250,
@@ -3995,80 +2207,32 @@
                 }
               ]
             },
-            {
-              "code": 125,
-              "indent": 2,
-              "parameters": [0, 0, 480]
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 125, "indent": 2, "parameters": [0, 0, 480] },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
+            { "code": 401, "indent": 2, "parameters": ["Acquired \\$480G!"] },
+            { "code": 126, "indent": 2, "parameters": [143, 1, 0, 1] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 411, "indent": 1, "parameters": [] },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["\\$４８０Ｇ手に入れた！"]
+              "parameters": ["It seems you don't have \"\\ii[141]\"."]
             },
-            {
-              "code": 126,
-              "indent": 2,
-              "parameters": [143, 1, 0, 1]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 2,
-              "parameters": ["\\ii[143]を持っていないようです。"]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 412, "indent": 1, "parameters": [] },
+            { "code": 0, "indent": 1, "parameters": [] },
             {
               "code": 402,
               "indent": 0,
               "parameters": [3, "\\ii[144] [所持数\\V[394]：返金額１８０Ｇ]"]
             },
-            {
-              "code": 111,
-              "indent": 1,
-              "parameters": [8, 144]
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 111, "indent": 1, "parameters": [8, 144] },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["魔導書ポストに「\\ii[144]」を一冊投函した。"]
+              "parameters": ["Deposited \"\\ii[141]\" into the grimoire post."]
             },
             {
               "code": 250,
@@ -4082,80 +2246,32 @@
                 }
               ]
             },
-            {
-              "code": 125,
-              "indent": 2,
-              "parameters": [0, 0, 180]
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 125, "indent": 2, "parameters": [0, 0, 180] },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
+            { "code": 401, "indent": 2, "parameters": ["Acquired \\$180G!"] },
+            { "code": 126, "indent": 2, "parameters": [144, 1, 0, 1] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 411, "indent": 1, "parameters": [] },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["\\$１８０Ｇ手に入れた！"]
+              "parameters": ["It seems you don't have \"\\ii[141]\"."]
             },
-            {
-              "code": 126,
-              "indent": 2,
-              "parameters": [144, 1, 0, 1]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 2,
-              "parameters": ["\\ii[144]を持っていないようです。"]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 412, "indent": 1, "parameters": [] },
+            { "code": 0, "indent": 1, "parameters": [] },
             {
               "code": 402,
               "indent": 0,
               "parameters": [4, "\\ii[145] [所持数\\V[395]：返金額３６０Ｇ]"]
             },
-            {
-              "code": 111,
-              "indent": 1,
-              "parameters": [8, 145]
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 111, "indent": 1, "parameters": [8, 145] },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["魔導書ポストに「\\ii[145]」を一冊投函した。"]
+              "parameters": ["Deposited \"\\ii[141]\" into the grimoire post."]
             },
             {
               "code": 250,
@@ -4169,80 +2285,32 @@
                 }
               ]
             },
-            {
-              "code": 125,
-              "indent": 2,
-              "parameters": [0, 0, 360]
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 125, "indent": 2, "parameters": [0, 0, 360] },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
+            { "code": 401, "indent": 2, "parameters": ["Acquired \\$360G!"] },
+            { "code": 126, "indent": 2, "parameters": [145, 1, 0, 1] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 411, "indent": 1, "parameters": [] },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["\\$３６０Ｇ手に入れた！"]
+              "parameters": ["It seems you don't have \"\\ii[141]\"."]
             },
-            {
-              "code": 126,
-              "indent": 2,
-              "parameters": [145, 1, 0, 1]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 2,
-              "parameters": ["\\ii[145]を持っていないようです。"]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 412, "indent": 1, "parameters": [] },
+            { "code": 0, "indent": 1, "parameters": [] },
             {
               "code": 402,
               "indent": 0,
               "parameters": [5, "\\ii[146] [所持数\\V[396]：返金額６４０Ｇ]"]
             },
-            {
-              "code": 111,
-              "indent": 1,
-              "parameters": [8, 146]
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 111, "indent": 1, "parameters": [8, 146] },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["魔導書ポストに「\\ii[146]」を一冊投函した。"]
+              "parameters": ["Deposited \"\\ii[141]\" into the grimoire post."]
             },
             {
               "code": 250,
@@ -4256,75 +2324,31 @@
                 }
               ]
             },
-            {
-              "code": 125,
-              "indent": 2,
-              "parameters": [0, 0, 640]
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 125, "indent": 2, "parameters": [0, 0, 640] },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
+            { "code": 401, "indent": 2, "parameters": ["Acquired \\$640G!"] },
+            { "code": 126, "indent": 2, "parameters": [146, 1, 0, 1] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 411, "indent": 1, "parameters": [] },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["\\$６４０Ｇ手に入れた！"]
+              "parameters": ["It seems you don't have \"\\ii[141]\"."]
             },
-            {
-              "code": 126,
-              "indent": 2,
-              "parameters": [146, 1, 0, 1]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 2,
-              "parameters": ["\\ii[146]を持っていないようです。"]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 0,
-              "parameters": []
-            },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 412, "indent": 1, "parameters": [] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 404, "indent": 0, "parameters": [] },
             {
               "code": 102,
               "indent": 0,
               "parameters": [
                 [
-                  "\\ii[147]　　 [所持数\\V[397]：返金額９０Ｇ]",
-                  "\\ii[148]　　 [所持数\\V[398]：返金額１８０Ｇ]",
-                  "\\ii[149]　　 [所持数\\V[399]：返金額３２０Ｇ]",
-                  "何も売らない"
+                  "[Number of items \\V[397]: Refund amount 90G]",
+                  "[Quantity \\V[398]: Refund Amount 180G]",
+                  "[Quantity in possession \\V[399]: Refund amount 320G]",
+                  "I won't sell anything"
                 ],
                 3,
                 -1,
@@ -4337,20 +2361,12 @@
               "indent": 0,
               "parameters": [0, "\\ii[147]　　 [所持数\\V[397]：返金額９０Ｇ]"]
             },
-            {
-              "code": 111,
-              "indent": 1,
-              "parameters": [8, 147]
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 111, "indent": 1, "parameters": [8, 147] },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["魔導書ポストに「\\ii[147]」を一冊投函した。"]
+              "parameters": ["Deposited \"\\ii[141]\" into the grimoire post."]
             },
             {
               "code": 250,
@@ -4364,61 +2380,21 @@
                 }
               ]
             },
-            {
-              "code": 125,
-              "indent": 2,
-              "parameters": [0, 0, 90]
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 125, "indent": 2, "parameters": [0, 0, 90] },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
+            { "code": 401, "indent": 2, "parameters": ["Acquired \\$90G!"] },
+            { "code": 126, "indent": 2, "parameters": [147, 1, 0, 1] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 411, "indent": 1, "parameters": [] },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["\\$９０Ｇ手に入れた！"]
+              "parameters": ["It seems you don't have \"\\ii[141]\"."]
             },
-            {
-              "code": 126,
-              "indent": 2,
-              "parameters": [147, 1, 0, 1]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 2,
-              "parameters": ["\\ii[147]を持っていないようです。"]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 412, "indent": 1, "parameters": [] },
+            { "code": 0, "indent": 1, "parameters": [] },
             {
               "code": 402,
               "indent": 0,
@@ -4427,20 +2403,12 @@
                 "\\ii[148]　　 [所持数\\V[398]：返金額１８０Ｇ]"
               ]
             },
-            {
-              "code": 111,
-              "indent": 1,
-              "parameters": [8, 148]
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 111, "indent": 1, "parameters": [8, 148] },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["魔導書ポストに「\\ii[148]」を一冊投函した。"]
+              "parameters": ["Deposited \"\\ii[141]\" into the grimoire post."]
             },
             {
               "code": 250,
@@ -4454,61 +2422,21 @@
                 }
               ]
             },
-            {
-              "code": 125,
-              "indent": 2,
-              "parameters": [0, 0, 180]
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 125, "indent": 2, "parameters": [0, 0, 180] },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
+            { "code": 401, "indent": 2, "parameters": ["Acquired \\$180G!"] },
+            { "code": 126, "indent": 2, "parameters": [148, 1, 0, 1] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 411, "indent": 1, "parameters": [] },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["\\$１８０Ｇ手に入れた！"]
+              "parameters": ["It seems you don't have \"\\ii[141]\"."]
             },
-            {
-              "code": 126,
-              "indent": 2,
-              "parameters": [148, 1, 0, 1]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 2,
-              "parameters": ["\\ii[148]を持っていないようです。"]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 412, "indent": 1, "parameters": [] },
+            { "code": 0, "indent": 1, "parameters": [] },
             {
               "code": 402,
               "indent": 0,
@@ -4517,20 +2445,12 @@
                 "\\ii[149]　　 [所持数\\V[399]：返金額３２０Ｇ]"
               ]
             },
-            {
-              "code": 111,
-              "indent": 1,
-              "parameters": [8, 149]
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 111, "indent": 1, "parameters": [8, 149] },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["魔導書ポストに「\\ii[149]」を一冊投函した。"]
+              "parameters": ["Deposited \"\\ii[141]\" into the grimoire post."]
             },
             {
               "code": 250,
@@ -4544,90 +2464,29 @@
                 }
               ]
             },
-            {
-              "code": 125,
-              "indent": 2,
-              "parameters": [0, 0, 320]
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 125, "indent": 2, "parameters": [0, 0, 320] },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
+            { "code": 401, "indent": 2, "parameters": ["Acquired \\$320G!"] },
+            { "code": 126, "indent": 2, "parameters": [149, 1, 0, 1] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 411, "indent": 1, "parameters": [] },
+            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["\\$３２０Ｇ手に入れた！"]
+              "parameters": ["It seems you don't have \"\\ii[141]\"."]
             },
-            {
-              "code": 126,
-              "indent": 2,
-              "parameters": [149, 1, 0, 1]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 411,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 101,
-              "indent": 2,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 2,
-              "parameters": ["\\ii[149]を持っていないようです。"]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 0,
-              "parameters": [3, "何も売らない"]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 412, "indent": 1, "parameters": [] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 402, "indent": 0, "parameters": [3, "何も売らない"] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 404, "indent": 0, "parameters": [] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -4679,20 +2538,11 @@
               "indent": 0,
               "parameters": ["<animeLight:TM_Blue01 128 0 -20 6>"]
             },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false

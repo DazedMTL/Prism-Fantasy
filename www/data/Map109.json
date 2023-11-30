@@ -3,20 +3,10 @@
   "autoplayBgs": true,
   "battleback1Name": "BBG_Dungeon03",
   "battleback2Name": "",
-  "bgm": {
-    "name": "OGG_Konton01",
-    "pan": 0,
-    "pitch": 100,
-    "volume": 90
-  },
-  "bgs": {
-    "name": "",
-    "pan": 0,
-    "pitch": 100,
-    "volume": 90
-  },
+  "bgm": { "name": "OGG_Konton01", "pan": 0, "pitch": 100, "volume": 90 },
+  "bgs": { "name": "", "pan": 0, "pitch": 100, "volume": 90 },
   "disableDashing": false,
-  "displayName": "混沌の淵",
+  "displayName": "Abyss of Chaos",
   "encounterList": [],
   "encounterStep": 30,
   "height": 38,
@@ -401,25 +391,12 @@
             "tileId": 0
           },
           "list": [
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [16]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 117, "indent": 0, "parameters": [16] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -457,25 +434,12 @@
             "tileId": 0
           },
           "list": [
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [12]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 117, "indent": 0, "parameters": [12] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -522,31 +486,14 @@
             "characterIndex": 0
           },
           "list": [
-            {
-              "code": 211,
-              "indent": 0,
-              "parameters": [0]
-            },
-            {
-              "code": 203,
-              "indent": 0,
-              "parameters": [8, 0, 15, 15, 8]
-            },
-            {
-              "code": 204,
-              "indent": 0,
-              "parameters": [2, 2, 2]
-            },
+            { "code": 211, "indent": 0, "parameters": [0] },
+            { "code": 203, "indent": 0, "parameters": [8, 0, 15, 15, 8] },
+            { "code": 204, "indent": 0, "parameters": [2, 2, 2] },
             {
               "code": 250,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "RGSS3_Move",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "RGSS3_Move", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
             {
@@ -556,35 +503,13 @@
                 8,
                 {
                   "list": [
-                    {
-                      "code": 29,
-                      "parameters": [3],
-                      "indent": null
-                    },
-                    {
-                      "code": 4,
-                      "indent": null
-                    },
-                    {
-                      "code": 4,
-                      "indent": null
-                    },
-                    {
-                      "code": 4,
-                      "indent": null
-                    },
-                    {
-                      "code": 4,
-                      "indent": null
-                    },
-                    {
-                      "code": 29,
-                      "parameters": [4],
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
+                    { "code": 29, "parameters": [3], "indent": null },
+                    { "code": 4, "indent": null },
+                    { "code": 4, "indent": null },
+                    { "code": 4, "indent": null },
+                    { "code": 4, "indent": null },
+                    { "code": 29, "parameters": [4], "indent": null },
+                    { "code": 0 }
                   ],
                   "repeat": false,
                   "skippable": true,
@@ -595,262 +520,121 @@
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 29,
-                  "parameters": [3],
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 29, "parameters": [3], "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 4,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 4, "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 4,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 4, "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 4,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 4, "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 4,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 4, "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 29,
-                  "parameters": [4],
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 29, "parameters": [4], "indent": null }]
             },
-            {
-              "code": 222,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 230,
-              "indent": 0,
-              "parameters": [90]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 222, "indent": 0, "parameters": [] },
+            { "code": 230, "indent": 0, "parameters": [90] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
-              "parameters": ["ジョゼフィーヌ"]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["「\\N[33]様、ただいま戻りました……」"]
+              "parameters": ["Josephine \"\\N[33]-sama, I have returned...\""]
             },
             {
               "code": 250,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "Monster9_A",
-                  "volume": 90,
-                  "pitch": 80,
-                  "pan": 0
-                }
+                { "name": "Monster9_A", "volume": 90, "pitch": 80, "pan": 0 }
               ]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 1, 1]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["魔王\\N[33]"]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 1] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「フッフッフッ、おめおめと逃げ帰ってきたようだな…… ジョゼフィーヌよ。」"
+                "Demon Lord \\N[33] \"Huhuhu, it seems you've scurried back in defeat...\nJosephine.\""
               ]
             },
+            { "code": 213, "indent": 0, "parameters": [8, 8, true] },
             {
-              "code": 213,
+              "code": 250,
               "indent": 0,
-              "parameters": [8, 8, true]
+              "parameters": [
+                { "name": "Monster9_A", "volume": 90, "pitch": 80, "pan": 0 }
+              ]
+            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 1] },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "Demon Lord \\N[33] \"To think you struggled with the mere disposal of a\nlittle girl, the so-called Warrior of Light... I never expected you to\nbe defeated...\""
+              ]
+            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 1] },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "Demon Lord \\N[33] \"Now, how do you intend to take responsibility for\nthis...?\""
+              ]
+            },
+            { "code": 213, "indent": 0, "parameters": [8, 1, true] },
+            { "code": 213, "indent": 0, "parameters": [8, 3, false] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "Josephine \"Ne-next time, I will surely defeat them...\""
+              ]
             },
             {
               "code": 250,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "Monster9_A",
-                  "volume": 90,
-                  "pitch": 80,
-                  "pan": 0
-                }
+                { "name": "Monster9_A", "volume": 90, "pitch": 80, "pan": 0 }
               ]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 1, 1]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["魔王\\N[33]"]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 1] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「光の戦士がいかほどのものか…… たかが小娘の始末に手こずるばかりか、まさか"
+                "Demon Lord \\N[33] \"Huhu, do you think there will be a next time for\nyou...?\""
               ]
             },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["お前が敗北するとはなぁ……」"]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 1, 1]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["魔王\\N[33]"]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["「さてこの責任、どう取るつもりだ……？」"]
-            },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [8, 1, true]
-            },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [8, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["ジョゼフィーヌ"]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["「つ、次こそは必ず、奴らを……」"]
-            },
-            {
-              "code": 250,
-              "indent": 0,
-              "parameters": [
-                {
-                  "name": "Monster9_A",
-                  "volume": 90,
-                  "pitch": 80,
-                  "pan": 0
-                }
-              ]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 1, 1]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["魔王\\N[33]"]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["「フフフ、お前に次があると思っておるのか……？」"]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 1, 1]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["魔王\\N[33]"]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 1] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「われら悪魔に失敗は許されん…… よもや忘れたわけではあるまいな？」"
+                "Demon Lord \\N[33] \"We demons do not tolerate failure... Surely you\nhaven't forgotten that, have you?\""
               ]
             },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [8, 1, true]
-            },
+            { "code": 213, "indent": 0, "parameters": [8, 1, true] },
             {
               "code": 205,
               "indent": 0,
               "parameters": [
                 8,
                 {
-                  "list": [
-                    {
-                      "code": 13,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
-                  ],
+                  "list": [{ "code": 13, "indent": null }, { "code": 0 }],
                   "repeat": false,
                   "skippable": true,
                   "wait": false
@@ -860,70 +644,37 @@
             {
               "code": 505,
               "indent": 0,
+              "parameters": [{ "code": 13, "indent": null }]
+            },
+            { "code": 213, "indent": 0, "parameters": [8, 6, false] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
+            {
+              "code": 401,
+              "indent": 0,
               "parameters": [
-                {
-                  "code": 13,
-                  "indent": null
-                }
+                "Josephine \"Please, I beg for your forgiveness...!\""
               ]
-            },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [8, 6, false]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["ジョゼフィーヌ"]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["「そんな、どうかお許しください……！」"]
             },
             {
               "code": 250,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "Monster9_A",
-                  "volume": 90,
-                  "pitch": 80,
-                  "pan": 0
-                }
+                { "name": "Monster9_A", "volume": 90, "pitch": 80, "pan": 0 }
               ]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 1, 1]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 1] },
             {
               "code": 401,
               "indent": 0,
-              "parameters": ["魔王\\N[33]"]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["「フフフ、ならば受け入れるがいい……」"]
+              "parameters": [
+                "Demon Lord \\N[33] \"Huhuhu, then accept your punishment...\""
+              ]
             },
             {
               "code": 250,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "Monster3",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "Monster3", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
             {
@@ -931,11 +682,7 @@
               "indent": 0,
               "parameters": [[255, 255, 255, 200], 60, false]
             },
-            {
-              "code": 225,
-              "indent": 0,
-              "parameters": [5, 9, 60, false]
-            },
+            { "code": 225, "indent": 0, "parameters": [5, 9, 60, false] },
             {
               "code": 205,
               "indent": 0,
@@ -948,13 +695,8 @@
                       "parameters": ["$Tentacle01", 0],
                       "indent": null
                     },
-                    {
-                      "code": 33,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
+                    { "code": 33, "indent": null },
+                    { "code": 0 }
                   ],
                   "repeat": false,
                   "skippable": true,
@@ -966,22 +708,13 @@
               "code": 505,
               "indent": 0,
               "parameters": [
-                {
-                  "code": 41,
-                  "parameters": ["$Tentacle01", 0],
-                  "indent": null
-                }
+                { "code": 41, "parameters": ["$Tentacle01", 0], "indent": null }
               ]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 33,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 33, "indent": null }]
             },
             {
               "code": 205,
@@ -995,13 +728,8 @@
                       "parameters": ["$Tentacle01", 0],
                       "indent": null
                     },
-                    {
-                      "code": 33,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
+                    { "code": 33, "indent": null },
+                    { "code": 0 }
                   ],
                   "repeat": false,
                   "skippable": true,
@@ -1013,22 +741,13 @@
               "code": 505,
               "indent": 0,
               "parameters": [
-                {
-                  "code": 41,
-                  "parameters": ["$Tentacle01", 0],
-                  "indent": null
-                }
+                { "code": 41, "parameters": ["$Tentacle01", 0], "indent": null }
               ]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 33,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 33, "indent": null }]
             },
             {
               "code": 205,
@@ -1042,13 +761,8 @@
                       "parameters": ["$Tentacle01", 0],
                       "indent": null
                     },
-                    {
-                      "code": 33,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
+                    { "code": 33, "indent": null },
+                    { "code": 0 }
                   ],
                   "repeat": false,
                   "skippable": true,
@@ -1060,37 +774,19 @@
               "code": 505,
               "indent": 0,
               "parameters": [
-                {
-                  "code": 41,
-                  "parameters": ["$Tentacle01", 0],
-                  "indent": null
-                }
+                { "code": 41, "parameters": ["$Tentacle01", 0], "indent": null }
               ]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 33,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 33, "indent": null }]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
-              "parameters": ["ジョゼフィーヌ"]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["「こ、これは……！！！」"]
+              "parameters": ["Josephine \"Th-this is...!!!!\""]
             },
             {
               "code": 205,
@@ -1098,15 +794,7 @@
               "parameters": [
                 9,
                 {
-                  "list": [
-                    {
-                      "code": 3,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
-                  ],
+                  "list": [{ "code": 3, "indent": null }, { "code": 0 }],
                   "repeat": false,
                   "skippable": true,
                   "wait": false
@@ -1116,12 +804,7 @@
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 3,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 3, "indent": null }]
             },
             {
               "code": 205,
@@ -1129,15 +812,7 @@
               "parameters": [
                 10,
                 {
-                  "list": [
-                    {
-                      "code": 4,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
-                  ],
+                  "list": [{ "code": 4, "indent": null }, { "code": 0 }],
                   "repeat": false,
                   "skippable": true,
                   "wait": false
@@ -1147,12 +822,7 @@
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 4,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 4, "indent": null }]
             },
             {
               "code": 205,
@@ -1160,15 +830,7 @@
               "parameters": [
                 11,
                 {
-                  "list": [
-                    {
-                      "code": 2,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
-                  ],
+                  "list": [{ "code": 2, "indent": null }, { "code": 0 }],
                   "repeat": false,
                   "skippable": true,
                   "wait": true
@@ -1178,82 +840,31 @@
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 2,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 2, "indent": null }]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
-              "parameters": ["ジョゼフィーヌ"]
+              "parameters": ["Josephine \"No, stop...!!!!!\""]
             },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["「いやぁッ、やめて……！！！」"]
-            },
-            {
-              "code": 221,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [428]
-            },
-            {
-              "code": 211,
-              "indent": 0,
-              "parameters": [1]
-            },
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [212]
-            },
-            {
-              "code": 201,
-              "indent": 0,
-              "parameters": [0, 7, 13, 7, 2, 0]
-            },
+            { "code": 221, "indent": 0, "parameters": [] },
+            { "code": 117, "indent": 0, "parameters": [428] },
+            { "code": 211, "indent": 0, "parameters": [1] },
+            { "code": 117, "indent": 0, "parameters": [212] },
+            { "code": 201, "indent": 0, "parameters": [0, 7, 13, 7, 2, 0] },
             {
               "code": 231,
               "indent": 0,
               "parameters": [96, "MAP_Compass", 0, 0, 0, 0, 100, 100, 255, 0]
             },
-            {
-              "code": 222,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 121,
-              "indent": 0,
-              "parameters": [378, 378, 0]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 222, "indent": 0, "parameters": [] },
+            { "code": 121, "indent": 0, "parameters": [378, 378, 0] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -1290,21 +901,10 @@
             "pattern": 0,
             "tileId": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -1342,31 +942,14 @@
             "characterIndex": 0
           },
           "list": [
-            {
-              "code": 211,
-              "indent": 0,
-              "parameters": [0]
-            },
-            {
-              "code": 203,
-              "indent": 0,
-              "parameters": [8, 0, 15, 15, 8]
-            },
-            {
-              "code": 204,
-              "indent": 0,
-              "parameters": [2, 2, 2]
-            },
+            { "code": 211, "indent": 0, "parameters": [0] },
+            { "code": 203, "indent": 0, "parameters": [8, 0, 15, 15, 8] },
+            { "code": 204, "indent": 0, "parameters": [2, 2, 2] },
             {
               "code": 250,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "RGSS3_Move",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "RGSS3_Move", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
             {
@@ -1376,35 +959,13 @@
                 8,
                 {
                   "list": [
-                    {
-                      "code": 29,
-                      "parameters": [3],
-                      "indent": null
-                    },
-                    {
-                      "code": 4,
-                      "indent": null
-                    },
-                    {
-                      "code": 4,
-                      "indent": null
-                    },
-                    {
-                      "code": 4,
-                      "indent": null
-                    },
-                    {
-                      "code": 4,
-                      "indent": null
-                    },
-                    {
-                      "code": 29,
-                      "parameters": [4],
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
+                    { "code": 29, "parameters": [3], "indent": null },
+                    { "code": 4, "indent": null },
+                    { "code": 4, "indent": null },
+                    { "code": 4, "indent": null },
+                    { "code": 4, "indent": null },
+                    { "code": 29, "parameters": [4], "indent": null },
+                    { "code": 0 }
                   ],
                   "repeat": false,
                   "skippable": true,
@@ -1415,334 +976,142 @@
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 29,
-                  "parameters": [3],
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 29, "parameters": [3], "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 4,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 4, "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 4,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 4, "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 4,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 4, "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 4,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 4, "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 29,
-                  "parameters": [4],
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 29, "parameters": [4], "indent": null }]
             },
-            {
-              "code": 222,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 230,
-              "indent": 0,
-              "parameters": [90]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["ローブを纏った魔物"]
-            },
+            { "code": 222, "indent": 0, "parameters": [] },
+            { "code": 230, "indent": 0, "parameters": [90] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「\\N[33]様、光の戦士がこちらに迫っているようです…… ここは一旦、"
-              ]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["ゲートまでお戻りください。」"]
-            },
-            {
-              "code": 250,
-              "indent": 0,
-              "parameters": [
-                {
-                  "name": "Monster9_A",
-                  "volume": 90,
-                  "pitch": 80,
-                  "pan": 0
-                }
-              ]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 1, 1]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["魔王\\N[33]"]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": [
-                "「ふむ、\\N[32]か…… 光の戦士め、なかなかやりおるな。」"
-              ]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 1, 1]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["魔王\\N[33]"]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": [
-                "「それであの二人はどうした……？ 奴らの根城での失態、とうてい見過ごせる"
-              ]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["ものではない。」"]
-            },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [8, 7, false]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["\\N[32]"]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": [
-                "「それが、二人ともお仕置きを恐れて、行方をくらましたという噂が……」"
+                "A monster clad in a robe \"\\N[33]-sama, it seems the Warrior of Light\nis approaching us... For now, please return to the gate.\""
               ]
             },
             {
               "code": 250,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "Monster9_A",
-                  "volume": 90,
-                  "pitch": 80,
-                  "pan": 0
-                }
+                { "name": "Monster9_A", "volume": 90, "pitch": 80, "pan": 0 }
               ]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 1, 1]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["魔王\\N[33]"]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["「なんだと……？ 三将軍ともあろうものが……」"]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 1, 1]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["魔王\\N[33]"]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["「ふん、まぁいい…… 負け犬に用はない。」"]
-            },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [8, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["\\N[32]"]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 1] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「では、ここは私が…… 三将軍の一人として必ずや光の戦士を撃ち砕いてみせます。」"
+                "Demon King \\N[33] \"Hmm, \\N[33], is it... The Warrior of Light, quite\nimpressive indeed.\""
+              ]
+            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 1] },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "Demon King \\N[33] \"And what of those two...? Their blunder at their\nstronghold is something I cannot simply overlook.\""
+              ]
+            },
+            { "code": 213, "indent": 0, "parameters": [8, 7, false] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "\\N[33] \"About that, there are rumors that both of them, fearing\npunishment, have vanished without a trace...\""
               ]
             },
             {
               "code": 250,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "Monster9_A",
-                  "volume": 90,
-                  "pitch": 80,
-                  "pan": 0
-                }
+                { "name": "Monster9_A", "volume": 90, "pitch": 80, "pan": 0 }
               ]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 1, 1]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["魔王\\N[33]"]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 1] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「フッフッフ、楽しみにしておるぞ。ゲートが開かれるまであとわずか……"
+                "Demon King \\N[33] \"What...? Even those who rank among the Three\nGenerals...\""
               ]
             },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 1] },
             {
               "code": 401,
               "indent": 0,
-              "parameters": ["頼んだぞ。ア～ハッハッハ。」"]
+              "parameters": [
+                "Demon King \\N[33] \"Hmph, well, no matter... I have no use for losers.\""
+              ]
+            },
+            { "code": 213, "indent": 0, "parameters": [8, 3, false] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "\\N[33] \"Then, allow me... As one of the Three Generals, I will surely\nshatter the Warrior of Light.\""
+              ]
             },
             {
               "code": 250,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "Monster9_A",
-                  "volume": 90,
-                  "pitch": 50,
-                  "pan": 0
-                }
+                { "name": "Monster9_A", "volume": 90, "pitch": 80, "pan": 0 }
+              ]
+            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 1] },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "Demon King \\N[33] \"Huhuhu, I'm looking forward to it. There's only a\nlittle time left until the gate opens... I'm counting on you.\nAh~hahahaha.\""
               ]
             },
             {
-              "code": 242,
+              "code": 250,
               "indent": 0,
-              "parameters": [4]
+              "parameters": [
+                { "name": "Monster9_A", "volume": 90, "pitch": 50, "pan": 0 }
+              ]
             },
-            {
-              "code": 221,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 211,
-              "indent": 0,
-              "parameters": [1]
-            },
-            {
-              "code": 230,
-              "indent": 0,
-              "parameters": [30]
-            },
-            {
-              "code": 201,
-              "indent": 0,
-              "parameters": [0, 183, 19, 44, 8, 0]
-            },
-            {
-              "code": 222,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 121,
-              "indent": 0,
-              "parameters": [463, 463, 0]
-            },
-            {
-              "code": 121,
-              "indent": 0,
-              "parameters": [101, 101, 0]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 242, "indent": 0, "parameters": [4] },
+            { "code": 221, "indent": 0, "parameters": [] },
+            { "code": 211, "indent": 0, "parameters": [1] },
+            { "code": 230, "indent": 0, "parameters": [30] },
+            { "code": 201, "indent": 0, "parameters": [0, 183, 19, 44, 8, 0] },
+            { "code": 222, "indent": 0, "parameters": [] },
+            { "code": 121, "indent": 0, "parameters": [463, 463, 0] },
+            { "code": 121, "indent": 0, "parameters": [101, 101, 0] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -1779,21 +1148,10 @@
             "pattern": 1,
             "characterIndex": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -1845,20 +1203,11 @@
               "indent": 0,
               "parameters": ["<animeLight:TM_Purple01 128 0 -48 6>"]
             },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -1910,20 +1259,11 @@
               "indent": 0,
               "parameters": ["<animeLight:TM_Purple01 128 0 -48 6>"]
             },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -1975,20 +1315,11 @@
               "indent": 0,
               "parameters": ["<animeLight:TM_Purple01 128 0 -48 6>"]
             },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -2035,25 +1366,12 @@
             "tileId": 0
           },
           "list": [
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [22]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 117, "indent": 0, "parameters": [22] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -2105,20 +1423,11 @@
               "indent": 0,
               "parameters": ["<animeLight:TM_Purple01 128 0 -48 6>"]
             },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -2164,21 +1473,10 @@
             "pattern": 1,
             "characterIndex": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -2215,21 +1513,10 @@
             "pattern": 1,
             "characterIndex": 7
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -2275,21 +1562,10 @@
             "pattern": 0,
             "tileId": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -2335,21 +1611,10 @@
             "pattern": 0,
             "tileId": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -2395,21 +1660,10 @@
             "pattern": 0,
             "tileId": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -2456,31 +1710,14 @@
             "characterIndex": 0
           },
           "list": [
-            {
-              "code": 211,
-              "indent": 0,
-              "parameters": [0]
-            },
-            {
-              "code": 203,
-              "indent": 0,
-              "parameters": [8, 0, 15, 15, 8]
-            },
-            {
-              "code": 204,
-              "indent": 0,
-              "parameters": [2, 2, 2]
-            },
+            { "code": 211, "indent": 0, "parameters": [0] },
+            { "code": 203, "indent": 0, "parameters": [8, 0, 15, 15, 8] },
+            { "code": 204, "indent": 0, "parameters": [2, 2, 2] },
             {
               "code": 250,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "RGSS3_Move",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "RGSS3_Move", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
             {
@@ -2490,35 +1727,13 @@
                 8,
                 {
                   "list": [
-                    {
-                      "code": 29,
-                      "parameters": [3],
-                      "indent": null
-                    },
-                    {
-                      "code": 4,
-                      "indent": null
-                    },
-                    {
-                      "code": 4,
-                      "indent": null
-                    },
-                    {
-                      "code": 4,
-                      "indent": null
-                    },
-                    {
-                      "code": 4,
-                      "indent": null
-                    },
-                    {
-                      "code": 29,
-                      "parameters": [4],
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
+                    { "code": 29, "parameters": [3], "indent": null },
+                    { "code": 4, "indent": null },
+                    { "code": 4, "indent": null },
+                    { "code": 4, "indent": null },
+                    { "code": 4, "indent": null },
+                    { "code": 29, "parameters": [4], "indent": null },
+                    { "code": 0 }
                   ],
                   "repeat": false,
                   "skippable": true,
@@ -2529,262 +1744,121 @@
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 29,
-                  "parameters": [3],
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 29, "parameters": [3], "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 4,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 4, "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 4,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 4, "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 4,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 4, "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 4,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 4, "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 29,
-                  "parameters": [4],
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 29, "parameters": [4], "indent": null }]
             },
-            {
-              "code": 222,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 230,
-              "indent": 0,
-              "parameters": [90]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 222, "indent": 0, "parameters": [] },
+            { "code": 230, "indent": 0, "parameters": [90] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
-              "parameters": ["ジョゼフィーヌ"]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["「\\N[33]様、ただいま戻りました……」"]
+              "parameters": ["Josephine \"\\N[33]-sama, I have returned...\""]
             },
             {
               "code": 250,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "Monster9_A",
-                  "volume": 90,
-                  "pitch": 80,
-                  "pan": 0
-                }
+                { "name": "Monster9_A", "volume": 90, "pitch": 80, "pan": 0 }
               ]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 1, 1]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["魔王\\N[33]"]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 1] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「フッフッフッ、おめおめと逃げ帰ってきたようだな…… ジョゼフィーヌよ。」"
+                "Demon Lord \\N[33] \"Huhuhu, it seems you've scurried back in defeat...\nJosephine.\""
               ]
             },
+            { "code": 213, "indent": 0, "parameters": [8, 8, true] },
             {
-              "code": 213,
+              "code": 250,
               "indent": 0,
-              "parameters": [8, 8, true]
+              "parameters": [
+                { "name": "Monster9_A", "volume": 90, "pitch": 80, "pan": 0 }
+              ]
+            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 1] },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "Demon Lord \\N[33] \"To think you struggled with the mere disposal of a\nlittle girl, the so-called Warrior of Light... I never expected you to\nbe defeated...\""
+              ]
+            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 1] },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "Demon Lord \\N[33] \"Now, how do you intend to take responsibility for\nthis...?\""
+              ]
+            },
+            { "code": 213, "indent": 0, "parameters": [8, 1, true] },
+            { "code": 213, "indent": 0, "parameters": [8, 3, false] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "Josephine \"Ne-next time, I will surely defeat them...\""
+              ]
             },
             {
               "code": 250,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "Monster9_A",
-                  "volume": 90,
-                  "pitch": 80,
-                  "pan": 0
-                }
+                { "name": "Monster9_A", "volume": 90, "pitch": 80, "pan": 0 }
               ]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 1, 1]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["魔王\\N[33]"]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 1] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「光の戦士がいかほどのものか…… たかが小娘の始末に手こずるばかりか、まさか"
+                "Demon Lord \\N[33] \"Huhu, do you think there will be a next time for\nyou...?\""
               ]
             },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["お前が敗北するとはなぁ……」"]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 1, 1]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["魔王\\N[33]"]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["「さてこの責任、どう取るつもりだ……？」"]
-            },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [8, 1, true]
-            },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [8, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["ジョゼフィーヌ"]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["「つ、次こそは必ず、奴らを……」"]
-            },
-            {
-              "code": 250,
-              "indent": 0,
-              "parameters": [
-                {
-                  "name": "Monster9_A",
-                  "volume": 90,
-                  "pitch": 80,
-                  "pan": 0
-                }
-              ]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 1, 1]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["魔王\\N[33]"]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["「フフフ、お前に次があると思っておるのか……？」"]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 1, 1]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["魔王\\N[33]"]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 1] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「われら悪魔に失敗は許されん…… よもや忘れたわけではあるまいな？」"
+                "Demon Lord \\N[33] \"We demons do not tolerate failure... Surely you\nhaven't forgotten that, have you?\""
               ]
             },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [8, 1, true]
-            },
+            { "code": 213, "indent": 0, "parameters": [8, 1, true] },
             {
               "code": 205,
               "indent": 0,
               "parameters": [
                 8,
                 {
-                  "list": [
-                    {
-                      "code": 13,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
-                  ],
+                  "list": [{ "code": 13, "indent": null }, { "code": 0 }],
                   "repeat": false,
                   "skippable": true,
                   "wait": false
@@ -2794,70 +1868,37 @@
             {
               "code": 505,
               "indent": 0,
+              "parameters": [{ "code": 13, "indent": null }]
+            },
+            { "code": 213, "indent": 0, "parameters": [8, 6, false] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
+            {
+              "code": 401,
+              "indent": 0,
               "parameters": [
-                {
-                  "code": 13,
-                  "indent": null
-                }
+                "Josephine \"Please, I beg for your forgiveness...!\""
               ]
-            },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [8, 6, false]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["ジョゼフィーヌ"]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["「そんな、どうかお許しください……！」"]
             },
             {
               "code": 250,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "Monster9_A",
-                  "volume": 90,
-                  "pitch": 80,
-                  "pan": 0
-                }
+                { "name": "Monster9_A", "volume": 90, "pitch": 80, "pan": 0 }
               ]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 1, 1]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 1] },
             {
               "code": 401,
               "indent": 0,
-              "parameters": ["魔王\\N[33]"]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["「フフフ、ならば受け入れるがいい……」"]
+              "parameters": [
+                "Demon Lord \\N[33] \"Huhuhu, then accept your punishment...\""
+              ]
             },
             {
               "code": 250,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "Monster3",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "Monster3", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
             {
@@ -2865,11 +1906,7 @@
               "indent": 0,
               "parameters": [[255, 255, 255, 200], 60, false]
             },
-            {
-              "code": 225,
-              "indent": 0,
-              "parameters": [5, 9, 60, false]
-            },
+            { "code": 225, "indent": 0, "parameters": [5, 9, 60, false] },
             {
               "code": 205,
               "indent": 0,
@@ -2882,13 +1919,8 @@
                       "parameters": ["$Tentacle01", 0],
                       "indent": null
                     },
-                    {
-                      "code": 33,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
+                    { "code": 33, "indent": null },
+                    { "code": 0 }
                   ],
                   "repeat": false,
                   "skippable": true,
@@ -2900,22 +1932,13 @@
               "code": 505,
               "indent": 0,
               "parameters": [
-                {
-                  "code": 41,
-                  "parameters": ["$Tentacle01", 0],
-                  "indent": null
-                }
+                { "code": 41, "parameters": ["$Tentacle01", 0], "indent": null }
               ]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 33,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 33, "indent": null }]
             },
             {
               "code": 205,
@@ -2929,13 +1952,8 @@
                       "parameters": ["$Tentacle01", 0],
                       "indent": null
                     },
-                    {
-                      "code": 33,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
+                    { "code": 33, "indent": null },
+                    { "code": 0 }
                   ],
                   "repeat": false,
                   "skippable": true,
@@ -2947,22 +1965,13 @@
               "code": 505,
               "indent": 0,
               "parameters": [
-                {
-                  "code": 41,
-                  "parameters": ["$Tentacle01", 0],
-                  "indent": null
-                }
+                { "code": 41, "parameters": ["$Tentacle01", 0], "indent": null }
               ]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 33,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 33, "indent": null }]
             },
             {
               "code": 205,
@@ -2976,13 +1985,8 @@
                       "parameters": ["$Tentacle01", 0],
                       "indent": null
                     },
-                    {
-                      "code": 33,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
+                    { "code": 33, "indent": null },
+                    { "code": 0 }
                   ],
                   "repeat": false,
                   "skippable": true,
@@ -2994,37 +1998,19 @@
               "code": 505,
               "indent": 0,
               "parameters": [
-                {
-                  "code": 41,
-                  "parameters": ["$Tentacle01", 0],
-                  "indent": null
-                }
+                { "code": 41, "parameters": ["$Tentacle01", 0], "indent": null }
               ]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 33,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 33, "indent": null }]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
-              "parameters": ["ジョゼフィーヌ"]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["「こ、これは……！！！」"]
+              "parameters": ["Josephine \"Th-this is...!!!!\""]
             },
             {
               "code": 205,
@@ -3032,15 +2018,7 @@
               "parameters": [
                 9,
                 {
-                  "list": [
-                    {
-                      "code": 3,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
-                  ],
+                  "list": [{ "code": 3, "indent": null }, { "code": 0 }],
                   "repeat": false,
                   "skippable": true,
                   "wait": false
@@ -3050,12 +2028,7 @@
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 3,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 3, "indent": null }]
             },
             {
               "code": 205,
@@ -3063,15 +2036,7 @@
               "parameters": [
                 10,
                 {
-                  "list": [
-                    {
-                      "code": 4,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
-                  ],
+                  "list": [{ "code": 4, "indent": null }, { "code": 0 }],
                   "repeat": false,
                   "skippable": true,
                   "wait": false
@@ -3081,12 +2046,7 @@
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 4,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 4, "indent": null }]
             },
             {
               "code": 205,
@@ -3094,15 +2054,7 @@
               "parameters": [
                 11,
                 {
-                  "list": [
-                    {
-                      "code": 2,
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
-                  ],
+                  "list": [{ "code": 2, "indent": null }, { "code": 0 }],
                   "repeat": false,
                   "skippable": true,
                   "wait": true
@@ -3112,82 +2064,31 @@
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 2,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 2, "indent": null }]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
-              "parameters": ["ジョゼフィーヌ"]
+              "parameters": ["Josephine \"No, stop...!!!!!\""]
             },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["「いやぁッ、やめて……！！！」"]
-            },
-            {
-              "code": 221,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [428]
-            },
-            {
-              "code": 211,
-              "indent": 0,
-              "parameters": [1]
-            },
-            {
-              "code": 117,
-              "indent": 0,
-              "parameters": [212]
-            },
-            {
-              "code": 201,
-              "indent": 0,
-              "parameters": [0, 7, 13, 7, 2, 0]
-            },
+            { "code": 221, "indent": 0, "parameters": [] },
+            { "code": 117, "indent": 0, "parameters": [428] },
+            { "code": 211, "indent": 0, "parameters": [1] },
+            { "code": 117, "indent": 0, "parameters": [212] },
+            { "code": 201, "indent": 0, "parameters": [0, 7, 13, 7, 2, 0] },
             {
               "code": 231,
               "indent": 0,
               "parameters": [96, "MAP_Compass", 0, 0, 0, 0, 100, 100, 255, 0]
             },
-            {
-              "code": 222,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 121,
-              "indent": 0,
-              "parameters": [378, 378, 0]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 222, "indent": 0, "parameters": [] },
+            { "code": 121, "indent": 0, "parameters": [378, 378, 0] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -3224,21 +2125,10 @@
             "pattern": 0,
             "tileId": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -3276,31 +2166,14 @@
             "characterIndex": 0
           },
           "list": [
-            {
-              "code": 211,
-              "indent": 0,
-              "parameters": [0]
-            },
-            {
-              "code": 203,
-              "indent": 0,
-              "parameters": [8, 0, 15, 15, 8]
-            },
-            {
-              "code": 204,
-              "indent": 0,
-              "parameters": [2, 2, 2]
-            },
+            { "code": 211, "indent": 0, "parameters": [0] },
+            { "code": 203, "indent": 0, "parameters": [8, 0, 15, 15, 8] },
+            { "code": 204, "indent": 0, "parameters": [2, 2, 2] },
             {
               "code": 250,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "RGSS3_Move",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "RGSS3_Move", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
             {
@@ -3310,35 +2183,13 @@
                 8,
                 {
                   "list": [
-                    {
-                      "code": 29,
-                      "parameters": [3],
-                      "indent": null
-                    },
-                    {
-                      "code": 4,
-                      "indent": null
-                    },
-                    {
-                      "code": 4,
-                      "indent": null
-                    },
-                    {
-                      "code": 4,
-                      "indent": null
-                    },
-                    {
-                      "code": 4,
-                      "indent": null
-                    },
-                    {
-                      "code": 29,
-                      "parameters": [4],
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
+                    { "code": 29, "parameters": [3], "indent": null },
+                    { "code": 4, "indent": null },
+                    { "code": 4, "indent": null },
+                    { "code": 4, "indent": null },
+                    { "code": 4, "indent": null },
+                    { "code": 29, "parameters": [4], "indent": null },
+                    { "code": 0 }
                   ],
                   "repeat": false,
                   "skippable": true,
@@ -3349,304 +2200,126 @@
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 29,
-                  "parameters": [3],
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 29, "parameters": [3], "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 4,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 4, "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 4,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 4, "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 4,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 4, "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 4,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 4, "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 29,
-                  "parameters": [4],
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 29, "parameters": [4], "indent": null }]
             },
-            {
-              "code": 222,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 230,
-              "indent": 0,
-              "parameters": [90]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["ローブを纏った魔物"]
-            },
+            { "code": 222, "indent": 0, "parameters": [] },
+            { "code": 230, "indent": 0, "parameters": [90] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「\\N[33]様、光の戦士がこちらに迫っているようです。」"
+                "A monster clad in a robe \"\\N[33]sama, it seems the Warriors of Light\nare approaching us.\""
               ]
             },
             {
               "code": 250,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "Monster9_A",
-                  "volume": 90,
-                  "pitch": 80,
-                  "pan": 0
-                }
+                { "name": "Monster9_A", "volume": 90, "pitch": 80, "pan": 0 }
               ]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 1, 1]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["魔王\\N[33]"]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["「\\N[32]か、奴らの根城はダメだったようだな……」"]
-            },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [8, 6, false]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["\\N[32]"]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 1] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「はい、光の戦士の力は我々の想像を遥かに超えるものでして、ジョゼフィーヌも"
+                "Demon King \\N[33] \"\\N[33], it seems their stronghold was no good after\nall...\""
               ]
             },
+            { "code": 213, "indent": 0, "parameters": [8, 6, false] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "ローレッタも敗北後に行方をくらまし、現在は行方がわかっておりません。」"
+                "\\N[33] \"Yes, the power of the Warriors of Light far exceeds our\nimagination. Both Josephine and Loretta have gone missing after their\ndefeat, and their whereabouts are currently unknown.\""
               ]
             },
             {
               "code": 250,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "Monster9_A",
-                  "volume": 90,
-                  "pitch": 80,
-                  "pan": 0
-                }
+                { "name": "Monster9_A", "volume": 90, "pitch": 80, "pan": 0 }
               ]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 1, 1]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["魔王\\N[33]"]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 1] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「三将軍ともあろうものが…… フンッ、それでお前は二人に加勢もせず、"
+                "Demon King \\N[33] \"To think that even the Three Generals... Hmph, so\nyou fled without even aiding them and shamelessly returned here...?\""
               ]
             },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["おめおめと逃げ帰ってきたというわけか……？」"]
-            },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [8, 1, true]
-            },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [8, 7, false]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["\\N[32]"]
-            },
+            { "code": 213, "indent": 0, "parameters": [8, 1, true] },
+            { "code": 213, "indent": 0, "parameters": [8, 7, false] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「いえ！ 私はそんな…… 闇の大僧正である私が逃げるなどと。」"
+                "\\N[33] \"No! I would never... As the Great High Priest of Darkness, I\nwould not flee.\""
               ]
             },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [8, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["\\N[32]"]
-            },
+            { "code": 213, "indent": 0, "parameters": [8, 3, false] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「ここでなら、私は本来に近い力を発揮できます。必ずや奴らを……」"
+                "\\N[33] \"Here, I can unleash power close to my true potential. I will\nsurely defeat them...\""
               ]
             },
             {
               "code": 250,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "Monster9_B",
-                  "volume": 90,
-                  "pitch": 80,
-                  "pan": 0
-                }
+                { "name": "Monster9_B", "volume": 90, "pitch": 80, "pan": 0 }
               ]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 1, 1]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["魔王\\N[33]"]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 1] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「ほほう、ならばここで奴らを仕留めて見せよ。ゲートが開かれるまであと"
+                "Demon King \\N[33] \"Ho ho, then show me you can finish them off here.\nThe gate will open shortly... Fufufufu, Ah-hahahaha.\""
               ]
             },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["わずか…… フフフフフ、ア～ハッハッハ。」"]
-            },
-            {
-              "code": 221,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 211,
-              "indent": 0,
-              "parameters": [1]
-            },
-            {
-              "code": 201,
-              "indent": 0,
-              "parameters": [0, 183, 19, 44, 8, 0]
-            },
-            {
-              "code": 222,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 121,
-              "indent": 0,
-              "parameters": [463, 463, 0]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 221, "indent": 0, "parameters": [] },
+            { "code": 211, "indent": 0, "parameters": [1] },
+            { "code": 201, "indent": 0, "parameters": [0, 183, 19, 44, 8, 0] },
+            { "code": 222, "indent": 0, "parameters": [] },
+            { "code": 121, "indent": 0, "parameters": [463, 463, 0] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -3683,21 +2356,10 @@
             "pattern": 1,
             "characterIndex": 0
           },
-          "list": [
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -3735,31 +2397,14 @@
             "characterIndex": 0
           },
           "list": [
-            {
-              "code": 211,
-              "indent": 0,
-              "parameters": [0]
-            },
-            {
-              "code": 203,
-              "indent": 0,
-              "parameters": [8, 0, 15, 15, 8]
-            },
-            {
-              "code": 204,
-              "indent": 0,
-              "parameters": [2, 2, 2]
-            },
+            { "code": 211, "indent": 0, "parameters": [0] },
+            { "code": 203, "indent": 0, "parameters": [8, 0, 15, 15, 8] },
+            { "code": 204, "indent": 0, "parameters": [2, 2, 2] },
             {
               "code": 250,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "RGSS3_Move",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "RGSS3_Move", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
             {
@@ -3769,35 +2414,13 @@
                 8,
                 {
                   "list": [
-                    {
-                      "code": 29,
-                      "parameters": [3],
-                      "indent": null
-                    },
-                    {
-                      "code": 4,
-                      "indent": null
-                    },
-                    {
-                      "code": 4,
-                      "indent": null
-                    },
-                    {
-                      "code": 4,
-                      "indent": null
-                    },
-                    {
-                      "code": 4,
-                      "indent": null
-                    },
-                    {
-                      "code": 29,
-                      "parameters": [4],
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
+                    { "code": 29, "parameters": [3], "indent": null },
+                    { "code": 4, "indent": null },
+                    { "code": 4, "indent": null },
+                    { "code": 4, "indent": null },
+                    { "code": 4, "indent": null },
+                    { "code": 29, "parameters": [4], "indent": null },
+                    { "code": 0 }
                   ],
                   "repeat": false,
                   "skippable": true,
@@ -3808,399 +2431,168 @@
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 29,
-                  "parameters": [3],
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 29, "parameters": [3], "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 4,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 4, "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 4,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 4, "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 4,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 4, "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 4,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 4, "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 29,
-                  "parameters": [4],
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 29, "parameters": [4], "indent": null }]
             },
-            {
-              "code": 222,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 230,
-              "indent": 0,
-              "parameters": [90]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["ローブを纏った魔物"]
-            },
+            { "code": 222, "indent": 0, "parameters": [] },
+            { "code": 230, "indent": 0, "parameters": [90] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「\\N[33]様、光の戦士がこちらに迫っているようです。」"
+                "A demon clad in a robe \"\\N[33]-sama, it seems the Warriors of Light\nare approaching us.\""
               ]
             },
             {
               "code": 250,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "Monster9_A",
-                  "volume": 90,
-                  "pitch": 80,
-                  "pan": 0
-                }
+                { "name": "Monster9_A", "volume": 90, "pitch": 80, "pan": 0 }
               ]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 1, 1]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["魔王\\N[33]"]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 1] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「\\N[32]か、奴らの根城での失態…… どう責任を取るつもりだ？」"
+                "Demon Lord \\N[33] \"\\N[33], about the disgrace at their stronghold...\nHow do you plan to take responsibility?\""
               ]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 1, 1]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["魔王\\N[33]"]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 1] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「しかもお前は、二人に加勢もせず、逃げ帰ってきたというのか……？」"
+                "Demon Lord \\N[33] \"Moreover, you fled without even aiding the other\ntwo...?\""
               ]
             },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [8, 1, true]
-            },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [8, 6, false]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["\\N[32]"]
-            },
+            { "code": 213, "indent": 0, "parameters": [8, 1, true] },
+            { "code": 213, "indent": 0, "parameters": [8, 6, false] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「いえ……！ 三将軍であり、闇の大僧正であるこの私が逃げるなどと……」"
+                "\\N[33] \"No...! As one of the three generals and the great dark high\npriest, I would never flee...\""
               ]
             },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [8, 8, true]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["\\N[32]"]
-            },
+            { "code": 213, "indent": 0, "parameters": [8, 8, true] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「仮にあの場で私が戦ったとしても、おそらく結果は変わらなかったでしょう。"
+                "\\N[33] \"Even if I had fought in that situation, the outcome would\nlikely have been the same. Such was the overwhelming and formidable\npower of the Warriors of Light...\""
               ]
             },
+            { "code": 213, "indent": 0, "parameters": [8, 3, false] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "それほどまでに、光の戦士の力は強大で凄まじいものでした……」"
-              ]
-            },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [8, 3, false]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["\\N[32]"]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": [
-                "「ですがここでなら…… 私は本来の力で奴らを打ち負かすことができましょう！」"
+                "\\N[33] \"But here... Here I can defeat them with my true power!\""
               ]
             },
             {
               "code": 250,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "Monster9_B",
-                  "volume": 90,
-                  "pitch": 80,
-                  "pan": 0
-                }
+                { "name": "Monster9_B", "volume": 90, "pitch": 80, "pan": 0 }
               ]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 1, 1]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["魔王\\N[33]"]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 1] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「ほほう、ならばここで奴らを仕留めて見せよ。で、二人はどうした……？」"
+                "Demon Lord \\N[33] \"Hmm, then show me you can finish them off here. And\nwhat of the other two...?\""
               ]
             },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [8, 7, false]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["\\N[32]"]
-            },
+            { "code": 213, "indent": 0, "parameters": [8, 7, false] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「そのことに関しては、誠に申し上げにくいのですが……二人は敗北後に行方を"
+                "\\N[33] \"Regarding that matter, it is with great difficulty that I\nreport... After their defeat, it seems they have vanished.\""
               ]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["くらましたようです。」"]
             },
             {
               "code": 250,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "Monster9_A",
-                  "volume": 90,
-                  "pitch": 80,
-                  "pan": 0
-                }
+                { "name": "Monster9_A", "volume": 90, "pitch": 80, "pan": 0 }
               ]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 1, 1]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["魔王\\N[33]"]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 1] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「な、なんだとう……？！ 三将軍ともあろうものが……」"
+                "Demon Lord \\N[33] \"What did you say...?! For someone who is one of the\nthree generals...\""
               ]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 1, 1]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 1] },
             {
               "code": 401,
               "indent": 0,
-              "parameters": ["魔王\\N[33]"]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["「ふむ…… まあよい、負け犬に用はないわ！」"]
+              "parameters": [
+                "Demon Lord \\N[33] \"Hmph... Well, no matter, I have no use for losers!\""
+              ]
             },
             {
               "code": 250,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "Monster9_B",
-                  "volume": 90,
-                  "pitch": 80,
-                  "pan": 0
-                }
+                { "name": "Monster9_B", "volume": 90, "pitch": 80, "pan": 0 }
               ]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 1, 1]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["魔王\\N[33]"]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 1] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「ゲートが開かれるまであとわずか…… \\N[32]よ、必ずや光の戦士を"
+                "Demon Lord \\N[33] \"The gate will open shortly... \\N[33], you must\nabsolutely defeat the Warriors of Light! Understand?! Ah-ha-ha-ha.\""
               ]
             },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["仕留めて参れ！ わかったな？！ ア～ハッハッハ。」"]
-            },
-            {
-              "code": 242,
-              "indent": 0,
-              "parameters": [4]
-            },
-            {
-              "code": 221,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 211,
-              "indent": 0,
-              "parameters": [1]
-            },
-            {
-              "code": 201,
-              "indent": 0,
-              "parameters": [0, 183, 19, 44, 8, 0]
-            },
-            {
-              "code": 222,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 121,
-              "indent": 0,
-              "parameters": [463, 463, 0]
-            },
-            {
-              "code": 121,
-              "indent": 0,
-              "parameters": [101, 101, 0]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 242, "indent": 0, "parameters": [4] },
+            { "code": 221, "indent": 0, "parameters": [] },
+            { "code": 211, "indent": 0, "parameters": [1] },
+            { "code": 201, "indent": 0, "parameters": [0, 183, 19, 44, 8, 0] },
+            { "code": 222, "indent": 0, "parameters": [] },
+            { "code": 121, "indent": 0, "parameters": [463, 463, 0] },
+            { "code": 121, "indent": 0, "parameters": [101, 101, 0] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -4238,31 +2630,14 @@
             "characterIndex": 0
           },
           "list": [
-            {
-              "code": 211,
-              "indent": 0,
-              "parameters": [0]
-            },
-            {
-              "code": 203,
-              "indent": 0,
-              "parameters": [8, 0, 15, 15, 8]
-            },
-            {
-              "code": 204,
-              "indent": 0,
-              "parameters": [2, 2, 2]
-            },
+            { "code": 211, "indent": 0, "parameters": [0] },
+            { "code": 203, "indent": 0, "parameters": [8, 0, 15, 15, 8] },
+            { "code": 204, "indent": 0, "parameters": [2, 2, 2] },
             {
               "code": 250,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "RGSS3_Move",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "RGSS3_Move", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
             {
@@ -4272,35 +2647,13 @@
                 8,
                 {
                   "list": [
-                    {
-                      "code": 29,
-                      "parameters": [3],
-                      "indent": null
-                    },
-                    {
-                      "code": 4,
-                      "indent": null
-                    },
-                    {
-                      "code": 4,
-                      "indent": null
-                    },
-                    {
-                      "code": 4,
-                      "indent": null
-                    },
-                    {
-                      "code": 4,
-                      "indent": null
-                    },
-                    {
-                      "code": 29,
-                      "parameters": [4],
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
+                    { "code": 29, "parameters": [3], "indent": null },
+                    { "code": 4, "indent": null },
+                    { "code": 4, "indent": null },
+                    { "code": 4, "indent": null },
+                    { "code": 4, "indent": null },
+                    { "code": 29, "parameters": [4], "indent": null },
+                    { "code": 0 }
                   ],
                   "repeat": false,
                   "skippable": true,
@@ -4311,411 +2664,175 @@
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 29,
-                  "parameters": [3],
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 29, "parameters": [3], "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 4,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 4, "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 4,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 4, "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 4,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 4, "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 4,
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 4, "indent": null }]
             },
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 29,
-                  "parameters": [4],
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 29, "parameters": [4], "indent": null }]
             },
-            {
-              "code": 222,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 230,
-              "indent": 0,
-              "parameters": [90]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["ローブを纏った魔物"]
-            },
+            { "code": 222, "indent": 0, "parameters": [] },
+            { "code": 230, "indent": 0, "parameters": [90] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「\\N[33]様、光の戦士がこちらに迫っているようです。」"
+                "A demon clad in a robe \"\\N[33]-sama, it seems the Warriors of Light\nare approaching us.\""
               ]
             },
             {
               "code": 250,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "Monster9_A",
-                  "volume": 90,
-                  "pitch": 80,
-                  "pan": 0
-                }
+                { "name": "Monster9_A", "volume": 90, "pitch": 80, "pan": 0 }
               ]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 1, 1]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["魔王\\N[33]"]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 1] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「\\N[32]か、奴らの根城での失態…… どう責任を取るつもりだ？」"
+                "Demon Lord \\N[33] \"\\N[33], about the disgrace at their stronghold...\nHow do you plan to take responsibility?\""
               ]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 1, 1]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["魔王\\N[33]"]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 1] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「しかもお前は、二人に加勢もせず、逃げ帰ってきたというのか……？」"
+                "Demon Lord \\N[33] \"Moreover, you fled without even aiding the other\ntwo...?\""
               ]
             },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [8, 1, true]
-            },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [8, 6, false]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["\\N[32]"]
-            },
+            { "code": 213, "indent": 0, "parameters": [8, 1, true] },
+            { "code": 213, "indent": 0, "parameters": [8, 6, false] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「いえ……！ 三将軍であり、闇の大僧正であるこの私が逃げるなどと……」"
+                "\\N[33] \"No...! As one of the three generals and the great dark high\npriest, I would never flee...\""
               ]
             },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [8, 8, true]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["\\N[32]"]
-            },
+            { "code": 213, "indent": 0, "parameters": [8, 8, true] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「仮にあの場で私が戦ったとしても、おそらく結果は変わらなかったでしょう。"
-              ]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": [
-                "それほどまでに、光の戦士の力は強大で凄まじいものでした。」"
+                "\\N[33] \"Even if I had fought in that situation, the outcome would\nlikely have been the same. Such was the tremendous and formidable\npower of the Warriors of Light.\""
               ]
             },
             {
               "code": 250,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "Monster9_B",
-                  "volume": 90,
-                  "pitch": 80,
-                  "pan": 0
-                }
+                { "name": "Monster9_B", "volume": 90, "pitch": 80, "pan": 0 }
               ]
             },
-            {
-              "code": 230,
-              "indent": 0,
-              "parameters": [30]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 1, 1]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["魔王\\N[33]"]
-            },
+            { "code": 230, "indent": 0, "parameters": [30] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 1] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「ほほう、お前にそこまで言わせるとは…… で、二人はどうした……？」"
+                "Demon Lord \\N[33] \"Hmm, for you to say as much... So, what happened to\nthe other two...?\""
               ]
             },
-            {
-              "code": 213,
-              "indent": 0,
-              "parameters": [8, 7, false]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["\\N[32]"]
-            },
+            { "code": 213, "indent": 0, "parameters": [8, 7, false] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「ええ…… それは、誠に申し上げにくいのですが、二人は敗北後に行方を"
-              ]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["くらましたようです。」"]
-            },
-            {
-              "code": 250,
-              "indent": 0,
-              "parameters": [
-                {
-                  "name": "Monster9_A",
-                  "volume": 90,
-                  "pitch": 80,
-                  "pan": 0
-                }
-              ]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 1, 1]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["魔王\\N[33]"]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": [
-                "「な、なんだとう……？！ 三将軍ともあろうものが……」"
+                "\\N[33] \"Well... It is difficult for me to say, but after their defeat,\nit seems they have vanished.\""
               ]
             },
             {
               "code": 250,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "Monster9_B",
-                  "volume": 90,
-                  "pitch": 80,
-                  "pan": 0
-                }
+                { "name": "Monster9_A", "volume": 90, "pitch": 80, "pan": 0 }
               ]
             },
-            {
-              "code": 230,
-              "indent": 0,
-              "parameters": [60]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 1, 1]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 1] },
             {
               "code": 401,
               "indent": 0,
-              "parameters": ["魔王\\N[33]"]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["「ふむ…… まあよい、負け犬に用はないわ！」"]
+              "parameters": [
+                "Demon Lord \\N[33] \"What did you say...?! For someone who is one of the\nthree generals...\""
+              ]
             },
             {
               "code": 250,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "Monster9_A",
-                  "volume": 90,
-                  "pitch": 80,
-                  "pan": 0
-                }
+                { "name": "Monster9_B", "volume": 90, "pitch": 80, "pan": 0 }
               ]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 1, 1]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["魔王\\N[33]"]
-            },
+            { "code": 230, "indent": 0, "parameters": [60] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 1] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "「ゲートが開かれるまであとわずか…… \\N[32]よ、必ずや光の戦士を"
+                "Demon Lord \\N[33] \"Hmm... Well, no matter, I have no use for losers!\""
               ]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["仕留めて参れ！ わかったな？！ ア～ハッハッハ。」"]
             },
             {
               "code": 250,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "Monster9_A",
-                  "volume": 90,
-                  "pitch": 50,
-                  "pan": 0
-                }
+                { "name": "Monster9_A", "volume": 90, "pitch": 80, "pan": 0 }
+              ]
+            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 1] },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "Demon Lord \\N[33] \"The gate will open shortly... \\N[33], you must\nabsolutely finish off the Warriors of Light! Understand?! Ah-ha-ha-\nha.\""
               ]
             },
             {
-              "code": 242,
+              "code": 250,
               "indent": 0,
-              "parameters": [4]
+              "parameters": [
+                { "name": "Monster9_A", "volume": 90, "pitch": 50, "pan": 0 }
+              ]
             },
-            {
-              "code": 221,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 211,
-              "indent": 0,
-              "parameters": [1]
-            },
-            {
-              "code": 201,
-              "indent": 0,
-              "parameters": [0, 183, 19, 44, 8, 0]
-            },
-            {
-              "code": 222,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 121,
-              "indent": 0,
-              "parameters": [463, 463, 0]
-            },
-            {
-              "code": 121,
-              "indent": 0,
-              "parameters": [101, 101, 0]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 242, "indent": 0, "parameters": [4] },
+            { "code": 221, "indent": 0, "parameters": [] },
+            { "code": 211, "indent": 0, "parameters": [1] },
+            { "code": 201, "indent": 0, "parameters": [0, 183, 19, 44, 8, 0] },
+            { "code": 222, "indent": 0, "parameters": [] },
+            { "code": 121, "indent": 0, "parameters": [463, 463, 0] },
+            { "code": 121, "indent": 0, "parameters": [101, 101, 0] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
@@ -4763,60 +2880,19 @@
             "tileId": 0
           },
           "list": [
-            {
-              "code": 111,
-              "indent": 0,
-              "parameters": [0, 28, 0]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [233]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 111,
-              "indent": 0,
-              "parameters": [0, 29, 0]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [234]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 412,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 111, "indent": 0, "parameters": [0, 28, 0] },
+            { "code": 117, "indent": 1, "parameters": [233] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 412, "indent": 0, "parameters": [] },
+            { "code": 111, "indent": 0, "parameters": [0, 29, 0] },
+            { "code": 117, "indent": 1, "parameters": [234] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 412, "indent": 0, "parameters": [] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false

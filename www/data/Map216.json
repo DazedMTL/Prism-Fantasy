@@ -3,18 +3,8 @@
   "autoplayBgs": true,
   "battleback1Name": "",
   "battleback2Name": "",
-  "bgm": {
-    "name": "OGG_Event04",
-    "pan": 0,
-    "pitch": 100,
-    "volume": 90
-  },
-  "bgs": {
-    "name": "",
-    "pan": 0,
-    "pitch": 100,
-    "volume": 65
-  },
+  "bgm": { "name": "OGG_Event04", "pan": 0, "pitch": 100, "volume": 90 },
+  "bgs": { "name": "", "pan": 0, "pitch": 100, "volume": 65 },
   "disableDashing": false,
   "displayName": "",
   "encounterList": [],
@@ -185,31 +175,15 @@
               "indent": 0,
               "parameters": [1, "BG_BL", 0, 0, 0, 0, 100, 100, 255, 0]
             },
-            {
-              "code": 211,
-              "indent": 0,
-              "parameters": [0]
-            },
+            { "code": 211, "indent": 0, "parameters": [0] },
             {
               "code": 108,
               "indent": 0,
               "parameters": ["日差し画像８０番を削除"]
             },
-            {
-              "code": 235,
-              "indent": 0,
-              "parameters": [80]
-            },
-            {
-              "code": 222,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 230,
-              "indent": 0,
-              "parameters": [240]
-            },
+            { "code": 235, "indent": 0, "parameters": [80] },
+            { "code": 222, "indent": 0, "parameters": [] },
+            { "code": 230, "indent": 0, "parameters": [240] },
             {
               "code": 231,
               "indent": 0,
@@ -220,21 +194,13 @@
               "indent": 0,
               "parameters": [2, 0, 0, 0, 0, 0, 100, 100, 255, 0, 120, true]
             },
-            {
-              "code": 230,
-              "indent": 0,
-              "parameters": [180]
-            },
+            { "code": 230, "indent": 0, "parameters": [180] },
             {
               "code": 232,
               "indent": 0,
               "parameters": [2, 0, 0, 0, 0, 0, 100, 100, 0, 0, 120, true]
             },
-            {
-              "code": 230,
-              "indent": 0,
-              "parameters": [240]
-            },
+            { "code": 230, "indent": 0, "parameters": [240] },
             {
               "code": 231,
               "indent": 0,
@@ -245,21 +211,13 @@
               "indent": 0,
               "parameters": [2, 0, 0, 0, 0, 0, 100, 100, 255, 0, 120, true]
             },
-            {
-              "code": 230,
-              "indent": 0,
-              "parameters": [180]
-            },
+            { "code": 230, "indent": 0, "parameters": [180] },
             {
               "code": 232,
               "indent": 0,
               "parameters": [2, 0, 0, 0, 0, 0, 100, 100, 0, 0, 120, true]
             },
-            {
-              "code": 230,
-              "indent": 0,
-              "parameters": [60]
-            },
+            { "code": 230, "indent": 0, "parameters": [60] },
             {
               "code": 108,
               "indent": 0,
@@ -272,14 +230,8 @@
                 -1,
                 {
                   "list": [
-                    {
-                      "code": 29,
-                      "parameters": [4],
-                      "indent": null
-                    },
-                    {
-                      "code": 0
-                    }
+                    { "code": 29, "parameters": [4], "indent": null },
+                    { "code": 0 }
                   ],
                   "repeat": false,
                   "skippable": true,
@@ -290,264 +242,86 @@
             {
               "code": 505,
               "indent": 0,
-              "parameters": [
-                {
-                  "code": 29,
-                  "parameters": [4],
-                  "indent": null
-                }
-              ]
+              "parameters": [{ "code": 29, "parameters": [4], "indent": null }]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 2]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "最後までプレイしていただき誠にありがとうございました。"
+                "Thank you very much for playing through to the end."
               ]
             },
             {
               "code": 250,
               "indent": 0,
               "parameters": [
-                {
-                  "name": "RGSS3_Chime1",
-                  "volume": 90,
-                  "pitch": 100,
-                  "pan": 0
-                }
+                { "name": "RGSS3_Chime1", "volume": 90, "pitch": 100, "pan": 0 }
               ]
             },
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["MessageRows 11"]
-            },
-            {
-              "code": 356,
-              "indent": 0,
-              "parameters": ["MessageWidth 1180"]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 1]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["★周回プレイに入りますか？"]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["２周目以降に引継がれるもの。"]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["・経験値（この後、引継ぐかどうか選択可能です）"]
-            },
+            { "code": 356, "indent": 0, "parameters": ["MessageRows 11"] },
+            { "code": 356, "indent": 0, "parameters": ["MessageWidth 1180"] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 1] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "・武器の強化値（この後、引継ぐかどうか選択可能です）"
+                "★Would you like to enter New Game Plus? Things that will be carried\nover to subsequent playthroughs: .Experience points (you can choose\nwhether to carry this over afterwards).Weapon enhancement levels (you\ncan choose whether to carry this over afterwards)"
               ]
             },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 1]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["・回想部屋"]
-            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 1] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "・所持金とアイテム　　　（進行上重要なものは除く）"
+                ".The Memory Room.Gold and items (excluding those critical for\nprogression).Costumes and other equipment (excluding those critical\nfor progression)"
               ]
             },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 1] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "・コスチューム等の装備品（進行上重要なものは除く）"
-              ]
-            },
-            {
-              "code": 101,
-              "indent": 0,
-              "parameters": ["", 0, 0, 1]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": [
-                "※周回特典：回想部屋のＨイベント開放スイッチが操作可能になります。"
-              ]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["　　　　　：ボス戦後の経験値が２倍になります。"]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": [
-                "　　　　　：リーゼのコスチュームに\\ia[41]を追加。"
-              ]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": [
-                "注意：「いいえ」を選択するとすべて初期化され、タイトル画面に戻ります。"
+                "※New Game Plus bonuses: The H-event activation switch in the Memory\nRoom becomes operable.: Experience points earned after boss battles\nwill be doubled.: A new costume for Lize will be added with \\ia[41].\nNote: Selecting 'No' will reset everything and return you to the title\nscreen."
               ]
             },
             {
               "code": 102,
               "indent": 0,
-              "parameters": [["はい", "いいえ"], 1, 0, 1, 0]
+              "parameters": [["Yes", "No"], 1, 0, 1, 0]
             },
-            {
-              "code": 402,
-              "indent": 0,
-              "parameters": [0, "はい"]
-            },
-            {
-              "code": 242,
-              "indent": 1,
-              "parameters": [5]
-            },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["実績 400"]
-            },
-            {
-              "code": 221,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["MessageRows 4"]
-            },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["MessageWidth 1000"]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [3]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [821]
-            },
-            {
-              "code": 117,
-              "indent": 1,
-              "parameters": [822]
-            },
+            { "code": 402, "indent": 0, "parameters": [0, "はい"] },
+            { "code": 242, "indent": 1, "parameters": [5] },
+            { "code": 356, "indent": 1, "parameters": ["実績 400"] },
+            { "code": 221, "indent": 1, "parameters": [] },
+            { "code": 356, "indent": 1, "parameters": ["MessageRows 4"] },
+            { "code": 356, "indent": 1, "parameters": ["MessageWidth 1000"] },
+            { "code": 117, "indent": 1, "parameters": [3] },
+            { "code": 117, "indent": 1, "parameters": [821] },
+            { "code": 117, "indent": 1, "parameters": [822] },
             {
               "code": 108,
               "indent": 1,
               "parameters": ["ＨＥＶ開放ボタン設置"]
             },
-            {
-              "code": 121,
-              "indent": 1,
-              "parameters": [905, 910, 0]
-            },
-            {
-              "code": 121,
-              "indent": 1,
-              "parameters": [902, 902, 0]
-            },
-            {
-              "code": 122,
-              "indent": 1,
-              "parameters": [601, 601, 1, 0, 1]
-            },
-            {
-              "code": 230,
-              "indent": 1,
-              "parameters": [90]
-            },
-            {
-              "code": 201,
-              "indent": 1,
-              "parameters": [0, 15, 13, 13, 2, 2]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 0,
-              "parameters": [1, "いいえ"]
-            },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["MessageRows 4"]
-            },
-            {
-              "code": 356,
-              "indent": 1,
-              "parameters": ["MessageWidth 1000"]
-            },
-            {
-              "code": 354,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 404,
-              "indent": 0,
-              "parameters": []
-            },
-            {
-              "code": 121,
-              "indent": 0,
-              "parameters": [901, 901, 0]
-            },
-            {
-              "code": 0,
-              "indent": 0,
-              "parameters": []
-            }
+            { "code": 121, "indent": 1, "parameters": [905, 910, 0] },
+            { "code": 121, "indent": 1, "parameters": [902, 902, 0] },
+            { "code": 122, "indent": 1, "parameters": [601, 601, 1, 0, 1] },
+            { "code": 230, "indent": 1, "parameters": [90] },
+            { "code": 201, "indent": 1, "parameters": [0, 15, 13, 13, 2, 2] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 402, "indent": 0, "parameters": [1, "いいえ"] },
+            { "code": 356, "indent": 1, "parameters": ["MessageRows 4"] },
+            { "code": 356, "indent": 1, "parameters": ["MessageWidth 1000"] },
+            { "code": 354, "indent": 1, "parameters": [] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 404, "indent": 0, "parameters": [] },
+            { "code": 121, "indent": 0, "parameters": [901, 901, 0] },
+            { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": {
-            "list": [
-              {
-                "code": 0,
-                "parameters": []
-              }
-            ],
+            "list": [{ "code": 0, "parameters": [] }],
             "repeat": true,
             "skippable": false,
             "wait": false
