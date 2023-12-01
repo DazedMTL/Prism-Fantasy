@@ -924,7 +924,7 @@ var $plugins = [
       "Occasion Vocab": "常時,バトル,メニュー,使用不可",
       "Damage Vocab": "なし,HPダメージ,MPダメージ,HP回復,MP回復,HP吸収,MP吸収",
       "Xparam Names":
-        "Accuracy,Evasion,会心率,会心回避,魔法回避,魔法反射,反撃,HP再生率,MP再生率,TP再生率",
+        "Accuracy, Evasion, Crit Hit, Crit Evasion, Magic Evasion, Magic Reflect, Counter, HP Regen Rate, MP Regen, TP Regen",
       "Sparam Names":
         "狙われ率,防御効果率,回復効果率,薬の知識,MP消費率,TPチャージ率,物理ダメージ率,魔法ダメージ率,床ダメージ率,経験値獲得率",
       "Effects Names":
