@@ -908,28 +908,29 @@ var $plugins = [
       "Consume Text": "Consume",
       "Damage Type Text": "Damage Type",
       "Price Text": "Price",
-      "Scope Text": "効果範囲",
-      "Occasion Text": "使用可能時",
-      "Repeat Text": "発動回数",
-      "TpGain Text": "得ＴＰ",
-      "Equip Type Text": "装備タイプ",
-      "Weapon Type Text": "武器タイプ",
-      "Armor Type Text": "防具タイプ",
+      "Scope Text": "Scope",
+      "Occasion Text": "Occasion",
+      "Repeat Text": "Repeat",
+      "TpGain Text": "TP Gain",
+      "Equip Type Text": "Equip",
+      "Weapon Type Text": "Weapon",
+      "Armor Type Text": "Armor",
       "Turn Text": "ターン",
       "Escape Text": "逃げる",
       "Scope Vocab":
-        "なし,敵単体,敵全体,敵1体 ランダム,敵2体 ランダム,敵3体 ランダム,敵4体 ランダム,味方単体,味方全体,味方単体(戦闘不能),味方全体(戦闘不能),使用者",
-      "Item Type Vocab": "通常アイテム,貴重品,隠しアイテムA,隠しアイテムB",
-      "Consume Vocab": "消耗する,消耗しない",
-      "Occasion Vocab": "常時,バトル,メニュー,使用不可",
-      "Damage Vocab": "なし,HPダメージ,MPダメージ,HP回復,MP回復,HP吸収,MP吸収",
+        "None, Single Enemy, All Enemies, Random 1 Enemy, Random 2 Enemies, Random 3 Enemies, Random 4 Enemies, Single Ally, All Allies, Single Ally (Incapacitated), All Allies (Incapacitated), User",
+      "Item Type Vocab": "Normal Item, Valuable, Hidden Item A, Hidden Item B",
+      "Consume Vocab": "Consumable, Non-consumable",
+      "Occasion Vocab": "Always, Battle, Menu, Not Available",
+      "Damage Vocab":
+        "None, HP Damage, MP Damage, HP Recovery, MP Recovery, HP Drain, MP Drain",
       "Xparam Names":
         "Accuracy, Evasion, Crit Hit, Crit Evasion, Magic Evasion, Magic Reflect, Counter, HP Regen Rate, MP Regen, TP Regen",
       "Sparam Names":
-        "狙われ率,防御効果率,回復効果率,薬の知識,MP消費率,TPチャージ率,物理ダメージ率,魔法ダメージ率,床ダメージ率,経験値獲得率",
+        "Target Rate, Defense Effect Rate, Recovery Effect Rate, Medicine Knowledge, MP Consumption Rate, TP Charge Rate, Physical Damage Rate, Magic Damage Rate, Floor Damage Rate, EXP Gain Rate",
       "Effects Names":
-        "HP回復,HPダメージ,MP回復,MPダメージ,TP増加,ステート付与,ステート解除,強化付与,弱体付与,強化解除,弱体解除,特殊効果,成長,スキル習得,コモン",
-      "【オプション】": "",
+        "HP Recovery, HP Damage, MP Recovery, MP Damage, TP Increase, State Application, State Removal, Buff Application, Debuff Application, Buff Removal, Debuff Removal, Special Effect, Growth, Skill Learning, Common",
+      "【Option】": "",
       "Use Equip Command": "true",
       "Equipped Limit Color": "6",
     },
@@ -985,28 +986,22 @@ var $plugins = [
       "Actor Icon Start Index": "320",
       "Reward Popup Delay": "0",
       "Battle Show List": "item,gold,exp,skill,params,level,abp,classLevel",
-      "Get Gold Text":
-        "「\\I[_icon]_num\\C[14]\\G\\C[0]」 \\C[24] Obtained!",
-      "Lost Gold Text":
-        "「\\I[_icon]_num\\C[14]\\G\\C[0]」 \\C[2] Lost...",
-      "Get Item Text":
-        "「\\I[_icon]_name」 \\C[24] Obtained!\\n\\C[6]_desc1",
-      "Lost Item Text":
-        "「\\I[_icon]_name」 \\C[2] Lost...\\n\\C[6]_desc1",
+      "Get Gold Text": "「\\I[_icon]_num\\C[14]\\G\\C[0]」 \\C[24] Obtained!",
+      "Lost Gold Text": "「\\I[_icon]_num\\C[14]\\G\\C[0]」 \\C[2] Lost...",
+      "Get Item Text": "「\\I[_icon]_name」 \\C[24] Obtained!\\n\\C[6]_desc1",
+      "Lost Item Text": "「\\I[_icon]_name」 \\C[2] Lost...\\n\\C[6]_desc1",
       "Get Item Text Num":
-        "「\\I[_icon]_name」 Obtained \\C[14]_num\C[24]x! \\n\\C[6]_desc1",
+        "「\\I[_icon]_name」 Obtained \\C[14]_numC[24]x! \\n\\C[6]_desc1",
       "Lost Item Text Num":
-        "「\\I[_icon]_name」 Lost \\C[14]_num\C[24]x...Z \\n\\C[6]_desc1",
+        "「\\I[_icon]_name」 Lost \\C[14]_numC[24]x...Z \\n\\C[6]_desc1",
       "Get Skill Text":
         "_actorは「\\I[_icon]_name」 \\C[24] Learned!\\n\\C[6]_desc1",
       "Lost Skill Text":
         "_actorは「\\I[_icon]_name」\\C[2] Forgotten...\\n\\C[6]_desc1",
       "Exp Up Text": "_actor _num _name Gained!",
-      "Exp Down Text":
-        "_actor _num _name Lost...",
+      "Exp Down Text": "_actor _num _name Lost...",
       "Lv Up Text": "_actor \\C[4]_name\\C[0] \\C[14]_num \\C[24] Gained!",
-      "Lv Down Text":
-        "_actor \\C[4]_name\\C[0] \\C[14]_num\\C[2] Lost...",
+      "Lv Down Text": "_actor \\C[4]_name\\C[0] \\C[14]_num\\C[2] Lost...",
       "Param Up Text":
         "_actorは\\C[4]_name\\C[0]が\\C[14]_numポイント\\C[24]上がった！",
       "Param Down Text":
