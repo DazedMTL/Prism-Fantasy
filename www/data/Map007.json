@@ -499,7 +499,7 @@
             {
               "code": 102,
               "indent": 0,
-              "parameters": [["― 移動先一覧 ―"], -1, -1, 2, 0]
+              "parameters": [["-- List of Destinations --"], -1, -1, 2, 0]
             },
             { "code": 402, "indent": 0, "parameters": [0, "― 移動先一覧 ―"] },
             {
@@ -535,7 +535,7 @@
             {
               "code": 102,
               "indent": 1,
-              "parameters": [["はい", "いいえ"], 1, 0, 1, 0]
+              "parameters": [["Yes", "No, not really"], 1, 0, 1, 0]
             },
             { "code": 402, "indent": 1, "parameters": [0, "はい"] },
             { "code": 117, "indent": 2, "parameters": [3] },
@@ -574,7 +574,7 @@
             {
               "code": 102,
               "indent": 1,
-              "parameters": [["はい", "いいえ"], 1, 0, 1, 0]
+              "parameters": [["Yes", "No, thank you"], 1, 0, 1, 0]
             },
             { "code": 402, "indent": 1, "parameters": [0, "はい"] },
             { "code": 117, "indent": 2, "parameters": [3] },
@@ -592,7 +592,7 @@
             {
               "code": 102,
               "indent": 0,
-              "parameters": [["\\N[266]洞窟if(s[252])"], -1, -1, 2, 0]
+              "parameters": [["To the caveif(s[252])"], -1, -1, 2, 0]
             },
             {
               "code": 402,
@@ -616,7 +616,7 @@
             {
               "code": 102,
               "indent": 1,
-              "parameters": [["はい", "いいえ"], 1, 0, 1, 0]
+              "parameters": [["Yes", "No, that won't work"], 1, 0, 1, 0]
             },
             { "code": 402, "indent": 1, "parameters": [0, "はい"] },
             { "code": 117, "indent": 2, "parameters": [3] },
@@ -662,7 +662,7 @@
             {
               "code": 102,
               "indent": 1,
-              "parameters": [["はい", "いいえ"], 1, 0, 1, 0]
+              "parameters": [["Yes", "No, not really"], 1, 0, 1, 0]
             },
             { "code": 402, "indent": 1, "parameters": [0, "はい"] },
             { "code": 117, "indent": 2, "parameters": [3] },
@@ -704,7 +704,7 @@
             {
               "code": 102,
               "indent": 1,
-              "parameters": [["はい", "いいえ"], 1, 0, 1, 0]
+              "parameters": [["Yes", "No, not really"], 1, 0, 1, 0]
             },
             { "code": 402, "indent": 1, "parameters": [0, "はい"] },
             { "code": 117, "indent": 2, "parameters": [3] },
@@ -723,7 +723,7 @@
             {
               "code": 102,
               "indent": 0,
-              "parameters": [["\\N[267][東]if(s[255])"], -1, -1, 2, 0]
+              "parameters": [["[East]if(s[255])"], -1, -1, 2, 0]
             },
             {
               "code": 402,
@@ -747,7 +747,7 @@
             {
               "code": 102,
               "indent": 1,
-              "parameters": [["はい", "いいえ"], 1, 0, 1, 0]
+              "parameters": [["Yes", "No, not really"], 1, 0, 1, 0]
             },
             { "code": 402, "indent": 1, "parameters": [0, "はい"] },
             { "code": 117, "indent": 2, "parameters": [3] },
@@ -765,7 +765,7 @@
             {
               "code": 102,
               "indent": 0,
-              "parameters": [["\\N[267][西]if(s[256])"], -1, -1, 2, 0]
+              "parameters": [["[West]if(s[256])"], -1, -1, 2, 0]
             },
             {
               "code": 402,
@@ -789,7 +789,7 @@
             {
               "code": 102,
               "indent": 1,
-              "parameters": [["はい", "いいえ"], 1, 0, 1, 0]
+              "parameters": [["Yes", "No, not really"], 1, 0, 1, 0]
             },
             { "code": 402, "indent": 1, "parameters": [0, "はい"] },
             { "code": 117, "indent": 2, "parameters": [3] },
@@ -831,7 +831,7 @@
             {
               "code": 102,
               "indent": 1,
-              "parameters": [["はい", "いいえ"], 1, 0, 1, 0]
+              "parameters": [["Yes", "No, not really"], 1, 0, 1, 0]
             },
             { "code": 402, "indent": 1, "parameters": [0, "はい"] },
             { "code": 117, "indent": 2, "parameters": [3] },
@@ -849,7 +849,7 @@
             {
               "code": 102,
               "indent": 0,
-              "parameters": [["\\N[268]海岸if(s[257])"], -1, -1, 2, 0]
+              "parameters": [["The coastif(s[257])"], -1, -1, 2, 0]
             },
             {
               "code": 402,
@@ -973,7 +973,7 @@
             {
               "code": 102,
               "indent": 1,
-              "parameters": [["はい", "いいえ"], 1, 0, 1, 0]
+              "parameters": [["Yes", "No"], 1, 0, 1, 0]
             },
             { "code": 402, "indent": 1, "parameters": [0, "はい"] },
             { "code": 117, "indent": 2, "parameters": [3] },
@@ -1010,7 +1010,13 @@
             {
               "code": 102,
               "indent": 0,
-              "parameters": [["\\N[268]地下道[西]if(s[258])"], -1, -1, 2, 0]
+              "parameters": [
+                ["Enter the West Underground Passageif(s[258])"],
+                -1,
+                -1,
+                2,
+                0
+              ]
             },
             {
               "code": 402,
@@ -1036,7 +1042,7 @@
             {
               "code": 102,
               "indent": 1,
-              "parameters": [["はい", "いいえ"], 1, 0, 1, 0]
+              "parameters": [["Yes", "No"], 1, 0, 1, 0]
             },
             { "code": 402, "indent": 1, "parameters": [0, "はい"] },
             { "code": 117, "indent": 2, "parameters": [3] },
@@ -1055,7 +1061,13 @@
             {
               "code": 102,
               "indent": 0,
-              "parameters": [["\\N[268]地下道[東]if(s[259])"], -1, -1, 2, 0]
+              "parameters": [
+                ["Underground Passage [East]if(s[259])"],
+                -1,
+                -1,
+                2,
+                0
+              ]
             },
             {
               "code": 402,
@@ -1081,7 +1093,7 @@
             {
               "code": 102,
               "indent": 1,
-              "parameters": [["はい", "いいえ"], 1, 0, 1, 0]
+              "parameters": [["Yes", "No"], 1, 0, 1, 0]
             },
             { "code": 402, "indent": 1, "parameters": [0, "はい"] },
             { "code": 117, "indent": 2, "parameters": [3] },
@@ -1122,7 +1134,7 @@
             {
               "code": 102,
               "indent": 1,
-              "parameters": [["はい", "いいえ"], 1, 0, 1, 0]
+              "parameters": [["Yes", "No"], 1, 0, 1, 0]
             },
             { "code": 402, "indent": 1, "parameters": [0, "はい"] },
             { "code": 117, "indent": 2, "parameters": [3] },
@@ -1140,7 +1152,7 @@
             {
               "code": 102,
               "indent": 0,
-              "parameters": [["海浜公園if(s[263])"], -1, -1, 2, 0]
+              "parameters": [["Seaside Parkif(s[263])"], -1, -1, 2, 0]
             },
             {
               "code": 402,
@@ -1164,7 +1176,7 @@
             {
               "code": 102,
               "indent": 1,
-              "parameters": [["はい", "いいえ"], 1, 0, 1, 0]
+              "parameters": [["Yes", "No, that's not good"], 1, 0, 1, 0]
             },
             { "code": 402, "indent": 1, "parameters": [0, "はい"] },
             { "code": 117, "indent": 2, "parameters": [3] },
@@ -1186,7 +1198,7 @@
             {
               "code": 102,
               "indent": 0,
-              "parameters": [["プリエージュif(s[254])"], -1, -1, 2, 0]
+              "parameters": [["Priere Beachif(s[254])"], -1, -1, 2, 0]
             },
             {
               "code": 402,
@@ -1210,7 +1222,7 @@
             {
               "code": 102,
               "indent": 1,
-              "parameters": [["はい", "いいえ"], 1, 0, 1, 0]
+              "parameters": [["Yes", "No, she's not"], 1, 0, 1, 0]
             },
             { "code": 402, "indent": 1, "parameters": [0, "はい"] },
             { "code": 117, "indent": 2, "parameters": [3] },
@@ -1228,7 +1240,7 @@
             {
               "code": 102,
               "indent": 0,
-              "parameters": [["西の森if(s[264])"], -1, -1, 2, 0]
+              "parameters": [["The western forestif(s[264])"], -1, -1, 2, 0]
             },
             { "code": 402, "indent": 0, "parameters": [0, "西の森if(s[264])"] },
             { "code": 108, "indent": 1, "parameters": ["西の森"] },
@@ -1248,7 +1260,7 @@
             {
               "code": 102,
               "indent": 1,
-              "parameters": [["はい", "いいえ"], 1, 0, 1, 0]
+              "parameters": [["Yes", "No, it's not"], 1, 0, 1, 0]
             },
             { "code": 402, "indent": 1, "parameters": [0, "はい"] },
             { "code": 117, "indent": 2, "parameters": [3] },
@@ -1267,7 +1279,13 @@
             {
               "code": 102,
               "indent": 0,
-              "parameters": [["\\N[274]地下道[東]if(s[265])"], -1, -1, 2, 0]
+              "parameters": [
+                ["\\N[274]Underground Passage [East]if(s[265])"],
+                -1,
+                -1,
+                2,
+                0
+              ]
             },
             {
               "code": 402,
@@ -1293,7 +1311,7 @@
             {
               "code": 102,
               "indent": 1,
-              "parameters": [["はい", "いいえ"], 1, 0, 1, 0]
+              "parameters": [["Yes", "No"], 1, 0, 1, 0]
             },
             { "code": 402, "indent": 1, "parameters": [0, "はい"] },
             { "code": 117, "indent": 2, "parameters": [3] },
@@ -1311,7 +1329,13 @@
             {
               "code": 102,
               "indent": 0,
-              "parameters": [["\\N[274]地下道[西]if(s[266])"], -1, -1, 2, 0]
+              "parameters": [
+                ["Underground Passage [West]if(s[266])"],
+                -1,
+                -1,
+                2,
+                0
+              ]
             },
             {
               "code": 402,
@@ -1337,7 +1361,7 @@
             {
               "code": 102,
               "indent": 1,
-              "parameters": [["はい", "いいえ"], 1, 0, 1, 0]
+              "parameters": [["Yes", "No"], 1, 0, 1, 0]
             },
             { "code": 402, "indent": 1, "parameters": [0, "はい"] },
             { "code": 117, "indent": 2, "parameters": [3] },
@@ -1378,7 +1402,7 @@
             {
               "code": 102,
               "indent": 1,
-              "parameters": [["はい", "いいえ"], 1, 0, 1, 0]
+              "parameters": [["Yes", "No"], 1, 0, 1, 0]
             },
             { "code": 402, "indent": 1, "parameters": [0, "はい"] },
             { "code": 117, "indent": 2, "parameters": [3] },
@@ -1422,7 +1446,7 @@
             {
               "code": 102,
               "indent": 1,
-              "parameters": [["はい", "いいえ"], 1, 0, 1, 0]
+              "parameters": [["Yes", "No"], 1, 0, 1, 0]
             },
             { "code": 402, "indent": 1, "parameters": [0, "はい"] },
             { "code": 117, "indent": 2, "parameters": [3] },
@@ -1455,7 +1479,7 @@
             {
               "code": 102,
               "indent": 0,
-              "parameters": [["\\N[276]の廃坑if(s[269])"], -1, -1, 2, 0]
+              "parameters": [["To the abandoned mineif(s[269])"], -1, -1, 2, 0]
             },
             {
               "code": 402,
@@ -1481,7 +1505,7 @@
             {
               "code": 102,
               "indent": 1,
-              "parameters": [["はい", "いいえ"], 1, 0, 1, 0]
+              "parameters": [["Yes", "No"], 1, 0, 1, 0]
             },
             { "code": 402, "indent": 1, "parameters": [0, "はい"] },
             { "code": 117, "indent": 2, "parameters": [3] },
@@ -1527,7 +1551,7 @@
             {
               "code": 102,
               "indent": 1,
-              "parameters": [["はい", "いいえ"], 1, 0, 1, 0]
+              "parameters": [["Yes", "No, not really"], 1, 0, 1, 0]
             },
             { "code": 402, "indent": 1, "parameters": [0, "はい"] },
             { "code": 117, "indent": 2, "parameters": [3] },
@@ -1549,7 +1573,7 @@
             {
               "code": 102,
               "indent": 0,
-              "parameters": [["赤の神殿if(s[272])"], -1, -1, 2, 0]
+              "parameters": [["The Red Templeif(s[272])"], -1, -1, 2, 0]
             },
             {
               "code": 402,
@@ -1571,7 +1595,7 @@
             {
               "code": 102,
               "indent": 1,
-              "parameters": [["はい", "いいえ"], 1, 0, 1, 0]
+              "parameters": [["Yes", "No"], 1, 0, 1, 0]
             },
             { "code": 402, "indent": 1, "parameters": [0, "はい"] },
             { "code": 117, "indent": 2, "parameters": [211] },
@@ -1588,7 +1612,7 @@
             {
               "code": 102,
               "indent": 0,
-              "parameters": [["ブリジット治療院if(s[273])"], -1, -1, 2, 0]
+              "parameters": [["Bridget Clinicif(s[273])"], -1, -1, 2, 0]
             },
             {
               "code": 402,
@@ -1610,7 +1634,7 @@
             {
               "code": 102,
               "indent": 1,
-              "parameters": [["はい", "いいえ"], 1, 0, 1, 0]
+              "parameters": [["Yes", "No"], 1, 0, 1, 0]
             },
             { "code": 402, "indent": 1, "parameters": [0, "はい"] },
             { "code": 117, "indent": 2, "parameters": [3] },
@@ -1628,7 +1652,7 @@
             {
               "code": 102,
               "indent": 0,
-              "parameters": [["マドネア湖if(s[274])"], -1, -1, 2, 0]
+              "parameters": [["To Madonea Lakeif(s[274])"], -1, -1, 2, 0]
             },
             {
               "code": 402,
@@ -1650,7 +1674,7 @@
             {
               "code": 102,
               "indent": 1,
-              "parameters": [["はい", "いいえ"], 1, 0, 1, 0]
+              "parameters": [["Yes", "No"], 1, 0, 1, 0]
             },
             { "code": 402, "indent": 1, "parameters": [0, "はい"] },
             { "code": 117, "indent": 2, "parameters": [3] },
