@@ -6,7 +6,7 @@
   "bgm": { "name": "OGG_Shop01", "pan": 0, "pitch": 100, "volume": 90 },
   "bgs": { "name": "", "pan": 0, "pitch": 100, "volume": 90 },
   "disableDashing": false,
-  "displayName": "Buyback Shop",
+  "displayName": "Pawn Shop",
   "encounterList": [],
   "encounterStep": 30,
   "height": 19,
@@ -470,7 +470,7 @@
             {
               "code": 401,
               "indent": 0,
-              "parameters": ["Welcome to the purchase shop."]
+              "parameters": ["Purchase Shop's \\N[22]: \"Welcome.\""]
             },
             { "code": 111, "indent": 0, "parameters": [2, "A", 1] },
             { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
@@ -478,7 +478,7 @@
               "code": 401,
               "indent": 1,
               "parameters": [
-                "Our shop specializes in buying items that can't be sold at other\nstores."
+                "Purchase Shop's \\N[22]: \"Our shop specializes in buying items that can't be sold\nat other stores.\""
               ]
             },
             { "code": 123, "indent": 1, "parameters": ["A", 0] },
@@ -540,13 +540,15 @@
             {
               "code": 401,
               "indent": 0,
-              "parameters": ["Do you have anything you'd like to sell...?"]
+              "parameters": [
+                "Purchase Shop's \\N[22]: \"Do you have anything you'd like to sell...?\""
+              ]
             },
             {
               "code": 102,
               "indent": 0,
               "parameters": [
-                ["[Sell Price: 80G] \\ii[119] Quantity Owned: \\V[281]"],
+                ["[Sell Price 80G] \\ii[119] Quantity Owned \\V[281]"],
                 -1,
                 0,
                 1,
@@ -564,7 +566,9 @@
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["Hm? It seems you don't have any..."]
+              "parameters": [
+                "Purchase Shop's \\N[22]: \"Hmm? It seems you don't have any...\""
+              ]
             },
             { "code": 119, "indent": 2, "parameters": ["１"] },
             { "code": 0, "indent": 2, "parameters": [] },
@@ -573,7 +577,9 @@
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["You have '\\V[281]' of \\ii[119], so..."]
+              "parameters": [
+                "Purchase Shop's \\N[22]: \"You have '\\V[281]' of \\ii[119], so...\""
+              ]
             },
             { "code": 122, "indent": 2, "parameters": [281, 281, 3, 0, 80] },
             { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
@@ -581,7 +587,7 @@
               "code": 401,
               "indent": 2,
               "parameters": [
-                "That will be \\V[281]G. What would you like to do?\\$"
+                "Purchase Shop's \\N[22]: \"That will be \\V[281]G. What would you like to do?\\$\"\""
               ]
             },
             {
@@ -596,7 +602,7 @@
               "code": 401,
               "indent": 3,
               "parameters": [
-                "The transaction is complete. Thank you very much."
+                "Purchase Shop's \\N[22]: \"The transaction is complete. Thank you very much.\""
               ]
             },
             { "code": 126, "indent": 3, "parameters": [119, 1, 0, 1000] },
@@ -634,10 +640,10 @@
               "indent": 0,
               "parameters": [
                 [
-                  "[Sell Price 36G] \\ii[122] Quantity Owned\\V[284]",
-                  "[Sell Price 32G] \\ii[123] Quantity Owned\\V[285]",
-                  "[Selling Price: 43G] \\ii[124] Quantity Owned: \\V[286]",
-                  "[Selling Price 46G] \\ii[125] Quantity Owned\\V[287]"
+                  "[Sell Price 36G] \\ii[122] Quantity Owned: \\V[284]",
+                  "[Sell Price 32G] \\ii[123] Quantity Owned: \\V[285]",
+                  "[Sell Price 43G] \\ii[124] Quantity Owned \\V[286]",
+                  "[Selling Price: 46G] \\ii[125] Quantity Owned: \\V[287]"
                 ],
                 -1,
                 -1,
@@ -656,7 +662,9 @@
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["Hm? It seems you don't have any..."]
+              "parameters": [
+                "Purchase Shop's \\N[22]: \"Hmm? It seems you don't have any...\""
+              ]
             },
             { "code": 119, "indent": 2, "parameters": ["１"] },
             { "code": 0, "indent": 2, "parameters": [] },
@@ -665,7 +673,9 @@
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["You have '\\V[281]' of \\ii[119], so..."]
+              "parameters": [
+                "Purchase Shop's \\N[22]: \"You have '\\V[284]' of \\ii[122], so...\""
+              ]
             },
             { "code": 122, "indent": 2, "parameters": [284, 284, 3, 0, 36] },
             { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
@@ -673,13 +683,13 @@
               "code": 401,
               "indent": 2,
               "parameters": [
-                "That will be \\V[281]G. What would you like to do?\\$"
+                "Purchase Shop's \\N[22]: \"That will be \\V[284]G. What would you like to do?\\$\"\""
               ]
             },
             {
               "code": 102,
               "indent": 2,
-              "parameters": [["Sell it", "Don't sell"], 1, 0, 1, 0]
+              "parameters": [["Sell", "Don't sell"], 1, 0, 1, 0]
             },
             { "code": 402, "indent": 2, "parameters": [0, "売る"] },
             { "code": 213, "indent": 3, "parameters": [0, 3, false] },
@@ -688,7 +698,7 @@
               "code": 401,
               "indent": 3,
               "parameters": [
-                "The transaction is complete. Thank you very much."
+                "Purchase Shop's \\N[22]: \"The transaction is complete. Thank you very much.\""
               ]
             },
             { "code": 126, "indent": 3, "parameters": [122, 1, 0, 1000] },
@@ -709,7 +719,7 @@
             {
               "code": 401,
               "indent": 3,
-              "parameters": ["Gained \\V[281]G!\\$"]
+              "parameters": ["Gained \\V[284]G!\\$"]
             },
             { "code": 119, "indent": 3, "parameters": ["１"] },
             { "code": 0, "indent": 3, "parameters": [] },
@@ -731,7 +741,9 @@
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["Hm? It seems you don't have any..."]
+              "parameters": [
+                "Purchase Shop's \\N[22]: \"Hmm? It seems you don't have any...\""
+              ]
             },
             { "code": 119, "indent": 2, "parameters": ["１"] },
             { "code": 0, "indent": 2, "parameters": [] },
@@ -740,7 +752,9 @@
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["You have '\\V[281]' of \\ii[119], so..."]
+              "parameters": [
+                "Purchase Shop's \\N[22]: \"You have '\\V[285]' of \\ii[123], so...\""
+              ]
             },
             { "code": 122, "indent": 2, "parameters": [285, 285, 3, 0, 32] },
             { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
@@ -748,7 +762,7 @@
               "code": 401,
               "indent": 2,
               "parameters": [
-                "That will be \\V[281]G. What would you like to do?\\$"
+                "Purchase Shop's \\N[22]: \"That will be \\V[285]G. What would you like to do?\\$\"\""
               ]
             },
             {
@@ -763,7 +777,7 @@
               "code": 401,
               "indent": 3,
               "parameters": [
-                "The transaction is complete. Thank you very much."
+                "Purchase Shop's \\N[22]: \"The transaction is complete. Thank you very much.\""
               ]
             },
             { "code": 126, "indent": 3, "parameters": [123, 1, 0, 1000] },
@@ -784,7 +798,7 @@
             {
               "code": 401,
               "indent": 3,
-              "parameters": ["Gained \\V[281]G!\\$"]
+              "parameters": ["Gained \\V[285]G!\\$"]
             },
             { "code": 119, "indent": 3, "parameters": ["１"] },
             { "code": 0, "indent": 3, "parameters": [] },
@@ -806,7 +820,9 @@
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["Hm? It seems you don't have any..."]
+              "parameters": [
+                "Purchase Shop's \\N[22]: \"Hmm? It seems you don't have any...\""
+              ]
             },
             { "code": 119, "indent": 2, "parameters": ["１"] },
             { "code": 0, "indent": 2, "parameters": [] },
@@ -815,7 +831,9 @@
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["You have '\\V[281]' of \\ii[119], so..."]
+              "parameters": [
+                "Purchase Shop's \\N[22]: \"You have '\\V[286]' of \\ii[124], so...\""
+              ]
             },
             { "code": 122, "indent": 2, "parameters": [286, 286, 3, 0, 43] },
             { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
@@ -823,13 +841,13 @@
               "code": 401,
               "indent": 2,
               "parameters": [
-                "That will be \\V[281]G. What would you like to do?\\$"
+                "Purchase Shop's \\N[22]: \"That will be \\V[286]G. What would you like to do?\\$\"\""
               ]
             },
             {
               "code": 102,
               "indent": 2,
-              "parameters": [["Sell it", "Don't sell"], 1, 0, 1, 0]
+              "parameters": [["Sell", "Don't sell"], 1, 0, 1, 0]
             },
             { "code": 402, "indent": 2, "parameters": [0, "売る"] },
             { "code": 213, "indent": 3, "parameters": [0, 3, false] },
@@ -838,7 +856,7 @@
               "code": 401,
               "indent": 3,
               "parameters": [
-                "The transaction is complete. Thank you very much."
+                "Purchase Shop's \\N[22]: \"The transaction is complete. Thank you very much.\""
               ]
             },
             { "code": 126, "indent": 3, "parameters": [124, 1, 0, 1000] },
@@ -859,7 +877,7 @@
             {
               "code": 401,
               "indent": 3,
-              "parameters": ["Gained \\V[281]G!\\$"]
+              "parameters": ["Gained \\V[286]G!\\$"]
             },
             { "code": 119, "indent": 3, "parameters": ["１"] },
             { "code": 0, "indent": 3, "parameters": [] },
@@ -881,7 +899,9 @@
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["Hm? It seems you don't have any..."]
+              "parameters": [
+                "Purchase Shop's \\N[22]: \"Hmm? It seems you don't have any...\""
+              ]
             },
             { "code": 119, "indent": 2, "parameters": ["１"] },
             { "code": 0, "indent": 2, "parameters": [] },
@@ -890,7 +910,9 @@
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["You have '\\V[281]' of \\ii[119], so..."]
+              "parameters": [
+                "Purchase Shop's \\N[22]: \"You have '\\V[287]' of \\ii[125], so...\""
+              ]
             },
             { "code": 122, "indent": 2, "parameters": [287, 287, 3, 0, 46] },
             { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
@@ -898,13 +920,13 @@
               "code": 401,
               "indent": 2,
               "parameters": [
-                "That will be \\V[281]G. What would you like to do?\\$"
+                "Purchase Shop's \\N[22]: \"That will be \\V[287]G. What would you like to do?\\$\"\""
               ]
             },
             {
               "code": 102,
               "indent": 2,
-              "parameters": [["Sell it", "Don't sell"], 1, 0, 1, 0]
+              "parameters": [["Sell", "Don't sell"], 1, 0, 1, 0]
             },
             { "code": 402, "indent": 2, "parameters": [0, "売る"] },
             { "code": 213, "indent": 3, "parameters": [0, 3, false] },
@@ -913,7 +935,7 @@
               "code": 401,
               "indent": 3,
               "parameters": [
-                "The transaction is complete. Thank you very much."
+                "Purchase Shop's \\N[22]: \"The transaction is complete. Thank you very much.\""
               ]
             },
             { "code": 126, "indent": 3, "parameters": [125, 1, 0, 1000] },
@@ -934,7 +956,7 @@
             {
               "code": 401,
               "indent": 3,
-              "parameters": ["Gained \\V[281]G!\\$"]
+              "parameters": ["Gained \\V[287]G!\\$"]
             },
             { "code": 119, "indent": 3, "parameters": ["１"] },
             { "code": 0, "indent": 3, "parameters": [] },
@@ -951,10 +973,10 @@
               "indent": 0,
               "parameters": [
                 [
-                  "[Sell Price 16G] \\ii[126] Quantity Owned\\V[288]",
-                  "[Sell Price 28G] \\ii[127] Quantity Owned\\V[289]",
+                  "[Sell Price 16G] \\ii[126] Quantity Owned: \\V[288]",
+                  "[Sell Price 28G] \\ii[127] Quantity Owned: \\V[289]",
                   "[Sell Price: 128G] \\ii[128] Quantity Owned: \\V[290]",
-                  "I won't sell anything"
+                  "Don't sell anything"
                 ],
                 3,
                 -1,
@@ -973,7 +995,9 @@
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["Hm? It seems you don't have any..."]
+              "parameters": [
+                "Purchase Shop's \\N[22]: \"Hmm? It seems you don't have any...\""
+              ]
             },
             { "code": 119, "indent": 2, "parameters": ["１"] },
             { "code": 0, "indent": 2, "parameters": [] },
@@ -982,7 +1006,9 @@
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["You have '\\V[281]' of \\ii[119], so..."]
+              "parameters": [
+                "Purchase Shop's \\N[22]: \"You have '\\V[288]' of \\ii[126], so...\""
+              ]
             },
             { "code": 122, "indent": 2, "parameters": [288, 288, 3, 0, 16] },
             { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
@@ -990,7 +1016,7 @@
               "code": 401,
               "indent": 2,
               "parameters": [
-                "That will be \\V[281]G. What would you like to do?\\$"
+                "Purchase Shop's \\N[22]: \"That will be \\V[288]G. What would you like to do?\\$\"\""
               ]
             },
             {
@@ -1005,7 +1031,7 @@
               "code": 401,
               "indent": 3,
               "parameters": [
-                "The transaction is complete. Thank you very much."
+                "Purchase Shop's \\N[22]: \"The transaction is complete. Thank you very much.\""
               ]
             },
             { "code": 126, "indent": 3, "parameters": [126, 1, 0, 1000] },
@@ -1026,7 +1052,7 @@
             {
               "code": 401,
               "indent": 3,
-              "parameters": ["Gained \\V[281]G!\\$"]
+              "parameters": ["Gained \\V[288]G!\\$"]
             },
             { "code": 119, "indent": 3, "parameters": ["１"] },
             { "code": 0, "indent": 3, "parameters": [] },
@@ -1048,7 +1074,9 @@
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["Hm? It seems you don't have any..."]
+              "parameters": [
+                "Purchase Shop's \\N[22]: \"Hmm? It seems you don't have any...\""
+              ]
             },
             { "code": 119, "indent": 2, "parameters": ["１"] },
             { "code": 0, "indent": 2, "parameters": [] },
@@ -1057,7 +1085,9 @@
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["You have '\\V[281]' of \\ii[119], so..."]
+              "parameters": [
+                "Purchase Shop's \\N[22]: \"You have '\\V[289]' of \\ii[127], so...\""
+              ]
             },
             { "code": 122, "indent": 2, "parameters": [289, 289, 3, 0, 28] },
             { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
@@ -1065,7 +1095,7 @@
               "code": 401,
               "indent": 2,
               "parameters": [
-                "That will be \\V[281]G. What would you like to do?\\$"
+                "Purchase Shop's \\N[22]: \"That will be \\V[289]G. What would you like to do?\\$\"\""
               ]
             },
             {
@@ -1080,7 +1110,7 @@
               "code": 401,
               "indent": 3,
               "parameters": [
-                "The transaction is complete. Thank you very much."
+                "Purchase Shop's \\N[22]: \"The transaction is complete. Thank you very much.\""
               ]
             },
             { "code": 126, "indent": 3, "parameters": [127, 1, 0, 1000] },
@@ -1101,7 +1131,7 @@
             {
               "code": 401,
               "indent": 3,
-              "parameters": ["Gained \\V[281]G!\\$"]
+              "parameters": ["Gained \\V[289]G!\\$"]
             },
             { "code": 119, "indent": 3, "parameters": ["１"] },
             { "code": 0, "indent": 3, "parameters": [] },
@@ -1123,7 +1153,9 @@
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["Hm? It seems you don't have any..."]
+              "parameters": [
+                "Purchase Shop's \\N[22]: \"Hmm? It seems you don't have any...\""
+              ]
             },
             { "code": 119, "indent": 2, "parameters": ["１"] },
             { "code": 0, "indent": 2, "parameters": [] },
@@ -1132,7 +1164,9 @@
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["You have '\\V[281]' of \\ii[119], so..."]
+              "parameters": [
+                "Purchase Shop's \\N[22]: \"You have '\\V[290]' of \\ii[128], so...\""
+              ]
             },
             { "code": 122, "indent": 2, "parameters": [290, 290, 3, 0, 128] },
             { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
@@ -1140,7 +1174,7 @@
               "code": 401,
               "indent": 2,
               "parameters": [
-                "That will be \\V[281]G. What would you like to do?\\$"
+                "Purchase Shop's \\N[22]: \"That will be \\V[290]G. What would you like to do?\\$\"\""
               ]
             },
             {
@@ -1155,7 +1189,7 @@
               "code": 401,
               "indent": 3,
               "parameters": [
-                "The transaction is complete. Thank you very much."
+                "Purchase Shop's \\N[22]: \"The transaction is complete. Thank you very much.\""
               ]
             },
             { "code": 126, "indent": 3, "parameters": [128, 1, 0, 1000] },
@@ -1176,7 +1210,7 @@
             {
               "code": 401,
               "indent": 3,
-              "parameters": ["Gained \\V[281]G!\\$"]
+              "parameters": ["Gained \\V[290]G!\\$"]
             },
             { "code": 119, "indent": 3, "parameters": ["１"] },
             { "code": 0, "indent": 3, "parameters": [] },
@@ -1194,7 +1228,9 @@
             {
               "code": 401,
               "indent": 0,
-              "parameters": ["Thank you very much."]
+              "parameters": [
+                "Purchase Shop's \\N[22]: \"Thank you very much.\""
+              ]
             },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
